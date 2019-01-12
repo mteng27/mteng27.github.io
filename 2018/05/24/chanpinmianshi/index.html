@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="产品面试亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗之外”的人，本质上可能并不存在，在这个极度商业化的时代，无论谁事实上都利益的某一方占有者。
+
+也来分享一下fb的pm面试
+FB和湾区其他大公司的PM面试都相对标准化，在成为面试官之前都要经过几轮培训和校准，保证可以给出相客观和一致的判断。
+fb的PM面试考察三个方面：
+
+Product Sense：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="产品面试聊些什么？">
+<meta property="og:url" content="http://tengblog.com/2018/05/24/chanpinmianshi/index.html">
+<meta property="og:site_name" content="tengblog">
+<meta property="og:description" content="产品面试亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗之外”的人，本质上可能并不存在，在这个极度商业化的时代，无论谁事实上都利益的某一方占有者。
+
+也来分享一下fb的pm面试
+FB和湾区其他大公司的PM面试都相对标准化，在成为面试官之前都要经过几轮培训和校准，保证可以给出相客观和一致的判断。
+fb的PM面试考察三个方面：
+
+Product Sense：">
+<meta property="og:updated_time" content="2018-09-26T16:48:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="产品面试聊些什么？">
+<meta name="twitter:description" content="产品面试亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗之外”的人，本质上可能并不存在，在这个极度商业化的时代，无论谁事实上都利益的某一方占有者。
+
+也来分享一下fb的pm面试
+FB和湾区其他大公司的PM面试都相对标准化，在成为面试官之前都要经过几轮培训和校准，保证可以给出相客观和一致的判断。
+fb的PM面试考察三个方面：
+
+Product Sense：">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="tengblog" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://tengblog.com/2018/05/24/chanpinmianshi/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>产品面试聊些什么？ | tengblog</title>
+  
+
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcfdfb65ea46615f214fcdb468d17bf0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">tengblog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">世事无常，精进不已</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/24/chanpinmianshi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tengblog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">产品面试聊些什么？
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-24T00:00:00+08:00">2018-05-24</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="产品面试"><a href="#产品面试" class="headerlink" title="产品面试"></a>产品面试</h1><p>亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗之外”的人，本质上可能并不存在，在这个极度商业化的时代，无论谁事实上都利益的某一方占有者。</p>
+<hr>
+<p>也来分享一下fb的pm面试</p>
+<p>FB和湾区其他大公司的PM面试都相对标准化，在成为面试官之前都要经过几轮培训和校准，保证可以给出相客观和一致的判断。</p>
+<p>fb的PM面试考察三个方面：</p>
+<ol>
+<li>Product Sense：一般问一个“如何设计某产品”或者“如何提高某产品”的问题，大部分情况下，这个产品都是虚构的，这样可以排除熟悉程度带来的偏差，例如“如果fb要进入二手车市场，应该如何设计产品”。这里主要考察的是用户分析，产品设计，优先级安排，以及沟通能力。</li>
+<li>Execution：执行能力，这是fb最有特点的面试，考察的是对复杂问题的提炼，简化与量化。一般会问如何给团队设置目标，如何量化团队的贡献，在两个都很重要的项目之间如何取舍，比如说“如果你是news feed的pm，你如何给你的团队设置目标？当与B团队的目标有冲突时，你如何解决？”</li>
+<li>Leadership and drive: 领导力和推进能力，主要是考察在面对复杂困难局面时的心态与方法，一般会问一些曾经面对过的困难局面的经历，以及从中学到了什么。比如会问：“如果你和你CEO意见不合，你会怎么办”<br>即刻：提案鱼</li>
+</ol>
+<hr>
+<p>面试一般问几方面问题。</p>
+<p>经历。看对方讲述的脉络清晰程度，以及完整性（前因后果和自己的思考）。会刻意找几个点反复追问，辨识这些内容是临时攒出来的（甚至剽窃别人的），还是真正经验积累的。</p>
+<p>对最近使用产品的感受。开放式的提问能得到更真实的思考，看对方在哪个层次上有想法（界面？交互？结构？运营？内容？）也就间接知道他真实工作会考虑什么了。比如我聊过百度的大部分产品，关注流量和转化的居多，关注用户和场景的少。</p>
+<p>对滴滴产品的感受。有没有为面试提前准备代表着重视程度，如果总结和整理过对滴滴的许多想法会有加分。</p>
+<p>个人规划，期待做的事情。这点很关键，是喜欢做产品，还是喜欢做产品经理，还是喜欢做互联网，还是阴差阳错做了产品，其实是不同的概念。这个俞老师称之为产品心，没有产品心很容易在遇挫和强压下退缩。</p>
+<p>业余爱好。看是不是能跟团队融合。</p>
+<p>即刻：大概是刘飞</p>
+<hr>
+<p>刚看到伊言老师写的干活PM标准，讲得真好。</p>
+<p>最近招比较Junior的PM套路总结下来也比较接近</p>
+<ol>
+<li><p>通过观察候选人以何种思维框架描述自身经历以及基本的费米估算题，判断其逻辑水平、日常思维习惯、脑力水平</p>
+</li>
+<li><p>针对不同产品基本功出相应的case考察技能掌握情况</p>
+</li>
+<li><p>通过候选人对自己短期内目标的设立，还有对公司产品及行业的认知水平判断大概的稳定性、成长的饥渴程度</p>
+</li>
+</ol>
+<p>即刻：王隽劼</p>
+<hr>
+<p>跟朋友聊起喜欢招什么样的 PM，对于干活的 PM 来说，其实很简单，就三点：</p>
+<p>1.够聪明（这个最重要，没法改），聪明的人只要聊一聊你就能立马感受到。</p>
+<p>2.够有野心，因为这直接决定了你未来的上限，谁都喜欢认识未来能牛逼的人不是吗。</p>
+<p>3.够皮实，因为这决定了你遇到问题是解决还是叹气。</p>
+<p>即刻：伊言</p>
+<hr>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/读书/" rel="tag"># 读书</a>
+          
+            <a href="/tags/产品/" rel="tag"># 产品</a>
+          
+            <a href="/tags/学习/" rel="tag"># 学习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/22/neirongtuijian/" rel="next" title="千人千面的背后理解">
+                <i class="fa fa-chevron-left"></i> 千人千面的背后理解
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/31/liuliangchi/" rel="prev" title="「流量池」读书笔记">
+                「流量池」读书笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="马腾" />
+            
+              <p class="site-author-name" itemprop="name">马腾</p>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">287</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">36</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#产品面试"><span class="nav-number">1.</span> <span class="nav-text">产品面试</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">马腾</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更美观，
+总体来说，PPT配图的作用主要有两点：
+
+使用图片来表明事实，传递真实信息
+让文案表现更加生动形象，传递象征性信息
+
+表明真实 演示文件中的图片在表达真实事物，传递信息的时候，是最考虑制作者拍摄水准的时候。
+ 专业的公司有自己专业的摄影师，可以在公司活动或者对产品进行专业的拍摄，如下图中的产">
+<meta property="og:type" content="article">
+<meta property="og:title" content="配图的选择----[PPT进阶学习笔记]">
+<meta property="og:url" content="http://tengblog.com/2016/07/15/ppt-03/index.html">
+<meta property="og:site_name" content="tengblog">
+<meta property="og:description" content="PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更美观，
+总体来说，PPT配图的作用主要有两点：
+
+使用图片来表明事实，传递真实信息
+让文案表现更加生动形象，传递象征性信息
+
+表明真实 演示文件中的图片在表达真实事物，传递信息的时候，是最考虑制作者拍摄水准的时候。
+ 专业的公司有自己专业的摄影师，可以在公司活动或者对产品进行专业的拍摄，如下图中的产">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716200741.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716200808.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231721.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231742.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231816.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716201902.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716202749.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231801.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231914.jpg">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716203749.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231922.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716233435.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232011.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232017.png">
+<meta property="og:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232025.png">
+<meta property="og:updated_time" content="2016-11-11T14:26:10.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="配图的选择----[PPT进阶学习笔记]">
+<meta name="twitter:description" content="PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更美观，
+总体来说，PPT配图的作用主要有两点：
+
+使用图片来表明事实，传递真实信息
+让文案表现更加生动形象，传递象征性信息
+
+表明真实 演示文件中的图片在表达真实事物，传递信息的时候，是最考虑制作者拍摄水准的时候。
+ 专业的公司有自己专业的摄影师，可以在公司活动或者对产品进行专业的拍摄，如下图中的产">
+<meta name="twitter:image" content="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716200741.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="tengblog" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://tengblog.com/2016/07/15/ppt-03/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>配图的选择----[PPT进阶学习笔记] | tengblog</title>
+  
+
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcfdfb65ea46615f214fcdb468d17bf0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">tengblog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">世事无常，精进不已</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/15/ppt-03/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tengblog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">配图的选择----[PPT进阶学习笔记]
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="PPT-配图的选择"><a href="#PPT-配图的选择" class="headerlink" title="PPT 配图的选择"></a>PPT 配图的选择</h2><p>不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更美观，</p>
+<p>总体来说，PPT配图的作用主要有两点：</p>
+<ul>
+<li><strong>使用图片来表明事实，传递真实信息</strong></li>
+<li><strong>让文案表现更加生动形象，传递象征性信息</strong></li>
+</ul>
+<h3 id="表明真实"><a href="#表明真实" class="headerlink" title="表明真实"></a>表明真实</h3><p> 演示文件中的图片在表达真实事物，传递信息的时候，是最考虑制作者拍摄水准的时候。</p>
+<p> 专业的公司有自己专业的摄影师，可以在公司活动或者对产品进行专业的拍摄，如下图中的产品：</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716200741.png" alt="Alt text"></p>
+<p>这张则因为背景的杂论，并不很适合在延时文件中直接引用。</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716200808.png" alt="Alt text"></p>
+<p>用来表达真实性的图片不美观，将直接影响你的演示效果。</p>
+<p>在拍摄的时候，思考下你需要的<strong>构图</strong>、<strong>光线</strong>，稍微的用心将在你的演示文件中发挥巨大的提升作用。</p>
+<h3 id="生动形象"><a href="#生动形象" class="headerlink" title="生动形象"></a>生动形象</h3><p>更多的时候，我们的配图是为了帮助更好的理解内容，本身不承担传递信息的功能。</p>
+<p>比如，为了表达下面两个场景，</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231721.png" alt="Alt text"></p>
+<p>我们可以用这样的图片，表现出西餐厅和电影院的感觉。</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231742.png" alt="Alt text"></p>
+<p>这样的配图直接提升了受众的感官，能更好的更快速地了解我们演示文件的内容。</p>
+<h3 id="什么的样配图是丑的"><a href="#什么的样配图是丑的" class="headerlink" title="什么的样配图是丑的"></a>什么的样配图是丑的</h3><p>对于配图的美观来讲，审美不同配图水准自然不同，面对层次不一的审美，确定演示文件审美的底线是最基础的。</p>
+<p>我们先了解什么配图在演示文件是丑的？</p>
+<h4 id="模糊派"><a href="#模糊派" class="headerlink" title="模糊派"></a><strong>模糊派</strong></h4><p>图片分辨率低</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231816.png" alt="Alt text"></p>
+<p><strong>解决</strong></p>
+<p>提升搜索图片的能力，这一点在上期<strong>封面制作</strong>中，我们已经提到。</p>
+<p>搜索图片的能力：</p>
+<ul>
+<li>使用搜素引擎的“识图”功能</li>
+<li>使用高清图片，选择尺寸最大的一张</li>
+<li>规避版权图片</li>
+</ul>
+<h4 id="水印派"><a href="#水印派" class="headerlink" title="水印派"></a><strong>水印派</strong></h4><p>水印是图片保护的常见方式，也是破坏演示文件最常见的方式。</p>
+<p>比如下图，</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716201902.png" alt="Alt text"></p>
+<p>面对网上的水印图片，我们最直接的方式就是<strong>购买正版图片</strong>，倘若不是土豪，那<strong>提升搜图能力</strong>也是我们的出路。</p>
+<p><strong>解决</strong></p>
+<p>除了老生常谈的搜图能力，<strong>使用去水印工具</strong>也是我们的方式之一。 </p>
+<ul>
+<li>使用<strong>inpaint</strong>工具</li>
+<li>使用PS、万能的美图秀秀</li>
+</ul>
+<h4 id="土气派"><a href="#土气派" class="headerlink" title="土气派"></a><strong>土气派</strong></h4><p>配图土气是<strong>高端大气</strong>的死敌，也是造成PPT丑陋的原因之一。</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716202749.png" alt="Alt text"></p>
+<p>这些是主要的<strong>“土气杀手”</strong></p>
+<ul>
+<li>剪贴画，低龄化，丑陋，没有必要</li>
+<li>3d小人，过时</li>
+<li><p>合成过度的图片</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231801.png" alt="Alt text"></p>
+</li>
+</ul>
+<p><strong>解决</strong></p>
+<ul>
+<li><p>提升审美水准<br>  长期训练才能提升的，需要不断的浏览没的图片，或者看看不错的网站</p>
+</li>
+<li><p>推荐摄影图库 500px.me，注意版权和付费使用</p>
+</li>
+<li>搜图是注意关键词的延伸和联想<br>搜索图片的关键词，尽量用实词，不要用形容词</li>
+</ul>
+<h4 id="杂乱派"><a href="#杂乱派" class="headerlink" title="杂乱派"></a><strong>杂乱派</strong></h4><p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231914.jpg" alt="Alt text"></p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716203749.png" alt="Alt text"></p>
+<p><strong>样式、风格</strong> 的杂乱、不统一是常见的丑陋原因之一。随意的样式、尺寸、效果都是大忌。</p>
+<p><strong>解决</strong></p>
+<ul>
+<li>统一图片风格</li>
+<li>统一图片样式</li>
+<li>不要随意压缩图片，导致图片变形</li>
+</ul>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peituQQ%E5%9B%BE%E7%89%8720160716231922.png" alt="Alt text"></p>
+<p>下面则推荐<strong>阿里巴巴矢量图标库</strong>，至少可以找到统一尺寸、 颜色、  形状、 效果的图标。</p>
+<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><p>案例</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716233435.png" alt="Alt text"></p>
+<p>修改后</p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232011.png" alt="Alt text"></p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232017.png" alt="Alt text"></p>
+<p><img src="http://7xtgob.com2.z0.glb.clouddn.com/ppt-peitu%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160716232025.png" alt="Alt text"></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/职场/" rel="tag"># 职场</a>
+          
+            <a href="/tags/笔记/" rel="tag"># 笔记</a>
+          
+            <a href="/tags/Thinking/" rel="tag"># Thinking</a>
+          
+            <a href="/tags/Learning/" rel="tag"># Learning</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/15/wenti/" rel="next" title="解决真正的问题">
+                <i class="fa fa-chevron-left"></i> 解决真正的问题
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/18/ppt-04/" rel="prev" title="背景和字体----[PPT进阶学习笔记]">
+                背景和字体----[PPT进阶学习笔记] <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="马腾" />
+            
+              <p class="site-author-name" itemprop="name">马腾</p>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">287</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">36</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#PPT-配图的选择"><span class="nav-number">1.</span> <span class="nav-text">PPT 配图的选择</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#表明真实"><span class="nav-number">1.1.</span> <span class="nav-text">表明真实</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生动形象"><span class="nav-number">1.2.</span> <span class="nav-text">生动形象</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#什么的样配图是丑的"><span class="nav-number">1.3.</span> <span class="nav-text">什么的样配图是丑的</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#模糊派"><span class="nav-number">1.3.1.</span> <span class="nav-text">模糊派</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#水印派"><span class="nav-number">1.3.2.</span> <span class="nav-text">水印派</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#土气派"><span class="nav-number">1.3.3.</span> <span class="nav-text">土气派</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#杂乱派"><span class="nav-number">1.3.4.</span> <span class="nav-text">杂乱派</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改"><span class="nav-number">1.4.</span> <span class="nav-text">修改</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">马腾</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

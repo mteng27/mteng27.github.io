@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="内容算法读书笔记推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹配。搜索系统是将海量内容与用户表意明确的查询词相关联，推荐系统则是将海量内容与用户没有明确表达的偏好相关联。
+我们可以将推荐问题极度简化：当用户只有一个爱好“NBA”时，那么推荐引擎给用户的结果就可以近似等于搜索引擎在“NBA”这个搜索词下的结果。
+
+标签是我们对多维事物的降维理解，抽象出事物更具有">
+<meta property="og:type" content="article">
+<meta property="og:title" content="千人千面的背后理解">
+<meta property="og:url" content="http://tengblog.com/2018/05/22/neirongtuijian/index.html">
+<meta property="og:site_name" content="tengblog">
+<meta property="og:description" content="内容算法读书笔记推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹配。搜索系统是将海量内容与用户表意明确的查询词相关联，推荐系统则是将海量内容与用户没有明确表达的偏好相关联。
+我们可以将推荐问题极度简化：当用户只有一个爱好“NBA”时，那么推荐引擎给用户的结果就可以近似等于搜索引擎在“NBA”这个搜索词下的结果。
+
+标签是我们对多维事物的降维理解，抽象出事物更具有">
+<meta property="og:updated_time" content="2018-09-26T16:48:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="千人千面的背后理解">
+<meta name="twitter:description" content="内容算法读书笔记推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹配。搜索系统是将海量内容与用户表意明确的查询词相关联，推荐系统则是将海量内容与用户没有明确表达的偏好相关联。
+我们可以将推荐问题极度简化：当用户只有一个爱好“NBA”时，那么推荐引擎给用户的结果就可以近似等于搜索引擎在“NBA”这个搜索词下的结果。
+
+标签是我们对多维事物的降维理解，抽象出事物更具有">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="tengblog" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://tengblog.com/2018/05/22/neirongtuijian/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>千人千面的背后理解 | tengblog</title>
+  
+
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcfdfb65ea46615f214fcdb468d17bf0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">tengblog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">世事无常，精进不已</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/22/neirongtuijian/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tengblog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">千人千面的背后理解
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-22 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-22T00:00:00+08:00">2018-05-22</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="内容算法读书笔记"><a href="#内容算法读书笔记" class="headerlink" title="内容算法读书笔记"></a>内容算法读书笔记</h1><p>推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹配。搜索系统是将海量内容与用户表意明确的查询词相关联，推荐系统则是将海量内容与用户没有明确表达的偏好相关联。</p>
+<p>我们可以将推荐问题极度简化：当用户只有一个爱好“NBA”时，那么推荐引擎给用户的结果就可以近似等于搜索引擎在“NBA”这个搜索词下的结果。</p>
+<hr>
+<p>标签是我们对多维事物的降维理解，抽象出事物更具有表意性、更为显著的特点。</p>
+<p>在不同的应用场景下，我们会对标签全集进行有针对性地投射，有倾向性地选用不同的标签以换取信息匹配效率最大化。</p>
+<hr>
+<p>分类是树状的，是自上而下依次划分的。在分类体系里，每个节点都有严格的父类继承关系，在兄弟节点层都具有可以被完全枚举的属性值。</p>
+<hr>
+<p>标签是网状的，更强调表达属性关系（hasa）而非继承关系（isa），只有权重大小之分，不强调包含与被包含关系。这就使得相对于分类而言，标签的灵活性更强。</p>
+<p>在权威性方面，标签是弱化的，每个用户都可参与进来，基于自己的偏好贴标签，从而借助规模效应实现对信息表意完备性的覆盖。</p>
+<hr>
+<p>我们需要引入聚类的方式来描述。这种方式并不是以标签词的方式来定义事物是怎样的，而是基于某一维度的特征将相关物品组成一个集合，并告诉你这个新的物品同哪个集合相似。</p>
+<hr>
+<p>把用户的消费行为作为特征，以此进行用户相似性或物品相似性的计算，进行信息匹配，是协同过滤（CollaborativeFiltering）的基础。</p>
+<p>协同推荐可以分为三个子类：基于物品（Item-based）的协同、基于用户（User-based）的协同和基于模型（Model-based）的协同。</p>
+<hr>
+<p>推荐准确度。对应到内容推荐系统中，表现为对用户点击的预判（点击率）和对消费情况的预判（点击后的各种主动行为、停留时长）。</p>
+<p>推荐覆盖度（多样性）。好的推荐系统是能够给用户提供视野范围之外的内容的：</p>
+<blockquote>
+<p>从用户的角度看，可以评估用户的展示历史中各种题材、类目、话题的丰富程度如何，丰富度越高代表个体体验的多样性越好；从内容的角度看，可以评估有推荐展示的内容占整体内容量的比例，或整个内容分发体系的基尼系数[1]。</p>
+</blockquote>
+<hr>
+<p>指标是我们对业务的抽象和预判印证，所以，客观上它是后验性的体现。如果只关注已有指标，很容易让我们忽略那些尚未被纳入指标体系之内的信息。</p>
+<hr>
+<p>如推荐算法部分所提到的，在内容被提交进入系统伊始，由于缺乏用户行为反馈，推荐系统更依赖于内容本身的固有属性来进行冷启动。基于内容的展示和消费，这些属性可以拆分为内容展现维度和内容消费维度。</p>
+<p>其中，内容展现维度是列表页展现给用户的信息，如标题、封面、发布时间等。内容消费维度包括作者层和内容层两方面：</p>
+<p>作者层内容消费维度是指，作者的粉丝群体更应该看到该作者的新内容，一个过往表现更好的作者可以得到更高的冷启动推荐量；</p>
+<p>内容层内容消费维度是指分类信息、关键词、命中的实体和话题等，用于判断内容与用户的偏好是否匹配。</p>
+<hr>
+<p>互联网平台往往更容易放大消费者的诉求，而忽略服务者的积累诉求，会将每次服务当成独立随机事件。</p>
+<p>一个典型的场景：一个用户下单要去机场，用户身边1公里处有一辆新手车，3公里处有一辆老手车，这个单要下给谁？</p>
+<ul>
+<li>纯粹的效率导向：下给新手车，新手车由于距离因素能够更好地满足用户的需求。</li>
+<li>实际操作：平台应该做的是在用户可接受的服务体验下，阶梯性地优化有积累的司机的利益。将更好的单子倾斜给老手车，且将这种决策同步给新手车，才能够营造出平台参与者有成长性的群体期望。</li>
+</ul>
+<hr>
+<p>更新。为了防止用户体验发生断崖式的下跌，从产品角度来看，还是希望避免一次刷新中出现内容过度密集的情况。</p>
+<p>通常，我们采用滑动窗口规则，即连续多条规则尽可能在多个维度打散，降低用户的视觉密集感。密集的衡量取决于我们对内容的理解拆分维度，能够拆分出的维度越细致，可以做出的打散策略就越细致。典型的可以拆分的维度有题材载体维度、作者维度、类目（话题）维度和实体词维度。</p>
+<hr>
+<p>内容作为一种消费品，每个人都有选择消费途径和消费内容的权利。无论是纸媒还是网媒，只要有足够大的候选集和主动选择权，用户就一定会选择自己更为偏好的信息载体和信息源。从内容匮乏到内容繁荣，从中心化一统到垂直化聚群，用户的选择更贴近自身喜好是不可逆转的趋势。</p>
+<hr>
+<p>来说：他们跳得出算法分发，也跳不出社交关系分发；跳得出社交关系分发，也跳不出自己的认知选择边界。“茧房”始终存在，真正过滤你的，是你的认知泡泡。</p>
+<hr>
+<p>脸谱网最初的排序方式，称为边际排名算法（EdgeRankAlgorithm）。该算法的核心计算公式为：E=u×w×d。</p>
+<ul>
+<li>u：用户与内容发布者之间的亲密度分数，互动越高的亲密度分数越高。</li>
+<li>w：不同反馈动作具有不同的权重，反馈动作包括展示、评论、点赞等。比如，评论动作的权重就会显著高于点赞动作。</li>
+<li>d：基于时间的衰减，越新的内容权重越高。</li>
+</ul>
+<hr>
+<p>训练机器通常需要以下几个步骤：第一，设定目标。机器擅长的是数据优化，产品经理的职责是给机器设定合理的优化目标，可以概括为：明确产品场景，确定业务的核心指标，并以灵敏指标拟合长期目标。第二，制订保底方案。</p>
+<p>机器的优化不是一蹴而就的，需要一个不断改进的时间周期。</p>
+<p>在机器算法尚未完善前，产品经理应该给出一个保底方案作为基线。以反低俗为例，在模型识别不好的时候，我们可以通过用户举报反馈、数据异常波动复审等方式拦截一部分低俗内容。以此作为基线保证用户的基础体验，留给机器学习和优化的时间。</p>
+<p>第三，发现问题。与其说是发现机器推荐的问题，不如说是发现产品经理在制定目标时存在偏差的问题。在机器优化的过程中，往往会出现为了极致优化目标A，造成其他部分有损的情况。</p>
+<p>比如，目标设定的是优化用户的阅读完成度，那么机器执行后最直接的结果就是只推荐短文（一屏展现完毕，用户点击后就100%完成阅读）。</p>
+<p>这样的结果显然不是我们想要的。为了优化，我们需要进一步修正目标的设定方式。比如，内容至少要多于多少字，对哪些内容可豁免（如快讯），等等。好的算法结果，既离不开优秀技术研发的实现，也离不开优秀产品经理的投入。</p>
+<hr>
+<p>哪个才是一款产品的核心指标呢？我个人给出的答案是：有价值用户的长期留存。</p>
+<hr>
+<p>个性化的好，是生意。好的个性化，是理想。</p>
+<hr>
+<p>“如果你不能量化一件事物，就无法改进它。”这是一句在增长黑客圈非常有名的格言，套用自管理学大师德鲁克的名言“Youcan’tmanagewhatyoucan’tmeasure”（你不能管理无法量化的事物）。</p>
+<p>我们在开展业务的过程中，需要首先对业务进行量化（指标化）处理，只有可量化的业务才可以被更好地分析和改进，不会深陷“我觉的做得好，老板觉得还不够，大家觉得还不错”这样表述模糊不清的泥沼当中。</p>
+<hr>
+<p>人们往往会夸大BuzzFeed的“内容三扳斧”——清单体、短视频和小测验，却忽视了在这些内容背后更深层次的数据支持。</p>
+<hr>
+<p>粉丝增长分析，就是围绕有变现价值的粉丝算的一笔账：如果一个粉丝能给自媒体带来5元的净利润，那么花低于5元的成本来购买这个粉丝就是划算的。</p>
+<p>首先，我们引入三个概念：LTV、CAC和ROI。</p>
+<p>LTV：一个粉丝从关注该自媒体的那一天开始到取消关注或者脱离平台，能够带来的收益，通常按渠道来计算。如果某个渠道或某个平台的用户不精准、付费意愿差，那么这个渠道的用户LTV就相对较低。</p>
+<p>CAC（CustomerAcquisitionCost，用户获取成本）：同样跟渠道有关，自媒体需要持续发现低价、优质的渠道，抢占红利期。比如，2015年年初，微信广点通渠道的公众号涨粉，单个用户获取成本只有1~2元。</p>
+<p>ROI（ReturnOnInvestment，投资回报率）：其计算公式为ROI=（收入–成本）/成本。应用于粉丝增长场景就是ROI=（LTV–CAC）/CAC，衡量的是自媒体从一个粉丝身上挣到的钱是否能够覆盖获取这个粉丝的成本。</p>
+<hr>
+<p>在后续的此类活动中，我们都有意识地对礼品形态进行控制：实物礼品用于鼓励已有的活跃老粉丝，虚拟礼品用于激活和拉新。</p>
+<hr>
+<p>想要算清楚用户的ROI，有赖于用户身份的识别和渠道的追溯。在这一点上，微博和微信的基础建设比较完善。</p>
+<p>以微信为例，基于平台提供的二维码，我们可以追溯不同用户的来源并进行标识，就像是安卓应用下载对不同的应用市场打不同的渠道包一样。进而，通过平台提供的外链功能、私信功能，来识别用户的活跃情况。</p>
+<hr>
+<p>如果采用平台内自媒体互推换量的方式，可以首先估算出自己内容的转粉率，再与其他自媒体换量之后进行计算：</p>
+<p>通过其他自媒体互推带来的粉丝量=当日总增长粉丝量–自有内容的增粉丝量=当日总增长粉丝量–自己内容的曝光量×转粉率；</p>
+<p>或者，邀约其他自媒体推荐自己的一篇无时效性内容（如工具型内容，汇总了一些高热文章、提供了资源下载等），那么这篇工具型内容的阅读量增长也能作为辅助计算因素。</p>
+<hr>
+<p>对推荐引擎而言，其理亦然。内容就像是网站的网页，可以优化内容的构成与包装方式，让它适应不同平台的推荐分发规则从而得到更高的曝光量，我们姑且称之为REO（RecommendEngineOptimization）吧。</p>
+<p></p>
+<p></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/笔记/" rel="tag"># 笔记</a>
+          
+            <a href="/tags/读书/" rel="tag"># 读书</a>
+          
+            <a href="/tags/学习/" rel="tag"># 学习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/18/data/" rel="next" title="数据的真实和谎言">
+                <i class="fa fa-chevron-left"></i> 数据的真实和谎言
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/24/chanpinmianshi/" rel="prev" title="产品面试聊些什么？">
+                产品面试聊些什么？ <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="马腾" />
+            
+              <p class="site-author-name" itemprop="name">马腾</p>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">287</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">36</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#内容算法读书笔记"><span class="nav-number">1.</span> <span class="nav-text">内容算法读书笔记</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">马腾</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

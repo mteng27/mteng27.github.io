@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="系列起源在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新一个系列的博客在 web ，记录自己在数据分析上的一些学习经验。
+本篇为第二篇，「不介意学一些用不到的东西」 为第一篇。
+Excel 函数掌握
+
+你的 Excel 怎么样？
+超过 80% 的同事。
+
+
+上面的对话发生在某次「非正式」的面试中，面试的朋友也许会感觉我在说">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据分析之路-02">
+<meta property="og:url" content="http://tengblog.com/2018/09/25/Datician02/index.html">
+<meta property="og:site_name" content="tengblog">
+<meta property="og:description" content="系列起源在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新一个系列的博客在 web ，记录自己在数据分析上的一些学习经验。
+本篇为第二篇，「不介意学一些用不到的东西」 为第一篇。
+Excel 函数掌握
+
+你的 Excel 怎么样？
+超过 80% 的同事。
+
+
+上面的对话发生在某次「非正式」的面试中，面试的朋友也许会感觉我在说">
+<meta property="og:updated_time" content="2018-09-27T15:46:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="数据分析之路-02">
+<meta name="twitter:description" content="系列起源在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新一个系列的博客在 web ，记录自己在数据分析上的一些学习经验。
+本篇为第二篇，「不介意学一些用不到的东西」 为第一篇。
+Excel 函数掌握
+
+你的 Excel 怎么样？
+超过 80% 的同事。
+
+
+上面的对话发生在某次「非正式」的面试中，面试的朋友也许会感觉我在说">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="tengblog" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://tengblog.com/2018/09/25/Datician02/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>数据分析之路-02 | tengblog</title>
+  
+
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dcfdfb65ea46615f214fcdb468d17bf0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">tengblog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">世事无常，精进不已</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/25/Datician02/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tengblog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">数据分析之路-02
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-09-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-25T00:00:00+08:00">2018-09-25</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 23:46:07" itemprop="dateModified" datetime="2018-09-27T23:46:07+08:00">2018-09-27</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="系列起源"><a href="#系列起源" class="headerlink" title="系列起源"></a>系列起源</h2><p>在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新一个系列的博客在 web ，记录自己在数据分析上的一些学习经验。</p>
+<p>本篇为第二篇，<a href="https://notes.tengblog.cn/2018/07/29/keyixue/" target="_blank" rel="external">「不介意学一些用不到的东西」</a> 为第一篇。</p>
+<h2 id="Excel-函数掌握"><a href="#Excel-函数掌握" class="headerlink" title="Excel 函数掌握"></a>Excel 函数掌握</h2><blockquote>
+<ul>
+<li>你的 Excel 怎么样？</li>
+<li>超过 80% 的同事。</li>
+</ul>
+</blockquote>
+<p>上面的对话发生在某次「非正式」的面试中，面试的朋友也许会感觉我在说大话，不过我现在想要更正我的说法。<strong>「超过 90% 的同事」</strong>，这是我对自己 Excel 处理能力的新定位。</p>
+<p>最近的工作中，在频繁处理10万行的数据，使用的工具还是 Excel，虽然臃肿的 Excel 应付起来已经有点困难了，再加上 mac 电脑对微软办公软件的天然排斥，频频奔溃成为常态。</p>
+<p>已经到了学习新的软件的阶段。</p>
+<p>可是，Excel 还是最重要的处理数据软件，永远绕不开。而且也是学习见效最高的软件，简单学习，你就能超过90% 的同事，好不夸张。</p>
+<blockquote>
+<p>很多传统行业的数据分析师只要求掌握Excel即可，会SPSS/SAS是加分项。即使在挖掘满街走，Python不如狗的互联网数据分析界，Excel也是不可替代的。</p>
+</blockquote>
+<h3 id="良好的-Excel-习惯"><a href="#良好的-Excel-习惯" class="headerlink" title="良好的 Excel 习惯"></a>良好的 Excel 习惯</h3><ul>
+<li>Excel函数不需要学全，重要的是学会搜索。即如何将遇到的问题在搜索引擎上描述清楚。我认为掌握vlookup和数据透视表足够，是最具性价比的两个技巧。</li>
+<li>学会vlookup，SQL中的join，Python中的merge很容易理解。</li>
+<li>学会数据透视表，SQL中的group，Python中的pivot_table也是同理。</li>
+<li><p>Excel是熟能生巧，多找练习题。还有需要养成好习惯，不要合并单元格，不要过于花哨。表格按照原始数据（sheet1）、加工数据（sheet2），图表（sheet3）的类型管理。</p>
+</li>
+<li><p>尽可能随时注意保存数据</p>
+</li>
+<li>不在表格内嵌套太多的数据</li>
+<li>需要的时候，复制一份不带公式的作为最后的展示</li>
+</ul>
+<h3 id="分析前清晰数据"><a href="#分析前清晰数据" class="headerlink" title="分析前清晰数据"></a>分析前清晰数据</h3><p><strong>不是所有数据挖掘后就可以直接使用的。更多的时间应该放在前面的清洗过程中</strong></p>
+<p>以下是可能会使用到的清洗类数据函数，<a href="https://zhuanlan.zhihu.com/p/23345231" target="_blank" rel="external">源自</a>：</p>
+<p><strong>Trim</strong><br>清除掉字符串两边的空格。<br>MySQL有同名函数，Python有近似函数strip。</p>
+<p><strong>Concatenate</strong><br>=Concatenate(单元格1，单元格2……)<br>合并单元格中的内容，还有另一种合并方式是&amp; 。”我”&amp;”很”&amp;”帅” ＝ 我很帅。当需要合并的内容过多时，concatenate的效率快也优雅。<br>MySQL有近似函数concat。</p>
+<p><strong>Replace</strong><br>=Replace（指定字符串，哪个位置开始替换，替换几个字符，替换成什么）<br>替换掉单元格的字符串，清洗使用较多。<br>MySQL中有同名函数，Python中有同名函数。</p>
+<p><strong>Substitute</strong><br>和replace接近，区别是替换为全局替换，没有起始位置的概念<br>Left／Right／Mid<br>=Mid(指定字符串，开始位置，截取长度)<br>截取字符串中的字符。Left/Right（指定字符串，截取长度）。left为从左，right为从右，mid如上文示意。<br>MySQL中有同名函数。</p>
+<p><strong>Len／Lenb</strong><br>返回字符串的长度，在len中，中文计算为一个，在lenb中，中文计算为两个。<br>MySQL中有同名函数，Python中有同名函数。</p>
+<p><strong>Find</strong><br>=Find（要查找字符，指定字符串，第几个字符）<br>查找某字符串出现的位置，可以指定为第几次出现，与Left／Right／Mid结合能完成简单的文本提取<br>MySQL中有近似函数 find_in_set，Python中有同名函数。</p>
+<p><strong>Search</strong><br>和Find类似，区别是Search大小写不敏感，但支持＊通配符</p>
+<p><strong>Text</strong><br>将数值转化为指定的文本格式，可以和时间序列函数一起看</p>
+<h3 id="注意关联匹配不同表格"><a href="#注意关联匹配不同表格" class="headerlink" title="注意关联匹配不同表格"></a>注意关联匹配不同表格</h3><blockquote>
+<p>在进行多表关联或者行列比对时用到的函数，越复杂的表用得越多。多说一句，良好的表习惯可以减少这类函数的使用。</p>
+</blockquote>
+<p><strong>lookup</strong></p>
+<p>=Lookup（查找的值，值所在的位置，返回相应位置的值）</p>
+<p>最被忽略的函数，功能性和Vlookup一样，但是引申有数组匹配和二分法。</p>
+<p><strong>Vlookup</strong></p>
+<p>=Vlookup(查找的值，哪里找，找哪个位置的值，是否精准匹配)</p>
+<p>Excel第一大难关，因为涉及的逻辑对新手较复杂，通俗的理解是查找到某个值然后黏贴过来。</p>
+<p><strong>Index</strong></p>
+<p>＝Index（查找的区域，区域内第几行，区域内第几列）</p>
+<p>和Match组合，媲美Vlookup，但是功能更强大。</p>
+<p><strong>Match</strong></p>
+<p>＝Match（查找指定的值，查找所在区域，查找方式的参数）</p>
+<p>和Lookup类似，但是可以按照指定方式查找，比如大于、小于或等于。返回值所在的位置。</p>
+<p><strong>记录很多函数并不需要，需要的是你能有合适的渠道搜索并学会新的函数</strong></p>
+<h2 id="熟练使用-Excel-的快捷键"><a href="#熟练使用-Excel-的快捷键" class="headerlink" title="熟练使用 Excel 的快捷键"></a>熟练使用 Excel 的快捷键</h2><p><strong>快捷键这个不用多说，注意积累和尝试就可以发现很多通用的快捷键。</strong></p>
+<p>本地只摘录自己不太熟悉的快捷键，供自己学习掌握：</p>
+<p>Excel的快捷键很多，以下主要是能提高效率。</p>
+<p>Ctrl+方向键，对单元格光标快速移动，移动到数据边缘（空格位置）。</p>
+<p>Ctrl+Shift+方向键，对单元格快读框选，选择到数据边缘（空格位置）。</p>
+<p>Ctrl+空格键，选定整列。</p>
+<p>Shift+空格键，选定整行。</p>
+<p>Ctrl+A，选择整张表。</p>
+<p>Alt+Enter，换行。</p>
+<p>Ctrl+Enter，以当前单元格为始，往下填充数据和函数。</p>
+<p><strong>最最重要的是，经常搜索并熟练使用</strong></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/职场/" rel="tag"># 职场</a>
+          
+            <a href="/tags/数据分析/" rel="tag"># 数据分析</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/09/19/liuliang/" rel="next" title="互联网最高效的变现模式还是「售卖流量」">
+                <i class="fa fa-chevron-left"></i> 互联网最高效的变现模式还是「售卖流量」
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/09/27/datician03/" rel="prev" title="一切都要简洁地展示出来-03">
+                一切都要简洁地展示出来-03 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="马腾" />
+            
+              <p class="site-author-name" itemprop="name">马腾</p>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">287</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">36</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#系列起源"><span class="nav-number">1.</span> <span class="nav-text">系列起源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel-函数掌握"><span class="nav-number">2.</span> <span class="nav-text">Excel 函数掌握</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#良好的-Excel-习惯"><span class="nav-number">2.1.</span> <span class="nav-text">良好的 Excel 习惯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分析前清晰数据"><span class="nav-number">2.2.</span> <span class="nav-text">分析前清晰数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注意关联匹配不同表格"><span class="nav-number">2.3.</span> <span class="nav-text">注意关联匹配不同表格</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#熟练使用-Excel-的快捷键"><span class="nav-number">3.</span> <span class="nav-text">熟练使用 Excel 的快捷键</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">马腾</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
