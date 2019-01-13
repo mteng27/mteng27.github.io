@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-01-12T16:02:44.561Z</updated>
+  <updated>2019-01-13T03:08:00.605Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>商业化数据分析的基础</title>
+    <link href="http://tengblog.com/2019/01/13/shuju/"/>
+    <id>http://tengblog.com/2019/01/13/shuju/</id>
+    <published>2019-01-12T16:00:00.000Z</published>
+    <updated>2019-01-13T03:08:00.605Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
   
   <entry>
     <title>公司角色的思考</title>
@@ -1408,61 +1428,6 @@
 &lt;p&gt;阑夕的读书方法论分享，虽然是其个人的付费内容，但是考虑到 tengblog 的阅读数，应该不算侵权&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;如何选择想读的书&quot;&gt;&lt;a href=&quot;#如何选择想读的书&quot; class=&quot;headerlink&quot;
-    
-    </summary>
-    
-    
-      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>投放渠道决定增长用户属性</title>
-    <link href="http://tengblog.com/2018/08/04/qudao/"/>
-    <id>http://tengblog.com/2018/08/04/qudao/</id>
-    <published>2018-08-03T16:00:00.000Z</published>
-    <updated>2018-11-15T09:40:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>投放渠道决定增长用户属性</strong></p>
-<p>一个感想，也可以看做即刻增长投放的复盘</p>
-<p>增长！增长！增长！</p>
-<p>如果要让互联网创始人说出公司当前最重要的任务，不少人肯定会选择增长。</p>
-<p>即便是创立多年仍未盈利，只要保持高速增长，市场估值就不会下跌。增长是不少互联网公司的基本盘，上至 BATTMD ,    下至创业未半的作坊公司。</p>
-<p>不过用户增长对很多社区、公司来说，都是「甜蜜的负担」，用户人群的泛华肯定会冲击原有社区文化。原有社区的用户调性等等一系列东西。这也是众多原本调性、氛围不错的公司被诟病「水化」「氛围越来越差的原因」。</p>
-<p>比如说，即刻。</p>
-<p><img src="http://images.tengblog.cn/18-8-5/8106224.jpg" alt=""></p>
-<p>1.<strong>XX 在即刻看什么</strong></p>
-<p>这大概是我对即刻的最初印象，也是第一次看到即刻相关增长活动。我记忆中的便有「冯大辉」「淡豹」「阑夕」等等比较集中在人文科技的 KOL 的访谈。</p>
-<p>这个时候，即刻已经积累了众多优秀的推动主题，也凭借主题推送这一点成为大受欢迎的小众 App。「XX 在即刻看什么」类似一次「主题推荐」活动。邀请各个领域（主要集中在人文科技）的意见领袖来分享自己在即刻的使用，将即刻的推广给意见领袖的粉丝。</p>
-<p>类似的互推方式，成本应该并不昂贵，效果应该是不错的，可以凭借不错的产品体验获取优秀 KOL 极其粉丝的关注，相信这个时候，即刻的用户纯净的。</p>
-<p><img src="http://images.tengblog.cn/18-8-5/9396328.jpg" alt=""></p>
-<p>2.<strong>在字幕组、测评视频的投放</strong></p>
-<p>再次看到相关的即刻推荐时，看到的便是不少字幕组和评测视频的贴片广告了。不管是天使字幕组还是爱否科技的视频，都接到了即刻的投放。</p>
-<p><img src="http://images.tengblog.cn/18-8-5/3762454.jpg" alt=""></p>
-<p>对长期没有盈利的字幕组和评测组来说，类似的投放应该成本不高，但是却获得了不错的转化。尤其是即刻主推的「集中推送信息」的效率优势正好和评测视频的观众重合起来。就像爱否科技视频里说的「一个我们接到广告前就在使用的 App」</p>
-<p>3.<strong>各种优秀 App 设计奖项</strong></p>
-<p>到了年底，各种 App 推荐的奖项也开始热闹起来。上榜的优秀 App 自然需要优秀的设计，但是也不是没有存在的可能。</p>
-<p>通过市场和 BD 资源互换的方式，即便是小厂的 App 也是可以在不少榜单露出，转化下载的，如豌豆荚的豌豆荚设计奖、AppSo 这样的第三方推荐。</p>
-<p>4.<strong>微博抖音的广告投放</strong></p>
-<p>到了18年 ，即刻已经进入了迅速发展的阶段，其广告投放也逐渐变得财大气粗。不管是微博，还是新兴的抖音，都看到了即刻的广告。</p>
-<p>当然，更重要的是，此时的即刻已经完成不再是一个推送消息的 App，反倒向着打造社区的宏伟目标走去。用户的抱怨也多了起来。</p>
-<p><img src="http://images.tengblog.cn/18-8-5/59425655.jpg" alt=""></p>
-<p><strong>你在什么渠道投放就吸引什么用户过来</strong></p>
-<p>这才是前面回看即刻增长投放的原因，投放渠道变得越来越大众，越来越下沉，吸引过来的自然也是早期用户并不喜欢的「杠精」「键盘侠」。</p>
-<p>不过如果换位思考的话，最应该反省的反倒一直觉得其他用户是外来人的「早期用户」。「早期用户」是被社区抛弃的，因为只靠他们并不能创造价值。</p>
-<p>那真的没有一个社区可以容纳不同分层的用户，让不同调性的用户各得其所吗？</p>
-<p>微信算一个？我不知道。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;投放渠道决定增长用户属性&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;一个感想，也可以看做即刻增长投放的复盘&lt;/p&gt;
-&lt;p&gt;增长！增长！增长！&lt;/p&gt;
-&lt;p&gt;如果要让互联网创始人说出公司当前最重要的任务，不少人肯定会选择增长。&lt;/p&gt;
-&lt;p&gt;即便是创立多年仍未盈利，只要
     
     </summary>
     
