@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-01-29T12:54:02.146Z</updated>
+  <updated>2019-01-31T04:10:54.391Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -14,6 +14,100 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>增长策略--用户分层 和 用户分群</title>
+    <link href="http://tengblog.com/2019/01/31/fencengmoxing/"/>
+    <id>http://tengblog.com/2019/01/31/fencengmoxing/</id>
+    <published>2019-01-30T16:00:00.000Z</published>
+    <updated>2019-01-31T04:10:54.391Z</updated>
+    
+    <content type="html"><![CDATA[<p>在前面的文章  <a href="https://notes.tengblog.cn/2018/12/17/fenceng/" target="_blank" rel="external">运营和分层 | tengblog</a> ，我大概率不难理解用户分层的必要性了，那具体要怎么划分呢？</p>
+<p>这篇文章向大家介绍下「用户分层」+「用户分群」的基本模型：</p>
+<h2 id="用户分层"><a href="#用户分层" class="headerlink" title="用户分层"></a>用户分层</h2><p>一般来讲，一个新用户变成活跃用户，再转化为付费用户，不是一两个简单的步骤可以完成的，这是一个动态演进的过程。我们把整个过程看作是用户群体的演进，在这个演进的过程中，因为不能保证所有的用户会按照我们设想的步骤完成转化，所以各个步骤的用户群需要更精细化的分析。</p>
+<p>用户分层的最大价值，就是通过分层对不同层级的用户采取不同的策略。</p>
+<h3 id="通用型分层"><a href="#通用型分层" class="headerlink" title="通用型分层"></a>通用型分层</h3><p>假设某产品，将用户划分为<strong>新用户、下载用户、活跃用户、兴趣用户、付费用户</strong>这几个层级，那么对于不同层级的用户，可能会采取以下不同的策略：</p>
+<ol>
+<li><p>对于潜在用户策略：我希望潜在用户能下载产品，常用的策略是新用户福利；</p>
+</li>
+<li><p>对于下载用户策略：我希望下载用户能使用产品，此时应该用新手引导，让他熟悉产品。</p>
+</li>
+<li><p>对于活跃用户策略：我希望加深活跃用户使用产品的频率，那么运营人员要持续的运营，固化用户的使用习惯，提升用户对产品内容的兴趣度；</p>
+</li>
+<li><p>对于深度活跃用户策略：我希望深度活跃用户产生付费行为，运营人员可以使用不同的促销和营销手段；</p>
+</li>
+<li><p>对于付费用户策略：这是我的目标用户，我希望付费用户能一直维持这个状态。</p>
+</li>
+</ol>
+<h3 id="推特的“1-9-90”理论"><a href="#推特的“1-9-90”理论" class="headerlink" title="推特的“1-9-90”理论"></a>推特的“1-9-90”理论</h3><p>网络社区中有一个“1-9-90”理论，即在一个社群中，90%人在潜水、9%是活跃用户，1%是超级用户。这个理论也有更新，比如在某些高活跃社群，用户分层可以达到2：3：5的比例，即20%超级用户（每天都能发言），30%活跃群众（红包、福利、拼团拼课会出现），50%潜水用户。作为一个社交网站，优化用户结构是Twitter的头等大事。</p>
+<p>Twitter把用户分成了新用户和现有用户，现有用户又被分成了消极用户、核心用户和超级用户。Twitter的目标就是——把访客从新用户转化为消极用户，从消极用户转化为核心用户，并最终转化成超级用户。</p>
+<p>以下是Twitter对于根据新用户、消极用户、核心用户的不同特点采取的不同策略，供大家参考：</p>
+<p><strong>从新用户到消极用户</strong></p>
+<ul>
+<li>新用户特点：对Twitter不了解，不会使用Twitter功能</li>
+<li>措施：尝试了诸多新手引导的策略，其中最为典型的就是“新用户学习流程”，目的是帮助新用户找到最开始应该关注的用户，形成基本的信息流，从而让新用户变成消极用户。</li>
+</ul>
+<p><strong>从消极用户到核心用户</strong></p>
+<ul>
+<li>消极用户特点：会看推文，但很少发文、较少与陌生人聊天、较少使用转推/引用/回复等高级功能</li>
+<li>策略方向：</li>
+</ul>
+<ol>
+<li><p>提高用户的使用频率：如果一个用户已经在正确地使用产品，但是使用频率还是达不到核心用户的频率，可以借鉴游戏中的一些方法，如连击、勋章等游戏化模式。这些方法可以有效鼓励用户提高产品的使用频率，帮助用户形成习惯。</p>
+</li>
+<li><p>增加用户使用产品功能的数量：当一个用户使用产品三种功能时，用户的留存率将会大大提高。Dropbox也有相同的成功案例，如让用户同时使用文件备份、分享和同步等。</p>
+</li>
+<li><p>让用户使用多个客户端：数据显示，同时使用多个客户端的用户，长期留存率会更好，如同时拥有桌面版、网页版和移动应用等。</p>
+</li>
+</ol>
+<h2 id="用户分群"><a href="#用户分群" class="headerlink" title="用户分群"></a>用户分群</h2><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><blockquote>
+<p>用户分层，是基于大方向的划分，你希望不同层级用户朝什么核心目标努力，产品又怎样根据不同层级用户特点进行呈现。而用户分群，则是把用户按照更细的颗粒度进行切分。简单来讲，「用户分层」是按照某单一逻辑维度划分，而用户分群则是在分层基础上增加更多维度进行划分，这两者是相辅相成的。</p>
+</blockquote>
+<h3 id="用户分群的经典模型——RFM模型"><a href="#用户分群的经典模型——RFM模型" class="headerlink" title="用户分群的经典模型——RFM模型"></a>用户分群的经典模型——RFM模型</h3><p>RFM模型分别是：</p>
+<ul>
+<li>R = Recency 最近一次消费</li>
+<li>F = Frequency 消费频率</li>
+<li>M = Monetary 消费金额</li>
+</ul>
+<p>因为有三个变量，所以要使用三维坐标系进行展示，X轴表示最近一次消费（Recency），Y 轴表示消费频率（Frequency），Z轴表示消费金额（Monetary），坐标系的8个象限分别表示8类用户，可以用如下图形进行描述：</p>
+<p><img src="http://images.tengblog.cn/2019-01-31-034640.jpg" alt=""></p>
+<p>我们可以解读一下其中比较重要的客户（编号次序RFM，1代表高，0代表低）：</p>
+<ol>
+<li><p>重要价值客户（111）：最近消费时间近、消费频次和消费金额都很高。这就是我们需要的客户。</p>
+</li>
+<li><p>重要保持客户（011）：最近消费时间较远，但消费频次和金额都很高。说明这是一段时间没来的忠实客户，需要主动和他保持联系。</p>
+</li>
+<li><p>重要发展客户（101）：最近消费时间较近、消费金额高，但频次不高，说明客户忠诚度不高，但有潜力，需要重点发展。</p>
+</li>
+<li><p>重要挽留客户（001）：最近消费时间较远、消费频次不高，但消费金额高。说明这可能是将要流失或者已经要流失的客户，应当采取挽留措施。</p>
+</li>
+</ol>
+<p>RFM模型主要适用于消费型用户，我们试着将这种三维划分的思路延伸至其他类型的产品，为大家提供一些思考方向：</p>
+<ul>
+<li>金融：投资金额、投资频率、最近一次投资时间；</li>
+<li>直播：观看直播时长、最近一次观看时间、打赏金额；</li>
+<li>内容：评论次数、评论字数、评论被点赞数；</li>
+<li>网站：登录次数、登录时长、最近一次登录时间；</li>
+<li>游戏：等级、游戏时长、游戏充值金额。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在前面的文章  &lt;a href=&quot;https://notes.tengblog.cn/2018/12/17/fenceng/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;运营和分层 | tengblog&lt;/a&gt; ，我大概率不难理解用户分层的必要性了，那具
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>数据漫游--数据分析及数据指标体系</title>
@@ -257,26 +351,6 @@
       <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
       <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>商业化数据分析的基础</title>
-    <link href="http://tengblog.com/2019/01/13/shuju/"/>
-    <id>http://tengblog.com/2019/01/13/shuju/</id>
-    <published>2019-01-12T16:00:00.000Z</published>
-    <updated>2019-01-13T03:08:00.605Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
@@ -599,7 +673,7 @@
     <link href="http://tengblog.com/2018/12/17/fenceng/"/>
     <id>http://tengblog.com/2018/12/17/fenceng/</id>
     <published>2018-12-16T16:00:00.000Z</published>
-    <updated>2018-12-17T14:20:34.000Z</updated>
+    <updated>2019-01-31T03:48:40.602Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。</p>
@@ -639,6 +713,8 @@
       <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
       <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
     
   </entry>
   
