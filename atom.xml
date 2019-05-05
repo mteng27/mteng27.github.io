@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-01-31T09:29:09.932Z</updated>
+  <updated>2019-05-05T02:57:16.921Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>永远展现自己最专业的一面</title>
+    <link href="http://tengblog.com/2019/05/05/zhiye/"/>
+    <id>http://tengblog.com/2019/05/05/zhiye/</id>
+    <published>2019-05-04T16:00:00.000Z</published>
+    <updated>2019-05-05T02:57:16.921Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
   
   <entry>
     <title>增长策略—增长费用花在正确地方了嘛？</title>
@@ -1564,91 +1584,6 @@
     
       &lt;p&gt;对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以通过 Excel 来完成。&lt;/p&gt;
 &lt;p&gt;不过，对于数据可视化来说，使用什么软件都是最不重要的，不管是 Excel 还是 Power BI 亦或是更高级 tab ，一个基本的
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据分析之路-02</title>
-    <link href="http://tengblog.com/2018/09/25/Datician02/"/>
-    <id>http://tengblog.com/2018/09/25/Datician02/</id>
-    <published>2018-09-24T16:00:00.000Z</published>
-    <updated>2018-09-27T15:46:07.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="系列起源"><a href="#系列起源" class="headerlink" title="系列起源"></a>系列起源</h2><p>在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新一个系列的博客在 web ，记录自己在数据分析上的一些学习经验。</p>
-<p>本篇为第二篇，<a href="https://notes.tengblog.cn/2018/07/29/keyixue/" target="_blank" rel="external">「不介意学一些用不到的东西」</a> 为第一篇。</p>
-<h2 id="Excel-函数掌握"><a href="#Excel-函数掌握" class="headerlink" title="Excel 函数掌握"></a>Excel 函数掌握</h2><blockquote>
-<ul>
-<li>你的 Excel 怎么样？</li>
-<li>超过 80% 的同事。</li>
-</ul>
-</blockquote>
-<p>上面的对话发生在某次「非正式」的面试中，面试的朋友也许会感觉我在说大话，不过我现在想要更正我的说法。<strong>「超过 90% 的同事」</strong>，这是我对自己 Excel 处理能力的新定位。</p>
-<p>最近的工作中，在频繁处理10万行的数据，使用的工具还是 Excel，虽然臃肿的 Excel 应付起来已经有点困难了，再加上 mac 电脑对微软办公软件的天然排斥，频频奔溃成为常态。</p>
-<p>已经到了学习新的软件的阶段。</p>
-<p>可是，Excel 还是最重要的处理数据软件，永远绕不开。而且也是学习见效最高的软件，简单学习，你就能超过90% 的同事，好不夸张。</p>
-<blockquote>
-<p>很多传统行业的数据分析师只要求掌握Excel即可，会SPSS/SAS是加分项。即使在挖掘满街走，Python不如狗的互联网数据分析界，Excel也是不可替代的。</p>
-</blockquote>
-<h3 id="良好的-Excel-习惯"><a href="#良好的-Excel-习惯" class="headerlink" title="良好的 Excel 习惯"></a>良好的 Excel 习惯</h3><ul>
-<li>Excel函数不需要学全，重要的是学会搜索。即如何将遇到的问题在搜索引擎上描述清楚。我认为掌握vlookup和数据透视表足够，是最具性价比的两个技巧。</li>
-<li>学会vlookup，SQL中的join，Python中的merge很容易理解。</li>
-<li>学会数据透视表，SQL中的group，Python中的pivot_table也是同理。</li>
-<li><p>Excel是熟能生巧，多找练习题。还有需要养成好习惯，不要合并单元格，不要过于花哨。表格按照原始数据（sheet1）、加工数据（sheet2），图表（sheet3）的类型管理。</p>
-</li>
-<li><p>尽可能随时注意保存数据</p>
-</li>
-<li>不在表格内嵌套太多的数据</li>
-<li>需要的时候，复制一份不带公式的作为最后的展示</li>
-</ul>
-<h3 id="分析前清晰数据"><a href="#分析前清晰数据" class="headerlink" title="分析前清晰数据"></a>分析前清晰数据</h3><p><strong>不是所有数据挖掘后就可以直接使用的。更多的时间应该放在前面的清洗过程中</strong></p>
-<p>以下是可能会使用到的清洗类数据函数，<a href="https://zhuanlan.zhihu.com/p/23345231" target="_blank" rel="external">源自</a>：</p>
-<p><strong>Trim</strong><br>清除掉字符串两边的空格。<br>MySQL有同名函数，Python有近似函数strip。</p>
-<p><strong>Concatenate</strong><br>=Concatenate(单元格1，单元格2……)<br>合并单元格中的内容，还有另一种合并方式是&amp; 。”我”&amp;”很”&amp;”帅” ＝ 我很帅。当需要合并的内容过多时，concatenate的效率快也优雅。<br>MySQL有近似函数concat。</p>
-<p><strong>Replace</strong><br>=Replace（指定字符串，哪个位置开始替换，替换几个字符，替换成什么）<br>替换掉单元格的字符串，清洗使用较多。<br>MySQL中有同名函数，Python中有同名函数。</p>
-<p><strong>Substitute</strong><br>和replace接近，区别是替换为全局替换，没有起始位置的概念<br>Left／Right／Mid<br>=Mid(指定字符串，开始位置，截取长度)<br>截取字符串中的字符。Left/Right（指定字符串，截取长度）。left为从左，right为从右，mid如上文示意。<br>MySQL中有同名函数。</p>
-<p><strong>Len／Lenb</strong><br>返回字符串的长度，在len中，中文计算为一个，在lenb中，中文计算为两个。<br>MySQL中有同名函数，Python中有同名函数。</p>
-<p><strong>Find</strong><br>=Find（要查找字符，指定字符串，第几个字符）<br>查找某字符串出现的位置，可以指定为第几次出现，与Left／Right／Mid结合能完成简单的文本提取<br>MySQL中有近似函数 find_in_set，Python中有同名函数。</p>
-<p><strong>Search</strong><br>和Find类似，区别是Search大小写不敏感，但支持＊通配符</p>
-<p><strong>Text</strong><br>将数值转化为指定的文本格式，可以和时间序列函数一起看</p>
-<h3 id="注意关联匹配不同表格"><a href="#注意关联匹配不同表格" class="headerlink" title="注意关联匹配不同表格"></a>注意关联匹配不同表格</h3><blockquote>
-<p>在进行多表关联或者行列比对时用到的函数，越复杂的表用得越多。多说一句，良好的表习惯可以减少这类函数的使用。</p>
-</blockquote>
-<p><strong>lookup</strong></p>
-<p>=Lookup（查找的值，值所在的位置，返回相应位置的值）</p>
-<p>最被忽略的函数，功能性和Vlookup一样，但是引申有数组匹配和二分法。</p>
-<p><strong>Vlookup</strong></p>
-<p>=Vlookup(查找的值，哪里找，找哪个位置的值，是否精准匹配)</p>
-<p>Excel第一大难关，因为涉及的逻辑对新手较复杂，通俗的理解是查找到某个值然后黏贴过来。</p>
-<p><strong>Index</strong></p>
-<p>＝Index（查找的区域，区域内第几行，区域内第几列）</p>
-<p>和Match组合，媲美Vlookup，但是功能更强大。</p>
-<p><strong>Match</strong></p>
-<p>＝Match（查找指定的值，查找所在区域，查找方式的参数）</p>
-<p>和Lookup类似，但是可以按照指定方式查找，比如大于、小于或等于。返回值所在的位置。</p>
-<p><strong>记录很多函数并不需要，需要的是你能有合适的渠道搜索并学会新的函数</strong></p>
-<h2 id="熟练使用-Excel-的快捷键"><a href="#熟练使用-Excel-的快捷键" class="headerlink" title="熟练使用 Excel 的快捷键"></a>熟练使用 Excel 的快捷键</h2><p><strong>快捷键这个不用多说，注意积累和尝试就可以发现很多通用的快捷键。</strong></p>
-<p>本地只摘录自己不太熟悉的快捷键，供自己学习掌握：</p>
-<p>Excel的快捷键很多，以下主要是能提高效率。</p>
-<p>Ctrl+方向键，对单元格光标快速移动，移动到数据边缘（空格位置）。</p>
-<p>Ctrl+Shift+方向键，对单元格快读框选，选择到数据边缘（空格位置）。</p>
-<p>Ctrl+空格键，选定整列。</p>
-<p>Shift+空格键，选定整行。</p>
-<p>Ctrl+A，选择整张表。</p>
-<p>Alt+Enter，换行。</p>
-<p>Ctrl+Enter，以当前单元格为始，往下填充数据和函数。</p>
-<p><strong>最最重要的是，经常搜索并熟练使用</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;系列起源&quot;&gt;&lt;a href=&quot;#系列起源&quot; class=&quot;headerlink&quot; title=&quot;系列起源&quot;&gt;&lt;/a&gt;系列起源&lt;/h2&gt;&lt;p&gt;在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入地学习下」。所以，我决定连续更新
     
     </summary>
     
