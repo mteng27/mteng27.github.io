@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>tengblog</title>
+  <title>TENG</title>
   <subtitle>世事无常，精进不已</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-05-07T05:04:55.787Z</updated>
+  <updated>2019-05-20T12:13:13.024Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -14,6 +14,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>向上管理和自我驱动</title>
+    <link href="http://tengblog.com/2019/05/20/lingdao/"/>
+    <id>http://tengblog.com/2019/05/20/lingdao/</id>
+    <published>2019-05-19T16:00:00.000Z</published>
+    <updated>2019-05-20T12:13:13.024Z</updated>
+    
+    <content type="html"><![CDATA[<p>字节跳动不提倡「向上管理」，更希望员工可以发挥自己的能动性，主动思考业务的发展，并身体力行地做好。</p>
+<p>这在公司规模比较小的时候适用，现在可能困难一点。尤其是越来越多外部公司的员工入职后，这种良好的工作氛围可能就会被稀释，被其他的习惯所代替。</p>
+<p>在最近看过几个关于「汇报和管理」的帖子之后，我越发觉得，也许「向上管理」也许是在目前阶段和环境的部门下，比较「实用」的工作态度和方式。</p>
+<p>当然，这是根据目前的情况决定，实在身不由己。我还是喜欢创业公司更为融洽、平台的关系</p>
+<blockquote>
+<p>认同领导而不是服从领导</p>
+</blockquote>
+<p>不仅仅是认同领导的地位和权力，而是思考其作出判断的因素和逻辑</p>
+<blockquote>
+<p>体现出对上级的价值</p>
+</blockquote>
+<p>这样写显得有点「厚黑」，不过确实如此。</p>
+<p>优秀的人太多了，可以选择的人太多了，没有办法为领导提供独特的价值，员工是得不到领导信任的。这就是「别人和领导抽烟」获得的优势。</p>
+<p>需要提醒的是，「价值」并非工作能力上的，你对领导的支持和信任也是一种。</p>
+<p>毕竟，</p>
+<blockquote>
+<p>领导也是人，也是个人</p>
+</blockquote>
+<p>与领导保持良好的私人关系是可以的，比领导没有对你的任何了解要好。</p>
+<blockquote>
+<p>尊重领导的决断，而且要执行好</p>
+</blockquote>
+<p>这个我目前做的比较差，总觉得这个没有意义，那个没有意义。但其实，完成领导的需要就是意义。</p>
+<p><strong>纯银关于这个问题的论述</strong><br><img src="http://images.tengblog.cn/20190520201041_T7ESyH_001.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;字节跳动不提倡「向上管理」，更希望员工可以发挥自己的能动性，主动思考业务的发展，并身体力行地做好。&lt;/p&gt;
+&lt;p&gt;这在公司规模比较小的时候适用，现在可能困难一点。尤其是越来越多外部公司的员工入职后，这种良好的工作氛围可能就会被稀释，被其他的习惯所代替。&lt;/p&gt;
+&lt;p&gt;在最近
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>永远展现自己最专业的一面</title>
@@ -302,7 +350,7 @@
     <link href="http://tengblog.com/2019/01/29/shujumanyou01/"/>
     <id>http://tengblog.com/2019/01/29/shujumanyou01/</id>
     <published>2019-01-28T16:00:00.000Z</published>
-    <updated>2019-01-29T12:54:02.146Z</updated>
+    <updated>2019-01-31T04:11:49.897Z</updated>
     
     <content type="html"><![CDATA[<p>不久前，还在考虑报一门优达学院的「商业决策」课程，不过现在，这个课程变得可有可无了。</p>
 <p>商业决策的最重要的是什么呢？我觉得不是获取数据、清晰数据这样基本的技能。&gt; 技术流的老司机，都是左手R右手Python，溜得飞起。学会了当然很棒，不会也没关系。<br>更重要的是，<strong>数据分析不是技术流，而是一种思维习惯。它能帮你梳理业务，找到方向，达成目的的数据分析，才是真的数据分析。</strong></p>
@@ -1589,50 +1637,6 @@
     
       &lt;h2 id=&quot;思维分析框架&quot;&gt;&lt;a href=&quot;#思维分析框架&quot; class=&quot;headerlink&quot; title=&quot;思维分析框架&quot;&gt;&lt;/a&gt;思维分析框架&lt;/h2&gt;&lt;p&gt;数据分析最重要的并不是掌握前面基础的工具，相反，一个问题从什么角度出发是更加重要的。&lt;/p&gt;
 &lt;p&gt;这是众多
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一切都要简洁地展示出来-03</title>
-    <link href="http://tengblog.com/2018/09/27/datician03/"/>
-    <id>http://tengblog.com/2018/09/27/datician03/</id>
-    <published>2018-09-26T16:00:00.000Z</published>
-    <updated>2018-10-06T09:18:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以通过 Excel 来完成。</p>
-<p>不过，对于数据可视化来说，使用什么软件都是最不重要的，不管是 Excel 还是 Power BI 亦或是更高级 tab ，一个基本的前提就是，你需要深刻地理解 <strong>什么样的数据需要那种图表来</strong>。</p>
-<h2 id="选择和制作合适的图表"><a href="#选择和制作合适的图表" class="headerlink" title="选择和制作合适的图表"></a>选择和制作合适的图表</h2><p>列数人类总结发明出来的图表，也不过几十种，对图表的理解和熟悉可以帮助我们更好展示数据关系。</p>
-<p><img src="http://images.tengblog.cn/18-9-28/73346053.jpg" alt="图表集合"></p>
-<p>当然，在数据可视化中会有更多高级的图标，看起来更酷炫，其逻辑还是依据于这些。</p>
-<p>使用 Excel 可以完成其中大部分的设计和制作，并可以根据基础图形不断地升级和演化。</p>
-<h3 id="数据图表制作的tips"><a href="#数据图表制作的tips" class="headerlink" title="数据图表制作的tips"></a>数据图表制作的tips</h3><p>数据分析最重要的作用还是发现数据间的联系，并向外展示出来。那么展示图表的简洁和美观就成了一个关键。在以往制作图表中的一些 tips 记录在下面。</p>
-<ul>
-<li>图表的首要功能是解释，而不是设计，尤其大部分图表都会落入到过度设计的陷阱。图表设计，首先应该是没有设计</li>
-<li>其次，好的图表要能解释数据，不同图表有不同的使用方法，如果我要观察销售额的增长，我就不应该用饼图。</li>
-<li>为了使数据的解读不失真，数据应要求精确到小数位。12.5比12好，尤其在对比数据的情况下。数据若再近一步精确，对解读的意义就不大，反而对解读者进行干扰。</li>
-<li>统一是规范和约束图表，当图表过多时，一个统一标准不会让人眼花撩乱。</li>
-<li>设计样式和内容分离。图表只需要聚焦于数据表达本身。标题可以通过Excel的单元格添加，别用图表的元素。</li>
-<li>不要展示太牛逼的图表设计技巧，不然以后老板都会让你设计的……</li>
-<li>辅助线和辅助列不一样，辅助线是图表附加的元素。辅助线能绘制高级图表。</li>
-</ul>
-<h2 id="熟练掌握一个-BI-软件"><a href="#熟练掌握一个-BI-软件" class="headerlink" title="熟练掌握一个 BI 软件"></a>熟练掌握一个 BI 软件</h2><p>BI工具有Tableau，QlikView，BDP等，各有侧重，也各有价格。但是操作过程都是相似的，大体分为五个步骤：<strong>数据源读取、数据清洗、数据关联、图表制作、Dashboard整合</strong>。熟悉了其中一个，再学会另外的就不难，以 tab 为例。</p>
-<p>（突然发现没什么好讲的，作罢了。）</p>
-<hr>
-<p><img src="http://images.tengblog.cn/18-9-29/60466055.jpg" alt=""></p>
-<p>更新与珠江河畔</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以通过 Excel 来完成。&lt;/p&gt;
-&lt;p&gt;不过，对于数据可视化来说，使用什么软件都是最不重要的，不管是 Excel 还是 Power BI 亦或是更高级 tab ，一个基本的
     
     </summary>
     
