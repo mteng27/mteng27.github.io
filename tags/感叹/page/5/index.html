@@ -17,23 +17,9 @@
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="theme-color" content="#222"/>
 
 
 
@@ -56,37 +42,39 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
 
 
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
 
 
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '6.3.0',
+    version: '7.1.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    back2top: ,
+    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -120,22 +108,23 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
 
 
 
-
+  
+  
   <link rel="canonical" href="http://tengblog.com/tags/感叹/page/5/"/>
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
-  <title>标签: 感叹 | TENG</title>
+  <title>Tag: 感叹 | TENG</title>
   
 
 
@@ -143,7 +132,7 @@
 
 
 
-  <script type="text/javascript">
+  <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -156,30 +145,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -197,7 +187,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -212,10 +202,11 @@
         <p class="site-subtitle">世事无常，精进不已</p>
       
     
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -234,24 +225,51 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Home</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags menu-item-active">
-    <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Tags</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archives</a>
+
   </li>
 
       
@@ -261,7 +279,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Search</a>
         </li>
       
     </ul>
@@ -344,7 +362,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>感叹<small>标签</small>
+        <h1>感叹<small>Tag</small>
         </h1>
       </div>
 
@@ -356,18 +374,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/10/24/凑数/" itemprop="url">
-              
-                <span itemprop="name">杂感凑数</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/10/24/凑数/" itemprop="url">
+            
+              <span itemprop="name">杂感凑数</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-10-24T20:39:05+08:00"
-              content="2015-10-24" >
+              content="2015-10-24">
           10-24
         </time>
       </div>
@@ -384,18 +402,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/10/07/（三）/" itemprop="url">
-              
-                <span itemprop="name">考试记（三）</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/10/07/（三）/" itemprop="url">
+            
+              <span itemprop="name">考试记（三）</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-10-07T17:19:53+08:00"
-              content="2015-10-07" >
+              content="2015-10-07">
           10-07
         </time>
       </div>
@@ -412,18 +430,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/09/30/2015-09-30/" itemprop="url">
-              
-                <span itemprop="name">考试记</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/09/30/2015-09-30/" itemprop="url">
+            
+              <span itemprop="name">考试记</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-09-30T22:32:08+08:00"
-              content="2015-09-30" >
+              content="2015-09-30">
           09-30
         </time>
       </div>
@@ -440,18 +458,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/08/10/2015-08-10/" itemprop="url">
-              
-                <span itemprop="name">新凉</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/08/10/2015-08-10/" itemprop="url">
+            
+              <span itemprop="name">新凉</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-08-10T21:56:04+08:00"
-              content="2015-08-10" >
+              content="2015-08-10">
           08-10
         </time>
       </div>
@@ -468,18 +486,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/07/25/我最喜欢这家烧烤店的水果沙拉/" itemprop="url">
-              
-                <span itemprop="name">我最喜欢这家烧烤店的水果沙拉</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/07/25/我最喜欢这家烧烤店的水果沙拉/" itemprop="url">
+            
+              <span itemprop="name">我最喜欢这家烧烤店的水果沙拉</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-07-25T23:00:14+08:00"
-              content="2015-07-25" >
+              content="2015-07-25">
           07-25
         </time>
       </div>
@@ -496,18 +514,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/07/06/关于大城市恐惧症/" itemprop="url">
-              
-                <span itemprop="name">关于大城市恐惧症</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/07/06/关于大城市恐惧症/" itemprop="url">
+            
+              <span itemprop="name">关于大城市恐惧症</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-07-06T21:52:25+08:00"
-              content="2015-07-06" >
+              content="2015-07-06">
           07-06
         </time>
       </div>
@@ -524,18 +542,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/06/09/【泰国杂忆-4】考山路观球记/" itemprop="url">
-              
-                <span itemprop="name">【泰国杂忆-4】考山路观球记</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/06/09/【泰国杂忆-4】考山路观球记/" itemprop="url">
+            
+              <span itemprop="name">【泰国杂忆-4】考山路观球记</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-06-09T21:28:31+08:00"
-              content="2015-06-09" >
+              content="2015-06-09">
           06-09
         </time>
       </div>
@@ -552,18 +570,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/06/09/【泰国杂忆-3】寻食唐人街/" itemprop="url">
-              
-                <span itemprop="name">【泰国杂忆-3】寻食唐人街</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/06/09/【泰国杂忆-3】寻食唐人街/" itemprop="url">
+            
+              <span itemprop="name">【泰国杂忆-3】寻食唐人街</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-06-09T21:27:36+08:00"
-              content="2015-06-09" >
+              content="2015-06-09">
           06-09
         </time>
       </div>
@@ -580,18 +598,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/06/09/【泰国杂忆-2】曼谷雨季/" itemprop="url">
-              
-                <span itemprop="name">【泰国杂忆-2】曼谷雨季</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/06/09/【泰国杂忆-2】曼谷雨季/" itemprop="url">
+            
+              <span itemprop="name">【泰国杂忆-2】曼谷雨季</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-06-09T21:26:50+08:00"
-              content="2015-06-09" >
+              content="2015-06-09">
           06-09
         </time>
       </div>
@@ -608,18 +626,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/" itemprop="url">
-              
-                <span itemprop="name">【泰国杂忆-1】肉眼凡胎不识真佛</span>
-              
-            </a>
+          <a class="post-title-link" href="/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/" itemprop="url">
+            
+              <span itemprop="name">【泰国杂忆-1】肉眼凡胎不识真佛</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2015-05-20T22:34:55+08:00"
-              content="2015-05-20" >
+              content="2015-05-20">
           05-20
         </time>
       </div>
@@ -638,8 +656,9 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/tags/感叹/page/4/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/tags/感叹/">1</a><span class="space">&hellip;</span><a class="page-number" href="/tags/感叹/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/tags/感叹/page/6/">6</a><a class="page-number" href="/tags/感叹/page/7/">7</a><a class="extend next" rel="next" href="/tags/感叹/page/6/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/tags/感叹/page/4/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/tags/感叹/">1</a><span class="space">&hellip;</span><a class="page-number" href="/tags/感叹/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/tags/感叹/page/6/">6</a><a class="page-number" href="/tags/感叹/page/7/">7</a><a class="extend next" rel="next" href="/tags/感叹/page/6/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
+
 
 
 
@@ -659,23 +678,22 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾" />
+                alt="马腾"/>
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
           </div>
 
           
@@ -686,7 +704,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">日志</span>
+                    <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
@@ -697,7 +715,11 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -773,7 +795,7 @@
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">标签</span>
+                    <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
               
@@ -790,27 +812,40 @@
           
 
           
+
+          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
-          
           
 
           
@@ -822,7 +857,7 @@
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -830,6 +865,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -850,9 +886,7 @@
 </div>
 
 
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
 
 
 
@@ -860,7 +894,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -879,19 +913,17 @@
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -923,55 +955,48 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+  <script src="/js/utils.js?v=7.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+  <script src="/js/motion.js?v=7.1.1"></script>
 
 
 
   
   
 
-  
 
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
-
-
-
-  
-
-
-
-	
-
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
 
 
 
 
   
 
+  
 
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -979,29 +1004,17 @@
 
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
+  <script src="/js/algolia-search.js?v=7.1.1"></script>
 
 
 
@@ -1014,6 +1027,13 @@
   
 
   
+
+  
+
+  
+
+  
+
   
 
   
