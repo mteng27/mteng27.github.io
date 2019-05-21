@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -70,11 +70,11 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '7.1.1',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    back2top: ,
-    back2top_sidebar: ,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -124,7 +124,7 @@
   };
 </script>
 
-  <title>TENG – 世事无常，精进不已</title>
+  <title>TENG</title>
   
 
 
@@ -200,14 +200,14 @@
     </div>
     
       
-        <h1 class="site-subtitle" itemprop="description">世事无常，精进不已</h1>
+        <p class="site-subtitle">世事无常，精进不已</p>
       
     
     
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -235,24 +235,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Home</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-tags">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Tags</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
 
   </li>
         
@@ -269,24 +252,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archives</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-sitemap">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br/>Sitemap</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
 
   </li>
 
@@ -297,7 +263,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Search</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
         </li>
       
     </ul>
@@ -390,13 +356,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/09/qianduanjs/" class="post-title-link" itemprop="url">js学习记录</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -411,16 +377,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
+              <time title="Erstellt: 2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -461,10 +443,16 @@
 参考书籍《jsdom编程艺术》
 
 好习惯
-
+注意花括号{…}内的语句具有缩进，通常是4个空格。缩进不是JavaScript语法要求必须的，但缩进有助于我们理解代码的层次，所以编写代码时要遵守缩进规则。很多文本编辑器具有“自动缩进”的功能，可以帮
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/09/qianduanjs/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -538,13 +526,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/05/ted/" class="post-title-link" itemprop="url">演讲全攻略：《TEDtalks演讲的力量》</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -559,16 +547,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-05T00:00:00+08:00">2016-08-05</time>
+              <time title="Erstellt: 2016-08-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-05T00:00:00+08:00">2016-08-05</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -605,10 +609,17 @@
           
             <p>
               如果，你有心观察一下，你在和别人交流的时候，其实大部分时候，你们进行的并非真正有效的沟通。
-大部分时
+大部分时候都是自说自话，两个人并不在一个频率。这就很好理解为什么网上总是吵来吵去的，可只要掌握的事实一样，逻辑分析能力一般，结论又能有多少差异呢？这两点的确实导致的就是有效沟通的缺失。
+1对1的沟通尚且这么复
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/05/ted/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -682,13 +693,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/04/zhiziyuedu/" class="post-title-link" itemprop="url">阅读中最基本的能力</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -703,16 +714,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-04T00:00:00+08:00">2016-08-04</time>
+              <time title="Erstellt: 2016-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-04T00:00:00+08:00">2016-08-04</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:44:46" itemprop="dateModified" datetime="2018-11-15T17:44:46+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -751,10 +778,21 @@
               
 阅读中这项基本的能力有那么多人没掌握
 
-阅读并不是一件的事情，它是一个系列过程，其中包括很多环节。
+阅读并不是一件的事情，它是一个系列过程，其中包括很多环节。从选择获取信息的渠道，是选择手机、电脑、kindle还是纸质书，到你选择的内容生产者，这些都是影响阅读的流程。
+不过，在阅读中，有一项非常基本的能力，但是却有那么多人没有掌握：
+
+逐字阅读的能力
+
+也
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/04/zhiziyuedu/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -828,13 +866,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/03/money/" class="post-title-link" itemprop="url">注意力:最宝贵的财富--财富笔记</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -849,16 +887,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-03T00:00:00+08:00">2016-08-03</time>
+              <time title="Erstellt: 2016-08-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-03T00:00:00+08:00">2016-08-03</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -898,10 +952,18 @@
 
 你最宝贵的财富是什么？
 
-原本计划的周更专栏也被
+原本计划的周更专栏也被大家一起写成了日更。
+写作课上或者其他什么营销战略上，都说要给人们惊喜，这样大家才会有“超值”的感觉。从周更到日更这就是惊喜，也是付费的好处。（这点也颇有感触的，见《买！买！买！》）
+注意力最宝贵的财
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/03/money/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -975,13 +1037,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/02/buy/" class="post-title-link" itemprop="url">买！买！买！</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -996,16 +1058,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-02T00:00:00+08:00">2016-08-02</time>
+              <time title="Erstellt: 2016-08-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-02T00:00:00+08:00">2016-08-02</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1046,6 +1124,12 @@
               
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/02/buy/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1119,13 +1203,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/08/01/ppt07/" class="post-title-link" itemprop="url">PPT练习成品----[PPT进阶笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1140,16 +1224,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-08-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-01T00:00:00+08:00">2016-08-01</time>
+              <time title="Erstellt: 2016-08-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-01T00:00:00+08:00">2016-08-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1186,10 +1286,18 @@
           
             <p>
               没有练习，即便是参加再多的课程也是没有作用的。将按照上课内容做一遍，也算积累下自己的素材库。
-采用的
+采用的方式用修改百度文库里，那些“精美”的ppt（大概是低质ppt最多的地方了吧）。
+争取每天都拿点时间在这更新出来，所以本篇会一直更新，直到整个流程结束。
+封面在百度文库搜索“精美 答辩 ppt”的结果，
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/08/01/ppt07/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1263,13 +1371,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/31/reading-07/" class="post-title-link" itemprop="url">七月书单及其它</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1284,16 +1392,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-31T00:00:00+08:00">2016-07-31</time>
+              <time title="Erstellt: 2016-07-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-31T00:00:00+08:00">2016-07-31</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:44:51" itemprop="dateModified" datetime="2018-11-15T17:44:51+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -1330,10 +1454,19 @@
           
             <p>
               其它七月很充实，虽然现在看过去我也没记起做了些什么。
-好在有归档的文章显示，我还是胡乱写了些东西。这
+好在有归档的文章显示，我还是胡乱写了些东西。这样大概也不算虚度光阴了吧？
+参加好多课程，有的随便听听就算了，我觉得这样不好，所以尽量在博客里记录下东西，算是加深印象。不过更多有价值的东西，我还没有记录下来。
+所以八月会继续把那些东西记录下来吧。
+
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/31/reading-07/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1407,13 +1540,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/30/paiban/" class="post-title-link" itemprop="url">PPT排版指南----[PPT进阶学习笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1428,16 +1561,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
+              <time title="Erstellt: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1473,10 +1622,24 @@
         
           
             <p>
-              PPT排版指南只有平面排版，并不存在PPT排版。所以，这些排版知识完全可以用在任何排版地方，不管你是
+              PPT排版指南只有平面排版，并不存在PPT排版。所以，这些排版知识完全可以用在任何排版地方，不管你是H5制作还是网页前端，这些知识都能用到。
+设计四原则写给普通人看的设计原则，提出了四个被大众广泛接受的原则，应用在各个场合。
+
+重复
+对比 
+对齐
+亲密
+
+在ppt的版面设计中，我们也离不开这四个原则
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/30/paiban/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1550,13 +1713,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/30/list/" class="post-title-link" itemprop="url">一些人生的欲望清单</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1571,16 +1734,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
+              <time title="Erstellt: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1616,10 +1795,19 @@
         
           
             <p>
-              关于人生的清单好多时候都是在网上看到自己喜欢的东西，最后看了半天，对东西有了更多的了解，等到马上要付
+              关于人生的清单好多时候都是在网上看到自己喜欢的东西，最后看了半天，对东西有了更多的了解，等到马上要付款拿下的时候才想到自己的囊中羞涩。
+有了收入时，却不再清晰地想起自己想过，“这东西劳资有钱了肯定买。”
+这大概是一种永远的悖论。
+为了再有钱的时候可以买到自己喜欢的东西，不再是纠结半天；也为了激励自己
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/30/list/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1693,13 +1881,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/28/win/" class="post-title-link" itemprop="url">win操盘手</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1714,16 +1902,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-28T00:00:00+08:00">2016-07-28</time>
+              <time title="Erstellt: 2016-07-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-28T00:00:00+08:00">2016-07-28</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1760,10 +1964,23 @@
           
             <p>
               
-慢慢真心觉得，我才刚刚会有点win系统的操作，也慢慢体会到了便利。虽然心里还是换个其它的系统，不过
+慢慢真心觉得，我才刚刚会有点win系统的操作，也慢慢体会到了便利。虽然心里还是换个其它的系统，不过它已经让我惊叹。
+今天有学了下新的快捷键，感觉以前的自己简直笨死了。记录下新的组合，以后检索。
+
+
+win键Win+E：打开我的电脑
+Win+F：搜索文件
+Win+D：显示桌面
+Win+M：最小化所有
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/28/win/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1837,13 +2054,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/25/ppt-05/" class="post-title-link" itemprop="url">配色专题----[PPT进阶学习笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1858,16 +2075,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
+              <time title="Erstellt: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -1908,10 +2141,21 @@
 整套幻灯片颜色太单调
 不懂配色，有些内容看不清楚
 
-配色的作
+配色的作用强化主题主题分类按照行业和内容分类，幻灯片可以分为不同的主题：
+
+内容分类：企业年终总结  商务年会  学术会议
+企业专用：奥美  麦肯锡  百度
+
+同一个主题的幻灯片，我们要从始至终的贯穿使用这个
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/25/ppt-05/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -1985,13 +2229,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/25/ppt-06/" class="post-title-link" itemprop="url">形状和图表----[PPT进阶学习笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2006,16 +2250,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
+              <time title="Erstellt: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2052,9 +2312,17 @@
           
             <p>
               形状和图表形状和图表是PPT中不可缺少的组成部分。形状可以更好的来装饰内容，图表则是内容的直接展示。
+形状PPT制作里的形状非常常见，许多设计者都将其作为装饰的主力工具。今天学习了形状的作用，可以更加系统的使用。
+点线面体都是形状点线面体都是形状，他们在ppt制作中也担负着不同的责任，也是最常见的修
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/25/ppt-06/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2128,13 +2396,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/24/xiezuo-02/" class="post-title-link" itemprop="url">写作的目标-写作课程</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2149,16 +2417,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
+              <time title="Erstellt: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2198,6 +2482,12 @@
               
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/24/xiezuo-02/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2271,13 +2561,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/24/xiezuo-01/" class="post-title-link" itemprop="url">写作的本质-写作课程</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2292,16 +2582,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
+              <time title="Erstellt: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2341,6 +2647,12 @@
               
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/24/xiezuo-01/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2414,13 +2726,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/21/tiaozheng/" class="post-title-link" itemprop="url">BLOG的一些调整</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2435,16 +2747,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-21T00:00:00+08:00">2016-07-21</time>
+              <time title="Erstellt: 2016-07-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-21T00:00:00+08:00">2016-07-21</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2482,10 +2810,18 @@
             <p>
               BLOG的一些调整blog微调最近对博客进行了一些调整，
 
-重建了仓库，使用了github自己的的登
+重建了仓库，使用了github自己的的登录记录
+  以前一直好奇，别人github主业下的浅绿色、深绿色的记录是怎么回事。这次建立自己的仓库才知道，那大概是个登录记录。
+  以为以前一直在fork下的博客更新，所以自己是没有记录。有点遗憾，
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/21/tiaozheng/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2559,13 +2895,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/19/sublime-02/" class="post-title-link" itemprop="url">Sublime Text应用技巧和诀窍</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2580,16 +2916,32 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-19T00:00:00+08:00">2016-07-19</time>
+              <time title="Erstellt: 2016-07-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-19T00:00:00+08:00">2016-07-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2628,10 +2980,21 @@
               
 sublime学习技巧，存根查询
 
-本文为您提供Sublime Text编辑器的12个技巧和诀窍，
+本文为您提供Sublime Text编辑器的12个技巧和诀窍，深入挖掘这个看似简洁的代码编辑器，背后所隐藏的实现各种高级功能的无限可能。
+1) 选择
+以下是一些Sublime Text选择文本的快捷键：
+
+Command + D 选中一个单词
+Command +
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/19/sublime-02/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2705,13 +3068,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/18/kaili/" class="post-title-link" itemprop="url">《路边野餐》：梦境和现实的杂乱混合</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2726,16 +3089,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
+              <time title="Erstellt: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2771,10 +3150,18 @@ sublime学习技巧，存根查询
         
           
             <p>
-              观影后的一些瞎扯前倾提要周末没有什么安排。一个人似乎又回到了刚来北京时孑然一身的感觉。有点熟悉的感觉
+              观影后的一些瞎扯前倾提要周末没有什么安排。一个人似乎又回到了刚来北京时孑然一身的感觉。有点熟悉的感觉，不过更凄凉的样子。
+看着电影卡里面还有不少点数，前些日子一言不合就看电影的日子都没能消耗完这两张卡。微票上有什么新电影呢？除了烂片，似乎有不《路边野餐》是不错的评价。
+这大概是我的第一印象吧，甚至我
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/18/kaili/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2848,13 +3235,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/18/ppt-04/" class="post-title-link" itemprop="url">背景和字体----[PPT进阶学习笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2869,16 +3256,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
+              <time title="Erstellt: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -2914,10 +3317,21 @@ sublime学习技巧，存根查询
         
           
             <p>
-              总原则：简单大方是王道背景背景选择背景的选择决定了整个PPT的整体风格，一张好的背景基本可以绝对观众
-              ...
+              总原则：简单大方是王道背景背景选择背景的选择决定了整个PPT的整体风格，一张好的背景基本可以绝对观众的整体印象。不过我们尤其要避免这两种情况：
+
+避免吐气过时的背景图片
+避免含有负责内容的图片
+
+
+              
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/18/ppt-04/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -2991,13 +3405,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/15/ppt-03/" class="post-title-link" itemprop="url">配图的选择----[PPT进阶学习笔记]</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3012,16 +3426,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
+              <time title="Erstellt: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -3057,10 +3487,22 @@ sublime学习技巧，存根查询
         
           
             <p>
-              PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更
+              PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更美观，
+总体来说，PPT配图的作用主要有两点：
+
+使用图片来表明事实，传递真实信息
+让文案表现更加生动形象，传递象征性信息
+
+表明真实 演示文件中的图片在表达真实事物，传递信息的时候，是最考虑制作者拍
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/15/ppt-03/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3134,13 +3576,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/15/wenti/" class="post-title-link" itemprop="url">解决真正的问题</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3155,16 +3597,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
+              <time title="Erstellt: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -3200,10 +3658,18 @@ sublime学习技巧，存根查询
         
           
             <p>
-              解决真正的问题昨天下午在公司的电脑上安装了个中文破解版的sublime，看到中文界面的时候感觉很亲切
+              解决真正的问题昨天下午在公司的电脑上安装了个中文破解版的sublime，看到中文界面的时候感觉很亲切。
+回到家里，室友说要回家了，出去吃饭，想着可以趁这个时间在自己的电脑上换成中文的编辑器。
+然后，开了倒腾的里程。换了好几个版本的中文优化版，结果都是 插件 安装不能在线安装，然后重新安装了原版，结果
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/15/wenti/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3277,13 +3743,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/13/zhengzhi/" class="post-title-link" itemprop="url">政治正确的三种使用方法</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3298,16 +3764,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
+              <time title="Erstellt: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -3343,10 +3825,17 @@ sublime学习技巧，存根查询
         
           
             <p>
-              世界上任何一个国家都有自己的政治正确。成为一个国家不能戏谑的金规玉律，所有的人都要遵守，没有任何回旋
+              世界上任何一个国家都有自己的政治正确。成为一个国家不能戏谑的金规玉律，所有的人都要遵守，没有任何回旋的余地。最有代表性的就是德国的“反纳粹”，美国的“种族歧视”还有我天朝的“爱国主义”。
+按理说，所有人都热爱自己文化发源地的倾向，而我们天朝似乎更“爱国一点”。“维护国家统一”就是中国最大的政治正确。
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/13/zhengzhi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3420,13 +3909,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/13/emmet/" class="post-title-link" itemprop="url">Emmet使用手册</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3441,16 +3930,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
+              <time title="Erstellt: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:00" itemprop="dateModified" datetime="2018-11-15T17:45:00+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -3486,10 +3991,20 @@ sublime学习技巧，存根查询
         
           
             <p>
-              最近更换了更为成熟的sublime 编辑器，加装了emmet插件，为了更加熟练的使用emmet，将常
+              最近更换了更为成熟的sublime 编辑器，加装了emmet插件，为了更加熟练的使用emmet，将常用快捷键转载于此，便于以后查询学习。
+
+文章转载，来源 前端开发必备！Emmet使用手册
+
+使用方法emmet的使用方法也非常简单，以sublime text为例，直接在编辑器中输入HTML或CSS的
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/13/emmet/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3563,13 +4078,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/12/yaogun/" class="post-title-link" itemprop="url">《西雅图之声》：传奇过后的平凡</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3584,16 +4099,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-12T00:00:00+08:00">2016-07-12</time>
+              <time title="Erstellt: 2016-07-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-12T00:00:00+08:00">2016-07-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:06" itemprop="dateModified" datetime="2018-11-15T17:45:06+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -3629,10 +4160,17 @@ sublime学习技巧，存根查询
         
           
             <p>
-              《西雅图之声》：传奇过后的平凡每年四月，华语歌迷在还念“哥哥”张国荣的时候，美国的歌迷也许在怀念他们
+              《西雅图之声》：传奇过后的平凡每年四月，华语歌迷在还念“哥哥”张国荣的时候，美国的歌迷也许在怀念他们的”摇滚之神“Kurt Cobain。同样是影响一代人的歌手，同时是自杀，同样是饱受抑郁折磨，Kurt Cobain去世时才27岁，更是让人唏嘘。
+Kurt Cobain是美国垃圾摇滚乐队涅槃的主唱、
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/12/yaogun/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3706,13 +4244,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/10/jingyao/" class="post-title-link" itemprop="url">精要：选择好的，不选多的</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3727,16 +4265,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-10 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-10T00:00:00+08:00">2016-07-10</time>
+              <time title="Erstellt: 2016-07-10 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-10T00:00:00+08:00">2016-07-10</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:11" itemprop="dateModified" datetime="2018-11-15T17:45:11+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -3773,10 +4327,20 @@ sublime学习技巧，存根查询
           
             <p>
               断舍离？不知道什么时候，”断舍离”成了潮流。人人喊着要过上一种简单的生活。
-大概是要看了这样的一种”
+大概是要看了这样的一种”禅味”十足的图片，心中向往不已。
+
+就是利用收拾家里的杂物来整理內心的废物，让人生转而开心的方法。其中，断=断绝不需要的东西 ，舍=舍弃多余的废物 ，离=脱离对物品的执着。
+
+原本单单只指明是家庭杂物
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/10/jingyao/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3850,13 +4414,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/08/shenluoji/" class="post-title-link" itemprop="url">《神逻辑》：和不讲道理的人讲道理？</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3871,16 +4435,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-08T00:00:00+08:00">2016-07-08</time>
+              <time title="Erstellt: 2016-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-08T00:00:00+08:00">2016-07-08</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -3917,10 +4497,18 @@ sublime学习技巧，存根查询
           
             <p>
               常见的集中逻辑错误
-转载在“得到”对《神逻辑》的介绍解读。很少转载，但是这样放这给自己提醒，避免这样
+转载在“得到”对《神逻辑》的介绍解读。很少转载，但是这样放这给自己提醒，避免这样的错误
+
+循环论证第一个逻辑谬误叫循环论证。意思是，要证明的结论，已经很隐蔽地被包含在前提里面了。有时候，结论甚至被直接当做前提，但是经常被换了另一种说法。比如，你完全错了，因为你说的没有道理。在这里
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/08/shenluoji/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -3994,13 +4582,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/07/ppt-01/" class="post-title-link" itemprop="url">PPT系统学习笔记</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4015,16 +4603,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-07T00:00:00+08:00">2016-07-07</time>
+              <time title="Erstellt: 2016-07-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-07T00:00:00+08:00">2016-07-07</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4060,10 +4664,21 @@ sublime学习技巧，存根查询
         
           
             <p>
-              旁门左道PPT系统学习笔记即便有很多对PPT及其演示演讲这样的形式深恶痛绝，但是这不代表我们职场小白
+              旁门左道PPT系统学习笔记即便有很多对PPT及其演示演讲这样的形式深恶痛绝，但是这不代表我们职场小白也有资格说这样的话。
+在风风火火的百度总监挨板过程中，抨击刘超很重要的一点便是
+
+PPT粗制滥造，完全不用心
+
+PPT成为职场的重要利器，优美大方的PPT制作能力是一个重要的加分点，这点身在职场的人们
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/07/ppt-01/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4137,13 +4752,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/07/01/ceshi/" class="post-title-link" itemprop="url">[TED]成为一个更好的交谈者?</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4158,16 +4773,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-07-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-01T00:00:00+08:00">2016-07-01</time>
+              <time title="Erstellt: 2016-07-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-01T00:00:00+08:00">2016-07-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4206,10 +4837,18 @@ sublime学习技巧，存根查询
               
 有些时候想看视频，少点看什么综艺节目，ted会是不错的选择。
 
-听过ted已经不短时间了，残酷的现
+听过ted已经不短时间了，残酷的现实是，我并没有多么好的利用这样的资源。是，网络上那么多的优秀资源，我却不能完全的利用起立，这简直是最大的浪费。
+慢慢分享些自己自己看过的视频过来。
+借助mark的强大，还能支持视频的插入，虽然这有点偏
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/07/01/ceshi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4283,13 +4922,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/30/zhichang-huiyi/" class="post-title-link" itemprop="url">召开会议的基础</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4304,16 +4943,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
+              <time title="Erstellt: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4352,10 +5007,21 @@ sublime学习技巧，存根查询
               
 最近开会时的一些感慨
 
-关于会议的那些事 之一在职场中，我们不能避免的就是参加各种会议，有过会议召
+关于会议的那些事 之一在职场中，我们不能避免的就是参加各种会议，有过会议召开的成功，那么工作的品质和效率都会得到飞跃性的提高。但是会议召开的质量不好，就会导致大家效率的低下。
+那就来谈谈关于会议的那些事情。
+会议的划分总体来说，会议不过分为几类：
+
+报告会议
+评审会议（工作
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/30/zhichang-huiyi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4429,13 +5095,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/30/zuiixnreading06/" class="post-title-link" itemprop="url">06月书单以及半年的记录</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4450,16 +5116,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
+              <time title="Erstellt: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:21" itemprop="dateModified" datetime="2018-11-15T17:45:21+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -4498,10 +5180,17 @@ sublime学习技巧，存根查询
               06月书单六月份，开始看了一些职场和沟通的书籍，大概有以下：
 
 自品牌
-这本不错，还没有看完。基本可
+这本不错，还没有看完。基本可以作为我的博客指南，书中详细的介绍一个人怎么在网络上展示自己的情况，算是一个很好的在线版简历。
+一个人即便在网络上也要主要自己的形象，时刻展示自己的职业形象，一个完整的记录你的网络生活的地方。连续性，
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/30/zuiixnreading06/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4575,13 +5264,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/28/thankyou/" class="post-title-link" itemprop="url">致谢、激励和学习</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4596,16 +5285,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-28T00:00:00+08:00">2016-06-28</time>
+              <time title="Erstellt: 2016-06-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-28T00:00:00+08:00">2016-06-28</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4644,10 +5349,23 @@ sublime学习技巧，存根查询
               
 就我接触的几位程序工作者，他们都热情，乐于分享。
 
-博客的更新四月26日，我的小小博客正式上线了，
+博客的更新四月26日，我的小小博客正式上线了，那个时候，我就感慨了一番，感觉
+
+工程师真是酷
+
+在后面这短时间里，我的小小页面继续更新迭代：
+
+增加了更多的社交网址的链接
+黄玄的原始模版提供了很多的社交网站链接，我也是按图索骥，增加了简书和LOF
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/28/thankyou/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4721,13 +5439,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/27/yihan/" class="post-title-link" itemprop="url">体育和人生的魅力：遗憾和无奈</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4742,16 +5460,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
+              <time title="Erstellt: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4788,10 +5522,18 @@ sublime学习技巧，存根查询
           
             <p>
               人生和体育一样美丽：充满了遗憾和无奈
-欧洲杯和美洲杯开始了好久，各自的进程也都过半。精彩的赛事每天都
+欧洲杯和美洲杯开始了好久，各自的进程也都过半。精彩的赛事每天都在上演，球迷朋友们沉浸在比赛的乐趣里面，我不是球迷，仍能感受到体育的魅力，也羡慕那些狂热的球迷。
+
+观赏比赛，在比赛中中体会到竞技体育的魅力，也让人体会到更多的不同的乐趣。这里面有成功者的喜悦，詹姆斯
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/27/yihan/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -4865,13 +5607,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/27/1shudazhaofeng/" class="post-title-link" itemprop="url">风向转动下的人物群像</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4886,16 +5628,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
+              <time title="Erstellt: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -4934,10 +5692,17 @@ sublime学习技巧，存根查询
               
 电影是个好东西
 
-诚意，不装很重要看电影和以前做阅读理解一样，有类似“薛定谔的猫”的迷局，作者这么
+诚意，不装很重要看电影和以前做阅读理解一样，有类似“薛定谔的猫”的迷局，作者这么写到底是具体实景如此，顺手写下，还如同阅读理解答案里的层层伏笔，绵伏千里呢？
+周末去影院看了雪茄杜的银河映像20年纪念的《三人行》，老实说一般，不如前一晚看的《PTU》，更不如刚才看完的《树大招风》。
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/27/1shudazhaofeng/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5011,13 +5776,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/23/xunzhaoliangshi/" class="post-title-link" itemprop="url">如何找到你的良师</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5032,16 +5797,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-23T00:00:00+08:00">2016-06-23</time>
+              <time title="Erstellt: 2016-06-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-23T00:00:00+08:00">2016-06-23</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -5079,10 +5860,22 @@ sublime学习技巧，存根查询
             <p>
               上次我们说到要找一个自己职场上的良师，也大讲了一通良师的好处，那么问题来了：
 
-怎么才能找到一个良师
+怎么才能找到一个良师益友呢？
+
+关键是从那些经常见面的人中，找出真挚、有才华、可以成为你良师的人，然后通过行动来验证你的直觉时候正确。
+良师的标准作为你职场上的领路人，良师要有几个标准：
+
+不人云亦云
+人云亦云，没有主见
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/23/xunzhaoliangshi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5156,13 +5949,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/22/geshi/" class="post-title-link" itemprop="url">格式！格式！</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5177,16 +5970,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-22T00:00:00+08:00">2016-06-22</time>
+              <time title="Erstellt: 2016-06-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-22T00:00:00+08:00">2016-06-22</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -5223,10 +6032,17 @@ sublime学习技巧，存根查询
           
             <p>
               格式很重要今天临时接到领导安排的工作，写一下下半年的工作计划。
-这样的工作很简单，因为一直一来就是我
+这样的工作很简单，因为一直一来就是我在负责整个栏目的发展和创新点，所以在原有规划的基础上写下总结也是很简单的。
+在我写完以后，尽力检查好错别字以后，用邮件发送给了领导，同时我也起身去办公室告知领导，文件已发送邮箱。就在我转身要离开的时候
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/22/geshi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5300,13 +6116,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/21/keep/" class="post-title-link" itemprop="url">挑衅性传播是玩火自焚</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5321,16 +6137,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-21T00:00:00+08:00">2016-06-21</time>
+              <time title="Erstellt: 2016-06-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-21T00:00:00+08:00">2016-06-21</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:27:47" itemprop="dateModified" datetime="2018-11-15T17:27:47+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -5369,10 +6201,19 @@ sublime学习技巧，存根查询
               广告也要讲政治正确卖教程不如卖装备
 自律给你自由
 
-多么好听的口号，富含哲理，时刻彰显着品味。kee
+多么好听的口号，富含哲理，时刻彰显着品味。keep出现大概好久了，去年还用过一段时间。
+但是碍于自己的懒惰，也就没有什么办法坚持下去，最后放弃了。知道今年，入夏伊始，地铁，电梯都出现了这样的广告。
+自律给你自由
+原来，keep终于开始了大规模的推广
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/21/keep/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5446,13 +6287,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/19/toutiao/" class="post-title-link" itemprop="url">我的原则：做有创造性的工作</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5467,16 +6308,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-19T00:00:00+08:00">2016-06-19</time>
+              <time title="Erstellt: 2016-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-19T00:00:00+08:00">2016-06-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -5512,10 +6369,17 @@ sublime学习技巧，存根查询
         
           
             <p>
-              我的原则：做有创造性的工作15年11月的时候，我开通了自己的头条号“娱乐大嘴鱼”，本意是熟悉新媒体平
+              我的原则：做有创造性的工作15年11月的时候，我开通了自己的头条号“娱乐大嘴鱼”，本意是熟悉新媒体平台后台和推荐机制，同时训练自己多种文体的撰写风格。
+开通自营广告在前期，一般是做伪原创的东西，最有代表性的就是看有什么娱乐新闻以后，将涉事明星的照片搜集来，然后简单写下评价或者简单重复下事件，再加写背
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/19/toutiao/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5589,13 +6453,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/18/zhichang-liangshi/" class="post-title-link" itemprop="url">寻找自己的职场良师</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5610,16 +6474,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-18T00:00:00+08:00">2016-06-18</time>
+              <time title="Erstellt: 2016-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-18T00:00:00+08:00">2016-06-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -5655,10 +6535,21 @@ sublime学习技巧，存根查询
         
           
             <p>
-              寻找自己的职场良师前因：我要变得更专业2016年6月份，从到北京参加工作都要满一年了，自己又开始浮躁
+              寻找自己的职场良师前因：我要变得更专业2016年6月份，从到北京参加工作都要满一年了，自己又开始浮躁起来，主要是“着急”自己的发展，焦虑自己的成长。
+给我更多刺激的是，本周还因为无关紧要的事情和组长发生冲突，后来想想，这真是没有必要的。这也深深地刺激了我，
+
+原来，我没有自己的想得那么专业。
+
+我需
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/18/zhichang-liangshi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5732,13 +6623,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/16/blog-jiaocheng/" class="post-title-link" itemprop="url">搭建自己的博客----教程</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5753,16 +6644,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-16 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-16T00:00:00+08:00">2016-06-16</time>
+              <time title="Erstellt: 2016-06-16 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-16T00:00:00+08:00">2016-06-16</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -5800,10 +6707,19 @@ sublime学习技巧，存根查询
             <p>
               一小时搭建个人博客网站
 简单粗暴，先上链接马腾的博客
-本教程只为自己记录和纯小白设计，欢迎技术大神指
+本教程只为自己记录和纯小白设计，欢迎技术大神指点。
+
+前言一直在网络上的写作空间周转，断断续续的换了好多平台，从新浪博客到lofter到点点到微信公众平台，但是心中还是有着自己搭个网站的想法。
+在五月份开始开始着手这件事，最终还算有个不错的成品出
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/16/blog-jiaocheng/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -5877,13 +6793,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/13/fanhaitao-reading/" class="post-title-link" itemprop="url">日渐飘远的梦想</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5898,16 +6814,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-13T00:00:00+08:00">2016-06-13</time>
+              <time title="Erstellt: 2016-06-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-13T00:00:00+08:00">2016-06-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:26" itemprop="dateModified" datetime="2018-11-15T17:45:26+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -5943,10 +6875,18 @@ sublime学习技巧，存根查询
         
           
             <p>
-              《就要一场绚丽的突围》大概是因为在微博一直关注着范海涛，所以在亚马逊凑单子的时候随手选了这本《就要一
+              《就要一场绚丽的突围》大概是因为在微博一直关注着范海涛，所以在亚马逊凑单子的时候随手选了这本《就要一场绚丽的突围》，看下来还是可以的，作为个人经历还是很好的一本书。
+好多年前，李开复还是青年导师的时候，市面上出了一本《李开复传》，这简直是一剂良药，刺激了唐骏破灭后的励志人物市场。
+李开复啊，光是这个
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/13/fanhaitao-reading/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6020,13 +6960,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/06/12/yinyu/" class="post-title-link" itemprop="url">那些难忘的雨声</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6041,16 +6981,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-06-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-12T00:00:00+08:00">2016-06-12</time>
+              <time title="Erstellt: 2016-06-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-12T00:00:00+08:00">2016-06-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -6088,10 +7044,17 @@ sublime学习技巧，存根查询
             <p>
               我很喜欢阴雨的天气，也说不清到底是为了什么。
 一至今还记得初中时候的一次暴雨。
-语文课上，年轻的语文
+语文课上，年轻的语文老师在讲某一篇古文，他喜欢细长的字体板书，笔画极细，等到以后我才知道他是模仿的瘦金体。他讲完了关键字，就容我们在那朗读熟悉。
+那天下午的天气闷热，没有风丝，吵吵闹闹的教室更让人烦躁，巴不得刚开下课回家
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/06/12/yinyu/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6165,13 +7128,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/29/jingjin02/" class="post-title-link" itemprop="url">为什么要“先行动起来”？</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6186,16 +7149,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-29T00:00:00+08:00">2016-05-29</time>
+              <time title="Erstellt: 2016-05-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-29T00:00:00+08:00">2016-05-29</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:45:31" itemprop="dateModified" datetime="2018-11-15T17:45:31+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -6238,9 +7217,18 @@ sublime学习技巧，存根查询
 我们也知道李笑来的原则之一：
 
 先做起来。
+
+他们都是重视执行力的行动派。不如今天来讨论下这个问题：我们为什么要先行动起来？
+做起来，破除心理障碍如果你和我一样并不是擅长英文，却无数次想着要改变这个短板，最好的方式是：行动起来，开始每天阅读英
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/29/jingjin02/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6314,13 +7302,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/27/women/" class="post-title-link" itemprop="url">我们为什么总是读错书</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6335,16 +7323,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-27T00:00:00+08:00">2016-05-27</time>
+              <time title="Erstellt: 2016-05-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-27T00:00:00+08:00">2016-05-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -6380,10 +7384,16 @@ sublime学习技巧，存根查询
         
           
             <p>
-              为什么我们总是读错书网络上上常年流传着一类文章，无论什么时候什么人翻出来总是获得不错的阅读，那就是“
+              为什么我们总是读错书网络上上常年流传着一类文章，无论什么时候什么人翻出来总是获得不错的阅读，那就是“书单”。“那些影响了温总理的书籍”、“不得不读的书单”、“我的私人推荐”等等。到了公众号的时代，不少的自媒体运营者把这些发扬光大了，甚至发展出了”社群“。读书拆分精华，分享给大家；”每周共读一本书+语
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/27/women/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6457,13 +7467,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/25/jingjin/" class="post-title-link" itemprop="url">5月书单--十分钟读完《精进》</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6478,16 +7488,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-25T00:00:00+08:00">2016-05-25</time>
+              <time title="Erstellt: 2016-05-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-25T00:00:00+08:00">2016-05-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:48:56" itemprop="dateModified" datetime="2018-11-15T17:48:56+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -6527,10 +7553,19 @@ sublime学习技巧，存根查询
 5月详细阅读了本书，并进行缩写，是为5月书单
 
 十分钟读完《精进》如何成为一个很厉害的人 精进
-时
+时间之尺—我们应该怎么对待时间活在“全部的现在”每个人拥有相同的时间，对待时间的方式却千差万别，一个人如何对待自己的时间，决定了他可以成为什么样的人。
+一个人要怎么对待自己的时间呢？
+
+向孩子学习“郑重
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/25/jingjin/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6604,13 +7639,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/23/xiaoniao/" class="post-title-link" itemprop="url">愤怒的小鸟：不仅是卖萌电影</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6625,16 +7660,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-23T00:00:00+08:00">2016-05-23</time>
+              <time title="Erstellt: 2016-05-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-23T00:00:00+08:00">2016-05-23</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -6671,10 +7722,17 @@ sublime学习技巧，存根查询
           
             <p>
               
-谁也不会想到结果承接《美国队长三》票房大旗的竟然是《愤怒的小鸟》。上映3天以来，《愤怒的小鸟》都占
+谁也不会想到结果承接《美国队长三》票房大旗的竟然是《愤怒的小鸟》。上映3天以来，《愤怒的小鸟》都占据了每日票房第一名，已经累计1.88亿元。过半的票房占比，接近40%的排片率，都说明这部电影广受好评。
+在这个卖萌无罪的年代，一部电影单纯靠卖萌，就已经能够收获不小的关注。更何况电影绝非卖萌那么简单。
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/23/xiaoniao/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6748,13 +7806,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/19/zhrnglun/" class="post-title-link" itemprop="url">你在说什么</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6769,16 +7827,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-19T00:00:00+08:00">2016-05-19</time>
+              <time title="Erstellt: 2016-05-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-19T00:00:00+08:00">2016-05-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-09-27 23:25:49" itemprop="dateModified" datetime="2018-09-27T23:25:49+08:00">2018-09-27</time>
+              
             
           </span>
 
@@ -6814,10 +7888,28 @@ sublime学习技巧，存根查询
         
           
             <p>
-              你在说什么？大学二年级的时候，我参加了一次学校的辩论比赛，虽然没有拿到最后的冠军，却让我想明白了一件
+              你在说什么？大学二年级的时候，我参加了一次学校的辩论比赛，虽然没有拿到最后的冠军，却让我想明白了一件事情：
+
+争论没有意义
+
+不仅争论没有意义，很多时候有效的讨论也不常见，原因很简单：
+
+大部分人不知道你在说么
+
+为什么今天对这个事情这么有感触，缘由下面这图：
+
+为什么这样图给我这么感慨？
+
+交流的
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/19/zhrnglun/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -6891,13 +7983,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/17/zhishibianxian/" class="post-title-link" itemprop="url">知识变现的时代到来？</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6912,16 +8004,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-17T00:00:00+08:00">2016-05-17</time>
+              <time title="Erstellt: 2016-05-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-17T00:00:00+08:00">2016-05-17</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -6957,10 +8065,19 @@ sublime学习技巧，存根查询
         
           
             <p>
-              果壳网旗下的“在行”又有一款新的产品刷爆了朋友圈，效果就和4月1日知乎推出的“值乎”一样，大家纷纷尝
+              果壳网旗下的“在行”又有一款新的产品刷爆了朋友圈，效果就和4月1日知乎推出的“值乎”一样，大家纷纷尝试，也赚点零花钱。
+“分答”怎么运作？分答的模式极其简单，用微信扫码登陆后一看便了解，分答。有几个很明显的优势：
+
+注册简单 不同于在行对回答者的高要求，分答几乎人人可以注册，可以成为回答者，这大概要
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/17/zhishibianxian/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -7034,13 +8151,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/12/thailand-bkk/" class="post-title-link" itemprop="url">在曼谷度过无聊周末</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7055,16 +8172,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
+              <time title="Erstellt: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -7103,10 +8236,16 @@ sublime学习技巧，存根查询
               
 转载自*我们的微信公众号”期望阅读”
 
-北京的周末活动丰富多彩，有的人选择去郊外徒步穿行几个景区二
+北京的周末活动丰富多彩，有的人选择去郊外徒步穿行几个景区二十几公里，践行着物质富裕后的更高追求；有的人选择去城区各大公园看樱花、桃花、杏花，虽然只是看到一群人头，但也看得不亦乐乎；有的人都喜欢去电影院里观看电影，看两个超级英雄男人打来打去，然后出影院一边骂一
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/12/thailand-bkk/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -7180,13 +8319,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/12/FOJIAO/" class="post-title-link" itemprop="url">肉眼凡胎不识真佛</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7201,16 +8340,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
+              <time title="Erstellt: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -7250,10 +8405,18 @@ sublime学习技巧，存根查询
 转载自我们的微信公众号”期望阅读”
 
 
-在大大小小的旅游网站上，对于泰国的介绍必不可少的就是千佛之
+在大大小小的旅游网站上，对于泰国的介绍必不可少的就是千佛之国，黄袍之国。
+泰国街头，佛龛和寺庙完全是随处可见，甚至大有超过泰国人口数量的趋势。我甚至开始杞人忧天，泰国不大的国土上神灵那么多，每个神灵分配的领地能有多少呢？他们最多能佑庇自己供主一家的庭院。
+家
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/12/FOJIAO/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -7327,13 +8490,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/02/reading04-2016/" class="post-title-link" itemprop="url">4月书单和一点思考</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7348,16 +8511,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-02 12:00:00" itemprop="dateCreated datePublished" datetime="2016-05-02T12:00:00+08:00">2016-05-02</time>
+              <time title="Erstellt: 2016-05-02 12:00:00" itemprop="dateCreated datePublished" datetime="2016-05-02T12:00:00+08:00">2016-05-02</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2018-11-15 17:48:47" itemprop="dateModified" datetime="2018-11-15T17:48:47+08:00">2018-11-15</time>
+              
             
           </span>
 
@@ -7395,10 +8574,19 @@ sublime学习技巧，存根查询
             <p>
               
 4月份阅读书目从莎草纸到互联网人类简史二手时间超预测为什么
-这几本中随便选几本便可以。但我想是不是
+这几本中随便选几本便可以。但我想是不是要在阅读的过程中做更为详细的笔记，这样只是阅览过去，可能收获有限。这样泛泛而谈反倒不利于知识的整理。
+
+3月收到的时候留下了上面的一段话。似乎是在为自己的偷懒埋下了伏笔。4月份读书，进度放缓。
+人类简
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/02/reading04-2016/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -7472,13 +8660,13 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
                 
                 <a href="/2016/05/01/wechat-block-kuaidi/" class="post-title-link" itemprop="url">不二情书：真的很二</a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7493,16 +8681,32 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2016-05-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-01T00:00:00+08:00">2016-05-01</time>
+              <time title="Erstellt: 2016-05-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-01T00:00:00+08:00">2016-05-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
@@ -7538,10 +8742,18 @@ sublime学习技巧，存根查询
         
           
             <p>
-              2013年是个让人怀念的一年。中国电影人绝对不会知道他们正要进去最美好的时代，一个不用费什么劲就能挣
+              2013年是个让人怀念的一年。中国电影人绝对不会知道他们正要进去最美好的时代，一个不用费什么劲就能挣大钱的时代。
+赶上好时候的黑马非北京遇上西雅图莫属，收获了5.3亿票房。现在看来这票房收入一般，别忘了那可是13。这部电影最大的人受益者-吴秀波也走上了快车道，身价上涨不少。
+不管是导演还是演员，搞个
               ...
             </p>
           <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/01/wechat-block-kuaidi/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
           
           <!--/noindex-->
         
@@ -7587,7 +8799,7 @@ sublime学习技巧，存根查询
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="Vorherige Seite"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
   </nav>
 
 
@@ -7634,7 +8846,7 @@ sublime学习技巧，存根查询
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -7725,7 +8937,7 @@ sublime学习技巧，存根查询
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">tags</span>
+                    <span class="site-state-item-name">schlagwörter</span>
                   </a>
                 </div>
               
@@ -7752,15 +8964,6 @@ sublime学习技巧，存根查询
                   
                     
                   
-                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
-                </span>
-              
-                <span class="links-of-author-item">
-                  
-                  
-                  
-                    
-                  
                   <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
@@ -7773,12 +8976,35 @@ sublime学习技巧，存根查询
                   <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="http://tengblog.com" title="Google &rarr; http://tengblog.com"><i class="fa fa-fw fa-google"></i></a>
+                </span>
+              
             </div>
           
 
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://tengblog.com" title="http://tengblog.com">Title</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -7816,7 +9042,7 @@ sublime学习技巧，存根查询
 </div>
 
 
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
 
 
 
@@ -7824,7 +9050,7 @@ sublime学习技巧，存根查询
 
 
 
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.1.1</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -7842,6 +9068,11 @@ sublime学习技巧，存根查询
       </div>
     </footer>
 
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
     
@@ -7908,6 +9139,7 @@ sublime学习技巧，存根查询
 
 
   <script src="/js/schemes/muse.js?v=7.1.1"></script>
+
 
 
 
