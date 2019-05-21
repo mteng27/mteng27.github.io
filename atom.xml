@@ -139,100 +139,6 @@
   </entry>
   
   <entry>
-    <title>增长策略--用户分层 和 用户分群</title>
-    <link href="http://tengblog.com/2019/01/31/fencengmoxing/"/>
-    <id>http://tengblog.com/2019/01/31/fencengmoxing/</id>
-    <published>2019-01-30T16:00:00.000Z</published>
-    <updated>2019-01-31T04:10:54.391Z</updated>
-    
-    <content type="html"><![CDATA[<p>在前面的文章  <a href="https://notes.tengblog.cn/2018/12/17/fenceng/" target="_blank" rel="external">运营和分层 | tengblog</a> ，我大概率不难理解用户分层的必要性了，那具体要怎么划分呢？</p>
-<p>这篇文章向大家介绍下「用户分层」+「用户分群」的基本模型：</p>
-<h2 id="用户分层"><a href="#用户分层" class="headerlink" title="用户分层"></a>用户分层</h2><p>一般来讲，一个新用户变成活跃用户，再转化为付费用户，不是一两个简单的步骤可以完成的，这是一个动态演进的过程。我们把整个过程看作是用户群体的演进，在这个演进的过程中，因为不能保证所有的用户会按照我们设想的步骤完成转化，所以各个步骤的用户群需要更精细化的分析。</p>
-<p>用户分层的最大价值，就是通过分层对不同层级的用户采取不同的策略。</p>
-<h3 id="通用型分层"><a href="#通用型分层" class="headerlink" title="通用型分层"></a>通用型分层</h3><p>假设某产品，将用户划分为<strong>新用户、下载用户、活跃用户、兴趣用户、付费用户</strong>这几个层级，那么对于不同层级的用户，可能会采取以下不同的策略：</p>
-<ol>
-<li><p>对于潜在用户策略：我希望潜在用户能下载产品，常用的策略是新用户福利；</p>
-</li>
-<li><p>对于下载用户策略：我希望下载用户能使用产品，此时应该用新手引导，让他熟悉产品。</p>
-</li>
-<li><p>对于活跃用户策略：我希望加深活跃用户使用产品的频率，那么运营人员要持续的运营，固化用户的使用习惯，提升用户对产品内容的兴趣度；</p>
-</li>
-<li><p>对于深度活跃用户策略：我希望深度活跃用户产生付费行为，运营人员可以使用不同的促销和营销手段；</p>
-</li>
-<li><p>对于付费用户策略：这是我的目标用户，我希望付费用户能一直维持这个状态。</p>
-</li>
-</ol>
-<h3 id="推特的“1-9-90”理论"><a href="#推特的“1-9-90”理论" class="headerlink" title="推特的“1-9-90”理论"></a>推特的“1-9-90”理论</h3><p>网络社区中有一个“1-9-90”理论，即在一个社群中，90%人在潜水、9%是活跃用户，1%是超级用户。这个理论也有更新，比如在某些高活跃社群，用户分层可以达到2：3：5的比例，即20%超级用户（每天都能发言），30%活跃群众（红包、福利、拼团拼课会出现），50%潜水用户。作为一个社交网站，优化用户结构是Twitter的头等大事。</p>
-<p>Twitter把用户分成了新用户和现有用户，现有用户又被分成了消极用户、核心用户和超级用户。Twitter的目标就是——把访客从新用户转化为消极用户，从消极用户转化为核心用户，并最终转化成超级用户。</p>
-<p>以下是Twitter对于根据新用户、消极用户、核心用户的不同特点采取的不同策略，供大家参考：</p>
-<p><strong>从新用户到消极用户</strong></p>
-<ul>
-<li>新用户特点：对Twitter不了解，不会使用Twitter功能</li>
-<li>措施：尝试了诸多新手引导的策略，其中最为典型的就是“新用户学习流程”，目的是帮助新用户找到最开始应该关注的用户，形成基本的信息流，从而让新用户变成消极用户。</li>
-</ul>
-<p><strong>从消极用户到核心用户</strong></p>
-<ul>
-<li>消极用户特点：会看推文，但很少发文、较少与陌生人聊天、较少使用转推/引用/回复等高级功能</li>
-<li>策略方向：</li>
-</ul>
-<ol>
-<li><p>提高用户的使用频率：如果一个用户已经在正确地使用产品，但是使用频率还是达不到核心用户的频率，可以借鉴游戏中的一些方法，如连击、勋章等游戏化模式。这些方法可以有效鼓励用户提高产品的使用频率，帮助用户形成习惯。</p>
-</li>
-<li><p>增加用户使用产品功能的数量：当一个用户使用产品三种功能时，用户的留存率将会大大提高。Dropbox也有相同的成功案例，如让用户同时使用文件备份、分享和同步等。</p>
-</li>
-<li><p>让用户使用多个客户端：数据显示，同时使用多个客户端的用户，长期留存率会更好，如同时拥有桌面版、网页版和移动应用等。</p>
-</li>
-</ol>
-<h2 id="用户分群"><a href="#用户分群" class="headerlink" title="用户分群"></a>用户分群</h2><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><blockquote>
-<p>用户分层，是基于大方向的划分，你希望不同层级用户朝什么核心目标努力，产品又怎样根据不同层级用户特点进行呈现。而用户分群，则是把用户按照更细的颗粒度进行切分。简单来讲，「用户分层」是按照某单一逻辑维度划分，而用户分群则是在分层基础上增加更多维度进行划分，这两者是相辅相成的。</p>
-</blockquote>
-<h3 id="用户分群的经典模型——RFM模型"><a href="#用户分群的经典模型——RFM模型" class="headerlink" title="用户分群的经典模型——RFM模型"></a>用户分群的经典模型——RFM模型</h3><p>RFM模型分别是：</p>
-<ul>
-<li>R = Recency 最近一次消费</li>
-<li>F = Frequency 消费频率</li>
-<li>M = Monetary 消费金额</li>
-</ul>
-<p>因为有三个变量，所以要使用三维坐标系进行展示，X轴表示最近一次消费（Recency），Y 轴表示消费频率（Frequency），Z轴表示消费金额（Monetary），坐标系的8个象限分别表示8类用户，可以用如下图形进行描述：</p>
-<p><img src="http://images.tengblog.cn/2019-01-31-034640.jpg" alt=""></p>
-<p>我们可以解读一下其中比较重要的客户（编号次序RFM，1代表高，0代表低）：</p>
-<ol>
-<li><p>重要价值客户（111）：最近消费时间近、消费频次和消费金额都很高。这就是我们需要的客户。</p>
-</li>
-<li><p>重要保持客户（011）：最近消费时间较远，但消费频次和金额都很高。说明这是一段时间没来的忠实客户，需要主动和他保持联系。</p>
-</li>
-<li><p>重要发展客户（101）：最近消费时间较近、消费金额高，但频次不高，说明客户忠诚度不高，但有潜力，需要重点发展。</p>
-</li>
-<li><p>重要挽留客户（001）：最近消费时间较远、消费频次不高，但消费金额高。说明这可能是将要流失或者已经要流失的客户，应当采取挽留措施。</p>
-</li>
-</ol>
-<p>RFM模型主要适用于消费型用户，我们试着将这种三维划分的思路延伸至其他类型的产品，为大家提供一些思考方向：</p>
-<ul>
-<li>金融：投资金额、投资频率、最近一次投资时间；</li>
-<li>直播：观看直播时长、最近一次观看时间、打赏金额；</li>
-<li>内容：评论次数、评论字数、评论被点赞数；</li>
-<li>网站：登录次数、登录时长、最近一次登录时间；</li>
-<li>游戏：等级、游戏时长、游戏充值金额。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在前面的文章  &lt;a href=&quot;https://notes.tengblog.cn/2018/12/17/fenceng/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;运营和分层 | tengblog&lt;/a&gt; ，我大概率不难理解用户分层的必要性了，那具
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>增长策略—增长费用花在正确地方了嘛？</title>
     <link href="http://tengblog.com/2019/01/31/zengzhang02/"/>
     <id>http://tengblog.com/2019/01/31/zengzhang02/</id>
@@ -337,6 +243,100 @@
     
       &lt;p&gt;春节是每个互联网 App 增长决战的时刻，市场投放通过不同的渠道来增加自己产品的下载量。&lt;br&gt;动辄就选择几百个投放渠道，那这些产品外推渠道，真的有效吗？我们要怎么选择合适的投放渠道呢？&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>增长策略--用户分层 和 用户分群</title>
+    <link href="http://tengblog.com/2019/01/31/fencengmoxing/"/>
+    <id>http://tengblog.com/2019/01/31/fencengmoxing/</id>
+    <published>2019-01-30T16:00:00.000Z</published>
+    <updated>2019-01-31T04:10:54.391Z</updated>
+    
+    <content type="html"><![CDATA[<p>在前面的文章  <a href="https://notes.tengblog.cn/2018/12/17/fenceng/" target="_blank" rel="external">运营和分层 | tengblog</a> ，我大概率不难理解用户分层的必要性了，那具体要怎么划分呢？</p>
+<p>这篇文章向大家介绍下「用户分层」+「用户分群」的基本模型：</p>
+<h2 id="用户分层"><a href="#用户分层" class="headerlink" title="用户分层"></a>用户分层</h2><p>一般来讲，一个新用户变成活跃用户，再转化为付费用户，不是一两个简单的步骤可以完成的，这是一个动态演进的过程。我们把整个过程看作是用户群体的演进，在这个演进的过程中，因为不能保证所有的用户会按照我们设想的步骤完成转化，所以各个步骤的用户群需要更精细化的分析。</p>
+<p>用户分层的最大价值，就是通过分层对不同层级的用户采取不同的策略。</p>
+<h3 id="通用型分层"><a href="#通用型分层" class="headerlink" title="通用型分层"></a>通用型分层</h3><p>假设某产品，将用户划分为<strong>新用户、下载用户、活跃用户、兴趣用户、付费用户</strong>这几个层级，那么对于不同层级的用户，可能会采取以下不同的策略：</p>
+<ol>
+<li><p>对于潜在用户策略：我希望潜在用户能下载产品，常用的策略是新用户福利；</p>
+</li>
+<li><p>对于下载用户策略：我希望下载用户能使用产品，此时应该用新手引导，让他熟悉产品。</p>
+</li>
+<li><p>对于活跃用户策略：我希望加深活跃用户使用产品的频率，那么运营人员要持续的运营，固化用户的使用习惯，提升用户对产品内容的兴趣度；</p>
+</li>
+<li><p>对于深度活跃用户策略：我希望深度活跃用户产生付费行为，运营人员可以使用不同的促销和营销手段；</p>
+</li>
+<li><p>对于付费用户策略：这是我的目标用户，我希望付费用户能一直维持这个状态。</p>
+</li>
+</ol>
+<h3 id="推特的“1-9-90”理论"><a href="#推特的“1-9-90”理论" class="headerlink" title="推特的“1-9-90”理论"></a>推特的“1-9-90”理论</h3><p>网络社区中有一个“1-9-90”理论，即在一个社群中，90%人在潜水、9%是活跃用户，1%是超级用户。这个理论也有更新，比如在某些高活跃社群，用户分层可以达到2：3：5的比例，即20%超级用户（每天都能发言），30%活跃群众（红包、福利、拼团拼课会出现），50%潜水用户。作为一个社交网站，优化用户结构是Twitter的头等大事。</p>
+<p>Twitter把用户分成了新用户和现有用户，现有用户又被分成了消极用户、核心用户和超级用户。Twitter的目标就是——把访客从新用户转化为消极用户，从消极用户转化为核心用户，并最终转化成超级用户。</p>
+<p>以下是Twitter对于根据新用户、消极用户、核心用户的不同特点采取的不同策略，供大家参考：</p>
+<p><strong>从新用户到消极用户</strong></p>
+<ul>
+<li>新用户特点：对Twitter不了解，不会使用Twitter功能</li>
+<li>措施：尝试了诸多新手引导的策略，其中最为典型的就是“新用户学习流程”，目的是帮助新用户找到最开始应该关注的用户，形成基本的信息流，从而让新用户变成消极用户。</li>
+</ul>
+<p><strong>从消极用户到核心用户</strong></p>
+<ul>
+<li>消极用户特点：会看推文，但很少发文、较少与陌生人聊天、较少使用转推/引用/回复等高级功能</li>
+<li>策略方向：</li>
+</ul>
+<ol>
+<li><p>提高用户的使用频率：如果一个用户已经在正确地使用产品，但是使用频率还是达不到核心用户的频率，可以借鉴游戏中的一些方法，如连击、勋章等游戏化模式。这些方法可以有效鼓励用户提高产品的使用频率，帮助用户形成习惯。</p>
+</li>
+<li><p>增加用户使用产品功能的数量：当一个用户使用产品三种功能时，用户的留存率将会大大提高。Dropbox也有相同的成功案例，如让用户同时使用文件备份、分享和同步等。</p>
+</li>
+<li><p>让用户使用多个客户端：数据显示，同时使用多个客户端的用户，长期留存率会更好，如同时拥有桌面版、网页版和移动应用等。</p>
+</li>
+</ol>
+<h2 id="用户分群"><a href="#用户分群" class="headerlink" title="用户分群"></a>用户分群</h2><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><blockquote>
+<p>用户分层，是基于大方向的划分，你希望不同层级用户朝什么核心目标努力，产品又怎样根据不同层级用户特点进行呈现。而用户分群，则是把用户按照更细的颗粒度进行切分。简单来讲，「用户分层」是按照某单一逻辑维度划分，而用户分群则是在分层基础上增加更多维度进行划分，这两者是相辅相成的。</p>
+</blockquote>
+<h3 id="用户分群的经典模型——RFM模型"><a href="#用户分群的经典模型——RFM模型" class="headerlink" title="用户分群的经典模型——RFM模型"></a>用户分群的经典模型——RFM模型</h3><p>RFM模型分别是：</p>
+<ul>
+<li>R = Recency 最近一次消费</li>
+<li>F = Frequency 消费频率</li>
+<li>M = Monetary 消费金额</li>
+</ul>
+<p>因为有三个变量，所以要使用三维坐标系进行展示，X轴表示最近一次消费（Recency），Y 轴表示消费频率（Frequency），Z轴表示消费金额（Monetary），坐标系的8个象限分别表示8类用户，可以用如下图形进行描述：</p>
+<p><img src="http://images.tengblog.cn/2019-01-31-034640.jpg" alt=""></p>
+<p>我们可以解读一下其中比较重要的客户（编号次序RFM，1代表高，0代表低）：</p>
+<ol>
+<li><p>重要价值客户（111）：最近消费时间近、消费频次和消费金额都很高。这就是我们需要的客户。</p>
+</li>
+<li><p>重要保持客户（011）：最近消费时间较远，但消费频次和金额都很高。说明这是一段时间没来的忠实客户，需要主动和他保持联系。</p>
+</li>
+<li><p>重要发展客户（101）：最近消费时间较近、消费金额高，但频次不高，说明客户忠诚度不高，但有潜力，需要重点发展。</p>
+</li>
+<li><p>重要挽留客户（001）：最近消费时间较远、消费频次不高，但消费金额高。说明这可能是将要流失或者已经要流失的客户，应当采取挽留措施。</p>
+</li>
+</ol>
+<p>RFM模型主要适用于消费型用户，我们试着将这种三维划分的思路延伸至其他类型的产品，为大家提供一些思考方向：</p>
+<ul>
+<li>金融：投资金额、投资频率、最近一次投资时间；</li>
+<li>直播：观看直播时长、最近一次观看时间、打赏金额；</li>
+<li>内容：评论次数、评论字数、评论被点赞数；</li>
+<li>网站：登录次数、登录时长、最近一次登录时间；</li>
+<li>游戏：等级、游戏时长、游戏充值金额。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在前面的文章  &lt;a href=&quot;https://notes.tengblog.cn/2018/12/17/fenceng/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;运营和分层 | tengblog&lt;/a&gt; ，我大概率不难理解用户分层的必要性了，那具
     
     </summary>
     
@@ -820,56 +820,6 @@
   </entry>
   
   <entry>
-    <title>运营和分层</title>
-    <link href="http://tengblog.com/2018/12/17/fenceng/"/>
-    <id>http://tengblog.com/2018/12/17/fenceng/</id>
-    <published>2018-12-16T16:00:00.000Z</published>
-    <updated>2019-01-31T03:48:40.602Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。</p>
-</blockquote>
-<p>虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网世界对这个概念的使用到了「极致」。</p>
-<p>因为这个原则交给我们「分层」。</p>
-<p><strong>运营的基本功就是对用户分层运营</strong></p>
-<p>互联网给每个人提供了几乎平等的沟通便利，即便是再没有话语权的人也可以在网上发表自己的意见，消费不不同的内容。可惜的是，互联网从业人员是有限，他们无法为海量的用户提供一样的服务质量。</p>
-<p><strong>需要用有限的运营人员来处理无限增长（也不可能）的内容</strong>，对用户分层成了一个通用做法，对平台来说比较重要的人自然得到更多的关注和对待。</p>
-<p>好在，区分「谁对平台比较重要」是一件相对简单的事情，靠的就是帕累托法则的威力。</p>
-<p><strong>平台上的大部分优质内容是由小部分的用户生产的，绝大部分的用户只是在消费小部分创作者的内容。</strong></p>
-<p>甚至，这个比例都严重超过了20% vs 80%。</p>
-<p>最为直接的是短视频平台的粉丝集中程度和游戏氪金用户的集中程度。我们可以相信，抖音上20%的用户吸引了80%的用户关注（当然真实的数字比这夸张多了），王者荣耀20%的氪金用户贡献了其80%的收入（做游戏的同学告诉我，他们才不关心不充钱的屌丝呢）。</p>
-<p><strong>不仅仅互联网，分层可以说是社会运营的基本方式</strong></p>
-<p>行为经济学中，「价格歧视」就是对「分层」的灵活使用。用不同的价格对待不同的消费者，直至榨取到尽可能多的营收。航空公司既提供高大上的商务舱服务，也提供相对简单的经济舱服务；电影院针对不同的人群推出不同的套餐；手机制造商推出不同的型号版本。</p>
-<p>说到底，都是在利用分层来对社会人群的极致获利。</p>
-<p><strong>价格歧视是对消费者消费水平的分层，那垂类内容就是对消费者内容偏好的分层</strong></p>
-<p>也许你作为一个受过高等教育的人不屑于给女主播打赏，可你却既有可能给得到付费；你可能不喜欢抖音，可有可能喜欢火山、快手。</p>
-<p>还是被他们分层了。</p>
-<p><strong>不过，分层对待并非坏事，也不是所有的分层都有「高下」之分。</strong></p>
-<p>分层有类似于分工的含义，不同的工种是「分工贡献」，一个社会组织可能在不同的时期有不同的侧重和优先级，这取决于环境的变化。</p>
-<p>说小回来，一个公司的分层也会随着公司的发展而变得不同，有人负责战略，有人负责运营，有人负责变现；之前可能是运营更重要，但是现在是商业化更重要，最后可能是政务最重要，不一而定。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>寒冬时刻更显变现的重要性</title>
     <link href="http://tengblog.com/2018/12/17/week001/"/>
     <id>http://tengblog.com/2018/12/17/week001/</id>
@@ -957,6 +907,56 @@
       <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
     
       <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>运营和分层</title>
+    <link href="http://tengblog.com/2018/12/17/fenceng/"/>
+    <id>http://tengblog.com/2018/12/17/fenceng/</id>
+    <published>2018-12-16T16:00:00.000Z</published>
+    <updated>2019-01-31T03:48:40.602Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。</p>
+</blockquote>
+<p>虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网世界对这个概念的使用到了「极致」。</p>
+<p>因为这个原则交给我们「分层」。</p>
+<p><strong>运营的基本功就是对用户分层运营</strong></p>
+<p>互联网给每个人提供了几乎平等的沟通便利，即便是再没有话语权的人也可以在网上发表自己的意见，消费不不同的内容。可惜的是，互联网从业人员是有限，他们无法为海量的用户提供一样的服务质量。</p>
+<p><strong>需要用有限的运营人员来处理无限增长（也不可能）的内容</strong>，对用户分层成了一个通用做法，对平台来说比较重要的人自然得到更多的关注和对待。</p>
+<p>好在，区分「谁对平台比较重要」是一件相对简单的事情，靠的就是帕累托法则的威力。</p>
+<p><strong>平台上的大部分优质内容是由小部分的用户生产的，绝大部分的用户只是在消费小部分创作者的内容。</strong></p>
+<p>甚至，这个比例都严重超过了20% vs 80%。</p>
+<p>最为直接的是短视频平台的粉丝集中程度和游戏氪金用户的集中程度。我们可以相信，抖音上20%的用户吸引了80%的用户关注（当然真实的数字比这夸张多了），王者荣耀20%的氪金用户贡献了其80%的收入（做游戏的同学告诉我，他们才不关心不充钱的屌丝呢）。</p>
+<p><strong>不仅仅互联网，分层可以说是社会运营的基本方式</strong></p>
+<p>行为经济学中，「价格歧视」就是对「分层」的灵活使用。用不同的价格对待不同的消费者，直至榨取到尽可能多的营收。航空公司既提供高大上的商务舱服务，也提供相对简单的经济舱服务；电影院针对不同的人群推出不同的套餐；手机制造商推出不同的型号版本。</p>
+<p>说到底，都是在利用分层来对社会人群的极致获利。</p>
+<p><strong>价格歧视是对消费者消费水平的分层，那垂类内容就是对消费者内容偏好的分层</strong></p>
+<p>也许你作为一个受过高等教育的人不屑于给女主播打赏，可你却既有可能给得到付费；你可能不喜欢抖音，可有可能喜欢火山、快手。</p>
+<p>还是被他们分层了。</p>
+<p><strong>不过，分层对待并非坏事，也不是所有的分层都有「高下」之分。</strong></p>
+<p>分层有类似于分工的含义，不同的工种是「分工贡献」，一个社会组织可能在不同的时期有不同的侧重和优先级，这取决于环境的变化。</p>
+<p>说小回来，一个公司的分层也会随着公司的发展而变得不同，有人负责战略，有人负责运营，有人负责变现；之前可能是运营更重要，但是现在是商业化更重要，最后可能是政务最重要，不一而定。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
     
   </entry>
   
@@ -1332,287 +1332,310 @@
   </entry>
   
   <entry>
-    <title>A/B测试的置信区间&amp;假设检验--08</title>
-    <link href="http://tengblog.com/2018/10/13/daticain07/"/>
-    <id>http://tengblog.com/2018/10/13/daticain07/</id>
-    <published>2018-10-12T16:00:00.000Z</published>
-    <updated>2018-10-13T08:44:19.000Z</updated>
+    <title>互联网最高效的变现模式还是「售卖流量」</title>
+    <link href="http://tengblog.com/2018/09/19/liuliang/"/>
+    <id>http://tengblog.com/2018/09/19/liuliang/</id>
+    <published>2018-09-18T16:00:00.000Z</published>
+    <updated>2018-09-20T08:04:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>今日头条，一个靠 ab 测试发家的互联网企业，那要怎么才能正确的理解 ab 测试呢？</p>
-<h2 id="AB-测试源自抽样"><a href="#AB-测试源自抽样" class="headerlink" title="AB 测试源自抽样"></a>AB 测试源自抽样</h2><p>AB 测试首先来自一个比较基础的概念，抽样，选取一部分用户测试某一个或者某几个功能。</p>
-<p>A/B 测试最核心的思想，即：</p>
-<blockquote>
-<p>1、多个方案并行测试；</p>
-<p>2、每个方案只有一个变量（比如鸟喙）不同；</p>
-<p>3、以某种规则优胜劣汰。</p>
-</blockquote>
-<p>对于抽样展示的用户，需要注意控制访问各个版本的人数，大多数情况下我们会希望将访问者平均分配到各个不同的版本上。要做到这些很简单，根据 cookie （比如 cookie 会话ID的最后一位数字）决定展示哪个版本就是一个不错的方法。</p>
-<h2 id="置信区间"><a href="#置信区间" class="headerlink" title="置信区间"></a>置信区间</h2><p>在处理测试数据的时候，我们需要根据抽样数据换算为总体样本的数据，这样才能保证抽样的效果和整体效果的一致性。</p>
-<p>所以，在处理数据的时候，我们需要考虑置信区间。</p>
-<h3 id="置信区间是什么"><a href="#置信区间是什么" class="headerlink" title="置信区间是什么"></a>置信区间是什么</h3><blockquote>
-<p>置信区间（Confidence Interval）是用来对一个概率样本的总体参数进行区间估计的样本均值范围，它展现了这个均值范围包含总体参数的概率，这个概率称为置信水平。</p>
-</blockquote>
-<p>置信水平代表了估计的可靠度，一般而言，我们采用 95% 的置信水平进行区间估计。</p>
-<p>置信区间的目的是为了避免我们急于下结论：</p>
-<blockquote>
-<p>例如，假设在购物车页面进行 A/B 测试，其中“A”是单选按钮而“B”是下拉菜单。于是就有了结论，“B”提高了75％的转换率。显然，B更好，是这样吗？</p>
-<p>不一定。因为有三个事实需要考虑：</p>
-<p>1.<strong>样本容量</strong><br>还是上面的例子，如果你的样本量为4人，这意味着只有3人喜欢下拉菜单。当然，这是一个良好的开端，但在1000的样本量仍是这一结果的可能性极低；因此，本次测试的结果属低置信度。</p>
-<p>2.<strong>容错率</strong><br>例如，在样本大小为500时，99％的客户倾向于下拉菜单，你可以相当肯定的是，你的误差率较低。如果，49％的用户喜欢下拉菜单，51％的用户喜欢单选按钮，那么随机性就不得不考虑进来了，你应该继续运行测试，直到一个更高的置信度。</p>
-<p>3.<strong>用户规模</strong><br>如果你的整个用户群体的规模是25万，你的样本量为25人，这样产生测试结果也不具有高置信水平。</p>
-</blockquote>
-<h3 id="置信区间的深度理解"><a href="#置信区间的深度理解" class="headerlink" title="置信区间的深度理解"></a>置信区间的深度理解</h3><p><a href="http://www.woshipm.com/operate/376703.html" target="_blank" rel="external">http://www.woshipm.com/operate/376703.html</a><br><a href="http://www.woshipm.com/pmd/380883.html" target="_blank" rel="external">http://www.woshipm.com/pmd/380883.html</a><br><a href="http://www.woshipm.com/operate/385200.html" target="_blank" rel="external">http://www.woshipm.com/operate/385200.html</a><br><a href="http://www.woshipm.com/pmd/388782.html" target="_blank" rel="external">http://www.woshipm.com/pmd/388782.html</a></p>
-<p>需要时间补充下统计学的基础知识。</p>
-<h2 id="假设检验"><a href="#假设检验" class="headerlink" title="假设检验"></a>假设检验</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今日头条，一个靠 ab 测试发家的互联网企业，那要怎么才能正确的理解 ab 测试呢？&lt;/p&gt;
-&lt;h2 id=&quot;AB-测试源自抽样&quot;&gt;&lt;a href=&quot;#AB-测试源自抽样&quot; class=&quot;headerlink&quot; title=&quot;AB 测试源自抽样&quot;&gt;&lt;/a&gt;AB 测试源自抽样
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>强化 SQL 学习+案例分析-05</title>
-    <link href="http://tengblog.com/2018/10/09/datician05/"/>
-    <id>http://tengblog.com/2018/10/09/datician05/</id>
-    <published>2018-10-08T16:00:00.000Z</published>
-    <updated>2018-11-05T08:07:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>SQL 这种东西十分钟入门，半小时精通。</p>
-<p>一个数据分析师和我说的话，现在是精通的机会。</p>
-<p>在了解了基本的 SQL 语言后，现在重新看回更加注重 表格联结这方面的内容。</p>
-<p>学习的主要途径是 <a href="http://www.w3school.com.cn/sql/index.asp" target="_blank" rel="external">SQL 教程</a></p>
-<p>其中<a href="https://zhuanlan.zhihu.com/p/25203710" target="_blank" rel="external">MySQL，从入门到熟练</a>也受益良多。</p>
-<p>在亚马逊买了一本电子版的《SQL必知必会》，可以作为后期查询学习的重要工具。</p>
-<hr>
-<p>—–<em>1023更新</em></p>
-<h3 id="mysql-安装和调用环境"><a href="#mysql-安装和调用环境" class="headerlink" title="mysql 安装和调用环境"></a>mysql 安装和调用环境</h3><p>不仅如此，目前还需要更多的了解下 mysql 的基本原理，所以在 mac 安装了基本的 sql 环境<br>安装过程比较简单，不在详细说明</p>
-<p>通过终端可以调用 mysql<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ /usr/local/mysql/bin/mysql -u root -p</div><div class="line">Enter password:</div></pre></td></tr></table></figure></p>
-<p>或者通过 调用 pgsql<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ /Library/PostgreSQL/10/scripts/runpsql.sh;</div></pre></td></tr></table></figure></p>
-<p>当然，我们可以利用更直观的 GUI 作为统计分析的工具，注重掌握工具而非掌握 SQL 语言</p>
-<p>电脑上安装了 sequel pro 和 querious 两款，在新的系统上sequel 比较容易奔溃，尝试好几天才在电脑上导入了数据。</p>
-<p><img src="http://images.tengblog.cn/18-10-23/71810340.jpg" alt=""></p>
-<p><strong>注意</strong></p>
-<p>sequel 导入数据的时候需要新建表名，需要注意编码标准，软件不是很直观，需要熟悉。</p>
-<p>如果希望有更大的进步可以在终端命令行用语句解决，但是不是目前阶段的学习重点。</p>
-<h3 id="SQL-查询语句基础"><a href="#SQL-查询语句基础" class="headerlink" title="SQL 查询语句基础"></a>SQL 查询语句基础</h3><p>以 运营大湿兄 的案例作为案例</p>
-<h4 id="select"><a href="#select" class="headerlink" title="select"></a>select</h4><blockquote>
-<p>当我们涉及到非常复杂的与或逻辑判断，应该怎么办？比如即满足条件AB，又要满足条件C，或者是满足条件DE。此时需要用括号明确逻辑判断的优先级。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">select * from DataAnalyst</div><div class="line">where (city = &apos;上海&apos; and positionName = &apos;数据分析师&apos;)</div><div class="line">   or (city = &apos;北京&apos; and positionName = &apos;数据产品经理&apos;)</div></pre></td></tr></table></figure></p>
-</blockquote>
-<h4 id="count函数"><a href="#count函数" class="headerlink" title="count函数"></a>count函数</h4><p>count 可以迅速计算出个数，比如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select city,count(1) from DataAnalyst</div><div class="line">group by city</div></pre></td></tr></table></figure></p>
-<p>如果有重复的名字，则需要去重<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select city,count(distinct positionId) from DataAnalyst</div><div class="line">group by city</div></pre></td></tr></table></figure></p>
-<p>distinct 是去重函数，distinct positionId 会只计算唯一的positionId个数。日常工作中，活跃用户数、文章UV，都是用distinct 计算获得，这是唯一标示符ID的重要作用。</p>
-<p>除了count，还有max，min，sum，avg等函数，也叫做聚合函数。用法和Excel没什么区别。</p>
-<h4 id="逻辑判断"><a href="#逻辑判断" class="headerlink" title="逻辑判断"></a>逻辑判断</h4><p>SQL也有if函数，和Excel的用法一摸一样，通过它我们能进行复杂的运算。比如我想统计各个城市中有多少数据分析职位，其中，电商领域的职位有多少，在其中的占比？</p>
-<p>industryField是公司的行业领域，虽然我们能用where like 计算出有几个电商的数据分析师，但是占比的计算会比较麻烦，此时可以用if。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">select if(industryField like &apos;%电子商务%&apos;,1,0) from DataAnalyst</div></pre></td></tr></table></figure></p>
-<h4 id="比较复杂的查询函数"><a href="#比较复杂的查询函数" class="headerlink" title="比较复杂的查询函数"></a>比较复杂的查询函数</h4><p><strong>如果要模糊查找，能用like</strong></p>
-<figure class="highlight plain"><figcaption><span>* from DataAnalyst</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">where companyId between 10000 and 20000</div></pre></td></tr></table></figure>
-<p><strong>嵌套子查询</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select * from(select city,count(distinct positionId) as counts from DataAnalyst) as t1</div><div class="line">where counts &gt;=500</div></pre></td></tr></table></figure>
-<p>我们将第一次查询获得的城市职位数的结果，看作一张新的表，利用as 将它命名为t1( table1 的简写)，将职位数命名为一个新的字段counts。然后外面再套一层select 过滤出counts &gt;=500。</p>
-<p>这种查询方式就叫嵌套子查询，使用场景比较广泛，where 后面也能跟子查询。</p>
-<p><strong>数据清洗函数</strong></p>
-<p>比较难，需要补充，后续专文记录，更需要不断更新训练结构</p>
-<p><em>1023更新</em>————————-</p>
-<h3 id="表格嵌套"><a href="#表格嵌套" class="headerlink" title="表格嵌套"></a>表格嵌套</h3><p> join 函数是 SQL 里面比较高级的部分，需要重点掌握。</p>
-<p> 数据库由多张表组成，表与表之间可以实现关联。表与表之间的关联需要通过表中间唯一的数值，即主键。</p>
-<p> <img src="http://images.tengblog.cn/18-10-10/57808089.jpg" alt=""></p>
-<p> 在上图中，</p>
-<blockquote>
-<p>Students.addressId = Address.id</p>
-<p>Students.id = Scores.studentId</p>
-<p>Scores.courseId = Courses.id</p>
-</blockquote>
-<p>换成 SQL 语言，我们则需要 join 将多个表格关联起来。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select * from Students</div><div class="line">join Address on Students.addressId = Address.id</div></pre></td></tr></table></figure>
-<p>这里需要注意的是，因为字段可能重名，所以一旦使用了Join，字段前应该加上表名，如Students.addressId和Address.id ，这种用法是为了字段的唯一性，否则遇到重名，系统不知道使用哪个字段，就会报错。</p>
-<p>Join语法有很多不同的变形，Left Join，Outer Join等，新人很容易混淆。这个我们可以用数学中的交集和并集掌握。</p>
-<p><img src="http://images.tengblog.cn/18-10-10/83405833.jpg" alt=""></p>
-<blockquote>
-<p>真实的数据查询场景中，Join会用到很多，业务复杂用五六个Join也是常态，如果算上各类逻辑处理，SQL代码行数可以破百。这时候，考验的就是熟练度了。</p>
-<p>SQL只要多加训练，并不是一门很难掌握的语言。除了技巧，还要看你对业务表的熟悉程度，一般公司发展大了，百来张表很正常，各类业务逻辑各种Join，各字段的含义，这是同样要花费时间的苦功夫。</p>
-</blockquote>
-<p><em>1024更新</em>————————-</p>
-<p>1.内连接(自然连接): 只有两个表相匹配的行才能在结果集中出现<br>2.外连接: 包括 （1）左外连接(左边的表不加限制) （2）右外连接(右边的表不加限制) （3）全外连接(左右两表都不加限制)<br>3.自连接(连接发生在一张基表内)</p>
-<h4 id="内连接多表查询的标准写法"><a href="#内连接多表查询的标准写法" class="headerlink" title="内连接多表查询的标准写法"></a>内连接多表查询的标准写法</h4><p>对于 mysql，我们可以采用多表查询的简单写法，例如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">select</div><div class="line">ID,CITY.NAME,CITY.POPULATIONG,LIFEEXPECTANCY</div><div class="line">from CITY,COUNTRY</div><div class="line">WHERE</div><div class="line">ID&lt;10 AND city.COUNTRYcode=COUNTRY.code</div></pre></td></tr></table></figure></p>
-<p>不过为了更好的迁移性和适用性，我们最好选用标准语句<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">select</div><div class="line">ID,CITY.NAME,CITY.POPULATIONG,LIFEEXPECTANCY</div><div class="line">from CITY inner join COUNTRY</div><div class="line">on</div><div class="line">ID&lt;10 AND city.COUNTRYcode=COUNTRY.code</div></pre></td></tr></table></figure></p>
-<h4 id="笛卡尔积和-cross-jion"><a href="#笛卡尔积和-cross-jion" class="headerlink" title="笛卡尔积和 cross jion"></a>笛卡尔积和 cross jion</h4><p>CROSS JOIN又称为笛卡尔乘积，实际上是把两个表乘起来。</p>
-<h4 id="外连接查询"><a href="#外连接查询" class="headerlink" title="外连接查询"></a>外连接查询</h4><p><strong>左连接查询</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">select</div><div class="line">ID,CITY.NAME,CITY.POPULATIONG,LIFEEXPECTANCY</div><div class="line">from CITY left Outer join COUNTRY</div><div class="line">on</div><div class="line">ID&lt;10 AND city.COUNTRYcode=COUNTRY.code</div><div class="line">limit 10</div></pre></td></tr></table></figure></p>
-<p><strong>右连接查询</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">select</div><div class="line">ID,CITY.NAME,CITY.POPULATIONG,LIFEEXPECTANCY</div><div class="line">from CITY right Outer join COUNTRY</div><div class="line">on</div><div class="line">ID&lt;10 AND city.COUNTRYcode=COUNTRY.code</div><div class="line">limit 10</div></pre></td></tr></table></figure></p>
-<p>两者的区别在于以哪张表格为“基准表”：<br>左外连接还返回左表中不符合连接条件单符合查询条件的数据行。<br>右外连接还返回右表中不符合连接条件单符合查询条件的数据行。</p>
-<h4 id="子查询"><a href="#子查询" class="headerlink" title="子查询"></a>子查询</h4><p>择时学习更新</p>
-<h3 id="孰能生巧"><a href="#孰能生巧" class="headerlink" title="孰能生巧"></a>孰能生巧</h3><p>SQL 本身并不困难，但是需要熟练掌握。</p>
-<p><a href="https://leetcode.com/" target="_blank" rel="external">https://leetcode.com/</a> 是一个优秀的练习网站，需要时常登录练习，而非要用再来查询。</p>
-<p>记录整理下，在工作中见到的负责语句，常看常新。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">SELECT</div><div class="line">    id,</div><div class="line">    sum(play_ac) as play,</div><div class="line">    sum(like_ac) as like,</div><div class="line">    sum(comment_ac) as comment,</div><div class="line">    sum(share_ac) as share</div><div class="line">FROM</div><div class="line">    aweme.d_aweme_item_stats</div><div class="line">WHERE</div><div class="line">    date BETWEEN &apos;20180915&apos; AND &apos;20180916&apos;</div><div class="line">    and create_time&gt;&apos;2018-09-15&apos;</div><div class="line">group by id</div><div class="line">ORDER BY rand() LIMIT 100000</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div></pre></td><td class="code"><pre><div class="line">SELECT</div><div class="line">    a.uid,</div><div class="line">    b.company_name,</div><div class="line">    b.industry_2,</div><div class="line">    d.nickname,</div><div class="line">    c.industry_name,</div><div class="line">    c.small_industry_name,</div><div class="line">    e.new_item,</div><div class="line">    e.vv,</div><div class="line">    e.like,</div><div class="line">    e.comment,</div><div class="line">    e.share,</div><div class="line">    f.fans_all,(f.fans_all -g.fans_all) as fans_new</div><div class="line">FROM</div><div class="line">    (</div><div class="line">        SELECT</div><div class="line">            pgc_basis_auth_id,</div><div class="line">            uid</div><div class="line">        FROM</div><div class="line">            dm_crm.ods_crm_auth_pgc_basis_auth_relation</div><div class="line">        WHERE</div><div class="line">            date = &apos;$&#123;date&#125;&apos;</div><div class="line">            AND channel = 2</div><div class="line">            AND status = 1</div><div class="line">    ) a</div><div class="line">    inner JOIN (</div><div class="line">        SELECT</div><div class="line">            id,</div><div class="line">            company_name,</div><div class="line">            industry_2</div><div class="line">        FROM</div><div class="line">            dm_crm.ods_crm_auth_pgc_basis_authentication</div><div class="line">        WHERE</div><div class="line">            date = &apos;$&#123;date&#125;&apos;</div><div class="line">    ) b on a.pgc_basis_auth_id = b.id</div><div class="line">    LEFT JOIN (</div><div class="line">        SELECT</div><div class="line">            customer_name,</div><div class="line">            business_type,</div><div class="line">            industry_name,</div><div class="line">            small_industry_name</div><div class="line">        FROM</div><div class="line">            ad_dim.dim_crm_customer</div><div class="line">        WHERE</div><div class="line">            p_date = &apos;$&#123;date&#125;&apos;</div><div class="line">        group by</div><div class="line">            customer_name,</div><div class="line">            business_type,</div><div class="line">            industry_name,</div><div class="line">            small_industry_name</div><div class="line">    ) c on b.company_name = c.customer_name</div><div class="line">    left join (</div><div class="line">        SELECT</div><div class="line">            user_id,</div><div class="line">            sum(if(create_time &gt; &apos;$&#123;DATE&#125;&apos;, 1, 0)) as new_item,</div><div class="line">            sum(play_count) as vv,</div><div class="line">            sum(like_count) as like,</div><div class="line">            sum(comment_count) as comment,</div><div class="line">            sum(share_count) as share</div><div class="line">        FROM</div><div class="line">            aweme.d_aweme_item_stats</div><div class="line">        WHERE</div><div class="line">            date between &apos;$&#123;date-29&#125;&apos;</div><div class="line">            and &apos;$&#123;date&#125;&apos;</div><div class="line">        group by</div><div class="line">            user_id</div><div class="line">    ) e on e.user_id = a.uid</div><div class="line">    left JOIN (</div><div class="line">        SELECT</div><div class="line">            to_user_id,</div><div class="line">            count(from_user_id) as fans_all</div><div class="line">        FROM</div><div class="line">            aweme.stg_user_relation_info_all</div><div class="line">        WHERE</div><div class="line">            date = &apos;$&#123;date&#125;&apos;</div><div class="line">            AND type = 1</div><div class="line">            AND business_id = 32</div><div class="line">        group by</div><div class="line">            to_user_id</div><div class="line">    ) f on a.uid = f.to_user_id</div><div class="line">    left JOIN (</div><div class="line">        SELECT</div><div class="line">            to_user_id,</div><div class="line">            count(from_user_id) as fans_all</div><div class="line">        FROM</div><div class="line">            aweme.stg_user_relation_info_all</div><div class="line">        WHERE</div><div class="line">            date = &apos;$&#123;date-29&#125;&apos;</div><div class="line">            AND type = 1</div><div class="line">            AND business_id = 32</div><div class="line">        group by</div><div class="line">            to_user_id</div><div class="line">    ) g on a.uid = g.to_user_id</div><div class="line">    LEFT JOIN (</div><div class="line">        SELECT</div><div class="line">            user_id,</div><div class="line">            nickname</div><div class="line">        FROM</div><div class="line">            aweme.ods_user_profile_info</div><div class="line">        WHERE</div><div class="line">            date = &apos;$&#123;date&#125;&apos;</div><div class="line">    ) d on d.user_id = a.uid</div><div class="line">WHERE</div><div class="line">    c.business_type = 1</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<p>今天互联网上最高效的变现模式还是「售卖流量」，这一点改变不大。</p>
+<p>即便众多的内容付费和知识付费供应商走得不错，但是他们的收入规模还是没有办法和「流量供应商」相比的。</p>
+<h3 id="微博广告是不会消失的"><a href="#微博广告是不会消失的" class="headerlink" title="微博广告是不会消失的"></a>微博广告是不会消失的</h3><p>在微博和头条系的比拼上，对流量的控制、售卖成了两家营收的主要差距原因。<br>根据微博2018年 Q2 的财报显示：季度总收入4.266亿美金，其中3.699来自广告收入，<strong>与头条系产品一致，广告是公司收入的最大来源</strong></p>
+<p>讲到具体内容上，微博对流量的售卖做了众多调整优化：</p>
+<ul>
+<li>KA：ARPU还在上升，品牌营销效果受认可。<ul>
+<li>从年初开始，微博的策略是提升ARPU，这季度yoy ＋50%，</li>
+<li>主要通过品牌营销做showcase，提高广告主的预算。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>SME：eCPM和ad engagement rate还在提升，但增速落后于KA，优化方式主要包括：<ul>
+<li>新增广告库存，开发视频／推荐流／正文页等广告位置，但仍需要时间让客户接受广告形态。</li>
+<li>优化算法匹配的精准度，更加个性化的广告推荐系统，提升转化率。</li>
+<li>扩大广告客户规模，寻找高价值细分领域广告主，提供针对性的营销方案。</li>
+</ul>
+</li>
+</ul>
+<p>当然，对于用户来说，优化广告算法最直接的反应，就是看到的广告更多了。</p>
+<p>这也不难理解为什么会有那么多文章抱怨，<a href="https://www.huxiu.com/article/9601/1.html" target="_blank" rel="external">微博广告，请站着把钱挣了！-虎嗅网</a>。甚至于「加点广告怎么了」成了王高飞的评论梗。</p>
+<p>用户需要习惯广告，在没有更多的大规模变现方式出现前，广告是最好的方式。</p>
+<p><img src="http://images.tengblog.cn/18-9-20/82313668.jpg" alt=""></p>
+<p>类似这样的信息流中插广告就不会消失，甚至会越来越多，多到评论流中也会出现广告。</p>
+<h3 id="不过，流量售卖也有优劣之分"><a href="#不过，流量售卖也有优劣之分" class="headerlink" title="不过，流量售卖也有优劣之分"></a>不过，流量售卖也有优劣之分</h3><p>微博对流量的精细售卖做的太差劲了，最直观的影响就是，用户看到的广告大多和自己无关，甚至是自己厌烦的。</p>
+<p>这里面自然有人的心理反感在作祟，但更多的是微博商业部门的问题，不能更细化用户画像，将投放做精准。</p>
+<p>在微博广告平台的介绍页面上，「广告主私有人群」「微博定制人群」「第三方数据市场人群」成为其标榜的特点，可对于业内人来说，这基本是每个平台的标配了。</p>
+<p>以头条系西瓜视频智能广告产品来讲，微博的似乎并没有什么优势。</p>
+<p><img src="http://images.tengblog.cn/18-9-20/46336984.jpg" alt=""></p>
+<p>头条系产品也许是将流量生意做到极致的一家公司了。</p>
+<p>可惜的是，我现在还不能明说头条的流量是怎么做的。。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;SQL 这种东西十分钟入门，半小时精通。&lt;/p&gt;
-&lt;p&gt;一个数据分析师和我说的话，现在是精通的机会。&lt;/p&gt;
-&lt;p&gt;在了解了基本的 SQL 语言后，现在重新看回更加注重 表格联结这方面的内容。&lt;/p&gt;
-&lt;p&gt;学习的主要途径是 &lt;a href=&quot;http://www.w3sc
+      &lt;p&gt;今天互联网上最高效的变现模式还是「售卖流量」，这一点改变不大。&lt;/p&gt;
+&lt;p&gt;即便众多的内容付费和知识付费供应商走得不错，但是他们的收入规模还是没有办法和「流量供应商」相比的。&lt;/p&gt;
+&lt;h3 id=&quot;微博广告是不会消失的&quot;&gt;&lt;a href=&quot;#微博广告是不会消失的&quot; cl
     
     </summary>
     
     
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
+    
+      <category term="运营" scheme="http://tengblog.com/tags/%E8%BF%90%E8%90%A5/"/>
     
   </entry>
   
   <entry>
-    <title>掌握术后你更需要逻辑清晰-04</title>
-    <link href="http://tengblog.com/2018/10/06/datician04/"/>
-    <id>http://tengblog.com/2018/10/06/datician04/</id>
-    <published>2018-10-05T16:00:00.000Z</published>
-    <updated>2018-10-09T00:24:56.000Z</updated>
+    <title>读书私房笔记</title>
+    <link href="http://tengblog.com/2018/08/21/book/"/>
+    <id>http://tengblog.com/2018/08/21/book/</id>
+    <published>2018-08-20T16:00:00.000Z</published>
+    <updated>2018-11-15T09:40:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="思维分析框架"><a href="#思维分析框架" class="headerlink" title="思维分析框架"></a>思维分析框架</h2><p>数据分析最重要的并不是掌握前面基础的工具，相反，一个问题从什么角度出发是更加重要的。</p>
-<p>这是众多咨询公司在面试时候扔出大量问题让你分析的原因，没有接受过案例面试训练的同学，很容易一上来就想当然地“列出”一系列的猜想：竞争者低价竞争，极端天气，消费者偏好变化等等。</p>
-<p><strong>而咨询强调的，则是系统性、框架性思考问题的方式。所以猜想并不是解决问题最好的切入口。</strong></p>
-<p>好在分析的方式都是有可以借鉴的框架的，我们仅仅需要在在严谨的框架之余，着重考虑行业的特性、公司的具体情况，形成自己的思路。<strong>然后在后面加入数据思维</strong>。</p>
-<p>那常见的思维框架有哪些呢？我搜集资料列举几个：</p>
-<h3 id="麦肯锡式思维分析"><a href="#麦肯锡式思维分析" class="headerlink" title="麦肯锡式思维分析"></a>麦肯锡式思维分析</h3><p>最最常见的麦肯锡式分析思维，其基本思路如下：</p>
-<blockquote>
-<p>提出假设—MECE原则（万能公式）—结构化分析—找出关键驱动因素—数据分析</p>
-<p>金字塔原理有一个核心法则MECE，读作MeSee，全称Mutually Exclusive Collectively Exhaustive，中文意思是相互独立，完全穷尽。它指导我们如何搭建结构。</p>
-<p>相互独立，说的是每个分论点彼此应该没有冲突和耦合，都属于独立的模块。完全穷尽，则是所有的分论点都被提出，不会有遗漏。这一点看上去容易，其实很难做到。</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>阑夕的读书方法论分享，虽然是其个人的付费内容，但是考虑到 tengblog 的阅读数，应该不算侵权</p>
 </blockquote>
-<p>此外，还有各种各样的思考方式，<strong>SMART、5W2H、SWOT、4P理论、六顶思考帽等框架</strong>，不过这需要以后慢慢学习整理，此处随时更新。</p>
-<h2 id="数据分析框架"><a href="#数据分析框架" class="headerlink" title="数据分析框架"></a>数据分析框架</h2><p>更重要的，我们数据分析需要具有基本的数据思维。</p>
-<p>大多数刚刚接触数据的同学可能会考虑各种各种的数据来展现自己的维度广度，但对于数据分析来说，最根本的还是需要促进业务的发展，我们需要时刻记住：</p>
+<h2 id="如何选择想读的书"><a href="#如何选择想读的书" class="headerlink" title="如何选择想读的书"></a>如何选择想读的书</h2><p>在社交媒体上，索取书单一直是项长久不衰的行为艺术，经由他人的筛选而避开可能浪费时间的风险，看上去既机智、又轻松，至于书单在手是不是会把它啃完，那就是另一回事了。</p>
+<p>我的看法依然是，这种满足自我幻觉的做法，其实形式大于实质，而且大多数人的时间其实没有自己想象的那么值钱，即使是用在找书这件事情上，也称不上是浪费。</p>
+<p>更重要的是，依靠刷着Timeline偶然得之的书单，其实带有太大的不确定性，且在理论上，随机获取的信息很难形成心理记忆，很多时候点了收藏或是保存，可能再就没有打开机会了。</p>
+<p>所以，对于的确有着「闹书荒」情况的人而言，我以自己的经验，推荐一份兼具系统性和灵活性的找书方案。</p>
+<h3>从榜单入手，从众是成本最低的选择</h3>
+
+
+<p>可以分为经典媒体和电商平台两种类型的榜单，前者基本上是编辑主导的精选路线，按照媒体传统与风格定期选出向读者推荐的书目列表，后者则是算法统计的数据产物，体现的是海量用户购买的偏好特征，结合两种入口作为参照，就能获得相对完整的信源服务，既有精英式的，也有大众向的。</p>
+<p>我总是说，在试图瓦解权威之前，先跟着权威走一段路，不能说是一件坏事。</p>
+<p>我认为值得留意媒体榜单包括：<blockquote>· 纽约时报的畅销榜，以及每年年底的编辑推荐榜，缺点是很多书没有中文出版；<br><br>· 新京报年度好书，现在好像是和腾讯联办，一贯的口味是符合年轻人的阅读志趣；<br><br>· 凤凰网年度好书，老资格的榜单产品，特点是人文情怀很浓，可能有人会感到过于学究气；<br><br>· FT年度最佳图书榜，也是一个传统栏目，和FT的调性一致，注重商业和财经的内容方向；<br><br>· 中华读书报年度好书，少有的榜单本身比媒体品牌更加闻名的案例，比较青睐本土文学的题材；<br><br>· 日本的本屋大赏，每年由几百家书店的店员投票得出，当然主要范畴也是在小说领域；<br><br>· 深圳读书月的年度十大好书，民间活动沉淀出来的无冕之王，从历史来看，眼光相当独到；<br><br>· 三联书店年度好书，有时还会策划读者选书，走的是流行加上清新的路线；<br><br>· 卫报的年度最佳图书，可以称得上是英伦——或者说欧陆——的主流阅读品味投影；<br><br>· 纽约客的年度书单，这是我最喜欢的英文媒体之一，选的书籍往往都和其内容气场相仿，风趣、小资、不失刻薄。</blockquote></p>
+<p>除了上述媒体榜单之外，来自电商平台的数据则可作为另一个角度的补充，首推的必然是亚马逊。</p>
+<p>亚马逊的图书榜既有主动运营的策划，也有纯粹依赖爬虫爬出来的销量排行，近年以来已经成为风向标，做得非常踏实。</p>
+<p>另一方面，亚马逊的算法在互联网公司里属于第一流的——这里倒是适合插播推荐两本分析亚马逊这家企业的商科图书《一网打尽》和《一键下单》，记载了很多亚马逊崛起过程中的细节和案例——所以你一旦在亚马逊有了购书记录，它的关联索引会非常精确。</p>
+<p>京东和当当两家的数据也可以留意，可以养成定期去扫特定频道——比如符合自己兴趣或是职业需要——的习惯，通常都能在销售排行里落叶知秋，越往后来可能京东的数据规模会变得很庞大，而当当会被继续边缘化。</p><h3>如果追求主流，不妨留意出版社</h3><p></p>
+<p>其实华文图书出版行业，因为众所周知的审查力量，以及涉外渠道分布不均的因素，在引进类型的书籍里，不同的出版社会有不同的资源品质，所以能否读到一本书，其实取决于出版社的决断。</p>
+<p>比如极其受到好评的理想国译丛系列，最初是由广西师范大学出版社与学林出版社合作推出的一套作品，涵盖人文社科的启蒙入门，推动这个事情的则是梁文道、熊培云、刘瑜、许知远四个知识分子，现在来看已是历史的遗物。</p>
+<p>但是理想国的品牌却被幸运的继承了下来，在广西师范大学内部成为一个活跃的子集，平均每年继续出版上百本本土及译介作品，涉猎范围已经做到了最大限度的自由。</p>
+<p>比如商业、经管题材的读物，中信出版社和机械工业出版社两家的市场占有率很高，经营策略也有意打造这个方向的形象，所以也有能力拿到明星IP，比如今年最火的《原则》，就被中信签了。</p>
+<p>中信的档位比起来会比机械工业高一些，后者有的时候总是显得饥不择食，出过不少行业里面的烂书，挑的作者水平也参差不齐，所以跟随的时候要更加慎重一点。</p>
+<p>再比如上海的两家出版社——上海译文出版社和上海文艺出版社——就在文学、艺术和通俗知识领域扎根够深，上海的口岸环境和洋务历史亦决定了它们在审美上拥有优于同行的高度。</p>
+<p>中国目前总计约有600家出版社，它们基于制度把持着书号资源，但是真正有想法而不是皮包（挂靠）性质的出版社，大概不会超过100家。</p>
+<p>如果你已经有了足够丰富的读书历史，其实可以按照出版社做一个分类表，结合自己的评分，很容易得到出版社的上下排名，然后再去按图索骥，直接拉取出版社的发行列表，这样搞不好会更加吻合你的需求。</p><h3>是的，豆瓣落伍了，但我还是推荐你用</h3><p></p>
+<p>豆瓣在移动互联网时代变得沉寂起来，这和它在转型和商业的动作有关，却并不影响这款产品的功能性。</p>
+<p>功能性完好的意思就是，如果你用一台手机的唯一目的就是打电话，那么诺基亚是没有什么缺点的。</p>
+<p>豆瓣的产品有着「作品-内容-关系」的交叉关系，基于作品的标记产生数据（你读了多少本书、看过哪些电影）、基于数据的交互产生内容（你发表的评分和评论）、基于内容的匹配产生关系（和你有着共同选择的人）交织成网，这种信息构造在时下的中文互联网还没有理想的替代物。</p>
+<p>所以我建议你「不带任何感情」的使用豆瓣——如果你不是特别喜欢它的话——不必为豆瓣创造多少内容，而是纯粹的把它当作一个数据库，如实的给你读过的和想读的书打出标签，经年累月的把这些数据喂给它的系统，然后坐等量变引发质变。</p>
+<p>在工程师的语境里，这个做法被称作是「调校」，你要给机器把你理解透彻的机会。</p>
+<p>至少，我的豆瓣现在已经被「调校」得相当温顺了，我的找书路径可以分为被动和主动两种，前者依赖豆瓣的「猜你喜欢」推荐系统，可以无限刷新的去让它向我输送内容，后者则是通过自己的高分选项去找关联读物，甚至是通过赞同书评的作者入手，调阅他的读书及打分数据库。</p>
+<p>说句豆瓣可能不爱听的话，正是因为这家公司的迟缓发展，导致豆瓣的网站和App其实没有跟着染上移动互联网的很多「不良习气」，连它的广告主数量都不足以支持对用户行为进行挖掘和分析之后进行精准投放，所以在把相当分量的数据共享给豆瓣之后所要付出的被骚扰代价，在同类产品里是相对偏低的。</p>
+<p>———</p>
+<p>下一期我会和你们谈谈怎样合理规划自己的读书时间，已经究竟应该把阅读建立在纸质书还是电子书上，如果是电子书，除了Kindle之外，还有哪些靠谱的补充选择？          </p>
+<h2 id="读书的时间和载体安排"><a href="#读书的时间和载体安排" class="headerlink" title="读书的时间和载体安排"></a>读书的时间和载体安排</h2><p>关于读书这件事情，大多数人的疑虑在于「没有时间」，虽然它听上去像是借口，但的确造成了某种难以测量的困扰：我究竟该在什么时间阅读？</p>
+<p>彼得·德鲁克在《卓有成效的管理者》中旗帜鲜明的谈道：「有效率的管理者总是从如何规划自己的时间开始，因为时间这种资源如果浪费就无法挽回。」</p>
+<p>当然，在所谓的古典时代，并没有存在当下这么多样性的外部原因，比如智能手机支配生活的现状，一边喊着时间永远不够用的人，同时也是随时都能点亮手机刷点什么的人。</p>
+<p>问题在于，是科技把你的时间变得碎片化了，还是你主动把时间切碎了用来迎合科技？</p>
+<p>厘清这个事实，非常重要。</p>
+<p>​​​​<br>去年的这个时候，我参加过腾讯组织的一场看似行为艺术、实则高度学术性的活动「网络斋戒实验」，测试结论之一就是，在有意识的克制社交产品（微信）使用率之后，用户的「消极情绪得到显著降低」。</p><p img-box="img-box" class="picbox"><img src="https://wx3.sinaimg.cn/large/5d098bccly1ft3u869s6kj20b40h8di7.jpg"></p>
+<p>​在这场实验里还有一个很有趣的现象，就是在非强制性的干预下，参与活动的一部分人开始转而使用淘宝、优酷这种斋戒范围之外的替代产品，严重偏离了预期，「研究者认为，采取行动和做出改变能提升积极情绪，但斋戒本身并不直接导向正面行动发生。斋戒为此创造了条件，但最终行动是否发生，尚需更多个体因素的驱动。」</p>
+<p>这说明什么呢？用西方的谚语来说，就是「只有上帝和你自己知道你做了什么」，任何约束归根结底都不过是形式主义。</p>
+<p>另一方面，开始阅读行为的忌讳之一，就是预先设立过高的心理成本，这不是一件需要沐浴焚香或是三请三奏才能做的事情，总是想着要有一整天的时间、足够舒适的环境、从容宽适的心态以及不会有其他打扰的条件才觉得总算是可以读书了，其结果必然是始终凑不出这样理想化的状态。</p><h1>做出线性阅读和非线性阅读计划</h1><p></p>
+<p>我的建议是，把你的读书清单分成上面两种类型：<blockquote>· 线性阅读指的是那种需要沉浸、持续阅读的内容题材，重于一气呵成的连贯性；<br><br>· 非线性阅读指的是那种可以随阅随闭、篇幅狭促的内容题材，本身就具有高度的系统性；</blockquote></p>
+<p>打个不恰当的比方，就像是东野圭吾的长篇小说和欧·亨利的短篇小说，前者的剧情构架就是为了让你划出可能是从一个下午到一个晚上的时间去完成阅读的，但后者的创作是以短篇投稿组成文集，并不要求读者拥有整块的时间全部吸收。</p>
+<p>有了这个划分步骤之后，你再结合自己的时间——不妨以一个礼拜为周期——做出两种阅读场景的安排，比如今天和明天晚上随时会有工作或是娱乐需要，那么就选择非线性作品穿插阅读，到了后天可能全天都没有太多事情，那么就能放进一部线性阅读的作品进来。</p>
+<p>就我的经验来看，这么做的好处主要体现在如同穿上合脚的鞋子那般体贴，尤其是能够避免在错误的时间阅读错误的作品可能产生的不适感。</p>
+<p>我也很难忘记，曾经在豆瓣上看到有人说他开始养成每天睡觉之前挑灯夜读半个小时的习惯，这其实很好，但是让他放弃的原因是，有一天晚上他拿起了陀思妥耶夫斯基的《卡拉马佐夫兄弟》……</p>
+<p>「我每天都要花十几分钟，回想那些人名对应的都是谁，以及他们之前分别做了什么……」他最后是这么哀叹的。</p><h1>专注的一小时永远大于拼凑的两小时</h1><p></p>
+<p>很多人会在对于企业家的访谈里频繁听到专注这个词语，它意味着集中注意力这项能力并非是具有普适性的，尽管说起来似乎很简单。</p>
+<p>就我而言，我自小便是一个单线程生物，这种设定给我带来很多麻烦，比如因为无法同时做多件事情，会让我错过很多需要效率才能完成的任务，但是让我受益更多的是，它强迫我在做每件事情的时候，都可以全神贯注。</p>
+<p>近一个世纪以来，从德国的包豪斯设计理念衍生出一个概念，叫作「精要主义」（</p>
+<p>Essentialism：Weniger aber besser），简单来说，就是当你学会对自己的生活做减法之后，你也会同时减少掉很多其实并无必要的焦虑。</p>
+<p>在某种意义上，「精要主义」是和你我接受教育时被灌输的学习方式背道而驰的，它不鼓励人们承担过多的责任和义务，而是反过来自问有些事情是不是可以不去做。</p><p img-box="img-box" class="picbox"><img src="https://wx1.sinaimg.cn/large/5d098bccly1ft3uo24jb5j20fa0b3glu.jpg"></p>
+<p>​必须说明的是，保持专注是因人而异的习惯养成，它不涉及到价值判断，也就是你排除的事情并非是因为没有价值而遭到舍弃，就像柯南·道尔笔下的福尔摩斯，他自承连月亮究竟有没有围着地球转动都不知道，这不是说天文学不重要，而是就他的兴趣和职业而言，天文学的知识是冗余的。</p>
+<p>斯蒂芬·柯维是这样说的：「人生最重要的事，是把重要的事情，当成重要的事情对待。」</p>
+<p>是的，时间是挤出来的，但挤的结果，也分高质量和低质量的，如果你对挤时间的定义，就是见缝插针的在马桶旁边放本书、或者在午餐时打开Kindle边吃边看，其实整体效能是事倍功半的。</p><h1>阅读终端体验的统一会让人很爽</h1><p></p>
+<p>在电子设备出来之前，这个话题其实根本就不存在，读书行为的发生，无非就是取决于你从书架上拿起一本书开始。</p>
+<p>但是现在纸质书已经不是唯一的阅读载体了，你可能在PC里还存有一些TXT书籍，每年又会在Kindle里买不少书，手机里还安装了豆瓣阅读、多看阅读这些软件，甚至因为微信读书可以在微信里无缝分享，你也装了这个应用，更不用说还有平板电脑以及一些其他的第三方阅读器相继开发有各自市场。</p>
+<p>我的体会是，在还没有尝试统一阅读入口之前，可能不会对这种分散的内容介质有所质疑，然而一旦开始「把渔网收起来」，甜头的浮现会非常明显。</p>
+<p>最明显的效果，就是降低购买和存档成本，这也是为什么我一直建议用Kindle原因，说实话，我的视觉长期习惯了iPhone的艳丽屏幕，一直都不怎么喜欢它的电子墨水屏，但是Kindle的强大之处，在于它连接的是亚马逊的整个电商网络，亚马逊的商业体系，保证了其在电子书版权的获取规模上，有着压倒性的领先优势。</p>
+<p>更重要的是，Kindle也可以支持外部文件的导入，版权的边界并不构成内容资源的瓶颈，当你在App式的应用里发现有些搜索到的书目无法购买或是下载时，就会非常想念Kindle的包容性。</p>
+<p>加上Kindle现在已经支持邮箱分享笔记标注，而大多数的云笔记产品——比如印象笔记——都支持绑定邮箱，所以在阅读的过程里，随时的把笔记标注同步过去便于事后整理，是非常便捷的操作方式。</p>
+<p>就像我在「高效阅读指南」（一）里说的那样，使用豆瓣来构建你的阅读图谱和数据，然后按图索骥的把要读的书导进Kindle里，配合后者的超长续航和可便携性，你就再也不必烦恼电子书的跨平台障碍、以及读着读着屏幕上弹出一条消息打断专注的困扰。</p><p img-box="img-box" class="picbox"><img src="https://wx3.sinaimg.cn/large/5d098bccly1ft3ulmnj19j20i70a0q6q.jpg"></p>
+<p>​我也很明白，许多人依然对于纸质书拥有不灭的情谊，手捧书卷的质感是很难被电子消费品复制的，但是说真的，顺应趋势的畅快体验和坚守旧日的情怀习俗是不可兼得的，你只能选择一个。</p>
+<p>——————</p>
+<p>下一次，我会主要以Kindle为例，来和你们分享我在制作读书笔记时的一些习惯和细节，以及如何享受到最大化的记忆收益。        </p>
+<h2 id="科学的笔记撰写方法"><a href="#科学的笔记撰写方法" class="headerlink" title="科学的笔记撰写方法"></a>科学的笔记撰写方法</h2><p>Kindle已经搭建起了全球最大规模的阅读体系，但是平心而论，它在制作读书笔记方面实在还是存在硬性的欠缺。相信这种无力感只要是用过Kindle的人都会心有戚戚焉——跨平台能用，摘录和标记却不能跨平台同步，光这一点就实在不好忍受。对于有随手写心得习惯的用户而言，Kindle的支持就更等同于没有，然而也不是人人都能壕到索尼电纸书的档次的。</p>
+<p>因此，在当下的阅读硬件环境里，我们谈起如何高效制作读书笔记，还是只能纡尊降贵来和Kindle慢慢拆招。本文的前提就是：已经在Kindle里做好了摘录和标记，并且通过Clippings等渠道导出了所有的摘录和标注。</p>
+<p>现在要做的，就是如何整理这些碎片化的摘录和标注，让它们形成一种高效科学的体系，既可以供自己随时查找翻阅，又可以在过程中提升自己的思维灵敏度。</p>
+<p>​​​​</p><h3>形成统一管理</h3><p></p>
+<p>读书笔记实际上是一种个人的思维仓库，而对于一个仓库而言，统一且具备条理化的管理是高效的先决条件。Kindle的摘录可以存入印象笔记或者单独形成文档，前者随身属性更好，后者检阅方便，这个可以根据个人的阅读数量和查阅需求来自由选择。</p>
+<p>尽量选择跨平台方案足够成熟、且迁徙成本较低的文档应用，这也是为什么我很少推荐个人开发者在这方面的产品，因为变数实在太大，个人身份所能提供的兼容性和持续性都不能和商业化的团队相比，尽管后者可能在体验上总是容易触犯到用户的种种洁癖——比如对免费用户强塞广告——但是利弊取舍下来，还是要优先保障稳定需要。</p><p img-box="img-box" class="picbox"><img src="https://wx3.sinaimg.cn/large/5d098bccgy1ftjsshg9c9j21kw0rk4qp.jpg"></p>
+<p>另外，如果希望能够在笔记产品上节约经济成本的，我个人推荐有道云笔记，就我和它们Boss（周枫）的交流来看，这支团队其实是有心做些大事情的，其中一项核心的竞争策略就是拿免费功能去撞印象笔记的付费功能，所以尽管在其他变现方面的吃相有点难看，但是的确可以当作一款零成本、不会跑路的笔记应用来使用。</p><h3>完善标注体系</h3><p></p>
+<p>最简单的标注方式就是给文件名一个统一的格式，类似图书馆里的编码方式一样。基本来说一个文件名至少应该包含：书名、作者名、Tag，就我个人习惯而言，重要或常用的Tag甚至会放在书名的前面，这样排序的时候可以自动形成分类。</p>
+<p>另外还可以酌情标注上星级，例如按照喜爱程度、重要程度来标★，同样这种方式也可以利于将重要书籍的排位往前提。</p>
+<p>标签（Tag）这个功能用好了很强大，用得不好则会造成信息冗余，它并不是说你可以根据内容随意提炼关键词，而是尽量预先设计一套分类词库的菜单，让每一个标签的背后都能够具有从属关系。</p>
+<p>我对一本书的标签就设有四个字段：属性、级别（和豆瓣一致）、方向、备注，分别对应题材、评价、特征和个性化补充，每个字段都是来自固定词库的。</p>
+<p>比如《白银帝国》这本书的标签，就是「历史/经济/金融」、「★★★★」、「货币/明朝/朝贡/全球化/白银/黄金/」、「可读性强/纰漏一般」。</p><h3>摘录的细节</h3><p></p>
+<p>在Kindle进行标注的时候，尽量上下文取得稍微全面一点，不要因为一句话或者结论很精彩就只标注出这一句。这种省事法会导致回看的时候产生麻烦，既然已经因为不信任人脑而做了大量的读书笔记，就不妨做得更保险些。</p>
+<p>如果笔记的对象是比较系统化的学术性作品，建议在摘录的时候把章节标题带上，或者后期手工加上。这样更加有助于在回看的时候理解整个作品的脉络和逻辑走向，这种带有深度思维的回想更加利于对整本书的内容记忆。</p>
+<p>实际上做完以上的工作，再加以时间累积，基本上就可以得到一个不错的思维库。这个仓库承担的作用是便于你的检索、查阅、回看，当然对于有些人来说它也像一面勋章墙，记录着打怪升级的经验值和荣誉。但是在时间已经成为最昂贵成本的现代社会，耗费大量时间阅读，却将整体收益止步于此，多少还是有些令人可惜。</p>
+<p>所以在约摸50%的情况下——书够好，人够闲——我会选择做进一步的整理和消化。</p><h3>书评，丰俭由人</h3><p></p>
+<p>写书评有很多种方式，可以短，可以长，可以总结，可以评论，可以反驳，可以开卷写，可以默写。但是总之，下笔有益——写书评其实和开始阅读一样，千万不要追求焚香沐浴的仪式感，很多时候敲下第一个字之前，你根本不知道原来自己胸有千言。</p>
+<p>除了能够帮助自己对书本内容进行二次记忆之外，书评最大的好处是带来了「写」的机会。思维是一种只有不断输出才能够得到锻炼的系统，就像AlphaGo也只有在不断的棋局中才能成长一样，写的过程带来的益处是阅读活动中最为珍贵的一环。</p>
+<p>换句话说，养成撰写书评的习惯，本质上是为自己强行布置作业，属于反人性的自制，坚持下来很难，但是附带收益也是相对最高的，尤其是在个人品牌的社会价值逐日变高的时代，能够练就和沉淀写作手艺，其实是有机会为你的事业提供间接支持的。</p>
+<p>不要忘了：书写即思考，反馈即交流，分享即社交。</p><p img-box="img-box" class="picbox"><img src="https://wx4.sinaimg.cn/large/5d098bccgy1ftjsul4fdnj20k8092gm3.jpg"></p>
 <ul>
-<li>一个业务没有指标，则不能增长和分析</li>
-<li>好的指标应该是比率或比例</li>
-<li>好的分析应该对比或关联</li>
+<li>关于输入（读书）和输出（写作）的具体经验和建议，在「高效阅读之南」的第四章里我会详细说明。<h3>思维导图</h3></li>
 </ul>
-<p>那要怎么才能具有初级的数据思维呢？</p>
-<h3 id="有自己的指标体系"><a href="#有自己的指标体系" class="headerlink" title="有自己的指标体系"></a>有自己的指标体系</h3><p>如果我们不能统一业务的标准，就没有共同沟通的基础，也就没有业务发展的基础。在成为数据分析师之前，掌握常见的指标体系是基本的工作，那么互联网工作的指标有哪些呢？</p>
-<p>首先可以参考我之前的博客<a href="https://notes.tengblog.cn/2018/05/18/data/" target="_blank" rel="external">数据的真实和谎言</a></p>
-<p>其次，指标体系没有放之四海而皆准的模板，不同业务形态有不同的指标体系。移动APP和网站不一样，SaaS和电子商务不一样，低频消费和高频消费不一样。好比一款婚庆相关的APP，不需要考虑复购率指标；互联网金融，必须要风控指标；电子商务，卖家和买家的指标各不一样。</p>
-<p>以电商网站的数据指标为例</p>
-<p><img src="http://images.tengblog.cn/18-10-9/54414368.jpg" alt=""></p>
-<p>那什么才是通用的数据指标呢？我们其实需要更多关注这几个方面，比如：</p>
-<p><strong>我们应该关注好指标，而非衡量指标</strong></p>
-<ul>
-<li><p>好指标应该是核心驱动指标。虽然指标很重要，但是有些指标需要更重要。就像销量和利润，用户数和活跃用户数，后者都比前者重要。</p>
-</li>
-<li><p>核心驱动指标和公司发展关联，是公司在一个阶段内的重点方向。记住是一个阶段，不同时期的核心驱动指标不一样。不同业务的核心驱动指标也不一样。</p>
-</li>
-</ul>
-<p><strong>不同时期，我们关注的指标是不同的</strong></p>
-<ul>
-<li><p>互联网公司常见的核心指标是用户数和活跃率，用户数代表市场的体量和占有，活跃率代表产品的健康度，但这是发展阶段的核心指标。在产品1.0期间，我们应把注意力放到打磨产品上，在大推广前提高产品质量，这时留存率是一个核心指标。而在有一定用户基数的产品后期，商业化比活跃重要，我们会关注钱相关的指标，比如广告点击率、利润率等。</p>
-</li>
-<li><p>核心驱动指标一定能给公司和个人带来最大优势和利益，记得二八法则么？20%的指标一定能带来80%的效果，这20%的指标就是核心。</p>
-</li>
-</ul>
-<p><strong>好的指标应该是比率或者比例</strong></p>
-<ul>
-<li><p>单纯的活跃用户数没有多大意义，所以运营和产品会更关注活跃率。这个指标就是一个比率，将活跃用户数除以总用户数所得。所以在设立指标时，我们都尽量想它能不能是比率。</p>
-</li>
-<li><p>虚荣指标是没有意义的指标，往往它会很好看，能够粉饰运营和产品的工作绩效，但我们要避免使用。</p>
-</li>
-</ul>
-<h3 id="避免坏的数据指标"><a href="#避免坏的数据指标" class="headerlink" title="避免坏的数据指标"></a>避免坏的数据指标</h3><p><strong>坏指标是后验性指标，它往往只能反应已经发生的事情</strong></p>
-<ul>
-<li>活动运营的ROI（投资回报率）也是后验性指标，一个活动付出成本后才能知道其收益。可是成本已经支出，活动的好与坏也注定了。活动周期长，还能有调整余地。活动短期的话，这指标只能用作复盘，但不能驱动业务。</li>
-</ul>
-<p><strong>坏指标是复杂性指标，它将数据分析陷于一堆指标造成的陷阱中</strong></p>
-<ul>
-<li>每个产品都有适合它的几个指标，不要一股脑的装一堆指标上去，当你准备了二三十个指标用于分析，会发现无从下手。</li>
-</ul>
-<h3 id="维度分析法"><a href="#维度分析法" class="headerlink" title="维度分析法"></a>维度分析法</h3><p><strong>维度和数据模型</strong></p>
-<blockquote>
-<p>数据分析大体可以分三类，第一类是利用维度分析数据，第二类是使用统计学知识如数据分布假设检验，最后一类是使用机器学习。我们先了解一下维度分析法。</p>
-<p>维度是描述对象的参数，在具体分析中，我们可以把它认为是分析事物的角度。销量是一种角度、活跃率是一种角度，时间也是一种角度，所以它们都能算维度。</p>
-<p>当我们有了维度后，就能够通过不同的维度组合，形成数据模型。数据模型不是一个高深的概念，它就是一个数据立方体。</p>
-</blockquote>
-<p><img src="http://images.tengblog.cn/18-10-9/31538593.jpg" alt=""></p>
-<p>数据模型有几种常见的技巧、叫做钻取、上卷、切片。</p>
-<ul>
-<li><p>选取就是将维度继续细分。比如浙江省细分成杭州市、温州市、宁波市等，2010年一季度变成1月、2月、3月。</p>
-</li>
-<li><p>上卷则是钻取的相反概念，将维度聚合，比如浙江、上海、江苏聚合成浙江沪维度。</p>
-</li>
-<li><p>切片是选中特定的维度，比如只选上海维度、或者只选2010年一季度维度。因为数据立方体是多维的，但我们观察和比较数据只能在二维、即表格中进行。</p>
-</li>
-</ul>
-<p><strong>指标和维度</strong></p>
-<p>我们通过业务建立和筛选出指标，将指标作为维度，利用维度进行分析。</p>
-<p>维度是说明和观察事物的角度，指标是衡量数据的标准。维度是一个更大的范围，不只是数据，比如时间维度和城市维度，我们就无法用指标表示，而指标（留存率、跳出率、浏览时间等）却可以成为维度。通俗理解：维度&gt;指标。</p>
-<p>当然，这里我想强调，数据分析并不是一个结果，只是过程。还记得“如果你不能衡量它，那么你就不能有效增长它”这句话吗？数据分析的最终目的就是增长业务。如果数据分析需要绩效指标，一定不会是分析的对错，而是最终数据提升的结果。</p>
-<hr>
-<p>学习资料：<br><a href="https://zhuanlan.zhihu.com/p/24887013" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/24887013</a></p>
+<p>很多人推荐用思维导图的方式做阅读笔记，实际上我个人觉得它的适用范围有限。首先虚构类作品做思维导图不说容不容易做，至少是没多少意义的。另外思维导图不太适合快速回看和检索，因此它的利用率低于书评。</p>
+<p>但是思维导图对于某些人群来说有很好的训练意义，如果你觉得自己在宏大叙事的场合下逻辑能力有欠缺，针对整本书做思维导图是个好办法，它能够帮助你形成一套不尽准确、但能自圆其说的系统。</p>
+<p>这种记录方式，主要还是适用于那些原本就偏工具类图书的内容，比如出于职场需要而必须涉猎的专业作品，我们有时会笑话语言考试时阅读理解的荒谬性——关于窗帘为什么是蓝的，连作者自己都答错了——但是排开文学性内容，思维导图的笔记模式其实就是在检验读者能否还原作者创作提纲的准确度，也就是尽最大的可能性把作者当初为文本制定的结构重新演练到你的知识体系里。</p>
+<p>总的来说，高手过招，你的兵器要是最趁手的，不要轻易拿起强大但过重的铁锤。</p><h3>谨慎选择读书会</h3><p></p>
+<p>现在市面上读书会多如牛毛，它之所以受到热捧当然也是因为有着明显的好处——多人分摊阅读任务导致的高效性，社交属性带来的互相敦促的作用，对于自己的总结、陈述和表达能力的锻炼机会。但是读书会这种模式也同时带来了很明显的问题：</p>
+<p>整个阅读过程被打碎，读书会适合需要整本精读的书籍，那种半天就能翻完的书实在无需花这么大的代价。而且整体读书活动的成败关键被系于他人身上，会员素质的高低，决定了整本书是被误读还是被挖透。因此在读书会活动中，既要选择合适的目标，也要选择合适的群体。</p>
+<p>最后，在累积的过程中还有一件事情是非常有意思的——书本分类。既可以合并同类项来得到更全面和深刻的学习，也可以就一个课题来一场左右互搏。想要站在巨人的肩膀上前行，你就得先组成巨人的肢体和躯干。</p>
+<p>务必不要本末倒置。​</p>
+<p>（当然你要是抱着在这类活动上邂逅心仪的姑娘/汉子，就当我没说上面那些话吧，哼）</p>
+<h2 id="输入和反馈的比例"><a href="#输入和反馈的比例" class="headerlink" title="输入和反馈的比例"></a>输入和反馈的比例</h2><p>在上一期里我们谈了如何提高阅读效率的话题，其中一个极其有用同时却也相当厚重的方法，是形成阅后书写的习惯，把读到的内容积淀到个人化的文本里，甚至我曾在一些演讲里分享过，</p>
+<p>输入（阅读）和输出（写作）之间的黄金比例是10：1，也就是每读10个字，你要产出1个字，用以检验这件行为的合理性，否则读书便如途经家门口的溪水，看上去丰沛充盈，实际上没有多少能够流到你的田地里。</p>
+<p>很多人对于这种主张的困扰往往是因为遭遇过相似的「错觉」——平时自己阅读量也不算很少，但是面对Word文档就是觉得脑子里一句话都想不起来，于是就会心生怀疑：是不是自己书看得太少，积累不够？毕竟古语有云：读书破万局，下笔如有神。尽管那个「万」字是个概数，但是总难免担心自己的境界是不是离那个概数也太远了些。</p>
+<p>但非常不浪漫的是，「写作」这件事情，和画画、雕塑、甚至卖油一样，在基础层面来说首先依赖的是「熟能生巧」的规则。用网络上流行的说法，就是大多数人的努力程度还没有达到需要拼天赋/阅读量的地步。如果以烹小鲜来比喻完成一篇文章，那么你阅读所获取的知识含量只是其中的香料——甚至还不是油盐酱醋这样的调味料——它的确可以让你的菜品提升一个高度，但是完全不是必需品。</p>
+<p>因此如果说输入和输出有一个比例，那么就应该在条件允许的情况下尽量提高后者，至少也应该做到「一比一」。看完一本书，写完一篇成稿。注意是一篇成稿，不是书评，不是随笔短文，是一篇脉络清晰五脏俱全能拿得出手的成稿。</p>
+<p>当然如果你已经越过了苦恼于输出力量不够的阶段，那么这个问题其实对你来说是不存在的。输入和输出之间，并没有值得去牢牢把握的硬性比例。</p>
+<p>从时间成本的有效性角度来看，所谓的「高效阅读」实际上用大白话说出来就是：怎么样看书才是对写作最有用的。也就是想要用尽量少的输入去辅助尽量多的输出，那这就可以分两种情况来讨论。</p>
+<p>形第一种情况：存储式阅读，积累型输出<br>我们的阅读大多数都是这种类型，平常只是以知识储备或者消解无聊为目的来看书，任由知识点慢慢囤积，到了需要写作的时候再来调用这些知识点进行输出。对于这种情况来说，要做到高效阅读除了我在前面3篇文章中提到的方法之外，还需要注意的就是阅读的范围选择。</p>
+<p>「相关性」是其中最核心的一条原则。在选择书本的时候要抱持这条原则进行筛选，尽量选择和你写作目标范围相近的书，如果你这辈子都不打算从事言情小说写作的话，那就不要去看琼瑶——当然本文的一切讨论都是围绕高效这个原则展开，所有看闲书愉悦自我的行为都不在此列。</p>
+<p>这个条件其实首先要求你对自己的写作范围和需要补充的知识范畴有摸底性质的了解，多和自己对话，让自己早日进入到弱水三千只取一瓢的程度。</p>
+<p>以我自己的经验来说，不顾范围随意乱翻的愉悦度永远是难以抵挡的，因为可以随时进入到新奇领域，而新奇知识带来的刺激度肯定是最高的。但是这种泛读想要为自己的写作建立起有效性，需要很长时间的累积才能看到效果——成为渊博的杂家也是有意思的事情，这种模式确实不具备任何功利感。</p>
+<p>在选择对的书本之后，看书的过程中也不能抛却「相关性」的警惕。当你对自己的长期和短期写作目标烂熟于心的时候，你就能够在阅读的过程中有效标记自己需要的段落。这种标记行为还涉及到输出时的使用难易度，初级选手我建议以标记观点为主，高级选手则以案例或实例为先。以我个人的经验来说，在刚开始涉足某个领域或议题的时候，你最先可以吸收化用的是观点和理念，而当你已经形成了足够强势的自我体系之后，新鲜的实例会给你更多的养分和论据。<br>另一种情况：搜索式阅读，转化型输出<br>这种情况其实功利感更高，有时候会为了快速攻入某个领域，进行集中大量的阅读。这时看书完全是为了搜索选题相关材料而看，输出的时候着重的是转化刚刚吸收的知识。这种情形有点类似写论文，但是可能目的性没有那么明确，书本范围也不会太精准，但是方法上可以使用类似的态度——带着大纲看书。</p>
+<p>这个「大纲」不一定是你要写的文章的大纲，而是类似你自身理论建设的大纲。例如你想要短期内了解美国宪法体系，那你列出来的大纲可能就是：核心精神、成型历史、重大修改等等，随后你在选书和阅读的过程中就可以去分块充实这些空白。如果是涉及一些思辨性质或者争议比较强的话题里，你的核心大纲可能就是你的总论点和若干分论点，然后看书的时候你可以从正反两面分别入手，一边阅读一边校验你的大纲的真伪。</p>
+<p>这种情况下的输出肯定会涉及到大量的检索、翻阅、回看，但是一定要注意避免引用，这是锻炼写作独立性的核心。这里的「引用」并不是说摘录某一段前辈的语句，而是说对观点的引用，即便你非常赞同某个观点，也应该在充分消化后转述出来，而不是直接复制粘贴。如果可能的话甚至应该避免雷同，和某位作者观点相近，但是写得比他更好看，是所有写作人都应该追求的境界。<br>最后，讨论下写作方式的学习。也就是所谓的「文风」。<br>对于很多初级选手来说，学习文风其实是一种不自觉的选择，在你看多了某一个作者的作品之后，短时间之内这种输入会自动影响到你的思维——你大脑中所用的和自己对话的内部语言的表述方式。这种改变很自然会反应到你的输出上，如果你很喜欢那个作者，这种不自觉的模仿会更加明显。</p>
+<p>其实模仿这件事情对于遣词造句的能力来说是一个好的锻炼，所以我个人认为在写作的初级阶段不要畏惧于模仿。假以时日，自然可以有能力提炼出自己的个人特色，做到陈丹青在「局部」说过的境界：</p>
+<p>「如果你要成全自己的风格，就要用走向前辈的方式离开前辈。换句话说，你盯着大师看，其实心里想的是自己的作品。」</p>
+<p>当你可以准确提炼出某位喜欢的作者的写作风格时，其实你已经脱离了初学者的阶段。这时候你就可以思考如何将你喜欢的这个特征，融入到自己的写作中——你知道阑夕的文章中充满了长定语从句，而你需要完成的是一个极简主义的文本，那你就可以完成一次「如何将长定语从句融入到极简主义文本」中的探索。</p>
+<p>阅读是探险，写作是探索。虽然我们谈的是快进快出的打法，但是这两件事都不应该只囿于功利之间。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;思维分析框架&quot;&gt;&lt;a href=&quot;#思维分析框架&quot; class=&quot;headerlink&quot; title=&quot;思维分析框架&quot;&gt;&lt;/a&gt;思维分析框架&lt;/h2&gt;&lt;p&gt;数据分析最重要的并不是掌握前面基础的工具，相反，一个问题从什么角度出发是更加重要的。&lt;/p&gt;
-&lt;p&gt;这是众多
+      &lt;blockquote&gt;
+&lt;p&gt;阑夕的读书方法论分享，虽然是其个人的付费内容，但是考虑到 tengblog 的阅读数，应该不算侵权&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;如何选择想读的书&quot;&gt;&lt;a href=&quot;#如何选择想读的书&quot; class=&quot;headerlink&quot;
     
     </summary>
     
     
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
-    <title>一切都要简洁地展示出来-03</title>
-    <link href="http://tengblog.com/2018/09/27/datician03/"/>
-    <id>http://tengblog.com/2018/09/27/datician03/</id>
-    <published>2018-09-26T16:00:00.000Z</published>
-    <updated>2018-10-06T09:18:57.000Z</updated>
+    <title>投放渠道决定增长用户属性</title>
+    <link href="http://tengblog.com/2018/08/04/qudao/"/>
+    <id>http://tengblog.com/2018/08/04/qudao/</id>
+    <published>2018-08-03T16:00:00.000Z</published>
+    <updated>2018-11-15T09:40:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以通过 Excel 来完成。</p>
-<p>不过，对于数据可视化来说，使用什么软件都是最不重要的，不管是 Excel 还是 Power BI 亦或是更高级 tab ，一个基本的前提就是，你需要深刻地理解 <strong>什么样的数据需要那种图表来</strong>。</p>
-<h2 id="选择和制作合适的图表"><a href="#选择和制作合适的图表" class="headerlink" title="选择和制作合适的图表"></a>选择和制作合适的图表</h2><p>列数人类总结发明出来的图表，也不过几十种，对图表的理解和熟悉可以帮助我们更好展示数据关系。</p>
-<p><img src="http://images.tengblog.cn/18-9-28/73346053.jpg" alt="图表集合"></p>
-<p>当然，在数据可视化中会有更多高级的图标，看起来更酷炫，其逻辑还是依据于这些。</p>
-<p>使用 Excel 可以完成其中大部分的设计和制作，并可以根据基础图形不断地升级和演化。</p>
-<h3 id="数据图表制作的tips"><a href="#数据图表制作的tips" class="headerlink" title="数据图表制作的tips"></a>数据图表制作的tips</h3><p>数据分析最重要的作用还是发现数据间的联系，并向外展示出来。那么展示图表的简洁和美观就成了一个关键。在以往制作图表中的一些 tips 记录在下面。</p>
-<ul>
-<li>图表的首要功能是解释，而不是设计，尤其大部分图表都会落入到过度设计的陷阱。图表设计，首先应该是没有设计</li>
-<li>其次，好的图表要能解释数据，不同图表有不同的使用方法，如果我要观察销售额的增长，我就不应该用饼图。</li>
-<li>为了使数据的解读不失真，数据应要求精确到小数位。12.5比12好，尤其在对比数据的情况下。数据若再近一步精确，对解读的意义就不大，反而对解读者进行干扰。</li>
-<li>统一是规范和约束图表，当图表过多时，一个统一标准不会让人眼花撩乱。</li>
-<li>设计样式和内容分离。图表只需要聚焦于数据表达本身。标题可以通过Excel的单元格添加，别用图表的元素。</li>
-<li>不要展示太牛逼的图表设计技巧，不然以后老板都会让你设计的……</li>
-<li>辅助线和辅助列不一样，辅助线是图表附加的元素。辅助线能绘制高级图表。</li>
-</ul>
-<h2 id="熟练掌握一个-BI-软件"><a href="#熟练掌握一个-BI-软件" class="headerlink" title="熟练掌握一个 BI 软件"></a>熟练掌握一个 BI 软件</h2><p>BI工具有Tableau，QlikView，BDP等，各有侧重，也各有价格。但是操作过程都是相似的，大体分为五个步骤：<strong>数据源读取、数据清洗、数据关联、图表制作、Dashboard整合</strong>。熟悉了其中一个，再学会另外的就不难，以 tab 为例。</p>
-<p>（突然发现没什么好讲的，作罢了。）</p>
-<hr>
-<p><img src="http://images.tengblog.cn/18-9-29/60466055.jpg" alt=""></p>
-<p>更新与珠江河畔</p>
+    <content type="html"><![CDATA[<p><strong>投放渠道决定增长用户属性</strong></p>
+<p>一个感想，也可以看做即刻增长投放的复盘</p>
+<p>增长！增长！增长！</p>
+<p>如果要让互联网创始人说出公司当前最重要的任务，不少人肯定会选择增长。</p>
+<p>即便是创立多年仍未盈利，只要保持高速增长，市场估值就不会下跌。增长是不少互联网公司的基本盘，上至 BATTMD ,    下至创业未半的作坊公司。</p>
+<p>不过用户增长对很多社区、公司来说，都是「甜蜜的负担」，用户人群的泛华肯定会冲击原有社区文化。原有社区的用户调性等等一系列东西。这也是众多原本调性、氛围不错的公司被诟病「水化」「氛围越来越差的原因」。</p>
+<p>比如说，即刻。</p>
+<p><img src="http://images.tengblog.cn/18-8-5/8106224.jpg" alt=""></p>
+<p>1.<strong>XX 在即刻看什么</strong></p>
+<p>这大概是我对即刻的最初印象，也是第一次看到即刻相关增长活动。我记忆中的便有「冯大辉」「淡豹」「阑夕」等等比较集中在人文科技的 KOL 的访谈。</p>
+<p>这个时候，即刻已经积累了众多优秀的推动主题，也凭借主题推送这一点成为大受欢迎的小众 App。「XX 在即刻看什么」类似一次「主题推荐」活动。邀请各个领域（主要集中在人文科技）的意见领袖来分享自己在即刻的使用，将即刻的推广给意见领袖的粉丝。</p>
+<p>类似的互推方式，成本应该并不昂贵，效果应该是不错的，可以凭借不错的产品体验获取优秀 KOL 极其粉丝的关注，相信这个时候，即刻的用户纯净的。</p>
+<p><img src="http://images.tengblog.cn/18-8-5/9396328.jpg" alt=""></p>
+<p>2.<strong>在字幕组、测评视频的投放</strong></p>
+<p>再次看到相关的即刻推荐时，看到的便是不少字幕组和评测视频的贴片广告了。不管是天使字幕组还是爱否科技的视频，都接到了即刻的投放。</p>
+<p><img src="http://images.tengblog.cn/18-8-5/3762454.jpg" alt=""></p>
+<p>对长期没有盈利的字幕组和评测组来说，类似的投放应该成本不高，但是却获得了不错的转化。尤其是即刻主推的「集中推送信息」的效率优势正好和评测视频的观众重合起来。就像爱否科技视频里说的「一个我们接到广告前就在使用的 App」</p>
+<p>3.<strong>各种优秀 App 设计奖项</strong></p>
+<p>到了年底，各种 App 推荐的奖项也开始热闹起来。上榜的优秀 App 自然需要优秀的设计，但是也不是没有存在的可能。</p>
+<p>通过市场和 BD 资源互换的方式，即便是小厂的 App 也是可以在不少榜单露出，转化下载的，如豌豆荚的豌豆荚设计奖、AppSo 这样的第三方推荐。</p>
+<p>4.<strong>微博抖音的广告投放</strong></p>
+<p>到了18年 ，即刻已经进入了迅速发展的阶段，其广告投放也逐渐变得财大气粗。不管是微博，还是新兴的抖音，都看到了即刻的广告。</p>
+<p>当然，更重要的是，此时的即刻已经完成不再是一个推送消息的 App，反倒向着打造社区的宏伟目标走去。用户的抱怨也多了起来。</p>
+<p><img src="http://images.tengblog.cn/18-8-5/59425655.jpg" alt=""></p>
+<p><strong>你在什么渠道投放就吸引什么用户过来</strong></p>
+<p>这才是前面回看即刻增长投放的原因，投放渠道变得越来越大众，越来越下沉，吸引过来的自然也是早期用户并不喜欢的「杠精」「键盘侠」。</p>
+<p>不过如果换位思考的话，最应该反省的反倒一直觉得其他用户是外来人的「早期用户」。「早期用户」是被社区抛弃的，因为只靠他们并不能创造价值。</p>
+<p>那真的没有一个社区可以容纳不同分层的用户，让不同调性的用户各得其所吗？</p>
+<p>微信算一个？我不知道。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以通过 Excel 来完成。&lt;/p&gt;
-&lt;p&gt;不过，对于数据可视化来说，使用什么软件都是最不重要的，不管是 Excel 还是 Power BI 亦或是更高级 tab ，一个基本的
+      &lt;p&gt;&lt;strong&gt;投放渠道决定增长用户属性&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个感想，也可以看做即刻增长投放的复盘&lt;/p&gt;
+&lt;p&gt;增长！增长！增长！&lt;/p&gt;
+&lt;p&gt;如果要让互联网创始人说出公司当前最重要的任务，不少人肯定会选择增长。&lt;/p&gt;
+&lt;p&gt;即便是创立多年仍未盈利，只要
     
     </summary>
     
     
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雄性是在衰落</title>
+    <link href="http://tengblog.com/2018/08/01/xiongxingshuailuo/"/>
+    <id>http://tengblog.com/2018/08/01/xiongxingshuailuo/</id>
+    <published>2018-07-31T16:00:00.000Z</published>
+    <updated>2018-08-01T06:42:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>就在快速翻完《雄性衰落》时，日本科技公司推出的一款「家用全息智能AI机器人Gatebox」正在网络上传播，这倒是无形验证了本书的观点：</p>
+<p><img src="http://images.tengblog.cn/18-8-1/51777949.jpg" alt=""></p>
+<blockquote>
+<p>在日本，年轻男性对于性的态度越来越冷漠，即便是已婚夫妻之间的性生活也日趋减少。日本家庭规划协会（JapanFamilyPlanningAssociation）最近报告的数字显示，16～19岁的年轻男性中有超过三分之一的人对性毫无兴趣，比2008年时的估计翻了一番；每10对已婚夫妇中有4对报告在一个月或者更长的时间里没有性生活9。</p>
+<p>这些现象已经非常普遍，以至于这些男人有了自己特殊的称呼：soshokudanshi，即“食草族”；与之相对，仍然对性感兴趣的男人则是“食肉族”。</p>
+</blockquote>
+<p>如果提前推出，这个案例肯定会被作者写进书里论证「雄性衰落」的观点了。在菲利普·津巴多看来，<strong>各种科技的发展严重阻碍了雄性在社会活动中取得良好的成就，成为雄性崛起的绊脚石。</strong></p>
+<blockquote>
+<p>”但我们觉得这只是权宜之计，对于很多年轻男性而言，虚拟现实已经变得比自己的真实生活更有甜头。我们需要竭力干预：要让他们重新从现实生活中获得报偿。”</p>
+</blockquote>
+<p>甚至是网络游戏、色情片泛滥也都成了作者找来的理由。</p>
+<p>不过，「雄性是不是在衰落」这个话题都是需要讨论的？菲利普·津巴多先是在一起 TED 演讲中提到了自己的发现，男性的学术成就相比女性越来越差。</p>
+<p>然后就开始了调查问卷的案例搜集，完成了2万人网络问卷调查和针对英国67所高中的学生访谈。不过，正规的学术研究还需要：</p>
+<blockquote>
+<p>科学的方法应该是：根据访谈提炼出观点，进一步设计研究来证实或证伪。老津做了访谈，也抛出了观点。访谈本身不能单独作为推理的证据，但它是众多研究证据的一部分。在无法直接依靠实验进行验证的时候，唯有多方印证，结论才能坚实可信。</p>
+</blockquote>
+<p>《雄性衰落》的研究算不上科学，案例分析有很多的偏差，原因分析自然也就差强人意，在这基础上提出的解决方案自然更是毫无价值，甚至有点可笑，像是某项得到规范。</p>
+<p>可是，雄性衰落的这个感觉却值得我认同。</p>
+<p>女性在社会中的作用越来越大，成就越来越高，甚至在人权运动上也发挥着越来越大的作用。她们在不断地争取自己的权利，相比之下，雄性动物的进化速度完全滞后，让人羞愧。</p>
+<hr>
+<p><strong>摘要</strong></p>
+<p>“虽然76%的美国人说自己每天都会观看、阅读或者收听各种新闻，其中只有41%的人说他们会多看一眼除了标题以外的东西4。所以，我们对事实的了解也可能只是一种幻觉。无论对任何事情，蜻蜓点水地瞟一眼就以为自己真的了如指掌是非常危险的。一位退休的英文教授曾经告诉我们，在职业生涯临近结束的时候，他发现尽管他的学生们认为自己理解了一些东西，但在被要求用自己的语言对这个主题进行描述的时候，他们却词不达意，一位学生甚至拒绝修改自己的作业并且随后退选了这门课程。这个例子只是今天小伙子们心中早已根深蒂固的“浅尝辄止，轻易放弃”态度的一个缩影。”，—-</p>
+<p>“当今的年轻人把数量惊人的时间花在了电子游戏和观看色情内容上，与此同时他们也自觉自愿地强迫自己与社会相隔离，在两者之间错综复杂的因果链条里，羞怯（shyness）扮演了非常关键的角色。”，—-</p>
+<p>“传统意义上的羞怯是愿意与人交往，但是害怕自己可能因为无法留下好印象而被拒绝；而羞怯的新型变种却是因为不知道如何做而根本不愿意有社交接触，继而竭尽全力地距离他人越远越好。因此，这种新型的羞怯会持续地自我强化、内化；更有甚者，即便是缺乏和大多数人的接触，自己仍然茫然不觉。如此这般，就有太多的羞怯者在跟自己的老板、专家接触的时候，或者在不熟悉的情境里，抑或在一对一的异性交往中，行为失当或者丑态百”，—-</p>
+<p>“那些没能够在家里学到基本的爱和信任的孩子，在后来试图掌握自信、主动性以及自主性的过程中都显得力不从心，而这些正是在成年后取得成功的先决条件。”29和童年冰冷孤寂的人相比，拥有温暖和睦童年的人成年之后的收入高出50%30。最独立自主的人们都来自于充满关爱的家庭。”—-</p>
+<p>“语言的结构和文本阅读的缓慢让人们没有那么容易在不经意间深陷其中，不像潜移默化吞噬人心于无形的网络游戏世界。譬如，除了成功解决其中谜团的满足感，或者对某个寓意深刻的隐喻心领神会的快乐，书本里面没有其他报偿。纸质书籍不像电子游戏，不能根据阅读进度获得权力、地位或奖励；也不像网络色情片，总能以高潮作为结尾——仅有的例外是那些色情文学作品，诸如《五十度灰》（FiftyShadesofGrey）之类，才会有些相似之处。”，—-</p>
+<p>“一个顶级的刺激自助餐在虚位以待——PornHub上面列出了56个不同的分类，而且便捷地按照字母排序；每个分类平均有5832个独立的视频。这些分类中最受欢迎的视频平均被观看过2230万次，每个视频平均大概20分钟长。—-</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;就在快速翻完《雄性衰落》时，日本科技公司推出的一款「家用全息智能AI机器人Gatebox」正在网络上传播，这倒是无形验证了本书的观点：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/18-8-1/51777949.jpg&quot; alt=&quot;
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="http://tengblog.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="感悟" scheme="http://tengblog.com/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
