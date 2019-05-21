@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>TENG</title>
-  <subtitle>世事无常，精进不已</subtitle>
+  <subtitle>精进不已</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
