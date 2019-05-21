@@ -14,12 +14,26 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -42,39 +56,37 @@
 
 
 
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
-
-<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
-
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
 
 
 
 
 
 
-<script id="hexo.configurations">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
-    version: '7.1.1',
+    scheme: 'Mist',
+    version: '6.3.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    back2top: ,
-    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -108,23 +120,22 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
 
 
 
-  
-  
+
   <link rel="canonical" href="http://tengblog.com/page/4/"/>
 
 
 
-<script id="page.configurations">
+<script type="text/javascript" id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
-  <title>TENG – 世事无常，精进不已</title>
+  <title>TENG</title>
   
 
 
@@ -132,7 +143,7 @@
 
 
 
-  <script>
+  <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -145,31 +156,30 @@
 
 
 
-
-
-
   <noscript>
-  <style>
-  .use-motion .motion-element,
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-title { opacity: initial; }
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
 
-  .use-motion .logo,
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
   </style>
 </noscript>
 
@@ -188,7 +198,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta">
+  <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
@@ -200,14 +210,13 @@
     </div>
     
       
-        <h1 class="site-subtitle" itemprop="description">世事无常，精进不已</h1>
+        <p class="site-subtitle">世事无常，精进不已</p>
       
-    
     
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -226,68 +235,24 @@
         
           
           <li class="menu-item menu-item-home">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
-
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Schlagwörter</a>
-
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-sitemap">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br/>Sitemap</a>
-
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
   </li>
 
       
@@ -297,11 +262,14 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
         </li>
       
     </ul>
   
+
+  
+    
 
   
 
@@ -351,9 +319,6 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-            
-
-          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
@@ -373,16 +338,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/09/qianduan/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/09/qianduan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -390,13 +355,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/09/qianduan/" class="post-title-link" itemprop="url">前端学习进展小结</a>
+                <a class="post-title-link" href="/2016/08/09/qianduan/" itemprop="url">
+                  前端学习进展小结
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -411,23 +377,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
+              <time title="创建时间：2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -455,12 +436,14 @@
       
         
           
-            <p>
-              前端进展在自己搭建博客的时候，就一直在断断续续的看着几个教程，学习着前端技术。7月份后半程因为参加了
-              ...
-            </p>
+          前端进展在自己搭建博客的时候，就一直在断断续续的看着几个教程，学习着前端技术。7月份后半程因为参加了
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/09/qianduan/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -474,9 +457,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -516,16 +496,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/05/ted/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/05/ted/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -533,13 +513,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/05/ted/" class="post-title-link" itemprop="url">演讲全攻略：《TEDtalks演讲的力量》</a>
+                <a class="post-title-link" href="/2016/08/05/ted/" itemprop="url">
+                  演讲全攻略：《TEDtalks演讲的力量》
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -554,23 +535,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-05T00:00:00+08:00">2016-08-05</time>
+              <time title="创建时间：2016-08-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-05T00:00:00+08:00">2016-08-05</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -598,13 +594,15 @@
       
         
           
-            <p>
-              如果，你有心观察一下，你在和别人交流的时候，其实大部分时候，你们进行的并非真正有效的沟通。
+          如果，你有心观察一下，你在和别人交流的时候，其实大部分时候，你们进行的并非真正有效的沟通。
 大部分时
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/05/ted/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -618,9 +616,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -660,16 +655,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/04/zhiziyuedu/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/04/zhiziyuedu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -677,13 +672,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/04/zhiziyuedu/" class="post-title-link" itemprop="url">阅读中最基本的能力</a>
+                <a class="post-title-link" href="/2016/08/04/zhiziyuedu/" itemprop="url">
+                  阅读中最基本的能力
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -698,23 +694,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-04T00:00:00+08:00">2016-08-04</time>
+              <time title="创建时间：2016-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-04T00:00:00+08:00">2016-08-04</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:44:46" itemprop="dateModified" datetime="2018-11-15T17:44:46+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -742,15 +753,17 @@
       
         
           
-            <p>
-              
+          
 阅读中这项基本的能力有那么多人没掌握
 
 阅读并不是一件的事情，它是一个系列过程，其中包括很多环节。
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/04/zhiziyuedu/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -764,9 +777,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -806,16 +816,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/03/money/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/03/money/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -823,13 +833,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/03/money/" class="post-title-link" itemprop="url">注意力:最宝贵的财富--财富笔记</a>
+                <a class="post-title-link" href="/2016/08/03/money/" itemprop="url">
+                  注意力:最宝贵的财富--财富笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -844,23 +855,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-03T00:00:00+08:00">2016-08-03</time>
+              <time title="创建时间：2016-08-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-03T00:00:00+08:00">2016-08-03</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -888,16 +914,18 @@
       
         
           
-            <p>
-              第一周的《通往财富自由之路》基本都在讨论这个问题
+          第一周的《通往财富自由之路》基本都在讨论这个问题
 
 你最宝贵的财富是什么？
 
 原本计划的周更专栏也被
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/03/money/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -911,9 +939,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -953,16 +978,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/02/buy/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/02/buy/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -970,13 +995,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/02/buy/" class="post-title-link" itemprop="url">买！买！买！</a>
+                <a class="post-title-link" href="/2016/08/02/buy/" itemprop="url">
+                  买！买！买！
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -991,23 +1017,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-02T00:00:00+08:00">2016-08-02</time>
+              <time title="创建时间：2016-08-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-02T00:00:00+08:00">2016-08-02</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1035,13 +1076,15 @@
       
         
           
-            <p>
-              （我是占位符）
+          （我是占位符）
 
-              
-            </p>
-          <!--noindex-->
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/02/buy/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1055,9 +1098,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1097,16 +1137,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/01/ppt07/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/01/ppt07/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1114,13 +1154,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/08/01/ppt07/" class="post-title-link" itemprop="url">PPT练习成品----[PPT进阶笔记]</a>
+                <a class="post-title-link" href="/2016/08/01/ppt07/" itemprop="url">
+                  PPT练习成品----[PPT进阶笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1135,23 +1176,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-08-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-01T00:00:00+08:00">2016-08-01</time>
+              <time title="创建时间：2016-08-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-01T00:00:00+08:00">2016-08-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1179,13 +1235,15 @@
       
         
           
-            <p>
-              没有练习，即便是参加再多的课程也是没有作用的。将按照上课内容做一遍，也算积累下自己的素材库。
+          没有练习，即便是参加再多的课程也是没有作用的。将按照上课内容做一遍，也算积累下自己的素材库。
 采用的
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/01/ppt07/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1199,9 +1257,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1241,16 +1296,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/31/reading-07/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/31/reading-07/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1258,13 +1313,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/31/reading-07/" class="post-title-link" itemprop="url">七月书单及其它</a>
+                <a class="post-title-link" href="/2016/07/31/reading-07/" itemprop="url">
+                  七月书单及其它
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1279,23 +1335,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-31T00:00:00+08:00">2016-07-31</time>
+              <time title="创建时间：2016-07-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-31T00:00:00+08:00">2016-07-31</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:44:51" itemprop="dateModified" datetime="2018-11-15T17:44:51+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1323,13 +1394,15 @@
       
         
           
-            <p>
-              其它七月很充实，虽然现在看过去我也没记起做了些什么。
+          其它七月很充实，虽然现在看过去我也没记起做了些什么。
 好在有归档的文章显示，我还是胡乱写了些东西。这
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/31/reading-07/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1343,9 +1416,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1385,16 +1455,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/30/paiban/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/30/paiban/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1402,13 +1472,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/30/paiban/" class="post-title-link" itemprop="url">PPT排版指南----[PPT进阶学习笔记]</a>
+                <a class="post-title-link" href="/2016/07/30/paiban/" itemprop="url">
+                  PPT排版指南----[PPT进阶学习笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1423,23 +1494,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
+              <time title="创建时间：2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1467,12 +1553,14 @@
       
         
           
-            <p>
-              PPT排版指南只有平面排版，并不存在PPT排版。所以，这些排版知识完全可以用在任何排版地方，不管你是
-              ...
-            </p>
+          PPT排版指南只有平面排版，并不存在PPT排版。所以，这些排版知识完全可以用在任何排版地方，不管你是
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/30/paiban/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1486,9 +1574,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1528,16 +1613,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/30/list/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/30/list/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1545,13 +1630,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/30/list/" class="post-title-link" itemprop="url">一些人生的欲望清单</a>
+                <a class="post-title-link" href="/2016/07/30/list/" itemprop="url">
+                  一些人生的欲望清单
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1566,23 +1652,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
+              <time title="创建时间：2016-07-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-30T00:00:00+08:00">2016-07-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1610,12 +1711,14 @@
       
         
           
-            <p>
-              关于人生的清单好多时候都是在网上看到自己喜欢的东西，最后看了半天，对东西有了更多的了解，等到马上要付
-              ...
-            </p>
+          关于人生的清单好多时候都是在网上看到自己喜欢的东西，最后看了半天，对东西有了更多的了解，等到马上要付
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/30/list/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1629,9 +1732,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1671,16 +1771,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/28/win/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/28/win/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1688,13 +1788,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/28/win/" class="post-title-link" itemprop="url">win操盘手</a>
+                <a class="post-title-link" href="/2016/07/28/win/" itemprop="url">
+                  win操盘手
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1709,23 +1810,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-28T00:00:00+08:00">2016-07-28</time>
+              <time title="创建时间：2016-07-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-28T00:00:00+08:00">2016-07-28</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1753,13 +1869,15 @@
       
         
           
-            <p>
-              
+          
 慢慢真心觉得，我才刚刚会有点win系统的操作，也慢慢体会到了便利。虽然心里还是换个其它的系统，不过
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/28/win/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1773,9 +1891,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1815,16 +1930,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/25/ppt-06/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/25/ppt-06/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1832,13 +1947,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/25/ppt-06/" class="post-title-link" itemprop="url">形状和图表----[PPT进阶学习笔记]</a>
+                <a class="post-title-link" href="/2016/07/25/ppt-06/" itemprop="url">
+                  形状和图表----[PPT进阶学习笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1853,23 +1969,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
+              <time title="创建时间：2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1897,12 +2028,14 @@
       
         
           
-            <p>
-              形状和图表形状和图表是PPT中不可缺少的组成部分。形状可以更好的来装饰内容，图表则是内容的直接展示。
-              ...
-            </p>
+          形状和图表形状和图表是PPT中不可缺少的组成部分。形状可以更好的来装饰内容，图表则是内容的直接展示。
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/25/ppt-06/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1916,9 +2049,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1958,16 +2088,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/25/ppt-05/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/25/ppt-05/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1975,13 +2105,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/25/ppt-05/" class="post-title-link" itemprop="url">配色专题----[PPT进阶学习笔记]</a>
+                <a class="post-title-link" href="/2016/07/25/ppt-05/" itemprop="url">
+                  配色专题----[PPT进阶学习笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1996,23 +2127,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
+              <time title="创建时间：2016-07-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-25T00:00:00+08:00">2016-07-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2040,17 +2186,19 @@
       
         
           
-            <p>
-              配色专题常见问题
+          配色专题常见问题
 整套幻灯片看起来很脏
 整套幻灯片颜色太单调
 不懂配色，有些内容看不清楚
 
 配色的作
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/25/ppt-05/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2064,9 +2212,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2106,16 +2251,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/24/xiezuo-01/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/24/xiezuo-01/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2123,13 +2268,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/24/xiezuo-01/" class="post-title-link" itemprop="url">写作的本质-写作课程</a>
+                <a class="post-title-link" href="/2016/07/24/xiezuo-01/" itemprop="url">
+                  写作的本质-写作课程
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2144,23 +2290,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
+              <time title="创建时间：2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2188,12 +2349,14 @@
       
         
           
-            <p>
-              写作的本质-写作课程
-              
-            </p>
-          <!--noindex-->
+          写作的本质-写作课程
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/24/xiezuo-01/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2207,9 +2370,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2249,16 +2409,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/24/xiezuo-02/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/24/xiezuo-02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2266,13 +2426,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/24/xiezuo-02/" class="post-title-link" itemprop="url">写作的目标-写作课程</a>
+                <a class="post-title-link" href="/2016/07/24/xiezuo-02/" itemprop="url">
+                  写作的目标-写作课程
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2287,23 +2448,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
+              <time title="创建时间：2016-07-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-24T00:00:00+08:00">2016-07-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2331,12 +2507,14 @@
       
         
           
-            <p>
-              写作的目标-写作课程
-              
-            </p>
-          <!--noindex-->
+          写作的目标-写作课程
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/24/xiezuo-02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2350,9 +2528,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2392,16 +2567,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/21/tiaozheng/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/21/tiaozheng/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2409,13 +2584,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/21/tiaozheng/" class="post-title-link" itemprop="url">BLOG的一些调整</a>
+                <a class="post-title-link" href="/2016/07/21/tiaozheng/" itemprop="url">
+                  BLOG的一些调整
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2430,23 +2606,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-21T00:00:00+08:00">2016-07-21</time>
+              <time title="创建时间：2016-07-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-21T00:00:00+08:00">2016-07-21</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2474,14 +2665,16 @@
       
         
           
-            <p>
-              BLOG的一些调整blog微调最近对博客进行了一些调整，
+          BLOG的一些调整blog微调最近对博客进行了一些调整，
 
 重建了仓库，使用了github自己的的登
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/21/tiaozheng/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2495,9 +2688,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2537,16 +2727,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/19/sublime-02/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/19/sublime-02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2554,13 +2744,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/19/sublime-02/" class="post-title-link" itemprop="url">Sublime Text应用技巧和诀窍</a>
+                <a class="post-title-link" href="/2016/07/19/sublime-02/" itemprop="url">
+                  Sublime Text应用技巧和诀窍
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2575,23 +2766,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-19T00:00:00+08:00">2016-07-19</time>
+              <time title="创建时间：2016-07-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-19T00:00:00+08:00">2016-07-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2619,15 +2825,17 @@
       
         
           
-            <p>
-              
+          
 sublime学习技巧，存根查询
 
 本文为您提供Sublime Text编辑器的12个技巧和诀窍，
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/19/sublime-02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2641,9 +2849,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -2683,16 +2888,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/18/ppt-04/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/18/ppt-04/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2700,13 +2905,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/18/ppt-04/" class="post-title-link" itemprop="url">背景和字体----[PPT进阶学习笔记]</a>
+                <a class="post-title-link" href="/2016/07/18/ppt-04/" itemprop="url">
+                  背景和字体----[PPT进阶学习笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2721,23 +2927,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
+              <time title="创建时间：2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2765,12 +2986,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              总原则：简单大方是王道背景背景选择背景的选择决定了整个PPT的整体风格，一张好的背景基本可以绝对观众
-              ...
-            </p>
+          总原则：简单大方是王道背景背景选择背景的选择决定了整个PPT的整体风格，一张好的背景基本可以绝对观众
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/18/ppt-04/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2784,9 +3007,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -2826,16 +3046,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/18/kaili/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/18/kaili/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2843,13 +3063,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/18/kaili/" class="post-title-link" itemprop="url">《路边野餐》：梦境和现实的杂乱混合</a>
+                <a class="post-title-link" href="/2016/07/18/kaili/" itemprop="url">
+                  《路边野餐》：梦境和现实的杂乱混合
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2864,23 +3085,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
+              <time title="创建时间：2016-07-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-18T00:00:00+08:00">2016-07-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2908,12 +3144,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              观影后的一些瞎扯前倾提要周末没有什么安排。一个人似乎又回到了刚来北京时孑然一身的感觉。有点熟悉的感觉
-              ...
-            </p>
+          观影后的一些瞎扯前倾提要周末没有什么安排。一个人似乎又回到了刚来北京时孑然一身的感觉。有点熟悉的感觉
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/18/kaili/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2927,9 +3165,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -2969,16 +3204,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/15/ppt-03/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/15/ppt-03/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2986,13 +3221,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/15/ppt-03/" class="post-title-link" itemprop="url">配图的选择----[PPT进阶学习笔记]</a>
+                <a class="post-title-link" href="/2016/07/15/ppt-03/" itemprop="url">
+                  配图的选择----[PPT进阶学习笔记]
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3007,23 +3243,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
+              <time title="创建时间：2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3051,12 +3302,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更
-              ...
-            </p>
+          PPT 配图的选择不光在封面中，在演示文件的内容中，我们无时无刻不要使用图片来帮助我们让PPT变得更
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/15/ppt-03/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3070,9 +3323,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3112,16 +3362,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/15/wenti/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/15/wenti/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3129,13 +3379,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/15/wenti/" class="post-title-link" itemprop="url">解决真正的问题</a>
+                <a class="post-title-link" href="/2016/07/15/wenti/" itemprop="url">
+                  解决真正的问题
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3150,23 +3401,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
+              <time title="创建时间：2016-07-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-15T00:00:00+08:00">2016-07-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3194,12 +3460,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              解决真正的问题昨天下午在公司的电脑上安装了个中文破解版的sublime，看到中文界面的时候感觉很亲切
-              ...
-            </p>
+          解决真正的问题昨天下午在公司的电脑上安装了个中文破解版的sublime，看到中文界面的时候感觉很亲切
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/15/wenti/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3213,9 +3481,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3255,16 +3520,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/13/emmet/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/13/emmet/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3272,13 +3537,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/13/emmet/" class="post-title-link" itemprop="url">Emmet使用手册</a>
+                <a class="post-title-link" href="/2016/07/13/emmet/" itemprop="url">
+                  Emmet使用手册
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3293,23 +3559,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
+              <time title="创建时间：2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:00" itemprop="dateModified" datetime="2018-11-15T17:45:00+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3337,12 +3618,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              最近更换了更为成熟的sublime 编辑器，加装了emmet插件，为了更加熟练的使用emmet，将常
-              ...
-            </p>
+          最近更换了更为成熟的sublime 编辑器，加装了emmet插件，为了更加熟练的使用emmet，将常
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/13/emmet/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3356,9 +3639,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3398,16 +3678,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/13/zhengzhi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/13/zhengzhi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3415,13 +3695,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/13/zhengzhi/" class="post-title-link" itemprop="url">政治正确的三种使用方法</a>
+                <a class="post-title-link" href="/2016/07/13/zhengzhi/" itemprop="url">
+                  政治正确的三种使用方法
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3436,23 +3717,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
+              <time title="创建时间：2016-07-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-13T00:00:00+08:00">2016-07-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3480,12 +3776,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              世界上任何一个国家都有自己的政治正确。成为一个国家不能戏谑的金规玉律，所有的人都要遵守，没有任何回旋
-              ...
-            </p>
+          世界上任何一个国家都有自己的政治正确。成为一个国家不能戏谑的金规玉律，所有的人都要遵守，没有任何回旋
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/13/zhengzhi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3499,9 +3797,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3541,16 +3836,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/12/yaogun/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/12/yaogun/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3558,13 +3853,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/12/yaogun/" class="post-title-link" itemprop="url">《西雅图之声》：传奇过后的平凡</a>
+                <a class="post-title-link" href="/2016/07/12/yaogun/" itemprop="url">
+                  《西雅图之声》：传奇过后的平凡
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3579,23 +3875,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-12T00:00:00+08:00">2016-07-12</time>
+              <time title="创建时间：2016-07-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-12T00:00:00+08:00">2016-07-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:06" itemprop="dateModified" datetime="2018-11-15T17:45:06+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3623,12 +3934,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              《西雅图之声》：传奇过后的平凡每年四月，华语歌迷在还念“哥哥”张国荣的时候，美国的歌迷也许在怀念他们
-              ...
-            </p>
+          《西雅图之声》：传奇过后的平凡每年四月，华语歌迷在还念“哥哥”张国荣的时候，美国的歌迷也许在怀念他们
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/12/yaogun/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3642,9 +3955,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3684,16 +3994,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/10/jingyao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/10/jingyao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3701,13 +4011,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/10/jingyao/" class="post-title-link" itemprop="url">精要：选择好的，不选多的</a>
+                <a class="post-title-link" href="/2016/07/10/jingyao/" itemprop="url">
+                  精要：选择好的，不选多的
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3722,23 +4033,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-10 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-10T00:00:00+08:00">2016-07-10</time>
+              <time title="创建时间：2016-07-10 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-10T00:00:00+08:00">2016-07-10</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:11" itemprop="dateModified" datetime="2018-11-15T17:45:11+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3766,13 +4092,15 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              断舍离？不知道什么时候，”断舍离”成了潮流。人人喊着要过上一种简单的生活。
+          断舍离？不知道什么时候，”断舍离”成了潮流。人人喊着要过上一种简单的生活。
 大概是要看了这样的一种”
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/10/jingyao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3786,9 +4114,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3828,16 +4153,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/08/shenluoji/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/08/shenluoji/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3845,13 +4170,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/08/shenluoji/" class="post-title-link" itemprop="url">《神逻辑》：和不讲道理的人讲道理？</a>
+                <a class="post-title-link" href="/2016/07/08/shenluoji/" itemprop="url">
+                  《神逻辑》：和不讲道理的人讲道理？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3866,23 +4192,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-08T00:00:00+08:00">2016-07-08</time>
+              <time title="创建时间：2016-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-08T00:00:00+08:00">2016-07-08</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3910,13 +4251,15 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              常见的集中逻辑错误
+          常见的集中逻辑错误
 转载在“得到”对《神逻辑》的介绍解读。很少转载，但是这样放这给自己提醒，避免这样
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/08/shenluoji/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3930,9 +4273,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -3972,16 +4312,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/07/ppt-01/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/07/ppt-01/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3989,13 +4329,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/07/ppt-01/" class="post-title-link" itemprop="url">PPT系统学习笔记</a>
+                <a class="post-title-link" href="/2016/07/07/ppt-01/" itemprop="url">
+                  PPT系统学习笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4010,23 +4351,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-07T00:00:00+08:00">2016-07-07</time>
+              <time title="创建时间：2016-07-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-07T00:00:00+08:00">2016-07-07</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4054,12 +4410,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              旁门左道PPT系统学习笔记即便有很多对PPT及其演示演讲这样的形式深恶痛绝，但是这不代表我们职场小白
-              ...
-            </p>
+          旁门左道PPT系统学习笔记即便有很多对PPT及其演示演讲这样的形式深恶痛绝，但是这不代表我们职场小白
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/07/ppt-01/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4073,9 +4431,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4115,16 +4470,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/01/ceshi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/07/01/ceshi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4132,13 +4487,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/07/01/ceshi/" class="post-title-link" itemprop="url">[TED]成为一个更好的交谈者?</a>
+                <a class="post-title-link" href="/2016/07/01/ceshi/" itemprop="url">
+                  [TED]成为一个更好的交谈者?
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4153,23 +4509,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-07-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-01T00:00:00+08:00">2016-07-01</time>
+              <time title="创建时间：2016-07-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-07-01T00:00:00+08:00">2016-07-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4197,15 +4568,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 有些时候想看视频，少点看什么综艺节目，ted会是不错的选择。
 
 听过ted已经不短时间了，残酷的现
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/01/ceshi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4219,9 +4592,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4261,16 +4631,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/30/zhichang-huiyi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/30/zhichang-huiyi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4278,13 +4648,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/30/zhichang-huiyi/" class="post-title-link" itemprop="url">召开会议的基础</a>
+                <a class="post-title-link" href="/2016/06/30/zhichang-huiyi/" itemprop="url">
+                  召开会议的基础
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4299,23 +4670,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
+              <time title="创建时间：2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4343,15 +4729,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 最近开会时的一些感慨
 
 关于会议的那些事 之一在职场中，我们不能避免的就是参加各种会议，有过会议召
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/30/zhichang-huiyi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4365,9 +4753,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4407,16 +4792,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/30/zuiixnreading06/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/30/zuiixnreading06/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4424,13 +4809,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/30/zuiixnreading06/" class="post-title-link" itemprop="url">06月书单以及半年的记录</a>
+                <a class="post-title-link" href="/2016/06/30/zuiixnreading06/" itemprop="url">
+                  06月书单以及半年的记录
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4445,23 +4831,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
+              <time title="创建时间：2016-06-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-30T00:00:00+08:00">2016-06-30</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:21" itemprop="dateModified" datetime="2018-11-15T17:45:21+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4489,15 +4890,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              06月书单六月份，开始看了一些职场和沟通的书籍，大概有以下：
+          06月书单六月份，开始看了一些职场和沟通的书籍，大概有以下：
 
 自品牌
 这本不错，还没有看完。基本可
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/30/zuiixnreading06/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4511,9 +4914,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4553,16 +4953,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/28/thankyou/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/28/thankyou/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4570,13 +4970,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/28/thankyou/" class="post-title-link" itemprop="url">致谢、激励和学习</a>
+                <a class="post-title-link" href="/2016/06/28/thankyou/" itemprop="url">
+                  致谢、激励和学习
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4591,23 +4992,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-28T00:00:00+08:00">2016-06-28</time>
+              <time title="创建时间：2016-06-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-28T00:00:00+08:00">2016-06-28</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4635,15 +5051,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 就我接触的几位程序工作者，他们都热情，乐于分享。
 
 博客的更新四月26日，我的小小博客正式上线了，
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/28/thankyou/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4657,9 +5075,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4699,16 +5114,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/27/yihan/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/27/yihan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4716,13 +5131,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/27/yihan/" class="post-title-link" itemprop="url">体育和人生的魅力：遗憾和无奈</a>
+                <a class="post-title-link" href="/2016/06/27/yihan/" itemprop="url">
+                  体育和人生的魅力：遗憾和无奈
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4737,23 +5153,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
+              <time title="创建时间：2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4781,13 +5212,15 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              人生和体育一样美丽：充满了遗憾和无奈
+          人生和体育一样美丽：充满了遗憾和无奈
 欧洲杯和美洲杯开始了好久，各自的进程也都过半。精彩的赛事每天都
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/27/yihan/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4801,9 +5234,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4843,16 +5273,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/27/1shudazhaofeng/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/27/1shudazhaofeng/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4860,13 +5290,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/27/1shudazhaofeng/" class="post-title-link" itemprop="url">风向转动下的人物群像</a>
+                <a class="post-title-link" href="/2016/06/27/1shudazhaofeng/" itemprop="url">
+                  风向转动下的人物群像
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4881,23 +5312,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
+              <time title="创建时间：2016-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-27T00:00:00+08:00">2016-06-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4925,15 +5371,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 电影是个好东西
 
 诚意，不装很重要看电影和以前做阅读理解一样，有类似“薛定谔的猫”的迷局，作者这么
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/27/1shudazhaofeng/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4947,9 +5395,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -4989,16 +5434,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/23/xunzhaoliangshi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/23/xunzhaoliangshi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5006,13 +5451,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/23/xunzhaoliangshi/" class="post-title-link" itemprop="url">如何找到你的良师</a>
+                <a class="post-title-link" href="/2016/06/23/xunzhaoliangshi/" itemprop="url">
+                  如何找到你的良师
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5027,23 +5473,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-23T00:00:00+08:00">2016-06-23</time>
+              <time title="创建时间：2016-06-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-23T00:00:00+08:00">2016-06-23</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5071,14 +5532,16 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              上次我们说到要找一个自己职场上的良师，也大讲了一通良师的好处，那么问题来了：
+          上次我们说到要找一个自己职场上的良师，也大讲了一通良师的好处，那么问题来了：
 
 怎么才能找到一个良师
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/23/xunzhaoliangshi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5092,9 +5555,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5134,16 +5594,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/22/geshi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/22/geshi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5151,13 +5611,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/22/geshi/" class="post-title-link" itemprop="url">格式！格式！</a>
+                <a class="post-title-link" href="/2016/06/22/geshi/" itemprop="url">
+                  格式！格式！
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5172,23 +5633,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-22T00:00:00+08:00">2016-06-22</time>
+              <time title="创建时间：2016-06-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-22T00:00:00+08:00">2016-06-22</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5216,13 +5692,15 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              格式很重要今天临时接到领导安排的工作，写一下下半年的工作计划。
+          格式很重要今天临时接到领导安排的工作，写一下下半年的工作计划。
 这样的工作很简单，因为一直一来就是我
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/22/geshi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5236,9 +5714,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5278,16 +5753,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/21/keep/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/21/keep/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5295,13 +5770,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/21/keep/" class="post-title-link" itemprop="url">挑衅性传播是玩火自焚</a>
+                <a class="post-title-link" href="/2016/06/21/keep/" itemprop="url">
+                  挑衅性传播是玩火自焚
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5316,23 +5792,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-21T00:00:00+08:00">2016-06-21</time>
+              <time title="创建时间：2016-06-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-21T00:00:00+08:00">2016-06-21</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:27:47" itemprop="dateModified" datetime="2018-11-15T17:27:47+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5360,15 +5851,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              广告也要讲政治正确卖教程不如卖装备
+          广告也要讲政治正确卖教程不如卖装备
 自律给你自由
 
 多么好听的口号，富含哲理，时刻彰显着品味。kee
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/21/keep/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5382,9 +5875,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5424,16 +5914,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/19/toutiao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/19/toutiao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5441,13 +5931,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/19/toutiao/" class="post-title-link" itemprop="url">我的原则：做有创造性的工作</a>
+                <a class="post-title-link" href="/2016/06/19/toutiao/" itemprop="url">
+                  我的原则：做有创造性的工作
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5462,23 +5953,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-19T00:00:00+08:00">2016-06-19</time>
+              <time title="创建时间：2016-06-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-19T00:00:00+08:00">2016-06-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5506,12 +6012,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              我的原则：做有创造性的工作15年11月的时候，我开通了自己的头条号“娱乐大嘴鱼”，本意是熟悉新媒体平
-              ...
-            </p>
+          我的原则：做有创造性的工作15年11月的时候，我开通了自己的头条号“娱乐大嘴鱼”，本意是熟悉新媒体平
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/19/toutiao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5525,9 +6033,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5567,16 +6072,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/18/zhichang-liangshi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/18/zhichang-liangshi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5584,13 +6089,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/18/zhichang-liangshi/" class="post-title-link" itemprop="url">寻找自己的职场良师</a>
+                <a class="post-title-link" href="/2016/06/18/zhichang-liangshi/" itemprop="url">
+                  寻找自己的职场良师
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5605,23 +6111,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-18T00:00:00+08:00">2016-06-18</time>
+              <time title="创建时间：2016-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-18T00:00:00+08:00">2016-06-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5649,12 +6170,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              寻找自己的职场良师前因：我要变得更专业2016年6月份，从到北京参加工作都要满一年了，自己又开始浮躁
-              ...
-            </p>
+          寻找自己的职场良师前因：我要变得更专业2016年6月份，从到北京参加工作都要满一年了，自己又开始浮躁
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/18/zhichang-liangshi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5668,9 +6191,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5710,16 +6230,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/16/blog-jiaocheng/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/16/blog-jiaocheng/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5727,13 +6247,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/16/blog-jiaocheng/" class="post-title-link" itemprop="url">搭建自己的博客----教程</a>
+                <a class="post-title-link" href="/2016/06/16/blog-jiaocheng/" itemprop="url">
+                  搭建自己的博客----教程
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5748,23 +6269,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-16 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-16T00:00:00+08:00">2016-06-16</time>
+              <time title="创建时间：2016-06-16 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-16T00:00:00+08:00">2016-06-16</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5792,14 +6328,16 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              一小时搭建个人博客网站
+          一小时搭建个人博客网站
 简单粗暴，先上链接马腾的博客
 本教程只为自己记录和纯小白设计，欢迎技术大神指
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/16/blog-jiaocheng/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5813,9 +6351,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5855,16 +6390,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/13/fanhaitao-reading/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/13/fanhaitao-reading/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5872,13 +6407,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/13/fanhaitao-reading/" class="post-title-link" itemprop="url">日渐飘远的梦想</a>
+                <a class="post-title-link" href="/2016/06/13/fanhaitao-reading/" itemprop="url">
+                  日渐飘远的梦想
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5893,23 +6429,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-13T00:00:00+08:00">2016-06-13</time>
+              <time title="创建时间：2016-06-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-13T00:00:00+08:00">2016-06-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:26" itemprop="dateModified" datetime="2018-11-15T17:45:26+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5937,12 +6488,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              《就要一场绚丽的突围》大概是因为在微博一直关注着范海涛，所以在亚马逊凑单子的时候随手选了这本《就要一
-              ...
-            </p>
+          《就要一场绚丽的突围》大概是因为在微博一直关注着范海涛，所以在亚马逊凑单子的时候随手选了这本《就要一
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/13/fanhaitao-reading/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5956,9 +6509,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -5998,16 +6548,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/12/yinyu/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/06/12/yinyu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6015,13 +6565,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/06/12/yinyu/" class="post-title-link" itemprop="url">那些难忘的雨声</a>
+                <a class="post-title-link" href="/2016/06/12/yinyu/" itemprop="url">
+                  那些难忘的雨声
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6036,23 +6587,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-06-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-12T00:00:00+08:00">2016-06-12</time>
+              <time title="创建时间：2016-06-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-12T00:00:00+08:00">2016-06-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6080,14 +6646,16 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              我很喜欢阴雨的天气，也说不清到底是为了什么。
+          我很喜欢阴雨的天气，也说不清到底是为了什么。
 一至今还记得初中时候的一次暴雨。
 语文课上，年轻的语文
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/12/yinyu/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6101,9 +6669,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6143,16 +6708,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/29/jingjin02/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/29/jingjin02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6160,13 +6725,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/29/jingjin02/" class="post-title-link" itemprop="url">为什么要“先行动起来”？</a>
+                <a class="post-title-link" href="/2016/05/29/jingjin02/" itemprop="url">
+                  为什么要“先行动起来”？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6181,23 +6747,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-29T00:00:00+08:00">2016-05-29</time>
+              <time title="创建时间：2016-05-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-29T00:00:00+08:00">2016-05-29</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:45:31" itemprop="dateModified" datetime="2018-11-15T17:45:31+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6225,18 +6806,20 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              《精进》中有一章：
+          《精进》中有一章：
 
 即刻行动：最有效的，是即刻行动。
 
 我们也知道李笑来的原则之一：
 
 先做起来。
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/29/jingjin02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6250,9 +6833,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6292,16 +6872,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/27/women/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/27/women/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6309,13 +6889,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/27/women/" class="post-title-link" itemprop="url">我们为什么总是读错书</a>
+                <a class="post-title-link" href="/2016/05/27/women/" itemprop="url">
+                  我们为什么总是读错书
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6330,23 +6911,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-27T00:00:00+08:00">2016-05-27</time>
+              <time title="创建时间：2016-05-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-27T00:00:00+08:00">2016-05-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6374,12 +6970,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              为什么我们总是读错书网络上上常年流传着一类文章，无论什么时候什么人翻出来总是获得不错的阅读，那就是“
-              ...
-            </p>
+          为什么我们总是读错书网络上上常年流传着一类文章，无论什么时候什么人翻出来总是获得不错的阅读，那就是“
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/27/women/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6393,9 +6991,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6435,16 +7030,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/25/jingjin/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/25/jingjin/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6452,13 +7047,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/25/jingjin/" class="post-title-link" itemprop="url">5月书单--十分钟读完《精进》</a>
+                <a class="post-title-link" href="/2016/05/25/jingjin/" itemprop="url">
+                  5月书单--十分钟读完《精进》
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6473,23 +7069,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-25T00:00:00+08:00">2016-05-25</time>
+              <time title="创建时间：2016-05-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-25T00:00:00+08:00">2016-05-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:48:56" itemprop="dateModified" datetime="2018-11-15T17:48:56+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6517,16 +7128,18 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 5月详细阅读了本书，并进行缩写，是为5月书单
 
 十分钟读完《精进》如何成为一个很厉害的人 精进
 时
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/25/jingjin/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6540,9 +7153,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6582,16 +7192,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/23/xiaoniao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/23/xiaoniao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6599,13 +7209,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/23/xiaoniao/" class="post-title-link" itemprop="url">愤怒的小鸟：不仅是卖萌电影</a>
+                <a class="post-title-link" href="/2016/05/23/xiaoniao/" itemprop="url">
+                  愤怒的小鸟：不仅是卖萌电影
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6620,23 +7231,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-23T00:00:00+08:00">2016-05-23</time>
+              <time title="创建时间：2016-05-23 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-23T00:00:00+08:00">2016-05-23</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6664,13 +7290,15 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 谁也不会想到结果承接《美国队长三》票房大旗的竟然是《愤怒的小鸟》。上映3天以来，《愤怒的小鸟》都占
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/23/xiaoniao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6684,9 +7312,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6726,16 +7351,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/19/zhrnglun/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/19/zhrnglun/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6743,13 +7368,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/19/zhrnglun/" class="post-title-link" itemprop="url">你在说什么</a>
+                <a class="post-title-link" href="/2016/05/19/zhrnglun/" itemprop="url">
+                  你在说什么
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6764,23 +7390,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-19T00:00:00+08:00">2016-05-19</time>
+              <time title="创建时间：2016-05-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-19T00:00:00+08:00">2016-05-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 23:25:49" itemprop="dateModified" datetime="2018-09-27T23:25:49+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6808,12 +7449,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              你在说什么？大学二年级的时候，我参加了一次学校的辩论比赛，虽然没有拿到最后的冠军，却让我想明白了一件
-              ...
-            </p>
+          你在说什么？大学二年级的时候，我参加了一次学校的辩论比赛，虽然没有拿到最后的冠军，却让我想明白了一件
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/19/zhrnglun/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6827,9 +7470,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -6869,16 +7509,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/17/zhishibianxian/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/17/zhishibianxian/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6886,13 +7526,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/17/zhishibianxian/" class="post-title-link" itemprop="url">知识变现的时代到来？</a>
+                <a class="post-title-link" href="/2016/05/17/zhishibianxian/" itemprop="url">
+                  知识变现的时代到来？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6907,23 +7548,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-17T00:00:00+08:00">2016-05-17</time>
+              <time title="创建时间：2016-05-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-17T00:00:00+08:00">2016-05-17</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6951,12 +7607,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              果壳网旗下的“在行”又有一款新的产品刷爆了朋友圈，效果就和4月1日知乎推出的“值乎”一样，大家纷纷尝
-              ...
-            </p>
+          果壳网旗下的“在行”又有一款新的产品刷爆了朋友圈，效果就和4月1日知乎推出的“值乎”一样，大家纷纷尝
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/17/zhishibianxian/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6970,9 +7628,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -7012,16 +7667,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/12/thailand-bkk/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/12/thailand-bkk/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7029,13 +7684,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/12/thailand-bkk/" class="post-title-link" itemprop="url">在曼谷度过无聊周末</a>
+                <a class="post-title-link" href="/2016/05/12/thailand-bkk/" itemprop="url">
+                  在曼谷度过无聊周末
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7050,23 +7706,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
+              <time title="创建时间：2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7094,15 +7765,17 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 转载自*我们的微信公众号”期望阅读”
 
 北京的周末活动丰富多彩，有的人选择去郊外徒步穿行几个景区二
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/12/thailand-bkk/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7116,9 +7789,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -7158,16 +7828,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/12/FOJIAO/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/12/FOJIAO/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7175,13 +7845,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/12/FOJIAO/" class="post-title-link" itemprop="url">肉眼凡胎不识真佛</a>
+                <a class="post-title-link" href="/2016/05/12/FOJIAO/" itemprop="url">
+                  肉眼凡胎不识真佛
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7196,23 +7867,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
+              <time title="创建时间：2016-05-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-12T00:00:00+08:00">2016-05-12</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7240,16 +7926,18 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 转载自我们的微信公众号”期望阅读”
 
 
 在大大小小的旅游网站上，对于泰国的介绍必不可少的就是千佛之
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/12/FOJIAO/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7263,9 +7951,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -7305,16 +7990,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/02/reading04-2016/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/02/reading04-2016/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7322,13 +8007,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/02/reading04-2016/" class="post-title-link" itemprop="url">4月书单和一点思考</a>
+                <a class="post-title-link" href="/2016/05/02/reading04-2016/" itemprop="url">
+                  4月书单和一点思考
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7343,23 +8029,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-02 12:00:00" itemprop="dateCreated datePublished" datetime="2016-05-02T12:00:00+08:00">2016-05-02</time>
+              <time title="创建时间：2016-05-02 12:00:00" itemprop="dateCreated datePublished" datetime="2016-05-02T12:00:00+08:00">2016-05-02</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:48:47" itemprop="dateModified" datetime="2018-11-15T17:48:47+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7387,14 +8088,16 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              
+          
 4月份阅读书目从莎草纸到互联网人类简史二手时间超预测为什么
 这几本中随便选几本便可以。但我想是不是
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/02/reading04-2016/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7408,9 +8111,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -7450,16 +8150,16 @@ sublime学习技巧，存根查询
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/01/wechat-block-kuaidi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/05/01/wechat-block-kuaidi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7467,13 +8167,14 @@ sublime学习技巧，存根查询
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2016/05/01/wechat-block-kuaidi/" class="post-title-link" itemprop="url">不二情书：真的很二</a>
+                <a class="post-title-link" href="/2016/05/01/wechat-block-kuaidi/" itemprop="url">
+                  不二情书：真的很二
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7488,23 +8189,38 @@ sublime学习技巧，存根查询
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2016-05-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-01T00:00:00+08:00">2016-05-01</time>
+              <time title="创建时间：2016-05-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-01T00:00:00+08:00">2016-05-01</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7532,12 +8248,14 @@ sublime学习技巧，存根查询
       
         
           
-            <p>
-              2013年是个让人怀念的一年。中国电影人绝对不会知道他们正要进去最美好的时代，一个不用费什么劲就能挣
-              ...
-            </p>
+          2013年是个让人怀念的一年。中国电影人绝对不会知道他们正要进去最美好的时代，一个不用费什么劲就能挣
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/05/01/wechat-block-kuaidi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7551,9 +8269,6 @@ sublime学习技巧，存根查询
 
     
 
-    
-      
-    
     
 
     
@@ -7582,7 +8297,7 @@ sublime学习技巧，存根查询
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="Vorherige Seite"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -7603,22 +8318,23 @@ sublime学习技巧，存根查询
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾"/>
+                alt="马腾" />
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
           </div>
 
           
@@ -7629,7 +8345,7 @@ sublime学习技巧，存根查询
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
@@ -7640,11 +8356,7 @@ sublime学习技巧，存根查询
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
-                    
-                      <a href="/tags/">
-                    
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
@@ -7720,7 +8432,7 @@ sublime学习技巧，存根查询
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">schlagwörter</span>
+                    <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
               
@@ -7737,40 +8449,27 @@ sublime学习技巧，存根查询
           
 
           
-
-          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
+          
           
 
           
@@ -7782,7 +8481,7 @@ sublime学习技巧，存根查询
           
 
         </div>
-      </div>
+      </section>
 
       
 
@@ -7790,7 +8489,6 @@ sublime学习技巧，存根查询
 
     </div>
   </aside>
-  
 
 
         
@@ -7811,7 +8509,9 @@ sublime学习技巧，存根查询
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
 
 
 
@@ -7819,7 +8519,7 @@ sublime学习技巧，存根查询
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.1</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
 
 
 
@@ -7838,17 +8538,19 @@ sublime学习技巧，存根查询
     </footer>
 
     
-
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
     
 
-    
   </div>
 
   
 
-<script>
+<script type="text/javascript">
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -7880,45 +8582,31 @@ sublime学习技巧，存根查询
 
 
   
-  <script src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-
-  
-
-
-  <script src="/js/utils.js?v=7.1.1"></script>
-
-  <script src="/js/motion.js?v=7.1.1"></script>
-
-
 
   
   
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
 
-
-  <script src="/js/affix.js?v=7.1.1"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
-
-
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
 
 
   
 
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
   
-
-
-  <script src="/js/next-boot.js?v=7.1.1"></script>
-
-
-  
-
   
 
   
@@ -7926,327 +8614,38 @@ sublime学习技巧，存根查询
   
 
 
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
 
   
-  <script>
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
 
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
 
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
 
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
+	
 
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
-      
 
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
 
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
 
-                // show search results
+  
 
-                if (isMatch) {
-                  // sort index by position of keyword
 
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
 
-                  // merge hits into slices
 
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
 
-                      // move to next position of hit
+  
 
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
 
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
 
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
 
-                  // sort slices in content by search text's count and hits' count
 
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
 
-                  // select top N slices in content
 
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
 
-                  // highlight title and content
 
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
 
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
+  
 
 
 
@@ -8254,14 +8653,14 @@ sublime学习技巧，存根查询
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/algolia-search.js?v=7.1.1"></script>
+  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
 
 
 
@@ -8274,13 +8673,6 @@ sublime学习技巧，存根查询
   
 
   
-
-  
-
-  
-
-  
-
   
 
   

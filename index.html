@@ -14,12 +14,26 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -42,39 +56,37 @@
 
 
 
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
-
-<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
-
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
 
 
 
 
 
 
-<script id="hexo.configurations">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
-    version: '7.1.1',
+    scheme: 'Mist',
+    version: '6.3.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    back2top: ,
-    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -108,23 +120,22 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
 
 
 
-  
-  
+
   <link rel="canonical" href="http://tengblog.com/"/>
 
 
 
-<script id="page.configurations">
+<script type="text/javascript" id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
-  <title>TENG – 世事无常，精进不已</title>
+  <title>TENG</title>
   
 
 
@@ -132,7 +143,7 @@
 
 
 
-  <script>
+  <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -145,31 +156,30 @@
 
 
 
-
-
-
   <noscript>
-  <style>
-  .use-motion .motion-element,
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-title { opacity: initial; }
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
 
-  .use-motion .logo,
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
   </style>
 </noscript>
 
@@ -188,7 +198,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta">
+  <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
@@ -200,14 +210,13 @@
     </div>
     
       
-        <h1 class="site-subtitle" itemprop="description">世事无常，精进不已</h1>
+        <p class="site-subtitle">世事无常，精进不已</p>
       
-    
     
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -226,68 +235,24 @@
         
           
           <li class="menu-item menu-item-home menu-item-active">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
-
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Schlagwörter</a>
-
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-sitemap">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br/>Sitemap</a>
-
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
   </li>
 
       
@@ -297,11 +262,14 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
         </li>
       
     </ul>
   
+
+  
+    
 
   
 
@@ -351,9 +319,6 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-            
-
-          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
@@ -373,16 +338,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/05/20/lingdao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/05/20/lingdao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -390,13 +355,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/05/20/lingdao/" class="post-title-link" itemprop="url">向上管理和自我驱动</a>
+                <a class="post-title-link" href="/2019/05/20/lingdao/" itemprop="url">
+                  向上管理和自我驱动
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -411,23 +377,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-05-20 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-20T00:00:00+08:00">2019-05-20</time>
+              <time title="创建时间：2019-05-20 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-20T00:00:00+08:00">2019-05-20</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-21 09:53:05" itemprop="dateModified" datetime="2019-05-21T09:53:05+08:00">2019-05-21</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -455,13 +436,15 @@
       
         
           
-            <p>
-              字节跳动不提倡「向上管理」，更希望员工可以发挥自己的能动性，主动思考业务的发展，并身体力行地做好。
+          字节跳动不提倡「向上管理」，更希望员工可以发挥自己的能动性，主动思考业务的发展，并身体力行地做好。
 
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/05/20/lingdao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -475,9 +458,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -517,16 +497,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/05/05/zhiye/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/05/05/zhiye/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -534,13 +514,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/05/05/zhiye/" class="post-title-link" itemprop="url">永远展现自己最专业的一面</a>
+                <a class="post-title-link" href="/2019/05/05/zhiye/" itemprop="url">
+                  永远展现自己最专业的一面
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -555,23 +536,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-05-05 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-05T00:00:00+08:00">2019-05-05</time>
+              <time title="创建时间：2019-05-05 00:00:00" itemprop="dateCreated datePublished" datetime="2019-05-05T00:00:00+08:00">2019-05-05</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-07 13:04:55" itemprop="dateModified" datetime="2019-05-07T13:04:55+08:00">2019-05-07</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -599,13 +595,15 @@
       
         
           
-            <p>
-              在一个职业化的团队里，永远展现自己最专业的一面。
+          在一个职业化的团队里，永远展现自己最专业的一面。
 这应该成为一种共识，不然其他人的专业表现会把你的「
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/05/05/zhiye/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -619,9 +617,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -661,16 +656,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/31/fencengmoxing/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/31/fencengmoxing/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -678,13 +673,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/01/31/fencengmoxing/" class="post-title-link" itemprop="url">增长策略--用户分层 和 用户分群</a>
+                <a class="post-title-link" href="/2019/01/31/fencengmoxing/" itemprop="url">
+                  增长策略--用户分层 和 用户分群
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -699,23 +695,26 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-01-31 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-31T00:00:00+08:00">2019-01-31</time>
+              <time title="创建时间：2019-01-31 00:00:00 / 修改时间：12:10:54" itemprop="dateCreated datePublished" datetime="2019-01-31T00:00:00+08:00">2019-01-31</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -743,12 +742,14 @@
       
         
           
-            <p>
-              在前面的文章  运营和分层 | tengblog ，我大概率不难理解用户分层的必要性了，那具体要怎么
-              ...
-            </p>
+          在前面的文章  运营和分层 | tengblog ，我大概率不难理解用户分层的必要性了，那具体要怎么
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/31/fencengmoxing/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -762,9 +763,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -804,16 +802,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/31/zengzhang02/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/31/zengzhang02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -821,13 +819,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/01/31/zengzhang02/" class="post-title-link" itemprop="url">增长策略—增长费用花在正确地方了嘛？</a>
+                <a class="post-title-link" href="/2019/01/31/zengzhang02/" itemprop="url">
+                  增长策略—增长费用花在正确地方了嘛？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -842,23 +841,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-01-31 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-31T00:00:00+08:00">2019-01-31</time>
+              <time title="创建时间：2019-01-31 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-31T00:00:00+08:00">2019-01-31</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-05-07 10:28:37" itemprop="dateModified" datetime="2019-05-07T10:28:37+08:00">2019-05-07</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -886,12 +900,14 @@
       
         
           
-            <p>
-              春节是每个互联网 App 增长决战的时刻，市场投放通过不同的渠道来增加自己产品的下载量。动辄就选择几
-              ...
-            </p>
+          春节是每个互联网 App 增长决战的时刻，市场投放通过不同的渠道来增加自己产品的下载量。动辄就选择几
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/31/zengzhang02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -905,9 +921,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -947,16 +960,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/29/shujumanyou01/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/29/shujumanyou01/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -964,13 +977,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/01/29/shujumanyou01/" class="post-title-link" itemprop="url">数据漫游--数据分析及数据指标体系</a>
+                <a class="post-title-link" href="/2019/01/29/shujumanyou01/" itemprop="url">
+                  数据漫游--数据分析及数据指标体系
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -985,23 +999,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-01-29 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-29T00:00:00+08:00">2019-01-29</time>
+              <time title="创建时间：2019-01-29 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-29T00:00:00+08:00">2019-01-29</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-31 12:11:49" itemprop="dateModified" datetime="2019-01-31T12:11:49+08:00">2019-01-31</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1029,13 +1058,15 @@
       
         
           
-            <p>
-              不久前，还在考虑报一门优达学院的「商业决策」课程，不过现在，这个课程变得可有可无了。
+          不久前，还在考虑报一门优达学院的「商业决策」课程，不过现在，这个课程变得可有可无了。
 商业决策的最重
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/29/shujumanyou01/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1049,9 +1080,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1091,16 +1119,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/22/yonghu/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/22/yonghu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1108,13 +1136,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/01/22/yonghu/" class="post-title-link" itemprop="url">用户调研是用户增长的前提</a>
+                <a class="post-title-link" href="/2019/01/22/yonghu/" itemprop="url">
+                  用户调研是用户增长的前提
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1129,23 +1158,26 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-01-22 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-22T00:00:00+08:00">2019-01-22</time>
+              <time title="创建时间：2019-01-22 00:00:00 / 修改时间：15:06:27" itemprop="dateCreated datePublished" datetime="2019-01-22T00:00:00+08:00">2019-01-22</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1173,13 +1205,15 @@
       
         
           
-            <p>
-              用户研究的价值用户研究是一种能力，一种意识，并非一个岗位。
+          用户研究的价值用户研究是一种能力，一种意识，并非一个岗位。
 用户研究的概念和阶段似乎没有一个互联网公
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/22/yonghu/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1193,9 +1227,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1235,16 +1266,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/11/juese/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/01/11/juese/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1252,13 +1283,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2019/01/11/juese/" class="post-title-link" itemprop="url">公司角色的思考</a>
+                <a class="post-title-link" href="/2019/01/11/juese/" itemprop="url">
+                  公司角色的思考
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1273,23 +1305,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-01-11 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-11T00:00:00+08:00">2019-01-11</time>
+              <time title="创建时间：2019-01-11 00:00:00" itemprop="dateCreated datePublished" datetime="2019-01-11T00:00:00+08:00">2019-01-11</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-13 00:02:44" itemprop="dateModified" datetime="2019-01-13T00:02:44+08:00">2019-01-13</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1317,14 +1364,16 @@
       
         
           
-            <p>
-              如果换个角度来看，所有公司的角色其实可以分为四种：
+          如果换个角度来看，所有公司的角色其实可以分为四种：
 
 角色1.主决策者： 为这个决策的正负结果担责任
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/01/11/juese/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1338,9 +1387,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1380,16 +1426,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/24/weibo/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/24/weibo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1397,13 +1443,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/24/weibo/" class="post-title-link" itemprop="url">首先，要认识到微博的强大</a>
+                <a class="post-title-link" href="/2018/12/24/weibo/" itemprop="url">
+                  首先，要认识到微博的强大
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1418,23 +1465,26 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-24T00:00:00+08:00">2018-12-24</time>
+              <time title="创建时间：2018-12-24 00:00:00 / 修改时间：21:03:51" itemprop="dateCreated datePublished" datetime="2018-12-24T00:00:00+08:00">2018-12-24</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1462,13 +1512,15 @@
       
         
           
-            <p>
-              平安夜之前的周末，今日头条的「我是头条」年度盛典在水立方颁奖，自然也一度占据了朋友圈的流量。
+          平安夜之前的周末，今日头条的「我是头条」年度盛典在水立方颁奖，自然也一度占据了朋友圈的流量。
 不过，
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/24/weibo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1482,9 +1534,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1524,16 +1573,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/18/guanggao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/18/guanggao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1541,13 +1590,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/18/guanggao/" class="post-title-link" itemprop="url">一个平台怎么提升广告收入？</a>
+                <a class="post-title-link" href="/2018/12/18/guanggao/" itemprop="url">
+                  一个平台怎么提升广告收入？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1562,23 +1612,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-18 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-18T00:00:00+08:00">2018-12-18</time>
+              <time title="创建时间：2018-12-18 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-18T00:00:00+08:00">2018-12-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-23 12:09:03" itemprop="dateModified" datetime="2018-12-23T12:09:03+08:00">2018-12-23</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1606,14 +1671,16 @@
       
         
           
-            <p>
-              知乎裁员了，最大的问题可能是变现不利，那我们可以聊聊怎么才能广告变现呢？
+          知乎裁员了，最大的问题可能是变现不利，那我们可以聊聊怎么才能广告变现呢？
 广告收入靠什么
 传统展示类
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/18/guanggao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1627,9 +1694,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1669,16 +1733,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/17/fenceng/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/17/fenceng/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1686,13 +1750,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/17/fenceng/" class="post-title-link" itemprop="url">运营和分层</a>
+                <a class="post-title-link" href="/2018/12/17/fenceng/" itemprop="url">
+                  运营和分层
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1707,23 +1772,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-17 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-17T00:00:00+08:00">2018-12-17</time>
+              <time title="创建时间：2018-12-17 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-17T00:00:00+08:00">2018-12-17</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-31 11:48:40" itemprop="dateModified" datetime="2019-01-31T11:48:40+08:00">2019-01-31</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1751,13 +1831,15 @@
       
         
           
-            <p>
-              
+          
 19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/17/fenceng/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1771,9 +1853,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1813,16 +1892,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/17/week001/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/17/week001/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1830,13 +1909,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/17/week001/" class="post-title-link" itemprop="url">寒冬时刻更显变现的重要性</a>
+                <a class="post-title-link" href="/2018/12/17/week001/" itemprop="url">
+                  寒冬时刻更显变现的重要性
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1851,23 +1931,26 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-17 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-17T00:00:00+08:00">2018-12-17</time>
+              <time title="创建时间：2018-12-17 00:00:00 / 修改时间：21:22:23" itemprop="dateCreated datePublished" datetime="2018-12-17T00:00:00+08:00">2018-12-17</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -1895,17 +1978,19 @@
       
         
           
-            <p>
-              
+          
 12-17阅读文档
 [x] 非共识与小趋势——复盘罗辑思维7年演化之路
 
 摘录：
 1.“什么是表象
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/17/week001/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -1919,9 +2004,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -1961,16 +2043,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/13/shenhe/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/13/shenhe/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -1978,13 +2060,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/13/shenhe/" class="post-title-link" itemprop="url">审核的逻辑</a>
+                <a class="post-title-link" href="/2018/12/13/shenhe/" itemprop="url">
+                  审核的逻辑
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -1999,23 +2082,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-13 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-13T00:00:00+08:00">2018-12-13</time>
+              <time title="创建时间：2018-12-13 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-13T00:00:00+08:00">2018-12-13</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-12 20:12:08" itemprop="dateModified" datetime="2018-12-12T20:12:08+08:00">2018-12-12</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2043,13 +2141,15 @@
       
         
           
-            <p>
-              
+          
 国家互联网信息办公室25日公布《互联网跟帖评论服务管理规定》提出，网站要建立跟帖评论审核管理、实时
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/13/shenhe/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2063,9 +2163,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2105,16 +2202,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/03/9zhongzengzhangfangfa/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/12/03/9zhongzengzhangfangfa/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2122,13 +2219,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/12/03/9zhongzengzhangfangfa/" class="post-title-link" itemprop="url">9种最常用的病毒增长方法</a>
+                <a class="post-title-link" href="/2018/12/03/9zhongzengzhangfangfa/" itemprop="url">
+                  9种最常用的病毒增长方法
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2143,23 +2241,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-12-03 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-03T00:00:00+08:00">2018-12-03</time>
+              <time title="创建时间：2018-12-03 00:00:00" itemprop="dateCreated datePublished" datetime="2018-12-03T00:00:00+08:00">2018-12-03</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-04 22:44:40" itemprop="dateModified" datetime="2018-12-04T22:44:40+08:00">2018-12-04</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2187,13 +2300,15 @@
       
         
           
-            <p>
-              原文链接：9 Ways to Build Virality into your Product
+          原文链接：9 Ways to Build Virality into your Product
 多为
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/03/9zhongzengzhangfangfa/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2207,9 +2322,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2249,16 +2361,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/11/20/netflix/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/11/20/netflix/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2266,13 +2378,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/11/20/netflix/" class="post-title-link" itemprop="url">《奈飞文化手册》的优秀践行者</a>
+                <a class="post-title-link" href="/2018/11/20/netflix/" itemprop="url">
+                  《奈飞文化手册》的优秀践行者
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2287,23 +2400,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-11-20 00:00:00" itemprop="dateCreated datePublished" datetime="2018-11-20T00:00:00+08:00">2018-11-20</time>
+              <time title="创建时间：2018-11-20 00:00:00" itemprop="dateCreated datePublished" datetime="2018-11-20T00:00:00+08:00">2018-11-20</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-21 11:39:57" itemprop="dateModified" datetime="2018-11-21T11:39:57+08:00">2018-11-21</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2331,13 +2459,15 @@
       
         
           
-            <p>
-              张一鸣最成功的产品因为「生机」大会的原因，对今日头条的讨论又多了起来。
+          张一鸣最成功的产品因为「生机」大会的原因，对今日头条的讨论又多了起来。
 不过对经历过大风大浪的今日头
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/11/20/netflix/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2351,9 +2481,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2393,16 +2520,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/11/07/mianshiguan/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/11/07/mianshiguan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2410,13 +2537,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/11/07/mianshiguan/" class="post-title-link" itemprop="url">如何做一个优秀的面试官</a>
+                <a class="post-title-link" href="/2018/11/07/mianshiguan/" itemprop="url">
+                  如何做一个优秀的面试官
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2431,23 +2559,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-11-07 00:00:00" itemprop="dateCreated datePublished" datetime="2018-11-07T00:00:00+08:00">2018-11-07</time>
+              <time title="创建时间：2018-11-07 00:00:00" itemprop="dateCreated datePublished" datetime="2018-11-07T00:00:00+08:00">2018-11-07</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-21 12:05:19" itemprop="dateModified" datetime="2018-11-21T12:05:19+08:00">2018-11-21</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2475,14 +2618,16 @@
       
         
           
-            <p>
-              ==== 开始面试别人之后的更新 ====
+          ==== 开始面试别人之后的更新 ====
 一切都是自然需要
 你对业务需求熟悉以后自然可以在面试中判
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/11/07/mianshiguan/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2496,9 +2641,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2538,16 +2680,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/14/huizong/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/14/huizong/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2555,13 +2697,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/10/14/huizong/" class="post-title-link" itemprop="url">数据分析学习笔记-汇总</a>
+                <a class="post-title-link" href="/2018/10/14/huizong/" itemprop="url">
+                  数据分析学习笔记-汇总
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2576,23 +2719,38 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-14T00:00:00+08:00">2018-10-14</time>
+              <time title="创建时间：2018-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-14T00:00:00+08:00">2018-10-14</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-05 16:08:42" itemprop="dateModified" datetime="2018-11-05T16:08:42+08:00">2018-11-05</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2620,14 +2778,16 @@
       
         
           
-            <p>
-              
+          
 1105&amp;系列学习结束，以后会在工作中使用学习并更新
 1024&amp;更新了描述统计学基
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/14/huizong/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2641,9 +2801,6 @@
 
     
 
-    
-      
-    
     
 
     
@@ -2683,16 +2840,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/13/daticain07/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/13/daticain07/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2700,13 +2857,14 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/10/13/daticain07/" class="post-title-link" itemprop="url">A/B测试的置信区间&假设检验--08</a>
+                <a class="post-title-link" href="/2018/10/13/daticain07/" itemprop="url">
+                  A/B测试的置信区间&假设检验--08
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2721,23 +2879,26 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-10-13 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-13T00:00:00+08:00">2018-10-13</time>
+              <time title="创建时间：2018-10-13 00:00:00 / 修改时间：16:44:19" itemprop="dateCreated datePublished" datetime="2018-10-13T00:00:00+08:00">2018-10-13</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2765,13 +2926,15 @@
       
         
           
-            <p>
-              今日头条，一个靠 ab 测试发家的互联网企业，那要怎么才能正确的理解 ab 测试呢？
+          今日头条，一个靠 ab 测试发家的互联网企业，那要怎么才能正确的理解 ab 测试呢？
 AB 测试源自
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/13/daticain07/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2785,9 +2948,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -2827,16 +2987,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/11/datician06/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/11/datician06/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2844,13 +3004,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/10/11/datician06/" class="post-title-link" itemprop="url">描述统计学基本原理-06</a>
+                <a class="post-title-link" href="/2018/10/11/datician06/" itemprop="url">
+                  描述统计学基本原理-06
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -2865,23 +3026,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-10-11 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-11T00:00:00+08:00">2018-10-11</time>
+              <time title="创建时间：2018-10-11 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-11T00:00:00+08:00">2018-10-11</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-24 12:16:40" itemprop="dateModified" datetime="2018-10-24T12:16:40+08:00">2018-10-24</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -2909,13 +3085,15 @@ AB 测试源自
       
         
           
-            <p>
-              一个维度的数据用不同的统计标准呈现出来的是完全不同的样貌。
+          一个维度的数据用不同的统计标准呈现出来的是完全不同的样貌。
 这也是最容易迷惑受众的部分，对于分析业务
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/11/datician06/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -2929,9 +3107,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -2971,16 +3146,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/09/datician05/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/09/datician05/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -2988,13 +3163,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/10/09/datician05/" class="post-title-link" itemprop="url">强化 SQL 学习+案例分析-05</a>
+                <a class="post-title-link" href="/2018/10/09/datician05/" itemprop="url">
+                  强化 SQL 学习+案例分析-05
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3009,23 +3185,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-10-09 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-09T00:00:00+08:00">2018-10-09</time>
+              <time title="创建时间：2018-10-09 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-09T00:00:00+08:00">2018-10-09</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-05 16:07:39" itemprop="dateModified" datetime="2018-11-05T16:07:39+08:00">2018-11-05</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3053,14 +3244,16 @@ AB 测试源自
       
         
           
-            <p>
-              SQL 这种东西十分钟入门，半小时精通。
+          SQL 这种东西十分钟入门，半小时精通。
 一个数据分析师和我说的话，现在是精通的机会。
 在了解了基本
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/09/datician05/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3074,9 +3267,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3116,16 +3306,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/06/datician04/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/10/06/datician04/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3133,13 +3323,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/10/06/datician04/" class="post-title-link" itemprop="url">掌握术后你更需要逻辑清晰-04</a>
+                <a class="post-title-link" href="/2018/10/06/datician04/" itemprop="url">
+                  掌握术后你更需要逻辑清晰-04
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3154,23 +3345,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-06T00:00:00+08:00">2018-10-06</time>
+              <time title="创建时间：2018-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2018-10-06T00:00:00+08:00">2018-10-06</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-09 08:24:56" itemprop="dateModified" datetime="2018-10-09T08:24:56+08:00">2018-10-09</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3198,13 +3404,15 @@ AB 测试源自
       
         
           
-            <p>
-              思维分析框架数据分析最重要的并不是掌握前面基础的工具，相反，一个问题从什么角度出发是更加重要的。
+          思维分析框架数据分析最重要的并不是掌握前面基础的工具，相反，一个问题从什么角度出发是更加重要的。
 这
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/06/datician04/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3218,9 +3426,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3260,16 +3465,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/27/datician03/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/27/datician03/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3277,13 +3482,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/09/27/datician03/" class="post-title-link" itemprop="url">一切都要简洁地展示出来-03</a>
+                <a class="post-title-link" href="/2018/09/27/datician03/" itemprop="url">
+                  一切都要简洁地展示出来-03
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3298,23 +3504,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-09-27 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-27T00:00:00+08:00">2018-09-27</time>
+              <time title="创建时间：2018-09-27 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-27T00:00:00+08:00">2018-09-27</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-06 17:18:57" itemprop="dateModified" datetime="2018-10-06T17:18:57+08:00">2018-10-06</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3342,12 +3563,14 @@ AB 测试源自
       
         
           
-            <p>
-              对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以
-              ...
-            </p>
+          对于大部分数据分析来说，Excel 的报表功能是可以胜任90%的使用场景的。简单的数据可视化更是可以
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/27/datician03/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3361,9 +3584,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3403,16 +3623,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/25/Datician02/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/25/Datician02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3420,13 +3640,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/09/25/Datician02/" class="post-title-link" itemprop="url">数据分析之路-02</a>
+                <a class="post-title-link" href="/2018/09/25/Datician02/" itemprop="url">
+                  数据分析之路-02
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3441,23 +3662,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-09-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-25T00:00:00+08:00">2018-09-25</time>
+              <time title="创建时间：2018-09-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-25T00:00:00+08:00">2018-09-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 23:46:07" itemprop="dateModified" datetime="2018-09-27T23:46:07+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3485,12 +3721,14 @@ AB 测试源自
       
         
           
-            <p>
-              系列起源在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入
-              ...
-            </p>
+          系列起源在前面的 blog 中，我提到说「不介意学一些用不到的东西」，现在，我觉得「既然要学，就深入
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/25/Datician02/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3504,9 +3742,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3546,16 +3781,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/19/liuliang/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/09/19/liuliang/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3563,13 +3798,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/09/19/liuliang/" class="post-title-link" itemprop="url">互联网最高效的变现模式还是「售卖流量」</a>
+                <a class="post-title-link" href="/2018/09/19/liuliang/" itemprop="url">
+                  互联网最高效的变现模式还是「售卖流量」
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3584,23 +3820,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-09-19 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-19T00:00:00+08:00">2018-09-19</time>
+              <time title="创建时间：2018-09-19 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-19T00:00:00+08:00">2018-09-19</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-20 16:04:01" itemprop="dateModified" datetime="2018-09-20T16:04:01+08:00">2018-09-20</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3628,13 +3879,15 @@ AB 测试源自
       
         
           
-            <p>
-              今天互联网上最高效的变现模式还是「售卖流量」，这一点改变不大。
+          今天互联网上最高效的变现模式还是「售卖流量」，这一点改变不大。
 即便众多的内容付费和知识付费供应商走
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/19/liuliang/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3648,9 +3901,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3690,16 +3940,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/21/book/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/21/book/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3707,13 +3957,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/08/21/book/" class="post-title-link" itemprop="url">读书私房笔记</a>
+                <a class="post-title-link" href="/2018/08/21/book/" itemprop="url">
+                  读书私房笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3728,23 +3979,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-08-21 00:00:00" itemprop="dateCreated datePublished" datetime="2018-08-21T00:00:00+08:00">2018-08-21</time>
+              <time title="创建时间：2018-08-21 00:00:00" itemprop="dateCreated datePublished" datetime="2018-08-21T00:00:00+08:00">2018-08-21</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:40:00" itemprop="dateModified" datetime="2018-11-15T17:40:00+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3772,13 +4038,15 @@ AB 测试源自
       
         
           
-            <p>
-              
+          
 阑夕的读书方法论分享，虽然是其个人的付费内容，但是考虑到 tengblog 的阅读数，应该不算侵权
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/21/book/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3792,9 +4060,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3834,16 +4099,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/04/qudao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/04/qudao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3851,13 +4116,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/08/04/qudao/" class="post-title-link" itemprop="url">投放渠道决定增长用户属性</a>
+                <a class="post-title-link" href="/2018/08/04/qudao/" itemprop="url">
+                  投放渠道决定增长用户属性
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -3872,23 +4138,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2018-08-04T00:00:00+08:00">2018-08-04</time>
+              <time title="创建时间：2018-08-04 00:00:00" itemprop="dateCreated datePublished" datetime="2018-08-04T00:00:00+08:00">2018-08-04</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:40:06" itemprop="dateModified" datetime="2018-11-15T17:40:06+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -3916,15 +4197,17 @@ AB 测试源自
       
         
           
-            <p>
-              投放渠道决定增长用户属性
+          投放渠道决定增长用户属性
 一个感想，也可以看做即刻增长投放的复盘
 增长！增长！增长！
 如果要让互联网
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/04/qudao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -3938,9 +4221,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -3980,16 +4260,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/01/xiongxingshuailuo/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/08/01/xiongxingshuailuo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -3997,13 +4277,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/08/01/xiongxingshuailuo/" class="post-title-link" itemprop="url">雄性是在衰落</a>
+                <a class="post-title-link" href="/2018/08/01/xiongxingshuailuo/" itemprop="url">
+                  雄性是在衰落
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4018,23 +4299,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-08-01 00:00:00" itemprop="dateCreated datePublished" datetime="2018-08-01T00:00:00+08:00">2018-08-01</time>
+              <time title="创建时间：2018-08-01 00:00:00 / 修改时间：14:42:27" itemprop="dateCreated datePublished" datetime="2018-08-01T00:00:00+08:00">2018-08-01</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4062,12 +4346,14 @@ AB 测试源自
       
         
           
-            <p>
-              就在快速翻完《雄性衰落》时，日本科技公司推出的一款「家用全息智能AI机器人Gatebox」正在网络上
-              ...
-            </p>
+          就在快速翻完《雄性衰落》时，日本科技公司推出的一款「家用全息智能AI机器人Gatebox」正在网络上
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/01/xiongxingshuailuo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4081,9 +4367,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4123,16 +4406,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/29/datician01/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/29/datician01/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4140,13 +4423,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/07/29/datician01/" class="post-title-link" itemprop="url">不介意学一些用不到的东西-01</a>
+                <a class="post-title-link" href="/2018/07/29/datician01/" itemprop="url">
+                  不介意学一些用不到的东西-01
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4161,23 +4445,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-07-29 00:00:00" itemprop="dateCreated datePublished" datetime="2018-07-29T00:00:00+08:00">2018-07-29</time>
+              <time title="创建时间：2018-07-29 00:00:00" itemprop="dateCreated datePublished" datetime="2018-07-29T00:00:00+08:00">2018-07-29</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-24 12:27:36" itemprop="dateModified" datetime="2018-10-24T12:27:36+08:00">2018-10-24</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4205,13 +4504,15 @@ AB 测试源自
       
         
           
-            <p>
-              起源
+          起源
 我记得印象非常深刻，在10年、11年的时候，有一天晚上我们开会开得非常晚，大家讨论了很多内容，
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/29/datician01/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4225,9 +4526,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4267,16 +4565,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/11/tuijianxitong/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/11/tuijianxitong/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4284,13 +4582,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/07/11/tuijianxitong/" class="post-title-link" itemprop="url">《推荐系统实践》摘要</a>
+                <a class="post-title-link" href="/2018/07/11/tuijianxitong/" itemprop="url">
+                  《推荐系统实践》摘要
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4305,23 +4604,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-07-11 00:00:00" itemprop="dateCreated datePublished" datetime="2018-07-11T00:00:00+08:00">2018-07-11</time>
+              <time title="创建时间：2018-07-11 00:00:00 / 修改时间：14:56:38" itemprop="dateCreated datePublished" datetime="2018-07-11T00:00:00+08:00">2018-07-11</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4349,17 +4651,19 @@ AB 测试源自
       
         
           
-            <p>
-              推荐系统的基本任务是联系用户和物品，解决信息过载的问题
+          推荐系统的基本任务是联系用户和物品，解决信息过载的问题
 
 个性化推荐：
 
 社会化推荐
 基于内容的推荐
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/11/tuijianxitong/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4373,9 +4677,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4415,16 +4716,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/03/zengzhanganli/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/07/03/zengzhanganli/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4432,13 +4733,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/07/03/zengzhanganli/" class="post-title-link" itemprop="url">增长才是第一生产力</a>
+                <a class="post-title-link" href="/2018/07/03/zengzhanganli/" itemprop="url">
+                  增长才是第一生产力
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4453,23 +4755,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-07-03 00:00:00" itemprop="dateCreated datePublished" datetime="2018-07-03T00:00:00+08:00">2018-07-03</time>
+              <time title="创建时间：2018-07-03 00:00:00" itemprop="dateCreated datePublished" datetime="2018-07-03T00:00:00+08:00">2018-07-03</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4497,15 +4814,17 @@ AB 测试源自
       
         
           
-            <p>
-              16月末7月初对我司有两个值得注意的公共信息：
+          16月末7月初对我司有两个值得注意的公共信息：
 
 抖音被处罚接受广告培训，暂停了信息流广告业务
 轻颜
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/03/zengzhanganli/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4519,9 +4838,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4561,16 +4877,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/06/08/zengzhang/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/06/08/zengzhang/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4578,13 +4894,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/06/08/zengzhang/" class="post-title-link" itemprop="url">「增长黑客」读书笔记</a>
+                <a class="post-title-link" href="/2018/06/08/zengzhang/" itemprop="url">
+                  「增长黑客」读书笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4599,23 +4916,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-06-08 00:00:00" itemprop="dateCreated datePublished" datetime="2018-06-08T00:00:00+08:00">2018-06-08</time>
+              <time title="创建时间：2018-06-08 00:00:00" itemprop="dateCreated datePublished" datetime="2018-06-08T00:00:00+08:00">2018-06-08</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-06-12 23:14:52" itemprop="dateModified" datetime="2018-06-12T23:14:52+08:00">2018-06-12</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4643,12 +4975,14 @@ AB 测试源自
       
         
           
-            <p>
-              “荣耀属于那些亲自置身战场的勇者，他们灰头土脸血、污满溅却依旧在奋勇搏杀，他们历经坎坷、一错再错却仍
-              ...
-            </p>
+          “荣耀属于那些亲自置身战场的勇者，他们灰头土脸血、污满溅却依旧在奋勇搏杀，他们历经坎坷、一错再错却仍
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/08/zengzhang/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4662,9 +4996,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4704,16 +5035,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/06/06/jisuanguanggao/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/06/06/jisuanguanggao/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4721,13 +5052,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/06/06/jisuanguanggao/" class="post-title-link" itemprop="url">「计算广告」读书笔记</a>
+                <a class="post-title-link" href="/2018/06/06/jisuanguanggao/" itemprop="url">
+                  「计算广告」读书笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4742,23 +5074,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-06-06 00:00:00" itemprop="dateCreated datePublished" datetime="2018-06-06T00:00:00+08:00">2018-06-06</time>
+              <time title="创建时间：2018-06-06 00:00:00 / 修改时间：15:06:15" itemprop="dateCreated datePublished" datetime="2018-06-06T00:00:00+08:00">2018-06-06</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4786,14 +5121,16 @@ AB 测试源自
       
         
           
-            <p>
-              笔记摘要
+          笔记摘要
 
 展示量合约仍然是比较传统的交易模式，但是从技术层面上看，这种模式的出现实际上已经反映了互
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/06/jisuanguanggao/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4807,9 +5144,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4849,16 +5183,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/31/liuliangchi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/31/liuliangchi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -4866,13 +5200,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/05/31/liuliangchi/" class="post-title-link" itemprop="url">「流量池」读书笔记</a>
+                <a class="post-title-link" href="/2018/05/31/liuliangchi/" itemprop="url">
+                  「流量池」读书笔记
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -4887,23 +5222,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-05-31 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-31T00:00:00+08:00">2018-05-31</time>
+              <time title="创建时间：2018-05-31 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-31T00:00:00+08:00">2018-05-31</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-06-04 17:25:49" itemprop="dateModified" datetime="2018-06-04T17:25:49+08:00">2018-06-04</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -4931,13 +5281,15 @@ AB 测试源自
       
         
           
-            <p>
-               「流量池」读书笔记
+           「流量池」读书笔记
 互联网巨头对剩余流量的进一步控制和吞噬，国民App抢占了网民大部分时间，导致流
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/31/liuliangchi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -4951,9 +5303,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -4993,16 +5342,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/24/chanpinmianshi/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/24/chanpinmianshi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5010,13 +5359,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/05/24/chanpinmianshi/" class="post-title-link" itemprop="url">产品面试聊些什么？</a>
+                <a class="post-title-link" href="/2018/05/24/chanpinmianshi/" itemprop="url">
+                  产品面试聊些什么？
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5031,23 +5381,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-05-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-24T00:00:00+08:00">2018-05-24</time>
+              <time title="创建时间：2018-05-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-24T00:00:00+08:00">2018-05-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5075,12 +5440,14 @@ AB 测试源自
       
         
           
-            <p>
-              产品面试亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗
-              ...
-            </p>
+          产品面试亚里士多德说过一句话，离群索居者不是野兽，便是神灵。那些将自己包装成“神秘”、“置身热闹喧哗
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/24/chanpinmianshi/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5094,9 +5461,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5136,16 +5500,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/22/neirongtuijian/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/22/neirongtuijian/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5153,13 +5517,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/05/22/neirongtuijian/" class="post-title-link" itemprop="url">千人千面的背后理解</a>
+                <a class="post-title-link" href="/2018/05/22/neirongtuijian/" itemprop="url">
+                  千人千面的背后理解
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5174,23 +5539,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-05-22 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-22T00:00:00+08:00">2018-05-22</time>
+              <time title="创建时间：2018-05-22 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-22T00:00:00+08:00">2018-05-22</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5218,12 +5598,14 @@ AB 测试源自
       
         
           
-            <p>
-              内容算法读书笔记推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹
-              ...
-            </p>
+          内容算法读书笔记推荐系统的架构与搜索系统的架构具有一定的相似度：二者实现的都是信息与用户意图之间的匹
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/22/neirongtuijian/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5237,9 +5619,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5279,16 +5658,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/18/data/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/18/data/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5296,13 +5675,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/05/18/data/" class="post-title-link" itemprop="url">数据的真实和谎言</a>
+                <a class="post-title-link" href="/2018/05/18/data/" itemprop="url">
+                  数据的真实和谎言
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5317,23 +5697,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-05-18 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-18T00:00:00+08:00">2018-05-18</time>
+              <time title="创建时间：2018-05-18 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-18T00:00:00+08:00">2018-05-18</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:40:12" itemprop="dateModified" datetime="2018-11-15T17:40:12+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5361,13 +5756,15 @@ AB 测试源自
       
         
           
-            <p>
-              数据的真实和谎言数据和历史一样，都是任人打扮的小姑娘。
+          数据的真实和谎言数据和历史一样，都是任人打扮的小姑娘。
 不同的分析结果，日统计方式，甚至一个新的计算
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/18/data/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5381,9 +5778,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5423,16 +5817,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/15/photos/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/05/15/photos/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5440,13 +5834,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/05/15/photos/" class="post-title-link" itemprop="url">一些照片</a>
+                <a class="post-title-link" href="/2018/05/15/photos/" itemprop="url">
+                  一些照片
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5461,23 +5856,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-05-15 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-15T00:00:00+08:00">2018-05-15</time>
+              <time title="创建时间：2018-05-15 00:00:00" itemprop="dateCreated datePublished" datetime="2018-05-15T00:00:00+08:00">2018-05-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-11-15 17:40:18" itemprop="dateModified" datetime="2018-11-15T17:40:18+08:00">2018-11-15</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5505,8 +5915,7 @@ AB 测试源自
       
         
           
-            <p>
-              一些照片
+          一些照片
 在 ins 也发过了
 为了纪念我的两个域名通过备案
 留念下
@@ -5514,10 +5923,13 @@ AB 测试源自
 
 也许是三个人的最后一餐
 自
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/15/photos/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5531,9 +5943,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5573,16 +5982,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/04/11/xiamen/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/04/11/xiamen/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5590,13 +5999,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/04/11/xiamen/" class="post-title-link" itemprop="url">关于城市的记忆</a>
+                <a class="post-title-link" href="/2018/04/11/xiamen/" itemprop="url">
+                  关于城市的记忆
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5611,23 +6021,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-04-11 00:00:00" itemprop="dateCreated datePublished" datetime="2018-04-11T00:00:00+08:00">2018-04-11</time>
+              <time title="创建时间：2018-04-11 00:00:00" itemprop="dateCreated datePublished" datetime="2018-04-11T00:00:00+08:00">2018-04-11</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-01-14 22:23:38" itemprop="dateModified" datetime="2019-01-14T22:23:38+08:00">2019-01-14</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5655,15 +6080,17 @@ AB 测试源自
       
         
           
-            <p>
-              
+          
 
 最后一天又去了镇海路。
 天气真是好极了，不想第一天那么热，也不像第一天那么冷。穿着短裤，非常舒服
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/04/11/xiamen/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5677,9 +6104,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5719,16 +6143,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/24/cp13/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/24/cp13/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5736,13 +6160,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/02/24/cp13/" class="post-title-link" itemprop="url">微观、中观和宏观视角-产品思维</a>
+                <a class="post-title-link" href="/2018/02/24/cp13/" itemprop="url">
+                  微观、中观和宏观视角-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5757,23 +6182,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-02-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-24T00:00:00+08:00">2018-02-24</time>
+              <time title="创建时间：2018-02-24 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-24T00:00:00+08:00">2018-02-24</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-02-23 13:25:25" itemprop="dateModified" datetime="2018-02-23T13:25:25+08:00">2018-02-23</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5801,12 +6241,14 @@ AB 测试源自
       
         
           
-            <p>
-              视角练好套路，在大公司做到中层没问题。要想自己为结果负责，开门立户创业，必须有长在自己身上的微观体感
-              ...
-            </p>
+          视角练好套路，在大公司做到中层没问题。要想自己为结果负责，开门立户创业，必须有长在自己身上的微观体感
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/24/cp13/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5820,9 +6262,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -5862,16 +6301,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/23/cp12/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/23/cp12/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -5879,13 +6318,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/02/23/cp12/" class="post-title-link" itemprop="url">创新模式-产品思维</a>
+                <a class="post-title-link" href="/2018/02/23/cp12/" itemprop="url">
+                  创新模式-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -5900,23 +6340,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-02-23 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-23T00:00:00+08:00">2018-02-23</time>
+              <time title="创建时间：2018-02-23 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-23T00:00:00+08:00">2018-02-23</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-02-22 17:37:17" itemprop="dateModified" datetime="2018-02-22T17:37:17+08:00">2018-02-22</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -5944,13 +6399,15 @@ AB 测试源自
       
         
           
-            <p>
-              创新模式用户价值理论可以回答为什么唯有创新一条路
+          创新模式用户价值理论可以回答为什么唯有创新一条路
 产品经理是以创造用户价值为工具，打破旧的利益平衡，
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/23/cp12/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -5964,9 +6421,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6006,16 +6460,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/22/cp11/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/22/cp11/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6023,13 +6477,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/02/22/cp11/" class="post-title-link" itemprop="url">服务蓝图+上瘾机制+名字与口碑-产品思维</a>
+                <a class="post-title-link" href="/2018/02/22/cp11/" itemprop="url">
+                  服务蓝图+上瘾机制+名字与口碑-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6044,23 +6499,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-02-22 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-22T00:00:00+08:00">2018-02-22</time>
+              <time title="创建时间：2018-02-22 00:00:00 / 修改时间：17:21:09" itemprop="dateCreated datePublished" datetime="2018-02-22T00:00:00+08:00">2018-02-22</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6088,12 +6546,14 @@ AB 测试源自
       
         
           
-            <p>
-              服务蓝图的核心服务蓝图是站在服务提供者的立场，怎么在总体成本控制的范畴内，给这只羊核心体验，并且保证
-              ...
-            </p>
+          服务蓝图的核心服务蓝图是站在服务提供者的立场，怎么在总体成本控制的范畴内，给这只羊核心体验，并且保证
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/22/cp11/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6107,9 +6567,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6149,16 +6606,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/02/fb/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/02/02/fb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6166,13 +6623,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/02/02/fb/" class="post-title-link" itemprop="url">Facebook 年度交流会</a>
+                <a class="post-title-link" href="/2018/02/02/fb/" itemprop="url">
+                  Facebook 年度交流会
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6187,23 +6645,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-02-02 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-02T00:00:00+08:00">2018-02-02</time>
+              <time title="创建时间：2018-02-02 00:00:00" itemprop="dateCreated datePublished" datetime="2018-02-02T00:00:00+08:00">2018-02-02</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6231,15 +6704,17 @@ AB 测试源自
       
         
           
-            <p>
-              
+          
 持有Facebook股票的一点功课，已经对我司的发展有重大借鉴意义
 
 关于内容扎克伯格认为，有意义
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/02/02/fb/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6253,9 +6728,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6295,16 +6767,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/29/licai/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/29/licai/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6312,13 +6784,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/29/licai/" class="post-title-link" itemprop="url">2017投资记录--自由之路</a>
+                <a class="post-title-link" href="/2018/01/29/licai/" itemprop="url">
+                  2017投资记录--自由之路
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6333,23 +6806,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-29 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-29T00:00:00+08:00">2018-01-29</time>
+              <time title="创建时间：2018-01-29 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-29T00:00:00+08:00">2018-01-29</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-09-27 00:48:20" itemprop="dateModified" datetime="2018-09-27T00:48:20+08:00">2018-09-27</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6377,16 +6865,18 @@ AB 测试源自
       
         
           
-            <p>
-              
+          
 希望做个有钱有趣的人，实在不行，光有钱也行
 
 
 去年的时候，看到一篇文章 女儿4岁，刚刚赚到人生第
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/29/licai/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6400,9 +6890,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6442,16 +6929,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/26/cp10/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/26/cp10/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6459,13 +6946,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/26/cp10/" class="post-title-link" itemprop="url">用户体验地图+用户故事-产品思维</a>
+                <a class="post-title-link" href="/2018/01/26/cp10/" itemprop="url">
+                  用户体验地图+用户故事-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6480,23 +6968,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-26 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-26T00:00:00+08:00">2018-01-26</time>
+              <time title="创建时间：2018-01-26 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-26T00:00:00+08:00">2018-01-26</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-01-29 17:19:43" itemprop="dateModified" datetime="2018-01-29T17:19:43+08:00">2018-01-29</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6524,12 +7027,14 @@ AB 测试源自
       
         
           
-            <p>
-              用户体验地图用户体验地图就是通过画一张图，用一种讲故事的方式，从一个特定用户的角度出发，记录下他与产
-              ...
-            </p>
+          用户体验地图用户体验地图就是通过画一张图，用一种讲故事的方式，从一个特定用户的角度出发，记录下他与产
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/26/cp10/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6543,9 +7048,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6585,16 +7087,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/25/cp009/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/25/cp009/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6602,13 +7104,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/25/cp009/" class="post-title-link" itemprop="url">用户体验-产品思维</a>
+                <a class="post-title-link" href="/2018/01/25/cp009/" itemprop="url">
+                  用户体验-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6623,23 +7126,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-25T00:00:00+08:00">2018-01-25</time>
+              <time title="创建时间：2018-01-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-25T00:00:00+08:00">2018-01-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-01-29 17:19:43" itemprop="dateModified" datetime="2018-01-29T17:19:43+08:00">2018-01-29</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6667,13 +7185,15 @@ AB 测试源自
       
         
           
-            <p>
-              在体量差异这么大的情况下，用户体验能成为核心竞争力；同维度竞争的时候，用户体验更是最核心的竞争力。
+          在体量差异这么大的情况下，用户体验能成为核心竞争力；同维度竞争的时候，用户体验更是最核心的竞争力。
 
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/25/cp009/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6687,9 +7207,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6729,16 +7246,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/25/cp008/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/25/cp008/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6746,13 +7263,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/25/cp008/" class="post-title-link" itemprop="url">关键任务+总结-产品思维</a>
+                <a class="post-title-link" href="/2018/01/25/cp008/" itemprop="url">
+                  关键任务+总结-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6767,23 +7285,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-25T00:00:00+08:00">2018-01-25</time>
+              <time title="创建时间：2018-01-25 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-25T00:00:00+08:00">2018-01-25</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-01-29 17:19:43" itemprop="dateModified" datetime="2018-01-29T17:19:43+08:00">2018-01-29</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6811,13 +7344,15 @@ AB 测试源自
       
         
           
-            <p>
-              领导力在日常状态下，大家做流程、分工、项目进度、质量评估，这个叫项目管理。
+          领导力在日常状态下，大家做流程、分工、项目进度、质量评估，这个叫项目管理。
 但是，在面对巨大压力，甚
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/25/cp008/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6831,9 +7366,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -6873,16 +7405,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/22/cp007/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/22/cp007/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -6890,13 +7422,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/22/cp007/" class="post-title-link" itemprop="url">效率+迭代-产品思维</a>
+                <a class="post-title-link" href="/2018/01/22/cp007/" itemprop="url">
+                  效率+迭代-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -6911,23 +7444,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-22 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-22T00:00:00+08:00">2018-01-22</time>
+              <time title="创建时间：2018-01-22 00:00:00 / 修改时间：19:06:01" itemprop="dateCreated datePublished" datetime="2018-01-22T00:00:00+08:00">2018-01-22</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -6955,12 +7491,14 @@ AB 测试源自
       
         
           
-            <p>
-              效率第一，小米打OPPO和vivo，看上去是手机的产品战争，但实际上背后是它们的效率之争。小米展现的
-              ...
-            </p>
+          效率第一，小米打OPPO和vivo，看上去是手机的产品战争，但实际上背后是它们的效率之争。小米展现的
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/22/cp007/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -6974,9 +7512,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -7016,16 +7551,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/18/cp006/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/18/cp006/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7033,13 +7568,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/18/cp006/" class="post-title-link" itemprop="url">系统能力-产品思维</a>
+                <a class="post-title-link" href="/2018/01/18/cp006/" itemprop="url">
+                  系统能力-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7054,23 +7590,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-18 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-18T00:00:00+08:00">2018-01-18</time>
+              <time title="创建时间：2018-01-18 00:00:00 / 修改时间：12:47:05" itemprop="dateCreated datePublished" datetime="2018-01-18T00:00:00+08:00">2018-01-18</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7098,13 +7637,15 @@ AB 测试源自
       
         
           
-            <p>
-              系统能力当你说要做一个产品，你需要的是建设一套系统能力。
+          系统能力当你说要做一个产品，你需要的是建设一套系统能力。
 整体流程+确定性用户需要的是某项服务，不是
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/18/cp006/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7118,9 +7659,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -7160,16 +7698,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/15/cp005/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/15/cp005/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7177,13 +7715,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/15/cp005/" class="post-title-link" itemprop="url">寻找趋势、机会-产品思维</a>
+                <a class="post-title-link" href="/2018/01/15/cp005/" itemprop="url">
+                  寻找趋势、机会-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7198,23 +7737,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-15 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-15T00:00:00+08:00">2018-01-15</time>
+              <time title="创建时间：2018-01-15 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-15T00:00:00+08:00">2018-01-15</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-01-17 19:07:47" itemprop="dateModified" datetime="2018-01-17T19:07:47+08:00">2018-01-17</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7242,13 +7796,15 @@ AB 测试源自
       
         
           
-            <p>
-              机会判断求之于势，不责于人
+          机会判断求之于势，不责于人
 每一个人要做成一件事情，本质上不在于你多强，而是你要顺势而为，于万仞之上
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/15/cp005/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7262,9 +7818,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -7304,16 +7857,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/12/cp004/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/12/cp004/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7321,13 +7874,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/12/cp004/" class="post-title-link" itemprop="url">警惕集体人格+自我自律-产品思维</a>
+                <a class="post-title-link" href="/2018/01/12/cp004/" itemprop="url">
+                  警惕集体人格+自我自律-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7342,23 +7896,26 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-12 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-12T00:00:00+08:00">2018-01-12</time>
+              <time title="创建时间：2018-01-12 00:00:00 / 修改时间：13:18:01" itemprop="dateCreated datePublished" datetime="2018-01-12T00:00:00+08:00">2018-01-12</time>
             
 
+            
+              
+
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7386,14 +7943,16 @@ AB 测试源自
       
         
           
-            <p>
-              集体人格的误导集体是一群角色的集合。
+          集体人格的误导集体是一群角色的集合。
 人是因为训练和压力才成为角色的，而集体就是角色的聚集。
 如果你
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/12/cp004/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7407,9 +7966,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -7449,16 +8005,16 @@ AB 测试源自
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/09/cp003/"/>
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2018/01/09/cp003/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾"/>
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
-      <meta itemprop="image" content="/images/avatar.gif"/>
+      <meta itemprop="name" content="马腾">
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG"/>
+      <meta itemprop="name" content="TENG">
     </span>
 
     
@@ -7466,13 +8022,14 @@ AB 测试源自
 
         
         
-          <h2 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">
                 
-                
-                <a href="/2018/01/09/cp003/" class="post-title-link" itemprop="url">愤怒和恐惧+用户潜意识-产品思维</a>
+                <a class="post-title-link" href="/2018/01/09/cp003/" itemprop="url">
+                  愤怒和恐惧+用户潜意识-产品思维
+                </a>
               
             
-          </h2>
+          </h1>
         
 
         <div class="post-meta">
@@ -7487,23 +8044,38 @@ AB 测试源自
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2018-01-09 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-09T00:00:00+08:00">2018-01-09</time>
+              <time title="创建时间：2018-01-09 00:00:00" itemprop="dateCreated datePublished" datetime="2018-01-09T00:00:00+08:00">2018-01-09</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-01-12 12:56:06" itemprop="dateModified" datetime="2018-01-12T12:56:06+08:00">2018-01-12</time>
+              
             
           </span>
 
           
 
           
-            
             
           
 
@@ -7531,13 +8103,15 @@ AB 测试源自
       
         
           
-            <p>
-              愤怒和恐惧愤怒和恐惧是同生的感觉，都是来自被侵犯，但是因为侵犯客体的不同就分成了愤怒和恐惧。
+          愤怒和恐惧愤怒和恐惧是同生的感觉，都是来自被侵犯，但是因为侵犯客体的不同就分成了愤怒和恐惧。
 侵犯客
-              ...
-            </p>
+          ...
           <!--noindex-->
-          
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/01/09/cp003/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
           <!--/noindex-->
         
       
@@ -7551,9 +8125,6 @@ AB 测试源自
 
     
 
-    
-      
-    
     
 
     
@@ -7582,7 +8153,7 @@ AB 测试源自
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -7603,22 +8174,23 @@ AB 测试源自
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾"/>
+                alt="马腾" />
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
+              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
           </div>
 
           
@@ -7629,7 +8201,7 @@ AB 测试源自
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
@@ -7640,11 +8212,7 @@ AB 测试源自
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
-                    
-                      <a href="/tags/">
-                    
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
@@ -7720,7 +8288,7 @@ AB 测试源自
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">schlagwörter</span>
+                    <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
               
@@ -7737,40 +8305,27 @@ AB 测试源自
           
 
           
-
-          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
+                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
+                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
+                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
-                  
-                  
-                    
-                  
-                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
+          
           
 
           
@@ -7782,7 +8337,7 @@ AB 测试源自
           
 
         </div>
-      </div>
+      </section>
 
       
 
@@ -7790,7 +8345,6 @@ AB 测试源自
 
     </div>
   </aside>
-  
 
 
         
@@ -7811,7 +8365,9 @@ AB 测试源自
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
 
 
 
@@ -7819,7 +8375,7 @@ AB 测试源自
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.1</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
 
 
 
@@ -7838,17 +8394,19 @@ AB 测试源自
     </footer>
 
     
-
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
     
 
-    
   </div>
 
   
 
-<script>
+<script type="text/javascript">
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -7880,45 +8438,31 @@ AB 测试源自
 
 
   
-  <script src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-
-  
-
-
-  <script src="/js/utils.js?v=7.1.1"></script>
-
-  <script src="/js/motion.js?v=7.1.1"></script>
-
-
 
   
   
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
 
-
-  <script src="/js/affix.js?v=7.1.1"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
-
-
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
 
 
   
 
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
   
-
-
-  <script src="/js/next-boot.js?v=7.1.1"></script>
-
-
-  
-
   
 
   
@@ -7926,327 +8470,38 @@ AB 测试源自
   
 
 
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
 
   
-  <script>
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
 
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
 
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
 
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
+	
 
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
-      
 
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
 
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
 
-                // show search results
+  
 
-                if (isMatch) {
-                  // sort index by position of keyword
 
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
 
-                  // merge hits into slices
 
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
 
-                      // move to next position of hit
+  
 
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
 
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
 
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
 
-                  // sort slices in content by search text's count and hits' count
 
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
 
-                  // select top N slices in content
 
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
 
-                  // highlight title and content
 
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
 
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
+  
 
 
 
@@ -8254,14 +8509,14 @@ AB 测试源自
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/algolia-search.js?v=7.1.1"></script>
+  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
 
 
 
@@ -8274,13 +8529,6 @@ AB 测试源自
   
 
   
-
-  
-
-  
-
-  
-
   
 
   
