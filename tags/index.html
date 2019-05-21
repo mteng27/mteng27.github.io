@@ -17,23 +17,9 @@
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="theme-color" content="#222"/>
 
 
 
@@ -56,37 +42,39 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
 
 
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
 
 
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '6.3.0',
+    version: '7.1.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    back2top: ,
+    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -121,16 +109,17 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
 
 
 
-
+  
+  
   <link rel="canonical" href="http://tengblog.com/tags/"/>
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -144,7 +133,7 @@
 
 
 
-  <script type="text/javascript">
+  <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -157,30 +146,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -198,7 +188,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -213,10 +203,11 @@
         <p class="site-subtitle">世事无常，精进不已</p>
       
     
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -235,24 +226,51 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags menu-item-active">
-    <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Schlagwörter</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
+
   </li>
 
       
@@ -262,7 +280,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
         </li>
       
     </ul>
@@ -345,7 +363,9 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Tagcloud</h1>
+<h1 class="post-title" itemprop="name headline">Tagcloud
+
+</h1>
 
 <div class="post-meta">
   
@@ -365,156 +385,158 @@
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-                
-                
-                  
-                    
-                  
+              
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
-                  
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
-                目前共计 36 个标签
+              
+              Insgesamt 36 Schlagwörter
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/2014/" style="font-size: 12px; color: #ccc">2014</a> <a href="/tags/Learning/" style="font-size: 21px; color: #6f6f6f">Learning</a> <a href="/tags/Reading/" style="font-size: 13.5px; color: #bcbcbc">Reading</a> <a href="/tags/TED/" style="font-size: 12.75px; color: #c4c4c4">TED</a> <a href="/tags/Thinking/" style="font-size: 28.5px; color: #212121">Thinking</a> <a href="/tags/lofter/" style="font-size: 24px; color: #4f4f4f">lofter</a> <a href="/tags/reading/" style="font-size: 15.75px; color: #a5a5a5">reading</a> <a href="/tags/产品/" style="font-size: 25.5px; color: #404040">产品</a> <a href="/tags/人生/" style="font-size: 12px; color: #ccc">人生</a> <a href="/tags/博客/" style="font-size: 17.25px; color: #959595">博客</a> <a href="/tags/原则/" style="font-size: 18px; color: #8e8e8e">原则</a> <a href="/tags/商业变现/" style="font-size: 14.25px; color: #b5b5b5">商业变现</a> <a href="/tags/团队管理/" style="font-size: 12px; color: #ccc">团队管理</a> <a href="/tags/增长/" style="font-size: 15px; color: #adadad">增长</a> <a href="/tags/学习/" style="font-size: 24.75px; color: #484848">学习</a> <a href="/tags/工作/" style="font-size: 12px; color: #ccc">工作</a> <a href="/tags/广告/" style="font-size: 12px; color: #ccc">广告</a> <a href="/tags/感叹/" style="font-size: 26.25px; color: #383838">感叹</a> <a href="/tags/感悟/" style="font-size: 12.75px; color: #c4c4c4">感悟</a> <a href="/tags/感慨/" style="font-size: 19.5px; color: #7e7e7e">感慨</a> <a href="/tags/数据分析/" style="font-size: 16.5px; color: #9d9d9d">数据分析</a> <a href="/tags/正经/" style="font-size: 20.25px; color: #767676">正经</a> <a href="/tags/泰国杂忆/" style="font-size: 21.75px; color: #676767">泰国杂忆</a> <a href="/tags/理财/" style="font-size: 12.75px; color: #c4c4c4">理财</a> <a href="/tags/生活/" style="font-size: 22.5px; color: #5f5f5f">生活</a> <a href="/tags/电影/" style="font-size: 19.5px; color: #7e7e7e">电影</a> <a href="/tags/瞎扯/" style="font-size: 27px; color: #303030">瞎扯</a> <a href="/tags/笔记/" style="font-size: 29.25px; color: #191919">笔记</a> <a href="/tags/素材/" style="font-size: 13.5px; color: #bcbcbc">素材</a> <a href="/tags/编程/" style="font-size: 18.75px; color: #868686">编程</a> <a href="/tags/职场/" style="font-size: 23.25px; color: #575757">职场</a> <a href="/tags/读书/" style="font-size: 27.75px; color: #282828">读书</a> <a href="/tags/运营/" style="font-size: 12px; color: #ccc">运营</a> <a href="/tags/阅读/" style="font-size: 12px; color: #ccc">阅读</a> <a href="/tags/随想录/" style="font-size: 30px; color: #111">随想录</a> <a href="/tags/面试/" style="font-size: 12px; color: #ccc">面试</a>
+              
+                <a href="/tags/2014/" style="font-size: 12px; color: #ccc">2014</a> <a href="/tags/Learning/" style="font-size: 21px; color: #6f6f6f">Learning</a> <a href="/tags/Reading/" style="font-size: 13.5px; color: #bcbcbc">Reading</a> <a href="/tags/TED/" style="font-size: 12.75px; color: #c4c4c4">TED</a> <a href="/tags/Thinking/" style="font-size: 28.5px; color: #212121">Thinking</a> <a href="/tags/lofter/" style="font-size: 24px; color: #4f4f4f">lofter</a> <a href="/tags/reading/" style="font-size: 15.75px; color: #a5a5a5">reading</a> <a href="/tags/产品/" style="font-size: 25.5px; color: #404040">产品</a> <a href="/tags/人生/" style="font-size: 12px; color: #ccc">人生</a> <a href="/tags/博客/" style="font-size: 17.25px; color: #959595">博客</a> <a href="/tags/原则/" style="font-size: 18px; color: #8e8e8e">原则</a> <a href="/tags/商业变现/" style="font-size: 14.25px; color: #b5b5b5">商业变现</a> <a href="/tags/团队管理/" style="font-size: 12px; color: #ccc">团队管理</a> <a href="/tags/增长/" style="font-size: 15px; color: #adadad">增长</a> <a href="/tags/学习/" style="font-size: 24.75px; color: #484848">学习</a> <a href="/tags/工作/" style="font-size: 12px; color: #ccc">工作</a> <a href="/tags/广告/" style="font-size: 12px; color: #ccc">广告</a> <a href="/tags/感叹/" style="font-size: 26.25px; color: #383838">感叹</a> <a href="/tags/感悟/" style="font-size: 12.75px; color: #c4c4c4">感悟</a> <a href="/tags/感慨/" style="font-size: 19.5px; color: #7e7e7e">感慨</a> <a href="/tags/数据分析/" style="font-size: 16.5px; color: #9d9d9d">数据分析</a> <a href="/tags/正经/" style="font-size: 20.25px; color: #767676">正经</a> <a href="/tags/泰国杂忆/" style="font-size: 21.75px; color: #676767">泰国杂忆</a> <a href="/tags/理财/" style="font-size: 12.75px; color: #c4c4c4">理财</a> <a href="/tags/生活/" style="font-size: 22.5px; color: #5f5f5f">生活</a> <a href="/tags/电影/" style="font-size: 19.5px; color: #7e7e7e">电影</a> <a href="/tags/瞎扯/" style="font-size: 27px; color: #303030">瞎扯</a> <a href="/tags/笔记/" style="font-size: 29.25px; color: #191919">笔记</a> <a href="/tags/素材/" style="font-size: 13.5px; color: #bcbcbc">素材</a> <a href="/tags/编程/" style="font-size: 18.75px; color: #868686">编程</a> <a href="/tags/职场/" style="font-size: 23.25px; color: #575757">职场</a> <a href="/tags/读书/" style="font-size: 27.75px; color: #282828">读书</a> <a href="/tags/运营/" style="font-size: 12px; color: #ccc">运营</a> <a href="/tags/阅读/" style="font-size: 12px; color: #ccc">阅读</a> <a href="/tags/随想录/" style="font-size: 30px; color: #111">随想录</a> <a href="/tags/面试/" style="font-size: 12px; color: #ccc">面试</a>
+              
             </div>
           </div>
         
@@ -549,23 +571,22 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾" />
+                alt="马腾"/>
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
           </div>
 
           
@@ -576,7 +597,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">日志</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -587,7 +608,11 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -663,7 +688,7 @@
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">标签</span>
+                    <span class="site-state-item-name">schlagwörter</span>
                   </a>
                 </div>
               
@@ -680,27 +705,40 @@
           
 
           
+
+          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
-          
           
 
           
@@ -712,7 +750,7 @@
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -720,6 +758,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -740,9 +779,7 @@
 </div>
 
 
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
 
 
 
@@ -750,7 +787,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -769,19 +806,17 @@
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -813,59 +848,52 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+  <script src="/js/utils.js?v=7.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+  <script src="/js/motion.js?v=7.1.1"></script>
 
 
 
   
   
 
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
 
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
 
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
 
 
 
   
-
-
-
-	
-
-
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
 
 
 
   
 
 
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -873,29 +901,17 @@
 
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
+  <script src="/js/algolia-search.js?v=7.1.1"></script>
 
 
 
@@ -908,6 +924,13 @@
   
 
   
+
+  
+
+  
+
+  
+
   
 
   

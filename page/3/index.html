@@ -17,23 +17,9 @@
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="theme-color" content="#222"/>
 
 
 
@@ -56,37 +42,39 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
 
 
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
 
 
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '6.3.0',
+    version: '7.1.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    back2top: ,
+    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -120,16 +108,17 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
 
 
 
-
+  
+  
   <link rel="canonical" href="http://tengblog.com/page/3/"/>
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -143,7 +132,7 @@
 
 
 
-  <script type="text/javascript">
+  <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -156,30 +145,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -198,7 +188,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -213,10 +203,11 @@
         <p class="site-subtitle">世事无常，精进不已</p>
       
     
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -235,24 +226,51 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-    <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Schlagwörter</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
+
   </li>
 
       
@@ -262,7 +280,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
         </li>
       
     </ul>
@@ -338,16 +356,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/17/shuang11/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/17/difang/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -357,9 +375,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/17/shuang11/" itemprop="url">
-                  阿里CEO详解双十一|转述[技能树]
-                </a>
+                
+                <a href="/2016/11/17/difang/" class="post-title-link" itemprop="url">这个地方好熟悉，我来过</a>
               
             
           </h1>
@@ -377,38 +394,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-17T00:00:00+08:00">2016-11-17</time>
+              <time title="Erstellt: 2016-11-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-17T00:00:00+08:00">2016-11-17</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-18 22:08:57" itemprop="dateModified" datetime="2016-11-18T22:08:57+08:00">2016-11-18</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -436,18 +438,12 @@
       
         
           
-          
-得到稿件，还是要细心处理稿件才好。
-
-讲讲双十一结束后，李翔对阿里巴巴CEO 张勇的专访。
-双十一
-          ...
+            <p>
+              每次从家回北京的时候，我都去大望路坐地铁，看着现代城楼下的红色立柱，每次都觉得很熟悉，这个地方是不是
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/17/shuang11/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -461,6 +457,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -500,16 +499,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/11/time/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/11/time/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -519,9 +518,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/11/time/" itemprop="url">
-                  如何让你的时间更值钱？
-                </a>
+                
+                <a href="/2016/11/11/time/" class="post-title-link" itemprop="url">如何让你的时间更值钱？</a>
               
             
           </h1>
@@ -539,38 +537,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-11 22:26:10" itemprop="dateCreated datePublished" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
+              <time title="Erstellt: 2016-11-11 22:26:10" itemprop="dateCreated datePublished" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-27 23:26:56" itemprop="dateModified" datetime="2018-09-27T23:26:56+08:00">2018-09-27</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -598,18 +581,16 @@
       
         
           
-          所有教授时间管理的书籍都不会忘记我们，
+            <p>
+              所有教授时间管理的书籍都不会忘记我们，
 
 要提升自己的专注度，提升在单位时间内的产出
 
 目的是要求我
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/11/time/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -623,6 +604,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -662,16 +646,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/11/diluo/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/11/diluo/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -681,9 +665,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/11/diluo/" itemprop="url">
-                  夜深了，你在想什么？
-                </a>
+                
+                <a href="/2016/11/11/diluo/" class="post-title-link" itemprop="url">夜深了，你在想什么？</a>
               
             
           </h1>
@@ -701,38 +684,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-11 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-11T00:00:00+08:00">2016-11-11</time>
+              <time title="Erstellt: 2016-11-11 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-11T00:00:00+08:00">2016-11-11</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-12 23:12:43" itemprop="dateModified" datetime="2016-11-12T23:12:43+08:00">2016-11-12</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -760,15 +728,13 @@
       
         
           
-          夜深了
+            <p>
+              夜深了
 邮箱又贴心地提醒我了，夜深了，要休息了。放下手中电话，心中多了好多无奈。爸爸想把家中原本我名
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/11/diluo/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -782,6 +748,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -821,16 +790,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/wangyueche/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/wangyueche/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -840,9 +809,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/08/wangyueche/" itemprop="url">
-                  网约车司机的生存现状| 转述 [技能树]
-                </a>
+                
+                <a href="/2016/11/08/wangyueche/" class="post-title-link" itemprop="url">网约车司机的生存现状| 转述 [技能树]</a>
               
             
           </h1>
@@ -860,38 +828,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
+              <time title="Erstellt: 2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -919,17 +872,15 @@
       
         
           
-          
+            <p>
+              
 这篇原稿其实含有软广的性质，不过也看作者的处理水平。
 
 这条音频说的是网约车司机的生存状况怎么样。
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/08/wangyueche/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -943,6 +894,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -982,16 +936,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/pashan/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/yuce/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1001,9 +955,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/08/pashan/" itemprop="url">
-                  开始行动和爬山理论
-                </a>
+                
+                <a href="/2016/11/08/yuce/" class="post-title-link" itemprop="url">思科前CEO对未来的大胆预测| 转述 [技能树]</a>
               
             
           </h1>
@@ -1021,38 +974,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
+              <time title="Erstellt: 2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-27 23:25:14" itemprop="dateModified" datetime="2018-09-27T23:25:14+08:00">2018-09-27</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1080,177 +1018,15 @@
       
         
           
-          开始行动和爬山理论
-
-看到这句话的时候，突然深有同感：人性的复杂，明明知道自己的很多习惯是不对的，但
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/08/pashan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/yuce/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/11/08/yuce/" itemprop="url">
-                  思科前CEO对未来的大胆预测| 转述 [技能树]
-                </a>
+            <p>
               
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
 观点扫描
 
  这条音频讲的内容是近期科技圈两位大佬的新观点。首先，我们来说说关于未来科技发展的预测
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/08/yuce/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1264,6 +1040,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1303,16 +1082,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/05/72h/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/08/pashan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1322,9 +1101,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/05/72h/" itemprop="url">
-                  纪实72小时：人生百态
-                </a>
+                
+                <a href="/2016/11/08/pashan/" class="post-title-link" itemprop="url">开始行动和爬山理论</a>
               
             
           </h1>
@@ -1342,38 +1120,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-05T00:00:00+08:00">2016-11-05</time>
+              <time title="Erstellt: 2016-11-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-08T00:00:00+08:00">2016-11-08</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1401,14 +1164,14 @@
       
         
           
-          心情不太好的时候，我经常看看动画片《咱们裸熊》，可惜是动画片更新太慢了。大多数时候没有更新，更新的时
-          ...
+            <p>
+              开始行动和爬山理论
+
+看到这句话的时候，突然深有同感：人性的复杂，明明知道自己的很多习惯是不对的，但
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/05/72h/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1422,6 +1185,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1461,16 +1227,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/01/yanhuo/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/05/72h/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1480,9 +1246,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/01/yanhuo/" itemprop="url">
-                  照片 | 人间烟火在泰国
-                </a>
+                
+                <a href="/2016/11/05/72h/" class="post-title-link" itemprop="url">纪实72小时：人生百态</a>
               
             
           </h1>
@@ -1500,38 +1265,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-01T00:00:00+08:00">2016-11-01</time>
+              <time title="Erstellt: 2016-11-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-05T00:00:00+08:00">2016-11-05</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1559,7 +1309,151 @@
       
         
           
+            <p>
+              心情不太好的时候，我经常看看动画片《咱们裸熊》，可惜是动画片更新太慢了。大多数时候没有更新，更新的时
+              ...
+            </p>
+          <!--noindex-->
           
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/01/yanhuo/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TENG"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/11/01/yanhuo/" class="post-title-link" itemprop="url">照片 | 人间烟火在泰国</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2016-11-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-01T00:00:00+08:00">2016-11-01</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>
+              
 一点回忆
 一篇旧文
 一个回答，来自这里
@@ -1577,13 +1471,10 @@
 
 
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/01/yanhuo/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1597,6 +1488,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1636,16 +1530,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/01/yinyue/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/11/01/yinyue/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1655,9 +1549,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/11/01/yinyue/" itemprop="url">
-                  买了一个音箱盒子
-                </a>
+                
+                <a href="/2016/11/01/yinyue/" class="post-title-link" itemprop="url">买了一个音箱盒子</a>
               
             
           </h1>
@@ -1675,38 +1568,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-11-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-01T00:00:00+08:00">2016-11-01</time>
+              <time title="Erstellt: 2016-11-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-11-01T00:00:00+08:00">2016-11-01</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1734,14 +1612,12 @@
       
         
           
-          买了一个音箱盒子北京还没有供暖，室友搬去了zq家，所以更感觉有点冷清。冷的问题，正在商议是否提前供暖
-          ...
+            <p>
+              买了一个音箱盒子北京还没有供暖，室友搬去了zq家，所以更感觉有点冷清。冷的问题，正在商议是否提前供暖
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/01/yinyue/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1755,6 +1631,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1794,16 +1673,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/31/shudan/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/31/shudan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1813,9 +1692,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/31/shudan/" itemprop="url">
-                  十月书单 | 非虚构的经营管理
-                </a>
+                
+                <a href="/2016/10/31/shudan/" class="post-title-link" itemprop="url">十月书单 | 非虚构的经营管理</a>
               
             
           </h1>
@@ -1833,38 +1711,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-31T00:00:00+08:00">2016-10-31</time>
+              <time title="Erstellt: 2016-10-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-31T00:00:00+08:00">2016-10-31</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:05" itemprop="dateModified" datetime="2018-11-15T17:44:05+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1892,14 +1755,12 @@
       
         
           
-          十月书单 | 非虚构的经营管理十月份开始就是7天的假期，不过我也过得味同嚼蜡，在家呆了两三天，就想着
-          ...
+            <p>
+              十月书单 | 非虚构的经营管理十月份开始就是7天的假期，不过我也过得味同嚼蜡，在家呆了两三天，就想着
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/31/shudan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1913,6 +1774,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1952,16 +1816,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/25/quanli-daode/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/25/quanli-daode/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1971,9 +1835,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/25/quanli-daode/" itemprop="url">
-                  书单|权力和道德
-                </a>
+                
+                <a href="/2016/10/25/quanli-daode/" class="post-title-link" itemprop="url">书单|权力和道德</a>
               
             
           </h1>
@@ -1991,38 +1854,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-25T00:00:00+08:00">2016-10-25</time>
+              <time title="Erstellt: 2016-10-25 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-25T00:00:00+08:00">2016-10-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:09" itemprop="dateModified" datetime="2018-11-15T17:44:09+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2050,15 +1898,13 @@
       
         
           
-          权利的悖论这本书一般，真的一般。似乎陷入了循环论证的路径。
+            <p>
+              权利的悖论这本书一般，真的一般。似乎陷入了循环论证的路径。
 作者先是给了个总纲领般的条目。然后开始解
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/25/quanli-daode/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2072,6 +1918,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2111,16 +1960,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/24/foryourslef/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/24/foryourslef/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2130,9 +1979,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/24/foryourslef/" itemprop="url">
-                  一点瞎扯和瞎扯
-                </a>
+                
+                <a href="/2016/10/24/foryourslef/" class="post-title-link" itemprop="url">一点瞎扯和瞎扯</a>
               
             
           </h1>
@@ -2150,38 +1998,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-24T00:00:00+08:00">2016-10-24</time>
+              <time title="Erstellt: 2016-10-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-24T00:00:00+08:00">2016-10-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2209,17 +2042,15 @@
       
         
           
-          
+            <p>
+              
 不妨无谓且无畏点
 
 周日，逃课在家的时候，听到《一起去台湾》的两个二货在采访杨乃文。杨乃文，我不熟
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/24/foryourslef/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2233,6 +2064,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2272,16 +2106,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/21/shequnmofang/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/21/shequnmofang/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2291,9 +2125,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/21/shequnmofang/" itemprop="url">
-                  PPT为什么要模仿？| 社群 [技能树]
-                </a>
+                
+                <a href="/2016/10/21/shequnmofang/" class="post-title-link" itemprop="url">PPT为什么要模仿？| 社群 [技能树]</a>
               
             
           </h1>
@@ -2311,38 +2144,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-21T00:00:00+08:00">2016-10-21</time>
+              <time title="Erstellt: 2016-10-21 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-21T00:00:00+08:00">2016-10-21</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2370,17 +2188,15 @@
       
         
           
-          
+            <p>
+              
 一次文章的同步
 
 PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招募文章，大家很积极，
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/21/shequnmofang/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2394,6 +2210,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -2433,16 +2252,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/19/paiming/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/19/paiming/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2452,9 +2271,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/19/paiming/" itemprop="url">
-                  如何给历史上的天才排名？| 转述 [技能树]
-                </a>
+                
+                <a href="/2016/10/19/paiming/" class="post-title-link" itemprop="url">如何给历史上的天才排名？| 转述 [技能树]</a>
               
             
           </h1>
@@ -2472,38 +2290,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-19T00:00:00+08:00">2016-10-19</time>
+              <time title="Erstellt: 2016-10-19 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-19T00:00:00+08:00">2016-10-19</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2531,15 +2334,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 得到音频稿件。不过这篇相对来说修改的地方比较多，最主要的原因是编辑和平台要体现客观，对很多地方做了
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/19/paiming/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2553,6 +2354,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -2592,16 +2396,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/17/huoxing/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/17/huoxing/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2611,9 +2415,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/17/huoxing/" itemprop="url">
-                  新书丨为什么我们要去火星？|转述[技能树]
-                </a>
+                
+                <a href="/2016/10/17/huoxing/" class="post-title-link" itemprop="url">新书丨为什么我们要去火星？|转述[技能树]</a>
               
             
           </h1>
@@ -2631,38 +2434,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-17T00:00:00+08:00">2016-10-17</time>
+              <time title="Erstellt: 2016-10-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-17T00:00:00+08:00">2016-10-17</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2690,18 +2478,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 得到音频稿件
 
 最近，中信出版社新出了几本书，挺有意思，我来给您介绍介绍。
 第一本是关于企业战略选
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/17/huoxing/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2715,6 +2501,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -2754,16 +2543,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/17/xinshu/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/17/xinshu/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2773,9 +2562,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/17/xinshu/" itemprop="url">
-                  成就在变少？|转述[技能树]
-                </a>
+                
+                <a href="/2016/10/17/xinshu/" class="post-title-link" itemprop="url">成就在变少？|转述[技能树]</a>
               
             
           </h1>
@@ -2793,38 +2581,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-17T00:00:00+08:00">2016-10-17</time>
+              <time title="Erstellt: 2016-10-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-17T00:00:00+08:00">2016-10-17</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2852,18 +2625,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 得到音频稿件
 
 这条音频讲的内容是：人类文明取得新成就的数量，是不是越来越少。
 大家都有种感觉，那
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/17/xinshu/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2877,6 +2648,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -2916,16 +2690,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/15/boke/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/15/boke/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2935,9 +2709,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/15/boke/" itemprop="url">
-                  博客瘫痪后的修复
-                </a>
+                
+                <a href="/2016/10/15/boke/" class="post-title-link" itemprop="url">博客瘫痪后的修复</a>
               
             
           </h1>
@@ -2955,38 +2728,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-15T00:00:00+08:00">2016-10-15</time>
+              <time title="Erstellt: 2016-10-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-15T00:00:00+08:00">2016-10-15</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3014,14 +2772,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          博客出了一些问题 两天前，偶然想更换下博客首页的标题底图，想把原本微凉的岛图换成比较温暖的夜景。然后
-          ...
+            <p>
+              博客出了一些问题 两天前，偶然想更换下博客首页的标题底图，想把原本微凉的岛图换成比较温暖的夜景。然后
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/15/boke/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3035,6 +2791,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3074,16 +2833,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/14/tanpan3/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/14/tanpan3/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3093,9 +2852,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/14/tanpan3/" itemprop="url">
-                  需要一点谈判（三）
-                </a>
+                
+                <a href="/2016/10/14/tanpan3/" class="post-title-link" itemprop="url">需要一点谈判（三）</a>
               
             
           </h1>
@@ -3113,38 +2871,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-14T00:00:00+08:00">2016-10-14</time>
+              <time title="Erstellt: 2016-10-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-14T00:00:00+08:00">2016-10-14</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3172,16 +2915,14 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          需要一点谈判（三）整个谈判的流程在前面的文章中已经说清楚了：
+            <p>
+              需要一点谈判（三）整个谈判的流程在前面的文章中已经说清楚了：
 
 收集信息——估算蛋糕的大小——计算自
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/14/tanpan3/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3195,6 +2936,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3234,16 +2978,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/13/pinpai/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/13/pinpai/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3253,9 +2997,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/13/pinpai/" itemprop="url">
-                  如何打造“自品牌”（一）
-                </a>
+                
+                <a href="/2016/10/13/pinpai/" class="post-title-link" itemprop="url">如何打造“自品牌”（一）</a>
               
             
           </h1>
@@ -3273,38 +3016,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-13T00:00:00+08:00">2016-10-13</time>
+              <time title="Erstellt: 2016-10-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-13T00:00:00+08:00">2016-10-13</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3332,16 +3060,14 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          如何打造“自品牌”（一）
+            <p>
+              如何打造“自品牌”（一）
 可口可乐全球的工厂被烧毁，可口可乐就会消失了吗？
 不会，它会迅速修建新厂房
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/13/pinpai/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3355,6 +3081,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3394,16 +3123,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/12/tanpan/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/12/tanpan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3413,9 +3142,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/12/tanpan/" itemprop="url">
-                  需要一点谈判（二）
-                </a>
+                
+                <a href="/2016/10/12/tanpan/" class="post-title-link" itemprop="url">需要一点谈判（二）</a>
               
             
           </h1>
@@ -3433,38 +3161,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-12T00:00:00+08:00">2016-10-12</time>
+              <time title="Erstellt: 2016-10-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-12T00:00:00+08:00">2016-10-12</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3492,17 +3205,15 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          需要一点谈判（二）
+            <p>
+              需要一点谈判（二）
 《王烁大学问 》学习笔记
 
 承接前文，即便是我们了解自己的底线（BATNA），我
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/12/tanpan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3516,6 +3227,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3555,16 +3269,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/07/suoxie/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/07/suoxie/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3574,9 +3288,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/07/suoxie/" itemprop="url">
-                  书籍卡片反馈|缩写[技能树]
-                </a>
+                
+                <a href="/2016/10/07/suoxie/" class="post-title-link" itemprop="url">书籍卡片反馈|缩写[技能树]</a>
               
             
           </h1>
@@ -3594,38 +3307,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-07T00:00:00+08:00">2016-10-07</time>
+              <time title="Erstellt: 2016-10-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-07T00:00:00+08:00">2016-10-07</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3653,15 +3351,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 9月帮熊猫学院拆写了《精进》一书，然后编辑发送了我相关的反馈。在此记录下，以及一些对读书社群的想法
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/07/suoxie/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3675,6 +3371,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3714,16 +3413,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/07/meigonghe/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/07/meigonghe/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3733,9 +3432,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/07/meigonghe/" itemprop="url">
-                  电影|国庆观影及《湄公河行动》
-                </a>
+                
+                <a href="/2016/10/07/meigonghe/" class="post-title-link" itemprop="url">电影|国庆观影及《湄公河行动》</a>
               
             
           </h1>
@@ -3753,38 +3451,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-07T00:00:00+08:00">2016-10-07</time>
+              <time title="Erstellt: 2016-10-07 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-07T00:00:00+08:00">2016-10-07</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3812,20 +3495,18 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          《湄公河行动》
+            <p>
+              《湄公河行动》
 电影正常水准，对标国内电影优势明显，全靠同档期衬托
 
 
 
 我去过金三角呢！
 当父母称
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/07/meigonghe/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3839,6 +3520,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -3878,16 +3562,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/homo/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/homo/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3897,9 +3581,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/06/homo/" itemprop="url">
-                  未来简史笔记（一）
-                </a>
+                
+                <a href="/2016/10/06/homo/" class="post-title-link" itemprop="url">未来简史笔记（一）</a>
               
             
           </h1>
@@ -3917,38 +3600,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
+              <time title="Erstellt: 2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:15" itemprop="dateModified" datetime="2018-11-15T17:44:15+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3976,15 +3644,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          未来简史笔记历史让人自由赫拉利的主要观点
+            <p>
+              未来简史笔记历史让人自由赫拉利的主要观点
 推动社会变革的不是我们对真实世界的认识，而是我们头脑中虚构
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/06/homo/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3998,6 +3664,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -4037,16 +3706,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/paizhao/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/tanpan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4056,9 +3725,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/06/paizhao/" itemprop="url">
-                  拍照和些想法[技能树]
-                </a>
+                
+                <a href="/2016/10/06/tanpan/" class="post-title-link" itemprop="url">需要一点谈判</a>
               
             
           </h1>
@@ -4076,38 +3744,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
+              <time title="Erstellt: 2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4135,16 +3788,158 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
+            <p>
+              需要一点谈判（一）我们日常的生活需要谈判，这一点毋庸置疑。
+之所以我们对这一点有所怀疑，是因为我们总
+              ...
+            </p>
+          <!--noindex-->
           
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/paizhao/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TENG"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/10/06/paizhao/" class="post-title-link" itemprop="url">拍照和些想法[技能树]</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>
+              
 虽然这些照片都算不上摄影，我也从来不说自己会摄影，只说就是个拍照爱好者，可我很喜欢他们。
 而且要命
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/06/paizhao/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4158,6 +3953,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -4197,16 +3995,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/06/tanpan/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/02/shengyi/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4216,9 +4014,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/10/06/tanpan/" itemprop="url">
-                  需要一点谈判
-                </a>
+                
+                <a href="/2016/10/02/shengyi/" class="post-title-link" itemprop="url">新世相图书馆：生意的归生意</a>
               
             
           </h1>
@@ -4236,38 +4033,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-10-06 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-06T00:00:00+08:00">2016-10-06</time>
+              <time title="Erstellt: 2016-10-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-02T00:00:00+08:00">2016-10-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4295,175 +4077,14 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          需要一点谈判（一）我们日常的生活需要谈判，这一点毋庸置疑。
-之所以我们对这一点有所怀疑，是因为我们总
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/06/tanpan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/10/02/shengyi/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/10/02/shengyi/" itemprop="url">
-                  新世相图书馆：生意的归生意
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2016-10-02 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-02T00:00:00+08:00">2016-10-02</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          做生意也要敬业点说好的，我又要嘿新世相的图书馆项目了。
+            <p>
+              做生意也要敬业点说好的，我又要嘿新世相的图书馆项目了。
 
 我们终将改变潮水的方向。这句口号真是不错，
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/10/02/shengyi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4477,6 +4098,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -4516,16 +4140,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/30/xingqu/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/30/09reading/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4535,9 +4159,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/30/xingqu/" itemprop="url">
-                  中国人的兴趣|转述[技能树]
-                </a>
+                
+                <a href="/2016/09/30/09reading/" class="post-title-link" itemprop="url">九月书单+总结</a>
               
             
           </h1>
@@ -4555,38 +4178,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-30T00:00:00+08:00">2016-09-30</time>
+              <time title="Erstellt: 2016-09-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-30T00:00:00+08:00">2016-09-30</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4614,178 +4222,15 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
-不愿意看书的人也可以听音频，至少比一点也不长进好
-
-复盘总体来说，这篇文章的修改还是挺大的，主要的
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/30/xingqu/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/30/09reading/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/09/30/09reading/" itemprop="url">
-                  九月书单+总结
-                </a>
+            <p>
               
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2016-09-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-30T00:00:00+08:00">2016-09-30</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
 这个月没有偷懒哦，尤其是最后两周都在很忙碌的状态，不过时间可以利用得更加充分的。
 
 看过的书如果算
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/30/09reading/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4799,6 +4244,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -4838,16 +4286,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/27/tizi/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/30/xingqu/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4857,9 +4305,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/27/tizi/" itemprop="url">
-                  通往自由的天梯
-                </a>
+                
+                <a href="/2016/09/30/xingqu/" class="post-title-link" itemprop="url">中国人的兴趣|转述[技能树]</a>
               
             
           </h1>
@@ -4877,38 +4324,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-27T00:00:00+08:00">2016-09-27</time>
+              <time title="Erstellt: 2016-09-30 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-30T00:00:00+08:00">2016-09-30</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4936,18 +4368,162 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          用过最好的网络付费服务在网络上使用付费服务很长时间了，最大的收获便是
+            <p>
+              
+不愿意看书的人也可以听音频，至少比一点也不长进好
+
+复盘总体来说，这篇文章的修改还是挺大的，主要的
+              ...
+            </p>
+          <!--noindex-->
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/27/tizi/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TENG"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/09/27/tizi/" class="post-title-link" itemprop="url">通往自由的天梯</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2016-09-27 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-27T00:00:00+08:00">2016-09-27</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>
+              用过最好的网络付费服务在网络上使用付费服务很长时间了，最大的收获便是
 
 付费真的会节约时间
 
 不管是
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/27/tizi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4961,6 +4537,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5000,16 +4579,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/24/yueduyuanze/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/24/yueduyuanze/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5019,9 +4598,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/24/yueduyuanze/" itemprop="url">
-                  阅读的一些原则
-                </a>
+                
+                <a href="/2016/09/24/yueduyuanze/" class="post-title-link" itemprop="url">阅读的一些原则</a>
               
             
           </h1>
@@ -5039,38 +4617,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-24T00:00:00+08:00">2016-09-24</time>
+              <time title="Erstellt: 2016-09-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-24T00:00:00+08:00">2016-09-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:24" itemprop="dateModified" datetime="2018-11-15T17:44:24+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5098,15 +4661,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          阅读的原则最近连续看到一些关于阅读的分享，不管是李笑来的，还是其他的一些，感觉这些都很有价值。
+            <p>
+              阅读的原则最近连续看到一些关于阅读的分享，不管是李笑来的，还是其他的一些，感觉这些都很有价值。
 为了
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/24/yueduyuanze/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5120,6 +4681,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5159,16 +4723,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/24/jineng-ae/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/24/jineng-ae/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5178,9 +4742,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/24/jineng-ae/" itemprop="url">
-                  软件之AE[技能树]
-                </a>
+                
+                <a href="/2016/09/24/jineng-ae/" class="post-title-link" itemprop="url">软件之AE[技能树]</a>
               
             
           </h1>
@@ -5198,38 +4761,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-24T00:00:00+08:00">2016-09-24</time>
+              <time title="Erstellt: 2016-09-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-24T00:00:00+08:00">2016-09-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5257,7 +4805,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          基础练习
+            <p>
+              基础练习
 节奏很重要
 
 网球练习
@@ -5267,13 +4816,10 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 水波LOGO
 
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/24/jineng-ae/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5287,6 +4833,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5326,16 +4875,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/22/why/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/22/why/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5345,9 +4894,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/22/why/" itemprop="url">
-                  荐书|《为什么》：理由的理由
-                </a>
+                
+                <a href="/2016/09/22/why/" class="post-title-link" itemprop="url">荐书|《为什么》：理由的理由</a>
               
             
           </h1>
@@ -5365,38 +4913,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-22T00:00:00+08:00">2016-09-22</time>
+              <time title="Erstellt: 2016-09-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-22T00:00:00+08:00">2016-09-22</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:29" itemprop="dateModified" datetime="2018-11-15T17:44:29+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5424,15 +4957,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 为什么是偶然在豆瓣看到有人打了五星，所以在买书的时候拿来凑单了，事实证明，这本书是值得五星的。看以
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/22/why/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5446,6 +4977,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5485,16 +5019,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/20/fangshi/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/20/fangshi/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5504,9 +5038,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/20/fangshi/" itemprop="url">
-                  恐惧驱动的中国房市
-                </a>
+                
+                <a href="/2016/09/20/fangshi/" class="post-title-link" itemprop="url">恐惧驱动的中国房市</a>
               
             
           </h1>
@@ -5524,38 +5057,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-20 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-20T00:00:00+08:00">2016-09-20</time>
+              <time title="Erstellt: 2016-09-20 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-20T00:00:00+08:00">2016-09-20</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5583,14 +5101,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          恐惧驱动的中国房市一刚搬到新租的房子时，晚上来了两拨看房子的人。我有点惊讶，原本出租的房东原来是要卖
-          ...
+            <p>
+              恐惧驱动的中国房市一刚搬到新租的房子时，晚上来了两拨看房子的人。我有点惊讶，原本出租的房东原来是要卖
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/20/fangshi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5604,6 +5120,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5643,16 +5162,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/17/fufei/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/17/fufei/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5662,9 +5181,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/17/fufei/" itemprop="url">
-                  付费总结
-                </a>
+                
+                <a href="/2016/09/17/fufei/" class="post-title-link" itemprop="url">付费总结</a>
               
             
           </h1>
@@ -5682,38 +5200,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-17T00:00:00+08:00">2016-09-17</time>
+              <time title="Erstellt: 2016-09-17 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-17T00:00:00+08:00">2016-09-17</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5741,14 +5244,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          付费总结和博客“项目页面”调整趁着中秋节不回家，整理了下刚搬到南边的屋子，虽然没什么东西，还是零零散
-          ...
+            <p>
+              付费总结和博客“项目页面”调整趁着中秋节不回家，整理了下刚搬到南边的屋子，虽然没什么东西，还是零零散
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/17/fufei/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5762,6 +5263,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5801,16 +5305,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/15/two-type-of-growth/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/15/two-type-of-growth/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5820,9 +5324,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/15/two-type-of-growth/" itemprop="url">
-                  对数增长V.S.指数增长
-                </a>
+                
+                <a href="/2016/09/15/two-type-of-growth/" class="post-title-link" itemprop="url">对数增长V.S.指数增长</a>
               
             
           </h1>
@@ -5840,38 +5343,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-15T00:00:00+08:00">2016-09-15</time>
+              <time title="Erstellt: 2016-09-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-15T00:00:00+08:00">2016-09-15</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:33" itemprop="dateModified" datetime="2018-11-15T17:44:33+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5899,14 +5387,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          对数增长V.S.指数增长王维刚在自己的《精英日课》里介绍了两种个人成长的支书模型：对数增长和指数增长
-          ...
+            <p>
+              对数增长V.S.指数增长王维刚在自己的《精英日课》里介绍了两种个人成长的支书模型：对数增长和指数增长
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/15/two-type-of-growth/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5920,6 +5406,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -5959,16 +5448,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/15/bad/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/15/bad/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5978,9 +5467,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/15/bad/" itemprop="url">
-                  脆弱的玻璃心
-                </a>
+                
+                <a href="/2016/09/15/bad/" class="post-title-link" itemprop="url">脆弱的玻璃心</a>
               
             
           </h1>
@@ -5998,38 +5486,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-15T00:00:00+08:00">2016-09-15</time>
+              <time title="Erstellt: 2016-09-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-15T00:00:00+08:00">2016-09-15</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6057,17 +5530,15 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 
 
 脆弱的玻璃心常常因为一些莫名其妙的原因变得不在开心起来。搬了住的地方，可以活动的面积大了不少。
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/15/bad/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6081,6 +5552,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6120,16 +5594,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/14/suiji/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/14/suiji/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6139,9 +5613,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/14/suiji/" itemprop="url">
-                  关于概率随机性的两本书
-                </a>
+                
+                <a href="/2016/09/14/suiji/" class="post-title-link" itemprop="url">关于概率随机性的两本书</a>
               
             
           </h1>
@@ -6159,38 +5632,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-14T00:00:00+08:00">2016-09-14</time>
+              <time title="Erstellt: 2016-09-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-14T00:00:00+08:00">2016-09-14</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6218,14 +5676,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          【荐书】关于概率随机性的两本书有一种很美妙的情况：两个刚认识的人小心翼翼地交流着，害怕触及对方的禁忌
-          ...
+            <p>
+              【荐书】关于概率随机性的两本书有一种很美妙的情况：两个刚认识的人小心翼翼地交流着，害怕触及对方的禁忌
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/14/suiji/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6239,6 +5695,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6278,16 +5737,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/08/wangshuo/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/08/wangshuo/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6297,9 +5756,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/08/wangshuo/" itemprop="url">
-                  推荐：王烁学习报告
-                </a>
+                
+                <a href="/2016/09/08/wangshuo/" class="post-title-link" itemprop="url">推荐：王烁学习报告</a>
               
             
           </h1>
@@ -6317,38 +5775,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-08T00:00:00+08:00">2016-09-08</time>
+              <time title="Erstellt: 2016-09-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-08T00:00:00+08:00">2016-09-08</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6376,15 +5819,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 真诚地推荐：王烁大学问第一次知道王烁的时候，还是在大学的时候，那时候想着成为光荣的财经记者，时不时
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/08/wangshuo/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6398,6 +5839,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6437,16 +5881,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/05/xinshixiang/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/05/xinshixiang/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6456,9 +5900,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/05/xinshixiang/" itemprop="url">
-                  测试文青的生意
-                </a>
+                
+                <a href="/2016/09/05/xinshixiang/" class="post-title-link" itemprop="url">测试文青的生意</a>
               
             
           </h1>
@@ -6476,38 +5919,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-05T00:00:00+08:00">2016-09-05</time>
+              <time title="Erstellt: 2016-09-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-05T00:00:00+08:00">2016-09-05</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6535,18 +5963,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          在参加写作课的时候，对一句无关紧要的话记得很清楚：
+            <p>
+              在参加写作课的时候，对一句无关紧要的话记得很清楚：
 
 不要跟别人要书单
 
 我倒是没有这样的习惯，也是
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/05/xinshixiang/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6560,6 +5986,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6599,16 +6028,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/04/bukaixin/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/04/bukaixin/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6618,9 +6047,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/04/bukaixin/" itemprop="url">
-                  不开心就看RM
-                </a>
+                
+                <a href="/2016/09/04/bukaixin/" class="post-title-link" itemprop="url">不开心就看RM</a>
               
             
           </h1>
@@ -6638,38 +6066,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-04T00:00:00+08:00">2016-09-04</time>
+              <time title="Erstellt: 2016-09-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-04T00:00:00+08:00">2016-09-04</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6697,17 +6110,15 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 不开心的时候就看看《runningman》
 
 第一次看演唱会，很开心，下次尝试融入气氛会更好。有件
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/04/bukaixin/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6721,6 +6132,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6760,16 +6174,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/01/8yuereading/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/09/01/8yuereading/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6779,9 +6193,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/01/8yuereading/" itemprop="url">
-                  八月书单
-                </a>
+                
+                <a href="/2016/09/01/8yuereading/" class="post-title-link" itemprop="url">八月书单</a>
               
             
           </h1>
@@ -6799,38 +6212,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-09-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-01T00:00:00+08:00">2016-09-01</time>
+              <time title="Erstellt: 2016-09-01 00:00:00" itemprop="dateCreated datePublished" datetime="2016-09-01T00:00:00+08:00">2016-09-01</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:44:40" itemprop="dateModified" datetime="2018-11-15T17:44:40+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6858,15 +6256,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          书八月的时候决定请个年假休息下，原本想好好重新思考一下要不要换工作，却去了四川和重庆看熊猫。
+            <p>
+              书八月的时候决定请个年假休息下，原本想好好重新思考一下要不要换工作，却去了四川和重庆看熊猫。
 因为出
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/09/01/8yuereading/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6880,6 +6276,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -6919,16 +6318,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/31/mubiao/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/31/mubiao/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6938,9 +6337,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/31/mubiao/" itemprop="url">
-                  首富“小目标”的启发
-                </a>
+                
+                <a href="/2016/08/31/mubiao/" class="post-title-link" itemprop="url">首富“小目标”的启发</a>
               
             
           </h1>
@@ -6958,38 +6356,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-31T00:00:00+08:00">2016-08-31</time>
+              <time title="Erstellt: 2016-08-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-31T00:00:00+08:00">2016-08-31</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7017,15 +6400,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          在王健林“先挣他一个亿”的小目标刷屏以后，我觉得我的注意力被吸引了，为了弥补，
+            <p>
+              在王健林“先挣他一个亿”的小目标刷屏以后，我觉得我的注意力被吸引了，为了弥补，
 我们不妨认真分析下，
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/31/mubiao/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7039,6 +6420,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7078,16 +6462,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/29/tuchuang/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/29/tuchuang/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7097,9 +6481,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/29/tuchuang/" itemprop="url">
-                  个人博客的插图问题
-                </a>
+                
+                <a href="/2016/08/29/tuchuang/" class="post-title-link" itemprop="url">个人博客的插图问题</a>
               
             
           </h1>
@@ -7117,38 +6500,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-29T00:00:00+08:00">2016-08-29</time>
+              <time title="Erstellt: 2016-08-29 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-29T00:00:00+08:00">2016-08-29</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7176,14 +6544,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          【小教程-2】个人博客的插图问题在上次写了很简略的教程《一个小时搭建个人博客》后，很开心帮到几个朋友
-          ...
+            <p>
+              【小教程-2】个人博客的插图问题在上次写了很简略的教程《一个小时搭建个人博客》后，很开心帮到几个朋友
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/29/tuchuang/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7197,6 +6563,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7236,16 +6605,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/28/lvxing/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/28/lvxing/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7255,9 +6624,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/28/lvxing/" itemprop="url">
-                  关于出门旅行的总结
-                </a>
+                
+                <a href="/2016/08/28/lvxing/" class="post-title-link" itemprop="url">关于出门旅行的总结</a>
               
             
           </h1>
@@ -7275,38 +6643,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-28T00:00:00+08:00">2016-08-28</time>
+              <time title="Erstellt: 2016-08-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-28T00:00:00+08:00">2016-08-28</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7334,14 +6687,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          总体来说，旅行还是一种非常低效的旅行方式。时间和收益的获取并不很成正比。这自然和个人选择的目的地类型
-          ...
+            <p>
+              总体来说，旅行还是一种非常低效的旅行方式。时间和收益的获取并不很成正比。这自然和个人选择的目的地类型
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/28/lvxing/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7355,6 +6706,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7394,16 +6748,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/24/xinan/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/24/xinan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7413,9 +6767,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/24/xinan/" itemprop="url">
-                  出门的一些照片
-                </a>
+                
+                <a href="/2016/08/24/xinan/" class="post-title-link" itemprop="url">出门的一些照片</a>
               
             
           </h1>
@@ -7433,38 +6786,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-24T00:00:00+08:00">2016-08-24</time>
+              <time title="Erstellt: 2016-08-24 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-24T00:00:00+08:00">2016-08-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7492,14 +6830,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          出门玩真的是一件挺没劲的事情，以前想看看不同的风景，现在只是想换个地方想想不同的事情。很可惜旅行这些
-          ...
+            <p>
+              出门玩真的是一件挺没劲的事情，以前想看看不同的风景，现在只是想换个地方想想不同的事情。很可惜旅行这些
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/24/xinan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7513,6 +6849,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7552,16 +6891,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/15/darktime/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/15/darktime/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7571,9 +6910,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/15/darktime/" itemprop="url">
-                  《暗时间》素材整理
-                </a>
+                
+                <a href="/2016/08/15/darktime/" class="post-title-link" itemprop="url">《暗时间》素材整理</a>
               
             
           </h1>
@@ -7591,38 +6929,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-15T00:00:00+08:00">2016-08-15</time>
+              <time title="Erstellt: 2016-08-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-15T00:00:00+08:00">2016-08-15</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7650,14 +6973,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          《暗时间》素材整理（1+2）时间、学习、记忆我们每个人的生命就像一个个沙漏，里面的沙子总量是相当的，
-          ...
+            <p>
+              《暗时间》素材整理（1+2）时间、学习、记忆我们每个人的生命就像一个个沙漏，里面的沙子总量是相当的，
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/15/darktime/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7671,6 +6992,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7710,16 +7034,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/14/ziran/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/14/ziran/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7729,9 +7053,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/14/ziran/" itemprop="url">
-                  自然电影 born in China
-                </a>
+                
+                <a href="/2016/08/14/ziran/" class="post-title-link" itemprop="url">自然电影 born in China</a>
               
             
           </h1>
@@ -7749,38 +7072,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-14T00:00:00+08:00">2016-08-14</time>
+              <time title="Erstellt: 2016-08-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-14T00:00:00+08:00">2016-08-14</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7808,15 +7116,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 在执导的《九层妖塔》取得优秀的票房成绩后，导演陆川又一次出手了，他执导的《我们诞生在中国》赢得不俗
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/14/ziran/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7830,6 +7136,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -7869,16 +7178,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/13/tougaobeifen01/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/13/tougaobeifen01/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7888,9 +7197,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/13/tougaobeifen01/" itemprop="url">
-                  反对“唯金牌论”也不能竞技娱乐化
-                </a>
+                
+                <a href="/2016/08/13/tougaobeifen01/" class="post-title-link" itemprop="url">反对“唯金牌论”也不能竞技娱乐化</a>
               
             
           </h1>
@@ -7908,38 +7216,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-13T00:00:00+08:00">2016-08-13</time>
+              <time title="Erstellt: 2016-08-13 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-13T00:00:00+08:00">2016-08-13</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7967,15 +7260,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          
+            <p>
+              
 写于15日，突发奇想的评论投稿，结果新京报发了篇奖金缩水是“唯金牌论”的理性回归。观点完全和我的相
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/13/tougaobeifen01/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7989,6 +7280,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -8028,16 +7322,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/12/shequn/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/12/shequn/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -8047,9 +7341,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/12/shequn/" itemprop="url">
-                  入群需谨慎，成长要坚持
-                </a>
+                
+                <a href="/2016/08/12/shequn/" class="post-title-link" itemprop="url">入群需谨慎，成长要坚持</a>
               
             
           </h1>
@@ -8067,38 +7360,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-12T00:00:00+08:00">2016-08-12</time>
+              <time title="Erstellt: 2016-08-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-12T00:00:00+08:00">2016-08-12</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -8126,14 +7404,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          你加了那么多群，变得很厉害了吗？你有没有过这样的情况，只不过是因为手机没电离线了几个小时，等你充好电
-          ...
+            <p>
+              你加了那么多群，变得很厉害了吗？你有没有过这样的情况，只不过是因为手机没电离线了几个小时，等你充好电
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/12/shequn/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -8147,6 +7423,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -8186,16 +7465,16 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/09/qianduanjs/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2016/08/09/qianduan/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -8205,9 +7484,8 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/08/09/qianduanjs/" itemprop="url">
-                  js学习记录
-                </a>
+                
+                <a href="/2016/08/09/qianduan/" class="post-title-link" itemprop="url">前端学习进展小结</a>
               
             
           </h1>
@@ -8225,38 +7503,23 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
+              <time title="Erstellt: 2016-08-09 00:00:00" itemprop="dateCreated datePublished" datetime="2016-08-09T00:00:00+08:00">2016-08-09</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -8284,19 +7547,12 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
       
         
           
-          JS进展记录
-京东真是酷，早上下单了几本书，下午就到了。
-参考书籍《jsdom编程艺术》
-
-好习惯
-
-          ...
+            <p>
+              前端进展在自己搭建博客的时候，就一直在断断续续的看着几个教程，学习着前端技术。7月份后半程因为参加了
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/08/09/qianduanjs/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -8310,6 +7566,9 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     
 
+    
+      
+    
     
 
     
@@ -8338,7 +7597,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="Vorherige Seite"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="Nächste Seite"></i></a>
   </nav>
 
 
@@ -8359,23 +7618,22 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾" />
+                alt="马腾"/>
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
           </div>
 
           
@@ -8386,7 +7644,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">日志</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -8397,7 +7655,11 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -8473,7 +7735,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">标签</span>
+                    <span class="site-state-item-name">schlagwörter</span>
                   </a>
                 </div>
               
@@ -8490,27 +7752,40 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
           
 
           
+
+          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
-          
           
 
           
@@ -8522,7 +7797,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -8530,6 +7805,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
     </div>
   </aside>
+  
 
 
         
@@ -8550,9 +7826,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 </div>
 
 
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
 
 
 
@@ -8560,7 +7834,7 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -8579,19 +7853,17 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -8623,55 +7895,48 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+  <script src="/js/utils.js?v=7.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+  <script src="/js/motion.js?v=7.1.1"></script>
 
 
 
   
   
 
-  
 
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
-
-
-
-  
-
-
-
-	
-
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
 
 
 
 
   
 
+  
 
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -8679,29 +7944,17 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
 
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
+  <script src="/js/algolia-search.js?v=7.1.1"></script>
 
 
 
@@ -8714,6 +7967,13 @@ PPT为什么要模仿？昨天在新生大学发布了“PPT方法论”的招�
   
 
   
+
+  
+
+  
+
+  
+
   
 
   

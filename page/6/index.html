@@ -17,23 +17,9 @@
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="theme-color" content="#222"/>
 
 
 
@@ -56,37 +42,39 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
 
 
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
 
 
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '6.3.0',
+    version: '7.1.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    back2top: ,
+    back2top_sidebar: ,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -120,16 +108,17 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
 
 
 
-
+  
+  
   <link rel="canonical" href="http://tengblog.com/page/6/"/>
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -143,7 +132,7 @@
 
 
 
-  <script type="text/javascript">
+  <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -156,30 +145,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -198,7 +188,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -213,10 +203,11 @@
         <p class="site-subtitle">世事无常，精进不已</p>
       
     
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button aria-label="Navigationsleiste an/ausschalten">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -235,24 +226,51 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Startseite</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-    <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Schlagwörter</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archiv</a>
+
   </li>
 
       
@@ -262,7 +280,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>Suche</a>
         </li>
       
     </ul>
@@ -338,16 +356,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/11/03/2015-11-03/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/11/03/2015-11-03/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -357,9 +375,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/11/03/2015-11-03/" itemprop="url">
-                  一代宗师里的情义
-                </a>
+                
+                <a href="/2015/11/03/2015-11-03/" class="post-title-link" itemprop="url">一代宗师里的情义</a>
               
             
           </h1>
@@ -377,38 +394,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-11-03 18:58:48" itemprop="dateCreated datePublished" datetime="2015-11-03T18:58:48+08:00">2015-11-03</time>
+              <time title="Erstellt: 2015-11-03 18:58:48" itemprop="dateCreated datePublished" datetime="2015-11-03T18:58:48+08:00">2015-11-03</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -436,15 +438,13 @@
       
         
           
-          有些作品在第一次看的时候，不会有那么多的感想，除非等到一定的年纪才想起作品的精妙。
+            <p>
+              有些作品在第一次看的时候，不会有那么多的感想，除非等到一定的年纪才想起作品的精妙。
 一千个读者就有一
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/11/03/2015-11-03/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -458,6 +458,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -497,16 +500,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/11/02/关于时间管理文章的整理/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/11/02/关于时间管理文章的整理/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -516,9 +519,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/11/02/关于时间管理文章的整理/" itemprop="url">
-                  关于时间管理文章的整理
-                </a>
+                
+                <a href="/2015/11/02/关于时间管理文章的整理/" class="post-title-link" itemprop="url">关于时间管理文章的整理</a>
               
             
           </h1>
@@ -536,38 +538,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-11-02 19:16:52" itemprop="dateCreated datePublished" datetime="2015-11-02T19:16:52+08:00">2015-11-02</time>
+              <time title="Erstellt: 2015-11-02 19:16:52" itemprop="dateCreated datePublished" datetime="2015-11-02T19:16:52+08:00">2015-11-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -595,15 +582,13 @@
       
         
           
-          【ps】作者在分享前的一段感慨。
+            <p>
+              【ps】作者在分享前的一段感慨。
 框架式的阅读不能解决任何问题，相反会让人陷入信息搜集和学习幻觉，觉
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/11/02/关于时间管理文章的整理/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -617,6 +602,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -656,16 +644,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/28/【待定】【扯】视频网站赢利新方式？/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/28/【待定】【扯】视频网站赢利新方式？/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -675,9 +663,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/28/【待定】【扯】视频网站赢利新方式？/" itemprop="url">
-                  【未完】视频网站赢利新方式？
-                </a>
+                
+                <a href="/2015/10/28/【待定】【扯】视频网站赢利新方式？/" class="post-title-link" itemprop="url">【未完】视频网站赢利新方式？</a>
               
             
           </h1>
@@ -695,38 +682,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-28 22:38:39" itemprop="dateCreated datePublished" datetime="2015-10-28T22:38:39+08:00">2015-10-28</time>
+              <time title="Erstellt: 2015-10-28 22:38:39" itemprop="dateCreated datePublished" datetime="2015-10-28T22:38:39+08:00">2015-10-28</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -754,14 +726,12 @@
       
         
           
-          几天前看到youtube开发的新的广告模式，就是在观看视频时，中间会弹出视频同款的链接。看来，阿里也
-          ...
+            <p>
+              几天前看到youtube开发的新的广告模式，就是在观看视频时，中间会弹出视频同款的链接。看来，阿里也
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/28/【待定】【扯】视频网站赢利新方式？/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -775,6 +745,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -814,16 +787,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/28/2015-10-28/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/28/2015-10-28/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -833,9 +806,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/28/2015-10-28/" itemprop="url">
-                  什么是真正的生活
-                </a>
+                
+                <a href="/2015/10/28/2015-10-28/" class="post-title-link" itemprop="url">什么是真正的生活</a>
               
             
           </h1>
@@ -853,38 +825,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-28 16:19:02" itemprop="dateCreated datePublished" datetime="2015-10-28T16:19:02+08:00">2015-10-28</time>
+              <time title="Erstellt: 2015-10-28 16:19:02" itemprop="dateCreated datePublished" datetime="2015-10-28T16:19:02+08:00">2015-10-28</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -912,15 +869,13 @@
       
         
           
-          
+            <p>
+              
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/28/2015-10-28/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -934,6 +889,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -973,16 +931,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/25/【影】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/25/【影】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -992,9 +950,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/25/【影】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜/" itemprop="url">
-                  【原文】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜
-                </a>
+                
+                <a href="/2015/10/25/【影】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜/" class="post-title-link" itemprop="url">【原文】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜</a>
               
             
           </h1>
@@ -1012,38 +969,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-25 13:45:20" itemprop="dateCreated datePublished" datetime="2015-10-25T13:45:20+08:00">2015-10-25</time>
+              <time title="Erstellt: 2015-10-25 13:45:20" itemprop="dateCreated datePublished" datetime="2015-10-25T13:45:20+08:00">2015-10-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1071,15 +1013,13 @@
       
         
           
-          《福尔摩斯先生》：人人都爱慕你年轻时候的容颜
+            <p>
+              《福尔摩斯先生》：人人都爱慕你年轻时候的容颜
 2005年，福尔摩斯诞生120周年，美国作家Mitch
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/25/【影】《福尔摩斯先生》：人人都爱慕你年轻时候的容颜/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1093,6 +1033,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1132,16 +1075,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/25/dianyingfuermosi/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/25/dianyingfuermosi/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1151,9 +1094,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/25/dianyingfuermosi/" itemprop="url">
-                  《福尔摩斯先生》：人人都爱慕你年轻时候的容颜
-                </a>
+                
+                <a href="/2015/10/25/dianyingfuermosi/" class="post-title-link" itemprop="url">《福尔摩斯先生》：人人都爱慕你年轻时候的容颜</a>
               
             
           </h1>
@@ -1171,38 +1113,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-25 00:00:00" itemprop="dateCreated datePublished" datetime="2015-10-25T00:00:00+08:00">2015-10-25</time>
+              <time title="Erstellt: 2015-10-25 00:00:00" itemprop="dateCreated datePublished" datetime="2015-10-25T00:00:00+08:00">2015-10-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-11-15 17:29:52" itemprop="dateModified" datetime="2018-11-15T17:29:52+08:00">2018-11-15</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1230,14 +1157,12 @@
       
         
           
-          2005年，福尔摩斯诞生120周年，美国作家Mitch Cullin出版了一本“反福尔摩斯”的同人小
-          ...
+            <p>
+              2005年，福尔摩斯诞生120周年，美国作家Mitch Cullin出版了一本“反福尔摩斯”的同人小
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/25/dianyingfuermosi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1251,6 +1176,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1290,16 +1218,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/24/凑数/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/24/凑数/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1309,9 +1237,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/24/凑数/" itemprop="url">
-                  杂感凑数
-                </a>
+                
+                <a href="/2015/10/24/凑数/" class="post-title-link" itemprop="url">杂感凑数</a>
               
             
           </h1>
@@ -1329,38 +1256,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-24 20:39:05" itemprop="dateCreated datePublished" datetime="2015-10-24T20:39:05+08:00">2015-10-24</time>
+              <time title="Erstellt: 2015-10-24 20:39:05" itemprop="dateCreated datePublished" datetime="2015-10-24T20:39:05+08:00">2015-10-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1388,14 +1300,12 @@
       
         
           
-          老实讲，我其实算是个很少谈自己事情的人，毕竟天大的事对别人来说都是那么无关紧要，说多了反而显得矫情。
-          ...
+            <p>
+              老实讲，我其实算是个很少谈自己事情的人，毕竟天大的事对别人来说都是那么无关紧要，说多了反而显得矫情。
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/24/凑数/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1409,6 +1319,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1448,16 +1361,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/07/（三）/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/10/07/（三）/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1467,9 +1380,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/10/07/（三）/" itemprop="url">
-                  考试记（三）
-                </a>
+                
+                <a href="/2015/10/07/（三）/" class="post-title-link" itemprop="url">考试记（三）</a>
               
             
           </h1>
@@ -1487,38 +1399,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-10-07 17:19:53" itemprop="dateCreated datePublished" datetime="2015-10-07T17:19:53+08:00">2015-10-07</time>
+              <time title="Erstellt: 2015-10-07 17:19:53" itemprop="dateCreated datePublished" datetime="2015-10-07T17:19:53+08:00">2015-10-07</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1546,17 +1443,15 @@
       
         
           
-          九点考试，之所以我七点就开始赶往山东电视台 大厦，因为我一直没有看到考试地点在哪？
+            <p>
+              九点考试，之所以我七点就开始赶往山东电视台 大厦，因为我一直没有看到考试地点在哪？
 
 
 打印的准考证
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/10/07/（三）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1570,6 +1465,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1609,16 +1507,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/09/30/2015-09-30/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/09/30/2015-09-30/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1628,9 +1526,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/09/30/2015-09-30/" itemprop="url">
-                  考试记
-                </a>
+                
+                <a href="/2015/09/30/2015-09-30/" class="post-title-link" itemprop="url">考试记</a>
               
             
           </h1>
@@ -1648,38 +1545,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-09-30 22:32:08" itemprop="dateCreated datePublished" datetime="2015-09-30T22:32:08+08:00">2015-09-30</time>
+              <time title="Erstellt: 2015-09-30 22:32:08" itemprop="dateCreated datePublished" datetime="2015-09-30T22:32:08+08:00">2015-09-30</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-27 11:11:25" itemprop="dateModified" datetime="2018-09-27T11:11:25+08:00">2018-09-27</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1707,16 +1589,14 @@
       
         
           
-          （二）
+            <p>
+              （二）
 9月26日凌晨3:40，我终于决心坐上在火车站外趴活的出租车，任由他拉我去一个熟悉的旅馆。
 
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/09/30/2015-09-30/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1730,6 +1610,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1769,16 +1652,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/08/10/2015-08-10/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/08/10/2015-08-10/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1788,9 +1671,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/08/10/2015-08-10/" itemprop="url">
-                  新凉
-                </a>
+                
+                <a href="/2015/08/10/2015-08-10/" class="post-title-link" itemprop="url">新凉</a>
               
             
           </h1>
@@ -1808,38 +1690,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-08-10 21:56:04" itemprop="dateCreated datePublished" datetime="2015-08-10T21:56:04+08:00">2015-08-10</time>
+              <time title="Erstellt: 2015-08-10 21:56:04" itemprop="dateCreated datePublished" datetime="2015-08-10T21:56:04+08:00">2015-08-10</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -1867,15 +1734,13 @@
       
         
           
-          看到工资卡，心凉了一半
+            <p>
+              看到工资卡，心凉了一半
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/08/10/2015-08-10/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -1889,6 +1754,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -1928,16 +1796,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/07/25/我最喜欢这家烧烤店的水果沙拉/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/07/25/我最喜欢这家烧烤店的水果沙拉/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -1947,9 +1815,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/25/我最喜欢这家烧烤店的水果沙拉/" itemprop="url">
-                  我最喜欢这家烧烤店的水果沙拉
-                </a>
+                
+                <a href="/2015/07/25/我最喜欢这家烧烤店的水果沙拉/" class="post-title-link" itemprop="url">我最喜欢这家烧烤店的水果沙拉</a>
               
             
           </h1>
@@ -1967,38 +1834,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-07-25 23:00:14" itemprop="dateCreated datePublished" datetime="2015-07-25T23:00:14+08:00">2015-07-25</time>
+              <time title="Erstellt: 2015-07-25 23:00:14" itemprop="dateCreated datePublished" datetime="2015-07-25T23:00:14+08:00">2015-07-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2026,16 +1878,14 @@
       
         
           
-          写在美团的食侯评价
+            <p>
+              写在美团的食侯评价
 ~~~~~~~~~~~~
 周五对其他人来说是休息日的开始，对陈同学来说和我来说仍
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/07/25/我最喜欢这家烧烤店的水果沙拉/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2049,6 +1899,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2088,16 +1941,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/07/06/关于大城市恐惧症/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/07/06/关于大城市恐惧症/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2107,9 +1960,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/06/关于大城市恐惧症/" itemprop="url">
-                  关于大城市恐惧症
-                </a>
+                
+                <a href="/2015/07/06/关于大城市恐惧症/" class="post-title-link" itemprop="url">关于大城市恐惧症</a>
               
             
           </h1>
@@ -2127,38 +1979,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-07-06 21:52:25" itemprop="dateCreated datePublished" datetime="2015-07-06T21:52:25+08:00">2015-07-06</time>
+              <time title="Erstellt: 2015-07-06 21:52:25" itemprop="dateCreated datePublished" datetime="2015-07-06T21:52:25+08:00">2015-07-06</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2186,15 +2023,13 @@
       
         
           
-          关于大城市恐惧症
+            <p>
+              关于大城市恐惧症
 还记得第一次到北京实习的时候，坐地铁，从一号线换到十号线，单单是一号线的拥挤就已经
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/07/06/关于大城市恐惧症/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2208,6 +2043,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2247,16 +2085,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-4】考山路观球记/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-4】考山路观球记/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2266,9 +2104,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/06/09/【泰国杂忆-4】考山路观球记/" itemprop="url">
-                  【泰国杂忆-4】考山路观球记
-                </a>
+                
+                <a href="/2015/06/09/【泰国杂忆-4】考山路观球记/" class="post-title-link" itemprop="url">【泰国杂忆-4】考山路观球记</a>
               
             
           </h1>
@@ -2286,38 +2123,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-06-09 21:28:31" itemprop="dateCreated datePublished" datetime="2015-06-09T21:28:31+08:00">2015-06-09</time>
+              <time title="Erstellt: 2015-06-09 21:28:31" itemprop="dateCreated datePublished" datetime="2015-06-09T21:28:31+08:00">2015-06-09</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2345,14 +2167,12 @@
       
         
           
-          考山路人尽皆知，办公室的喀麦隆外教得知我要去的时候，很开心地告诉我们他在泰国去的首站就是考山路。冥冥
-          ...
+            <p>
+              考山路人尽皆知，办公室的喀麦隆外教得知我要去的时候，很开心地告诉我们他在泰国去的首站就是考山路。冥冥
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/06/09/【泰国杂忆-4】考山路观球记/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2366,6 +2186,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2405,16 +2228,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-3】寻食唐人街/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-3】寻食唐人街/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2424,9 +2247,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/06/09/【泰国杂忆-3】寻食唐人街/" itemprop="url">
-                  【泰国杂忆-3】寻食唐人街
-                </a>
+                
+                <a href="/2015/06/09/【泰国杂忆-3】寻食唐人街/" class="post-title-link" itemprop="url">【泰国杂忆-3】寻食唐人街</a>
               
             
           </h1>
@@ -2444,38 +2266,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-06-09 21:27:36" itemprop="dateCreated datePublished" datetime="2015-06-09T21:27:36+08:00">2015-06-09</time>
+              <time title="Erstellt: 2015-06-09 21:27:36" itemprop="dateCreated datePublished" datetime="2015-06-09T21:27:36+08:00">2015-06-09</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2503,14 +2310,12 @@
       
         
           
-          8月2日，农历七夕节，曼谷区汉语教师志愿者要去泰国玫瑰园中学接受培训。说起来，玫瑰园中学可是鼎鼎大名
-          ...
+            <p>
+              8月2日，农历七夕节，曼谷区汉语教师志愿者要去泰国玫瑰园中学接受培训。说起来，玫瑰园中学可是鼎鼎大名
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/06/09/【泰国杂忆-3】寻食唐人街/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2524,6 +2329,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2563,16 +2371,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-2】曼谷雨季/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/06/09/【泰国杂忆-2】曼谷雨季/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2582,9 +2390,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/06/09/【泰国杂忆-2】曼谷雨季/" itemprop="url">
-                  【泰国杂忆-2】曼谷雨季
-                </a>
+                
+                <a href="/2015/06/09/【泰国杂忆-2】曼谷雨季/" class="post-title-link" itemprop="url">【泰国杂忆-2】曼谷雨季</a>
               
             
           </h1>
@@ -2602,38 +2409,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-06-09 21:26:50" itemprop="dateCreated datePublished" datetime="2015-06-09T21:26:50+08:00">2015-06-09</time>
+              <time title="Erstellt: 2015-06-09 21:26:50" itemprop="dateCreated datePublished" datetime="2015-06-09T21:26:50+08:00">2015-06-09</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2661,15 +2453,13 @@
       
         
           
-          六月份，曼谷进入了一年中的雨季。
+            <p>
+              六月份，曼谷进入了一年中的雨季。
 雨季的雨来的没有任何规律性。一天，你坐在路边摊吃完分量稀少的面条，
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/06/09/【泰国杂忆-2】曼谷雨季/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2683,6 +2473,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2722,16 +2515,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2741,9 +2534,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/" itemprop="url">
-                  【泰国杂忆-1】肉眼凡胎不识真佛
-                </a>
+                
+                <a href="/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/" class="post-title-link" itemprop="url">【泰国杂忆-1】肉眼凡胎不识真佛</a>
               
             
           </h1>
@@ -2761,38 +2553,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-05-20 22:34:55" itemprop="dateCreated datePublished" datetime="2015-05-20T22:34:55+08:00">2015-05-20</time>
+              <time title="Erstellt: 2015-05-20 22:34:55" itemprop="dateCreated datePublished" datetime="2015-05-20T22:34:55+08:00">2015-05-20</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2820,17 +2597,15 @@
       
         
           
-          本来想着把这些文章换钱来着，希望不大，在这发了吧
+            <p>
+              本来想着把这些文章换钱来着，希望不大，在这发了吧
 ~~~~~~~~~~
 肉眼凡胎不识真佛
 在大大小小
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/05/20/【泰国杂忆-1】肉眼凡胎不识真佛/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -2844,6 +2619,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -2883,16 +2661,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/01/02/2015-01-02/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2015/01/02/2015-01-02/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -2902,9 +2680,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/01/02/2015-01-02/" itemprop="url">
-                  孤独
-                </a>
+                
+                <a href="/2015/01/02/2015-01-02/" class="post-title-link" itemprop="url">孤独</a>
               
             
           </h1>
@@ -2922,38 +2699,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2015-01-02 18:35:30" itemprop="dateCreated datePublished" datetime="2015-01-02T18:35:30+08:00">2015-01-02</time>
+              <time title="Erstellt: 2015-01-02 18:35:30" itemprop="dateCreated datePublished" datetime="2015-01-02T18:35:30+08:00">2015-01-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -2981,15 +2743,13 @@
       
         
           
-          终于和2014年年初没什么差别了，彻底的孤单，挺好
+            <p>
+              终于和2014年年初没什么差别了，彻底的孤单，挺好
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/01/02/2015-01-02/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3003,6 +2763,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3042,16 +2805,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/12/26/年终总结的话可以让以后的你知道你以前干过的事情/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/12/26/年终总结的话可以让以后的你知道你以前干过的事情/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3061,9 +2824,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/12/26/年终总结的话可以让以后的你知道你以前干过的事情/" itemprop="url">
-                  年终总结的话可以让以后的你知道你以前干过的事情
-                </a>
+                
+                <a href="/2014/12/26/年终总结的话可以让以后的你知道你以前干过的事情/" class="post-title-link" itemprop="url">年终总结的话可以让以后的你知道你以前干过的事情</a>
               
             
           </h1>
@@ -3081,38 +2843,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-12-26 23:54:37" itemprop="dateCreated datePublished" datetime="2014-12-26T23:54:37+08:00">2014-12-26</time>
+              <time title="Erstellt: 2014-12-26 23:54:37" itemprop="dateCreated datePublished" datetime="2014-12-26T23:54:37+08:00">2014-12-26</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3140,15 +2887,13 @@
       
         
           
-          隔壁屋传来了学长的的歌声，真是很难听啊，学长对此的解释是“女愁苦，男愁唱”。
+            <p>
+              隔壁屋传来了学长的的歌声，真是很难听啊，学长对此的解释是“女愁苦，男愁唱”。
 我也是喜欢在敲字的时候
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/12/26/年终总结的话可以让以后的你知道你以前干过的事情/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3162,6 +2907,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3201,16 +2949,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/23/2014-11-23/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/23/2014-11-23/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3220,9 +2968,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/11/23/2014-11-23/" itemprop="url">
-                  沮丧
-                </a>
+                
+                <a href="/2014/11/23/2014-11-23/" class="post-title-link" itemprop="url">沮丧</a>
               
             
           </h1>
@@ -3240,38 +2987,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-11-23 23:26:29" itemprop="dateCreated datePublished" datetime="2014-11-23T23:26:29+08:00">2014-11-23</time>
+              <time title="Erstellt: 2014-11-23 23:26:29" itemprop="dateCreated datePublished" datetime="2014-11-23T23:26:29+08:00">2014-11-23</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3299,15 +3031,13 @@
       
         
           
-          真是让人沮丧
+            <p>
+              真是让人沮丧
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/11/23/2014-11-23/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3321,6 +3051,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3360,16 +3093,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/10/缘起不易/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/10/缘起不易/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3379,9 +3112,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/11/10/缘起不易/" itemprop="url">
-                  缘起不易
-                </a>
+                
+                <a href="/2014/11/10/缘起不易/" class="post-title-link" itemprop="url">缘起不易</a>
               
             
           </h1>
@@ -3399,38 +3131,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-11-10 17:40:08" itemprop="dateCreated datePublished" datetime="2014-11-10T17:40:08+08:00">2014-11-10</time>
+              <time title="Erstellt: 2014-11-10 17:40:08" itemprop="dateCreated datePublished" datetime="2014-11-10T17:40:08+08:00">2014-11-10</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3458,15 +3175,13 @@
       
         
           
-          2014年2月，那还是一个不遥远的日子，不过仅仅几个月却给人的好久好久的感觉。
+            <p>
+              2014年2月，那还是一个不遥远的日子，不过仅仅几个月却给人的好久好久的感觉。
 那时候在吉林，心想终
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/11/10/缘起不易/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3480,6 +3195,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3519,16 +3237,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/05/慢慢说（一）/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/05/慢慢说（一）/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3538,9 +3256,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/11/05/慢慢说（一）/" itemprop="url">
-                  慢慢说（一）
-                </a>
+                
+                <a href="/2014/11/05/慢慢说（一）/" class="post-title-link" itemprop="url">慢慢说（一）</a>
               
             
           </h1>
@@ -3558,38 +3275,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-11-05 22:01:06" itemprop="dateCreated datePublished" datetime="2014-11-05T22:01:06+08:00">2014-11-05</time>
+              <time title="Erstellt: 2014-11-05 22:01:06" itemprop="dateCreated datePublished" datetime="2014-11-05T22:01:06+08:00">2014-11-05</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3617,18 +3319,16 @@
       
         
           
-          我喜欢你
+            <p>
+              我喜欢你
 我知道你喜欢我
 我知道你知道我喜欢你
 请问在这样的情况大家还要不要把话题挑明来说？
 当然！
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/11/05/慢慢说（一）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3642,6 +3342,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3681,16 +3384,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/03/2014-11-03/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/11/03/2014-11-03/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3700,9 +3403,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/11/03/2014-11-03/" itemprop="url">
-                  想家
-                </a>
+                
+                <a href="/2014/11/03/2014-11-03/" class="post-title-link" itemprop="url">想家</a>
               
             
           </h1>
@@ -3720,38 +3422,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-11-03 23:30:16" itemprop="dateCreated datePublished" datetime="2014-11-03T23:30:16+08:00">2014-11-03</time>
+              <time title="Erstellt: 2014-11-03 23:30:16" itemprop="dateCreated datePublished" datetime="2014-11-03T23:30:16+08:00">2014-11-03</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3779,19 +3466,17 @@
       
         
           
-          只是有点想家
+            <p>
+              只是有点想家
 只是有郁闷
 只是突然觉得很孤单
 只是有点······
 不过我是喜欢你的
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/11/03/2014-11-03/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3805,6 +3490,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -3844,16 +3532,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/28/2014-10-28/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/28/2014-10-28/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -3863,9 +3551,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/28/2014-10-28/" itemprop="url">
-                  未命名
-                </a>
+                
+                <a href="/2014/10/28/2014-10-28/" class="post-title-link" itemprop="url">Unbenannt</a>
               
             
           </h1>
@@ -3883,38 +3570,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-28 21:14:47" itemprop="dateCreated datePublished" datetime="2014-10-28T21:14:47+08:00">2014-10-28</time>
+              <time title="Erstellt: 2014-10-28 21:14:47" itemprop="dateCreated datePublished" datetime="2014-10-28T21:14:47+08:00">2014-10-28</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -3942,15 +3614,13 @@
       
         
           
-          不知道他们是否想起过我
+            <p>
+              不知道他们是否想起过我
 我不是一个喜欢整理的人，也没有处女座的强迫症，喜欢把东西归类；甚至都算是一个
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/28/2014-10-28/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -3964,6 +3634,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4003,16 +3676,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/18/10.18有感/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/18/10.18有感/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4022,9 +3695,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/18/10.18有感/" itemprop="url">
-                  10.18有感
-                </a>
+                
+                <a href="/2014/10/18/10.18有感/" class="post-title-link" itemprop="url">10.18有感</a>
               
             
           </h1>
@@ -4042,38 +3714,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-18 01:01:43" itemprop="dateCreated datePublished" datetime="2014-10-18T01:01:43+08:00">2014-10-18</time>
+              <time title="Erstellt: 2014-10-18 01:01:43" itemprop="dateCreated datePublished" datetime="2014-10-18T01:01:43+08:00">2014-10-18</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4101,14 +3758,12 @@
       
         
           
-          感叹1.在学会尊重少数人的意愿前，中国不值得拥有民主2.永远不要小瞧人的见识，不要用自己的想法来考虑
-          ...
+            <p>
+              感叹1.在学会尊重少数人的意愿前，中国不值得拥有民主2.永远不要小瞧人的见识，不要用自己的想法来考虑
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/18/10.18有感/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4122,6 +3777,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4161,16 +3819,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/13/十月十三/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/13/十月十三/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4180,9 +3838,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/13/十月十三/" itemprop="url">
-                  十月十三
-                </a>
+                
+                <a href="/2014/10/13/十月十三/" class="post-title-link" itemprop="url">十月十三</a>
               
             
           </h1>
@@ -4200,38 +3857,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-13 18:30:37" itemprop="dateCreated datePublished" datetime="2014-10-13T18:30:37+08:00">2014-10-13</time>
+              <time title="Erstellt: 2014-10-13 18:30:37" itemprop="dateCreated datePublished" datetime="2014-10-13T18:30:37+08:00">2014-10-13</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4259,14 +3901,12 @@
       
         
           
-          一个人写自己不懂得的事就容易这样浪漫。 所以才会觉得别人的生活光鲜亮丽，其实不过是自己因为不了解的误
-          ...
+            <p>
+              一个人写自己不懂得的事就容易这样浪漫。 所以才会觉得别人的生活光鲜亮丽，其实不过是自己因为不了解的误
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/13/十月十三/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4280,6 +3920,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4319,16 +3962,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/12/2014-10-12/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/12/2014-10-12/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4338,9 +3981,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/12/2014-10-12/" itemprop="url">
-                  旅行啊
-                </a>
+                
+                <a href="/2014/10/12/2014-10-12/" class="post-title-link" itemprop="url">旅行啊</a>
               
             
           </h1>
@@ -4358,38 +4000,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-12 00:44:50" itemprop="dateCreated datePublished" datetime="2014-10-12T00:44:50+08:00">2014-10-12</time>
+              <time title="Erstellt: 2014-10-12 00:44:50" itemprop="dateCreated datePublished" datetime="2014-10-12T00:44:50+08:00">2014-10-12</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4417,14 +4044,12 @@
       
         
           
-          旅行啊，就是出去看，出去走，老是担心会不会错过什么，反而把偶遇，邂逅，意外之美的心境错过了。也许是因
-          ...
+            <p>
+              旅行啊，就是出去看，出去走，老是担心会不会错过什么，反而把偶遇，邂逅，意外之美的心境错过了。也许是因
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/12/2014-10-12/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4438,6 +4063,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4477,16 +4105,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/10/读点，想点，看点/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/10/读点，想点，看点/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4496,9 +4124,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/10/读点，想点，看点/" itemprop="url">
-                  读点，想点，看点
-                </a>
+                
+                <a href="/2014/10/10/读点，想点，看点/" class="post-title-link" itemprop="url">读点，想点，看点</a>
               
             
           </h1>
@@ -4516,38 +4143,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-10 18:43:32" itemprop="dateCreated datePublished" datetime="2014-10-10T18:43:32+08:00">2014-10-10</time>
+              <time title="Erstellt: 2014-10-10 18:43:32" itemprop="dateCreated datePublished" datetime="2014-10-10T18:43:32+08:00">2014-10-10</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4575,15 +4187,13 @@
       
         
           
-          在停止打字好长时间以后，终于耐着性子重新开始敲点东西。
+            <p>
+              在停止打字好长时间以后，终于耐着性子重新开始敲点东西。
 人是不能过的太舒心的，也不能太由着自己的性子
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/10/读点，想点，看点/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4597,6 +4207,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4636,16 +4249,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/08/2014-10-08/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/08/2014-10-08/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4655,9 +4268,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/08/2014-10-08/" itemprop="url">
-                  未命名
-                </a>
+                
+                <a href="/2014/10/08/2014-10-08/" class="post-title-link" itemprop="url">Unbenannt</a>
               
             
           </h1>
@@ -4675,38 +4287,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-08 21:45:38" itemprop="dateCreated datePublished" datetime="2014-10-08T21:45:38+08:00">2014-10-08</time>
+              <time title="Erstellt: 2014-10-08 21:45:38" itemprop="dateCreated datePublished" datetime="2014-10-08T21:45:38+08:00">2014-10-08</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4734,15 +4331,13 @@
       
         
           
-          每次想写点什么的 时候就写不出来了，好像一肚子话要说，然后又说不出了
+            <p>
+              每次想写点什么的 时候就写不出来了，好像一肚子话要说，然后又说不出了
 
-          
+              
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/08/2014-10-08/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4756,6 +4351,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4795,16 +4393,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/02/期末杂念/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/10/02/期末杂念/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4814,9 +4412,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/10/02/期末杂念/" itemprop="url">
-                  期末杂念
-                </a>
+                
+                <a href="/2014/10/02/期末杂念/" class="post-title-link" itemprop="url">期末杂念</a>
               
             
           </h1>
@@ -4834,38 +4431,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-10-02 10:55:30" itemprop="dateCreated datePublished" datetime="2014-10-02T10:55:30+08:00">2014-10-02</time>
+              <time title="Erstellt: 2014-10-02 10:55:30" itemprop="dateCreated datePublished" datetime="2014-10-02T10:55:30+08:00">2014-10-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -4893,15 +4475,13 @@
       
         
           
-          一
+            <p>
+              一
 今天是10月2号，从九月初中文考试结束，严格意义上已经在停止上课一个多月了。一个多月，每天在办公
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/10/02/期末杂念/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -4915,6 +4495,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -4954,16 +4537,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/08/25/2014-08-25/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/08/25/2014-08-25/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -4973,9 +4556,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/08/25/2014-08-25/" itemprop="url">
-                  再会，真的要走了
-                </a>
+                
+                <a href="/2014/08/25/2014-08-25/" class="post-title-link" itemprop="url">再会，真的要走了</a>
               
             
           </h1>
@@ -4993,38 +4575,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-08-25 13:45:45" itemprop="dateCreated datePublished" datetime="2014-08-25T13:45:45+08:00">2014-08-25</time>
+              <time title="Erstellt: 2014-08-25 13:45:45" itemprop="dateCreated datePublished" datetime="2014-08-25T13:45:45+08:00">2014-08-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5052,14 +4619,12 @@
       
         
           
-          “再会，真的要走了”同学发给我微信的时候，不知道当时是因为没有看到还是因为实在太困了，总之是我没有回
-          ...
+            <p>
+              “再会，真的要走了”同学发给我微信的时候，不知道当时是因为没有看到还是因为实在太困了，总之是我没有回
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/08/25/2014-08-25/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5073,6 +4638,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5112,16 +4680,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/07/06/七月啊七月/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/07/06/七月啊七月/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5131,9 +4699,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/07/06/七月啊七月/" itemprop="url">
-                  七月啊七月
-                </a>
+                
+                <a href="/2014/07/06/七月啊七月/" class="post-title-link" itemprop="url">七月啊七月</a>
               
             
           </h1>
@@ -5151,38 +4718,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-07-06 10:23:55" itemprop="dateCreated datePublished" datetime="2014-07-06T10:23:55+08:00">2014-07-06</time>
+              <time title="Erstellt: 2014-07-06 10:23:55" itemprop="dateCreated datePublished" datetime="2014-07-06T10:23:55+08:00">2014-07-06</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5210,14 +4762,12 @@
       
         
           
-          原本计划在曼谷可以有一段规律的时间可以安排，可以把那些没有机会尝试的事情坚持下来，结果现在回想起来还
-          ...
+            <p>
+              原本计划在曼谷可以有一段规律的时间可以安排，可以把那些没有机会尝试的事情坚持下来，结果现在回想起来还
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/07/06/七月啊七月/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5231,6 +4781,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5270,16 +4823,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/18/适应，或者是无奈的接受/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/18/适应，或者是无奈的接受/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5289,9 +4842,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/06/18/适应，或者是无奈的接受/" itemprop="url">
-                  适应，或者是无奈的接受
-                </a>
+                
+                <a href="/2014/06/18/适应，或者是无奈的接受/" class="post-title-link" itemprop="url">适应，或者是无奈的接受</a>
               
             
           </h1>
@@ -5309,38 +4861,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-06-18 23:09:49" itemprop="dateCreated datePublished" datetime="2014-06-18T23:09:49+08:00">2014-06-18</time>
+              <time title="Erstellt: 2014-06-18 23:09:49" itemprop="dateCreated datePublished" datetime="2014-06-18T23:09:49+08:00">2014-06-18</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5368,14 +4905,12 @@
       
         
           
-          6月18日，晚上出去吃饭的时候，突然意识到明天又是周四，也是拜师节，这样的话，后天周五，然后一周又过
-          ...
+            <p>
+              6月18日，晚上出去吃饭的时候，突然意识到明天又是周四，也是拜师节，这样的话，后天周五，然后一周又过
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/06/18/适应，或者是无奈的接受/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5389,6 +4924,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5428,16 +4966,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/13/校庆日（待续）/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/13/校庆日（待续）/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5447,9 +4985,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/06/13/校庆日（待续）/" itemprop="url">
-                  校庆日（待续）
-                </a>
+                
+                <a href="/2014/06/13/校庆日（待续）/" class="post-title-link" itemprop="url">校庆日（待续）</a>
               
             
           </h1>
@@ -5467,38 +5004,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-06-13 23:15:30" itemprop="dateCreated datePublished" datetime="2014-06-13T23:15:30+08:00">2014-06-13</time>
+              <time title="Erstellt: 2014-06-13 23:15:30" itemprop="dateCreated datePublished" datetime="2014-06-13T23:15:30+08:00">2014-06-13</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5526,14 +5048,12 @@
       
         
           
-          在其他同学纷纷过上拜师节的时候，我们也终于在第二周一迎来学校的盛世，那就是建校日。虽然不用上课，可是
-          ...
+            <p>
+              在其他同学纷纷过上拜师节的时候，我们也终于在第二周一迎来学校的盛世，那就是建校日。虽然不用上课，可是
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/06/13/校庆日（待续）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5547,6 +5067,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5586,16 +5109,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/生日记(待续)/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/生日记(待续)/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5605,9 +5128,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/06/02/生日记(待续)/" itemprop="url">
-                  生日记(待续)
-                </a>
+                
+                <a href="/2014/06/02/生日记(待续)/" class="post-title-link" itemprop="url">生日记(待续)</a>
               
             
           </h1>
@@ -5625,38 +5147,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-06-02 21:50:53" itemprop="dateCreated datePublished" datetime="2014-06-02T21:50:53+08:00">2014-06-02</time>
+              <time title="Erstellt: 2014-06-02 21:50:53" itemprop="dateCreated datePublished" datetime="2014-06-02T21:50:53+08:00">2014-06-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5684,15 +5191,13 @@
       
         
           
-          生日记  
+            <p>
+              生日记  
 在周三，管理老师告诉我们今天是部长的生日，周五是她的生日的时候，我和学长就开始重新问候万
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/06/02/生日记(待续)/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5706,6 +5211,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5745,16 +5253,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/升旗记/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/升旗记/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5764,9 +5272,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/06/02/升旗记/" itemprop="url">
-                  升旗记
-                </a>
+                
+                <a href="/2014/06/02/升旗记/" class="post-title-link" itemprop="url">升旗记</a>
               
             
           </h1>
@@ -5784,38 +5291,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-06-02 21:49:22" itemprop="dateCreated datePublished" datetime="2014-06-02T21:49:22+08:00">2014-06-02</time>
+              <time title="Erstellt: 2014-06-02 21:49:22" itemprop="dateCreated datePublished" datetime="2014-06-02T21:49:22+08:00">2014-06-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -5843,15 +5335,13 @@
       
         
           
-          升旗记  
+            <p>
+              升旗记  
 到了周四，就是全校开会时间和自我介绍时间了。这样还是不免让人紧张起来。在周三下午的时候，
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/06/02/升旗记/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -5865,6 +5355,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -5904,16 +5397,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/上课记/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/06/02/上课记/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -5923,9 +5416,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/06/02/上课记/" itemprop="url">
-                  上课记
-                </a>
+                
+                <a href="/2014/06/02/上课记/" class="post-title-link" itemprop="url">上课记</a>
               
             
           </h1>
@@ -5943,38 +5435,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-06-02 21:43:03" itemprop="dateCreated datePublished" datetime="2014-06-02T21:43:03+08:00">2014-06-02</time>
+              <time title="Erstellt: 2014-06-02 21:43:03" itemprop="dateCreated datePublished" datetime="2014-06-02T21:43:03+08:00">2014-06-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6002,14 +5479,12 @@
       
         
           
-          5月26日周一第一天的课程实实在在给我和学长一个下马威。在刚去学校的时候，路上碰见一群高年级的学生，
-          ...
+            <p>
+              5月26日周一第一天的课程实实在在给我和学长一个下马威。在刚去学校的时候，路上碰见一群高年级的学生，
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/06/02/上课记/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6023,6 +5498,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6062,16 +5540,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/25/抵达记（二）/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/25/抵达记（二）/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6081,9 +5559,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/05/25/抵达记（二）/" itemprop="url">
-                  抵达记（二）
-                </a>
+                
+                <a href="/2014/05/25/抵达记（二）/" class="post-title-link" itemprop="url">抵达记（二）</a>
               
             
           </h1>
@@ -6101,38 +5578,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-05-25 12:43:18" itemprop="dateCreated datePublished" datetime="2014-05-25T12:43:18+08:00">2014-05-25</time>
+              <time title="Erstellt: 2014-05-25 12:43:18" itemprop="dateCreated datePublished" datetime="2014-05-25T12:43:18+08:00">2014-05-25</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6160,15 +5622,13 @@
       
         
           
-          抵达记（二）
+            <p>
+              抵达记（二）
  快速交接的坏处很快就显露出来，我们有时间去换泰铢了，只能在邓老师那边拿了三千株，六百
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/05/25/抵达记（二）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6182,6 +5642,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6221,16 +5684,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/24/抵达记（一）/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/24/抵达记（一）/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6240,9 +5703,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/05/24/抵达记（一）/" itemprop="url">
-                  抵达记（一）
-                </a>
+                
+                <a href="/2014/05/24/抵达记（一）/" class="post-title-link" itemprop="url">抵达记（一）</a>
               
             
           </h1>
@@ -6260,38 +5722,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-05-24 12:07:39" itemprop="dateCreated datePublished" datetime="2014-05-24T12:07:39+08:00">2014-05-24</time>
+              <time title="Erstellt: 2014-05-24 12:07:39" itemprop="dateCreated datePublished" datetime="2014-05-24T12:07:39+08:00">2014-05-24</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6319,14 +5766,12 @@
       
         
           
-          5月24日，坐在曼谷东北部不知道什么小镇的公寓里，我开始不断的怀疑自己的选择是不是正确，准确的说是自
-          ...
+            <p>
+              5月24日，坐在曼谷东北部不知道什么小镇的公寓里，我开始不断的怀疑自己的选择是不是正确，准确的说是自
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/05/24/抵达记（一）/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6340,6 +5785,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6379,16 +5827,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/02/思考/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/02/思考/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6398,9 +5846,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/05/02/思考/" itemprop="url">
-                  思考
-                </a>
+                
+                <a href="/2014/05/02/思考/" class="post-title-link" itemprop="url">思考</a>
               
             
           </h1>
@@ -6418,38 +5865,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-05-02 21:39:22" itemprop="dateCreated datePublished" datetime="2014-05-02T21:39:22+08:00">2014-05-02</time>
+              <time title="Erstellt: 2014-05-02 21:39:22" itemprop="dateCreated datePublished" datetime="2014-05-02T21:39:22+08:00">2014-05-02</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6477,14 +5909,12 @@
       
         
           
-          每天都在浏览那么几个网站，甚至连点正经的新闻网站都不看了。这样看来，网络到底是限制了我们的眼界还是开
-          ...
+            <p>
+              每天都在浏览那么几个网站，甚至连点正经的新闻网站都不看了。这样看来，网络到底是限制了我们的眼界还是开
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/05/02/思考/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6498,6 +5928,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6537,16 +5970,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/01/《社会动物》/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/05/01/《社会动物》/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6556,9 +5989,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/05/01/《社会动物》/" itemprop="url">
-                  《社会动物》
-                </a>
+                
+                <a href="/2014/05/01/《社会动物》/" class="post-title-link" itemprop="url">《社会动物》</a>
               
             
           </h1>
@@ -6576,38 +6008,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-05-01 22:19:36" itemprop="dateCreated datePublished" datetime="2014-05-01T22:19:36+08:00">2014-05-01</time>
+              <time title="Erstellt: 2014-05-01 22:19:36" itemprop="dateCreated datePublished" datetime="2014-05-01T22:19:36+08:00">2014-05-01</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6635,17 +6052,15 @@
       
         
           
-          《社会动物》
+            <p>
+              《社会动物》
 
 “生活对他而言是一场冒险，确实危险，但男人生来并不是为了待在安全的港湾里的。”
 “绝
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/05/01/《社会动物》/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6659,6 +6074,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6698,16 +6116,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/29/子不语/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/29/子不语/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6717,9 +6135,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/04/29/子不语/" itemprop="url">
-                  子不语
-                </a>
+                
+                <a href="/2014/04/29/子不语/" class="post-title-link" itemprop="url">子不语</a>
               
             
           </h1>
@@ -6737,38 +6154,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-04-29 21:25:11" itemprop="dateCreated datePublished" datetime="2014-04-29T21:25:11+08:00">2014-04-29</time>
+              <time title="Erstellt: 2014-04-29 21:25:11" itemprop="dateCreated datePublished" datetime="2014-04-29T21:25:11+08:00">2014-04-29</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6796,16 +6198,14 @@
       
         
           
-          子不语
+            <p>
+              子不语
 
 图书馆新进了三本子不语，正是在书店看到过的三联封金恶俗版（你是不知道那个违和劲），不过三本
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/04/29/子不语/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6819,6 +6219,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -6858,16 +6261,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/28/收益vs耐心/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/28/收益vs耐心/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -6877,9 +6280,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/04/28/收益vs耐心/" itemprop="url">
-                  收益vs耐心
-                </a>
+                
+                <a href="/2014/04/28/收益vs耐心/" class="post-title-link" itemprop="url">收益vs耐心</a>
               
             
           </h1>
@@ -6897,38 +6299,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-04-28 22:19:37" itemprop="dateCreated datePublished" datetime="2014-04-28T22:19:37+08:00">2014-04-28</time>
+              <time title="Erstellt: 2014-04-28 22:19:37" itemprop="dateCreated datePublished" datetime="2014-04-28T22:19:37+08:00">2014-04-28</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -6956,16 +6343,14 @@
       
         
           
-          收益vs耐心
+            <p>
+              收益vs耐心
 尽量少做或不做“短收益半衰期”的事情。
 每一个接触时间管理的人都会遇到两个无能，选择无
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/04/28/收益vs耐心/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -6979,6 +6364,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -7018,16 +6406,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/27/纸牌的人生智慧/">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2014/04/27/纸牌的人生智慧/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="马腾">
-      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TENG">
+      <meta itemprop="name" content="TENG"/>
     </span>
 
     
@@ -7037,9 +6425,8 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/04/27/纸牌的人生智慧/" itemprop="url">
-                  纸牌的人生智慧
-                </a>
+                
+                <a href="/2014/04/27/纸牌的人生智慧/" class="post-title-link" itemprop="url">纸牌的人生智慧</a>
               
             
           </h1>
@@ -7057,38 +6444,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="创建时间：2014-04-27 22:30:37" itemprop="dateCreated datePublished" datetime="2014-04-27T22:30:37+08:00">2014-04-27</time>
+              <time title="Erstellt: 2014-04-27 22:30:37" itemprop="dateCreated datePublished" datetime="2014-04-27T22:30:37+08:00">2014-04-27</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-11-11 22:26:10" itemprop="dateModified" datetime="2016-11-11T22:26:10+08:00">2016-11-11</time>
-              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -7116,15 +6488,13 @@
       
         
           
-           在遥远的过去，咳咳，其实也就是以前的二十年吧，纸牌和麻将绝对是中国最广泛娱乐方式。
+            <p>
+               在遥远的过去，咳咳，其实也就是以前的二十年吧，纸牌和麻将绝对是中国最广泛娱乐方式。
 在北方，到了阴
-          ...
+              ...
+            </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2014/04/27/纸牌的人生智慧/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
           <!--/noindex-->
         
       
@@ -7138,6 +6508,9 @@
 
     
 
+    
+      
+    
     
 
     
@@ -7166,7 +6539,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span>
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="Vorherige Seite"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span>
   </nav>
 
 
@@ -7187,23 +6560,22 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.gif"
-                alt="马腾" />
+                alt="马腾"/>
             
               <p class="site-author-name" itemprop="name">马腾</p>
-              <p class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</p>
+              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
           </div>
 
           
@@ -7214,7 +6586,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">293</span>
-                    <span class="site-state-item-name">日志</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -7225,7 +6597,11 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -7301,7 +6677,7 @@
                       
                     
                     <span class="site-state-item-count">36</span>
-                    <span class="site-state-item-name">标签</span>
+                    <span class="site-state-item-name">schlagwörter</span>
                   </a>
                 </div>
               
@@ -7318,27 +6694,40 @@
           
 
           
+
+          
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="http://tengblog.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="http://tengblog.com" title="E-Mail &rarr; http://tengblog.com"><i class="fa fa-fw fa-envelope"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://instagram.com/lovemadao" target="_blank" title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://weibo.com/yan_chufei" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i></a>
                   
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yan_chufei" title="Weibo &rarr; https://weibo.com/yan_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
                 </span>
               
             </div>
           
 
-          
           
 
           
@@ -7350,7 +6739,7 @@
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -7358,6 +6747,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -7378,9 +6768,7 @@
 </div>
 
 
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.2.2</div>
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.2.2</div>
 
 
 
@@ -7388,7 +6776,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -7407,19 +6795,17 @@
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -7451,55 +6837,48 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+  <script src="/js/utils.js?v=7.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+  <script src="/js/motion.js?v=7.1.1"></script>
 
 
 
   
   
 
-  
 
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
-
-
-
-  
-
-
-
-	
-
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
 
 
 
 
   
 
+  
 
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -7507,29 +6886,17 @@
 
 
 
-
-
-
-
-
-
-
-  
-
-
-
-
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css"/>
 
   
   
   <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/src/algolia-search.js?v=6.3.0"></script>
+  <script src="/js/algolia-search.js?v=7.1.1"></script>
 
 
 
@@ -7542,6 +6909,13 @@
   
 
   
+
+  
+
+  
+
+  
+
   
 
   
