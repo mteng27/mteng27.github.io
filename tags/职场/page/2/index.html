@@ -482,34 +482,6 @@
 
       <h3 class="post-title">
         
-          <a class="post-title-link" href="/2018/10/11/datician06/" itemprop="url">
-            
-              <span itemprop="name">描述统计学基本原理-06</span>
-            
-          </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-11T00:00:00+08:00"
-              content="2018-10-11">
-          10-11
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
           <a class="post-title-link" href="/2018/10/09/datician05/" itemprop="url">
             
               <span itemprop="name">强化 SQL 学习+案例分析-05</span>
@@ -643,6 +615,34 @@
 
 
       
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+          <a class="post-title-link" href="/2017/10/20/xinshixiang2/" itemprop="url">
+            
+              <span itemprop="name">新世相 PK 得到：没有杀手锏，只能贴身肉搏</span>
+            
+          </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-10-20T00:00:00+08:00"
+              content="2017-10-20">
+          10-20
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
     </div>
 
   </div>
@@ -699,7 +699,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">293</span>
+                    <span class="site-state-item-count">292</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1053,19 +1053,6 @@
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
       
-        // ref: https://github.com/ForbesLindesay/unescape-html
-        var unescapeHtml = function(html) {
-          return String(html)
-            .replace(/&quot;/g, '"')
-            .replace(/&#39;/g, '\'')
-            .replace(/&#x3A;/g, ':')
-            // replace all the other &#x; chars
-            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
-            .replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&amp;/g, '&');
-        };
-      
 
       $.ajax({
         url: path,
@@ -1100,8 +1087,6 @@
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                content = unescapeHtml(content);
                 
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');

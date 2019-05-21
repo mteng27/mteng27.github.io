@@ -398,34 +398,6 @@
 
       <h3 class="post-title">
         
-          <a class="post-title-link" href="/2017/02/17/licai/" itemprop="url">
-            
-              <span itemprop="name">财富自由之路--践行（1） </span>
-            
-          </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-02-17T00:00:00+08:00"
-              content="2017-02-17">
-          02-17
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
           <a class="post-title-link" href="/2017/02/17/kesi/" itemprop="url">
             
               <span itemprop="name">科斯对中国变革的看法</span>
@@ -454,9 +426,37 @@
 
       <h3 class="post-title">
         
-          <a class="post-title-link" href="/2017/02/14/lanv/" itemprop="url">
+          <a class="post-title-link" href="/2017/02/17/licai/" itemprop="url">
             
-              <span itemprop="name">摆脱企业蓝 V 的 「透明」位置 </span>
+              <span itemprop="name">财富自由之路--践行（1） </span>
+            
+          </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-02-17T00:00:00+08:00"
+              content="2017-02-17">
+          02-17
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+          <a class="post-title-link" href="/2017/02/14/jianli/" itemprop="url">
+            
+              <span itemprop="name">做好准备，随时求职</span>
             
           </a>
         
@@ -482,9 +482,9 @@
 
       <h3 class="post-title">
         
-          <a class="post-title-link" href="/2017/02/14/jianli/" itemprop="url">
+          <a class="post-title-link" href="/2017/02/14/lanv/" itemprop="url">
             
-              <span itemprop="name">做好准备，随时求职</span>
+              <span itemprop="name">摆脱企业蓝 V 的 「透明」位置 </span>
             
           </a>
         
@@ -699,7 +699,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">293</span>
+                    <span class="site-state-item-count">292</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1053,19 +1053,6 @@
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
       
-        // ref: https://github.com/ForbesLindesay/unescape-html
-        var unescapeHtml = function(html) {
-          return String(html)
-            .replace(/&quot;/g, '"')
-            .replace(/&#39;/g, '\'')
-            .replace(/&#x3A;/g, ':')
-            // replace all the other &#x; chars
-            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
-            .replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&amp;/g, '&');
-        };
-      
 
       $.ajax({
         url: path,
@@ -1100,8 +1087,6 @@
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                content = unescapeHtml(content);
                 
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');

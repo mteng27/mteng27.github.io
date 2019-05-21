@@ -579,8 +579,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/10/06/homo/" rel="next" title="未来简史笔记（一）">
-                <i class="fa fa-chevron-left"></i> 未来简史笔记（一）
+              <a href="/2016/10/07/suoxie/" rel="next" title="书籍卡片反馈|缩写[技能树]">
+                <i class="fa fa-chevron-left"></i> 书籍卡片反馈|缩写[技能树]
               </a>
             
           </div>
@@ -589,8 +589,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/10/07/suoxie/" rel="prev" title="书籍卡片反馈|缩写[技能树]">
-                书籍卡片反馈|缩写[技能树] <i class="fa fa-chevron-right"></i>
+              <a href="/2016/10/12/tanpan/" rel="prev" title="需要一点谈判（二）">
+                需要一点谈判（二） <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -664,7 +664,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">293</span>
+                    <span class="site-state-item-count">292</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1041,19 +1041,6 @@
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
       
-        // ref: https://github.com/ForbesLindesay/unescape-html
-        var unescapeHtml = function(html) {
-          return String(html)
-            .replace(/&quot;/g, '"')
-            .replace(/&#39;/g, '\'')
-            .replace(/&#x3A;/g, ':')
-            // replace all the other &#x; chars
-            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
-            .replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&amp;/g, '&');
-        };
-      
 
       $.ajax({
         url: path,
@@ -1088,8 +1075,6 @@
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
-                
-                content = unescapeHtml(content);
                 
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
