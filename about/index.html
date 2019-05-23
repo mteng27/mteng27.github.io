@@ -96,46 +96,16 @@
 
 
 
-  <meta name="description" content="关于 about 
-
-
-    世事无常，精进不已是惟一靠谱的人生策略。
-
-
-
-    // get nodes
-    var $zh = document.querySelector(&quot;.zh&quot;);
-    var $en = document.querySelector(&quot;.en&quot;);
-    var $select = document.querySelector(&quot;selec">
+  <meta name="description" content="Hey, this is MaTeng.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="about">
+<meta property="og:title" content=" about">
 <meta property="og:url" content="http://tengblog.com/about/index.html">
 <meta property="og:site_name" content="TENG">
-<meta property="og:description" content="关于 about 
-
-
-    世事无常，精进不已是惟一靠谱的人生策略。
-
-
-
-    // get nodes
-    var $zh = document.querySelector(&quot;.zh&quot;);
-    var $en = document.querySelector(&quot;.en&quot;);
-    var $select = document.querySelector(&quot;selec">
-<meta property="og:updated_time" content="2017-05-02T00:54:21.000Z">
+<meta property="og:description" content="Hey, this is MaTeng.">
+<meta property="og:updated_time" content="2019-01-12T15:56:27.015Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="关于 about 
-
-
-    世事无常，精进不已是惟一靠谱的人生策略。
-
-
-
-    // get nodes
-    var $zh = document.querySelector(&quot;.zh&quot;);
-    var $en = document.querySelector(&quot;.en&quot;);
-    var $select = document.querySelector(&quot;selec">
+<meta name="twitter:title" content=" about">
+<meta name="twitter:description" content="Hey, this is MaTeng.">
 
 
 
@@ -155,7 +125,7 @@
   };
 </script>
 
-  <title>about | TENG</title>
+  <title> about | TENG</title>
   
 
 
@@ -378,11 +348,13 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h2 class="post-title" itemprop="name headline">about
+<h2 class="post-title" itemprop="name headline"> about
 
 </h2>
 
 <div class="post-meta">
+  
+    <div class="post-description">Hey, this is MaTeng.</div>
   
   
 
@@ -399,10 +371,15 @@
         
         
           <!-- Language Selector -->
-<select onchange="onLanChange(this.options[this.options.selectedIndex].value)"><br><br>    <option value="0"> 关于 about </option><br></select>
+<select onchange="onLanChange(this.options[this.options.selectedIndex].value)"><br><br>    <option value="0" selected>闲言碎语</option><br>    <option value="1"> ABOUT </option><br><br></select>
 
 <!-- ABOUT Version -->
-<div class="zh post-container"><br>  <!--copied from markdown --><br>  <blockquote><p>世事无常，精进不已是惟一靠谱的人生策略。</p></blockquote><br><br></div>
+<div class="en post-container"><br>  <!--copied from markdown --><br>  <blockquote><p>写写东西，记录思考，清醒活着。<br><br>  不妨说说你的鸡毛蒜皮。</p></blockquote><br>  <p>一个博客，坚持写写自己的读书笔记，职场所得，生活感悟，观影吐槽什么的。<br><br>  一定会坚持更新的！我保证！</p><br>  <p>任何博客都有前生，tengblog有两个<a href="http://madaoword.lofter.com/" target="_blank" rel="external">madao’s word</a> 与 <a href="http://blog.sina.com.cn/horsesay" target="_blank" rel="external">新浪-未曾存在</a>。<br>    <br>除了在博客写点东西外，<del>也胡乱写写不负责的八卦，还有个搬运视频的头条号<a href="http://www.toutiao.com/m4935743317/" target="_blank" rel="external">娱乐大嘴鱼（已放弃）</a> <br> 我还有个企鹅号和头条号，写写娱乐八卦，算是熟悉下后台,要是有什么新媒体运营的工作给我，我也可以做好的！</del> </p><br>    <p>人生就是和自己的欲望抗争，有个<a href="http://tengblog.com/list">清单</a>在这，写一些做完的，或者想做的。<del>或许以后会独立出去，做成单独的小栏目。</del></p><br><br>  <p>如果想更详细的了解我，可以点击右侧的社交账号。<br><br>    或者点击<a href="/project/index.html" target="view_blank">全屏演示</a>。<br></p></div>
+
+<!-- Chinese Version -->
+<div class="zh post-container"><br>  <!--copied from markdown --><br>  <blockquote><p>写写东西，记录思考，清醒活着。<br><br>  不妨说说你的鸡毛蒜皮。</p></blockquote><br><br>  <p>Hey，我是<strong>马腾</strong></p><br>  <p>2010-2014：山东大学</p><br> <p>2014-2015：泰国曼谷</p><br>  <p>2015-2017：央广新传媒</p><br>  <p>2017-至今 ：字节跳动</p><br><br>  <p>如果想更详细的了解我，欢迎添加微信 matteng27，备注「博客」</p><br><br></div>
+
+
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
@@ -417,20 +394,20 @@
         var _hash = window.location.hash;
         // en
         if(_hash == "#en"){
-            $select.selectedIndex = 1;
+            $select.selectedIndex = 0;
             $en.style.display = "block";
             $zh.style.display = "none";
         // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
+            $select.selectedIndex = 1;
             $zh.style.display = "block";
             $en.style.display = "none";
         }
     }
     // handle select change
     function onLanChange(index){
-        if(index == 0){
+        if(index == 1){
             window.location.hash = "#zh"
         }else{
             window.location.hash = "#en"
