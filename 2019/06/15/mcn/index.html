@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.gif?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.gif?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="旧文超过保密期限
+目前从各种渠道了解的情况下，围绕整个抖音商业生态会有众多不同角色的服务商出现在是市场上，整体混轮程度比较高，规范流程性差。
+简单梳理后，其主要有这些角色共存，层级间区分不明显，有多重身份融合者。
+最底层：野生社群/培训机构/账号交易/热点抄袭搬运账号
+徘徊在平台灰色产业边缘的角色，其主要通过微信社群、线下培训机构等等方式利用平台热度打造自己在某区域的影响力。
+聚集对抖音运营感兴趣">
+<meta property="og:type" content="article">
+<meta property="og:title" content="抖音外围的服务角色分析">
+<meta property="og:url" content="http://tengblog.com/2019/06/15/mcn/index.html">
+<meta property="og:site_name" content="TENG">
+<meta property="og:description" content="旧文超过保密期限
+目前从各种渠道了解的情况下，围绕整个抖音商业生态会有众多不同角色的服务商出现在是市场上，整体混轮程度比较高，规范流程性差。
+简单梳理后，其主要有这些角色共存，层级间区分不明显，有多重身份融合者。
+最底层：野生社群/培训机构/账号交易/热点抄袭搬运账号
+徘徊在平台灰色产业边缘的角色，其主要通过微信社群、线下培训机构等等方式利用平台热度打造自己在某区域的影响力。
+聚集对抖音运营感兴趣">
+<meta property="og:updated_time" content="2019-06-15T04:06:49.191Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="抖音外围的服务角色分析">
+<meta name="twitter:description" content="旧文超过保密期限
+目前从各种渠道了解的情况下，围绕整个抖音商业生态会有众多不同角色的服务商出现在是市场上，整体混轮程度比较高，规范流程性差。
+简单梳理后，其主要有这些角色共存，层级间区分不明显，有多重身份融合者。
+最底层：野生社群/培训机构/账号交易/热点抄袭搬运账号
+徘徊在平台灰色产业边缘的角色，其主要通过微信社群、线下培训机构等等方式利用平台热度打造自己在某区域的影响力。
+聚集对抖音运营感兴趣">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="TENG" type="application/atom+xml"/>
+
+
+
+  
+  
+  <link rel="canonical" href="http://tengblog.com/2019/06/15/mcn/"/>
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>抖音外围的服务角色分析 | TENG</title>
+  
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?0ecfe5373d592fb523c28c23ec29fd92";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TENG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <h1 class="site-subtitle" itemprop="description">精进不已</h1>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br/>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://tengblog.com/2019/06/15/mcn/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="马腾"/>
+      <meta itemprop="description" content="精进不已是惟一靠谱的人生策略"/>
+      <meta itemprop="image" content="/images/avatar.gif"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TENG"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">抖音外围的服务角色分析
+
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-15 00:00:00 / 修改时间：12:06:49" itemprop="dateCreated datePublished" datetime="2019-06-15T00:00:00+08:00">2019-06-15</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><em>旧文超过保密期限</em></p>
+<p>目前从各种渠道了解的情况下，围绕整个抖音商业生态会有众多不同角色的服务商出现在是市场上，整体混轮程度比较高，规范流程性差。</p>
+<p>简单梳理后，其主要有这些角色共存，层级间区分不明显，有多重身份融合者。</p>
+<p><strong>最底层：野生社群/培训机构/账号交易/热点抄袭搬运账号</strong></p>
+<p>徘徊在平台灰色产业边缘的角色，其主要通过微信社群、线下培训机构等等方式利用平台热度打造自己在某区域的影响力。</p>
+<p>聚集对抖音运营感兴趣但了解比较少的商家，通过分享资料的方式来吸引并收费。分享资料多为公开文章和公开资料，利用信息差优势收割获利。</p>
+<p>平台发展初期多以默认默许方式不予制止，目前抖音法务精力主要在「打击滥用 logo」上，且部分社群分享都以「短视频行业」为主题，打击难度较高。</p>
+<p><strong>第四层：</strong></p>
+<p>主要以具备一定制作能力的团队，尚未签约的野生达人、有制作能力的工作室等为主。变现欲望较强的公司在前期便入驻了即合平台，通过最高单价「2500套餐」制作视频广告素材内容。</p>
+<p>因为变现渠道比较少，客单价比较低，本部分角色对于抖音等其他短视频平台产品动态密切关注，希望通过不同的产品更新老获利，对抖音电商带货等等功能兴趣很高。</p>
+<p>抖音企业蓝V新开代理商上则处在这两个层级中，为追求新开量，其主要通过会销、培训、地推等等方式，同时也会许诺为商家提供「新开认证+3条视频内容+dou+」资源包等方式来获得更高收益。可能会冲击渠道侧在区域的独代公司利益。</p>
+<p><strong>第三层：</strong></p>
+<p>第三层角色则包括了有一定知名度的 mcn 机构（星图认证），制作能力较高的创意体系供应商，抖音蓝V生态全效服务商。</p>
+<p>相比第四层角色，本阶段 mcn 机构已经获得星图认证，并且会从抖音侧争取到「mcn 内容资源包」来获得不错的新号打造能力，但更换到客户账号，因为确实「资源包」支持，其运营、涨粉、获赞、播放效果则容易受到局限，尝尝不能完成客户「快速涨粉，打造爆款蓝V账号」的需求。</p>
+<p>又因为资深 mcn 达人并非头部顶级账号，其在星图接单量也比较一般，所以更多的机构开始向「企业代运营」方向侧重，其中以重庆魅影为代表，其从 mcn 机构开始，但是目前更多的想通过「为企业账号」服务的方式获利。</p>
+<p><strong>第二层：</strong></p>
+<p>本层角色可能更为适合大品牌客户，针对性的投入运营和管理相对产出较高，目前本部分在管理的部门比较分散，对外出口并不统一，非常影响外部权威性和统一性。</p>
+<p><strong>最高层：</strong></p>
+<p>个案讨论的角色，可能主要通过资源置换等方式合作，单向的管理不现实。</p>
+<hr>
+<p>从比较成熟的 mcn 机构来说：</p>
+<p>“ 微博是最成熟的，亲密爱人角色。微博现在基本是对接各品类 MCN机构，流量权益各方面给机构，有些博主为了要流量，自动组成 MCN机构去申请对接。所有商业合作走微任务，不介入品牌和机构之间细节合作（下单、价格这些），发布之前必须走微任务，微博从中抽成。</p>
+<p>抖音不够成熟且强势，去年上线星图骂声一片，说好不抽取服务费后面又加了 20%。自个平台的大号不让签约，各家机构都偷偷签约，私下接广告内容非常粗暴屏蔽删除，想自个吞下红人和广告合作的生意，惹得不愉快。现在是又管红人又对接机构</p>
+<p>小红书略青涩但合作愉快，前期小红书自家一直不接商业合作推广，红人要接广告不抽取服务费，但是需要报备以及每发布一条广告内容，需要再生产 5 条优质内容（一切为了内容填充），同时品牌商想要红人发内容，必须入驻进来开品牌账号。</p>
+<p>现在小红书也上线了广告投放平台，开始收割了，前期牺牲没收的钱现在开始慢慢挣。</p>
+<p>其他：抖音粉丝不值钱，1 个粉丝几毛钱；B站粉丝值钱，1 个 4、5 块，且用户粘性极高。在 B站、小红书几千粉丝的博主都能接广告很好变现。”</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/职场/" rel="tag"># 职场</a>
+          
+            <a href="/tags/广告/" rel="tag"># 广告</a>
+          
+            <a href="/tags/产品/" rel="tag"># 产品</a>
+          
+            <a href="/tags/商业变现/" rel="tag"># 商业变现</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/06/jiliguanggao/" rel="next" title="激励视频广告初探">
+                <i class="fa fa-chevron-left"></i> 激励视频广告初探
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="马腾"/>
+            
+              <p class="site-author-name" itemprop="name">马腾</p>
+              <div class="site-description motion-element" itemprop="description">精进不已是惟一靠谱的人生策略</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">251</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">37</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/YAN_chufei" title="Weibo &rarr; https://weibo.com/YAN_chufei" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://instagram.com/lovemadao" title="Instagram &rarr; https://instagram.com/lovemadao" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://tengblog.com" title="https://tengblog.com">TENG</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2017 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">MATENG</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.2.2</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
+
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
+  <script>
+  
+    bookmark.scrollToMark('auto', "#更多");
+  
+  </script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
