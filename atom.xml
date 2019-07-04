@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-06-15T04:16:23.313Z</updated>
+  <updated>2019-07-04T01:46:48.376Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好的思维方式</title>
+    <link href="http://tengblog.com/2019/07/04/muhouchanpin/"/>
+    <id>http://tengblog.com/2019/07/04/muhouchanpin/</id>
+    <published>2019-07-03T16:00:00.000Z</published>
+    <updated>2019-07-04T01:46:48.376Z</updated>
+    
+    <content type="html"><![CDATA[<p>《幕后产品》中的一章，专门提到了好的产品经理要有什么样的思维。<br>原本是想记录下工作中的思考，但诸多内容不宜就仅作摘抄了。</p><h2 id="往重点思考"><a href="#往重点思考" class="headerlink" title="往重点思考"></a>往重点思考</h2><blockquote><p>往重点思考可以分为这么几个环节：思考关键目标、思考实现关键目标的关键行动、思考关键行动的关键依赖，然后加以权衡。如果思考来思考去关键的东西还是很多，那么就要考虑哪些是可以放弃的（放弃很重要）。</p></blockquote><p>我非常赞同。<br>在字节跳动的不短的时间内，经历的不好人都是过于重视「根本无关紧要的问题」，而忽略甚至不知道什么是重点。</p><p><strong>用对细节的关注代替战略重点的思考，严重的偷懒和无能</strong></p><blockquote><p><strong>思考关键目标：</strong>对关键目标的思考尤为重要，因为这是往重点思考的核心部分。在我们面对一个具体的产品问题的时候，先不要马上动手去解决问题，而是想想我们的关键目标是什么。<br>……在思考关键目标时，需要跳出习惯的思维框架。如果我们脑海里只有一些具象的功能和数字，那么很容易忽略目标，而错误地以实现一个功能、达到一个数字为目标，这时就有可能走偏。</p><p><strong>思考关键行动：</strong>在我们明确了关键目标后，就可以拆解关键行动了。这样的思考顺序可以有效地帮助我们抓住最能解决问题的关键部分，而不是做出可能偏离目标的行动。</p><p><strong>思考关键依赖：</strong>在明确了关键行动后，我们可以思考实现这些行动的关键依赖，即思考我们所需的资源、我们的团队、我们的合作伙伴等。</p><p><strong>权衡：</strong>有时候如果我们想的关键目标比较多，还需要权衡一下，最终需要放弃、搁置一些目标。最理想的情况是，我们每个阶段只有一个关键目标，这样最容易聚焦。聚焦的好处除了方向清晰外，同时对团队作战而言，也会更高效地瞄准一个目标执行，而不是各有偏差，导致执行不力。</p></blockquote><h2 id="往本质思考"><a href="#往本质思考" class="headerlink" title="往本质思考"></a>往本质思考</h2><blockquote><p>为什么有人总能透过现象看到事物的本质？在互联网的日常工作中，我们时常遇到这些问题：用户的需求到底是什么？为什么某产品会做这个功能呢？为什么某家公司会持续地关注某个战略方向？这类问题其实可以抽象成一个问题，那就是如何抽丝剥茧地找到表面问题背后的本质。</p><p><strong>跳出思维惯性:</strong>一方面，我们在日常工作、生活中，对身边的事物要保持好奇心，多想多问；另一方面，我们要给自己的脑袋设一道关卡，一旦意识到自己在用经验、过往的思路思考问题时，马上打住，先想一想这些经验和思路是否还适合现在。</p><p><strong>一层一层往下多提问题:</strong>很多大牛前辈的分享中都提到提问其实是一门很深的学问。好的问题能发人深省，而不是止步不前。哲学家提出来的问题非常深奥，需要他们花费数十年甚至一辈子的时间去上下求索。我们应当学习这种精神。</p></blockquote><p><strong>&gt; 日常实践并与人交流:</strong>大脑是越思考越活跃的，因此如果我们涉猎得广泛些、让大脑思考更多的题材，我们的“计算”能力就会增强；同时，与人交流也是打破思维惯性的好办法，不同人看问题的视角不一样，抛开对错心，我们会获得很多新的信息、学习到更多的思路。</p><h2 id="往上层思考"><a href="#往上层思考" class="headerlink" title="往上层思考"></a>往上层思考</h2><blockquote><p>当我们刚成为产品经理时，负责的是一个小功能模块，除了做好上级交代的任务外，不妨也思考一下该功能模块的上层是什么。以此类推，当我们负责整个产品时，更需要登高望远，站在公司的角度、商业的角度、行业的角度思考未来和当下。<br>往上层思考还有一个好处，那就是在我们想到了上一层、理清了本层与上一层的逻辑关系后，我们在团队内的沟通、协作也会变得顺畅，不管是说服上级、项目组成员，还是更广泛的合作伙伴，都会更容易，这是因为我们总会在某一层的目标和想法上达成一致。在上层达成一致后，逐渐往下，下层也就更容易清晰地讨论，从而达成一致。</p><p><strong>看上层的格局和眼界：</strong><br>如果我们的确是一步步登高望远、一个个案例分析、与一个个格局大的人交流来提高自己的格局和眼界的，那我们就能在面对自己的工作情况时思考到上层。这需要非常努力地学习和积累实践经验。当然有人会有这方面的天赋，天生就敏感、思考深、格局大。但对我们普通人而言，依然可以从互联网世界那些卓越的创始人、CEO的经历中发现他们是如何一步步提高自己的格局和眼界的.<br>有一个一定有用的办法可以告诉大家，与自己的主管或者主管的主管聊聊，多听听他对产品、业务的思考和描述，这一定是和你不一样的思考层级，而且在绝大多数情况下是一个更高的层级——且不论这些思考对或不对，至少是一个更高的层级、一个新角度，这些就会帮到你。</p><p><strong>思考上层与本层之间的逻辑关系：</strong><br>这些也是随着我们对产品、业务的思考层级不断提升而越来越清晰和熟练的。</p><ul><li>模块和系统的关系。也就是上层是一个完整的系统，而本层是系统中的一个模块，本层与其他模块组成了一个系统，互相配合而让整个系统能运转。当层级越来越高时，可以发现其与宏观和微观的关系是相通的。</li><li>商业/经济上的驱动关系。上层是经济调控的动因，而本层是具体调控的措施。例如，近些年大家开始谈的供给侧改革，很多国家/世界经济层面的因素会影响互联网行业，面向企业的服务成为新热点。</li></ul><p><strong>想象未来的可能性：</strong><br>thinkbig是乔布斯说的，他的这句话更多的是指我们的思考应该充满了对未来可能性的想象，正如他用苹果电脑、iPod、iPhone一次又一次地给我们阐述什么是thinkbig。这应该是最难的部分，或者说最依赖个人天赋的部分。</p></blockquote><h2 id="往不同思考"><a href="#往不同思考" class="headerlink" title="往不同思考"></a>往不同思考</h2><blockquote><p>这是一种天赋，通常很多专家在自己所处的领域内可以产生真知灼见、有不同的思考，但在换一个领域之后，可能就做不到客观思考，而会产生主观臆断，更谈不上往不同思考了。</p><p><strong>客观地思考不同。</strong>我们不希望thinkdifferent被滥用——因为讨论产品时经常会产生不同的观点，而如果只是为了观点之争、为了不同而不同，则没有太大的意义。</p><p><strong>逆向思维。</strong>查理·芒格将逆向思维运用得炉火纯青。想在股市里赚钱之前，会先考虑如何在股市里避免亏钱；想成功运营一家公司之前，会先考虑如何避免公司倒闭。在互联网行业里，我们也可以运用这样的逆向思维。</p><p>通过逆向思维，可以深思熟虑导致失败的因素，并将它们排除在外。这样做不一定能让我们得到很好的结果，但一定能帮助我们避免最糟糕的结果，避免不该犯的错误，剩下的就是该做的都做好，好的结果自然而然就来了。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;《幕后产品》中的一章，专门提到了好的产品经理要有什么样的思维。&lt;br&gt;原本是想记录下工作中的思考，但诸多内容不宜就仅作摘抄了。&lt;/p&gt;
+&lt;h2 id=&quot;往重点思考&quot;&gt;&lt;a href=&quot;#往重点思考&quot; class=&quot;headerlink&quot; title=&quot;往重点思考&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="广告" scheme="http://tengblog.com/tags/%E5%B9%BF%E5%91%8A/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
   
   <entry>
     <title>抖音外围的服务角色分析</title>
@@ -405,6 +433,36 @@
   </entry>
   
   <entry>
+    <title>寒冬时刻更显变现的重要性</title>
+    <link href="http://tengblog.com/2018/12/17/week001/"/>
+    <id>http://tengblog.com/2018/12/17/week001/</id>
+    <published>2018-12-16T16:00:00.000Z</published>
+    <updated>2018-12-17T13:22:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://images.tengblog.cn/18-12-17/28769723.jpg" alt=""></p><h2 id="12-17阅读文档"><a href="#12-17阅读文档" class="headerlink" title="12-17阅读文档"></a>12-17阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/36KH4DFTRyeawPScPm_uFw" target="_blank" rel="external">非共识与小趋势——复盘罗辑思维7年演化之路</a></li></ul><p><strong>摘录</strong>：</p><p>1.“什么是表象技法？什么是业务本质？”</p><blockquote><p>快刀：咱们做测试了吗？<br>罗脱：什么叫测试？<br>快刀：咱们计划怎么运营？<br>罗脱：什么叫运营？<br>说到这里真的忍不住提一个创业天问：<br>“什么是表象技法？什么是业务本质？”<br>电视节目美奂美轮的视听投资、互联网公司的流程规范，看上去、说起来都专业的不得了、厉害得不得了的唬人东东。但那也许都是表象技法。<br><strong>它们未必是驱动用户买单的交易本质</strong></p></blockquote><ol><li>创新的道路，就是非共识的道路，就是在怀疑与争议中前行的路。</li><li>因为一个企业打造执行力，首先是打造企业共识，共识度越高，执行摩擦越少。执行力越强的组织，管理共识的能力越强，整个组织对非共识的压制与排异就越本能、越彻底。</li><li>所以《创新者的窘境》那本书里，克里斯坦森专门提出了一个解决方案：大企业应该用独立的小机构，来做创新的事情——让小机构去利用小机遇。</li><li>所以，当罗振宇做一系列“非共识”的事情，不断冒犯共识，捅舆论的马蜂窝，并且从市场取得商业回报并没有那么清晰的时候，他的团队还有定力坚持下去，是因为大家看到了自己影响力的放大，社会势能的跃迁，他们知道自己踩到了不为公众所知的小趋势。</li></ol><p><strong>想法</strong>：得到的解读书确实可以帮我们节约时间，对比我自己购买的《奈飞文化手册》确实不如听一下「得到」的解读版，相差不多，但是时间成本和资金成本更小。</p><h2 id="12-14-阅读文档"><a href="#12-14-阅读文档" class="headerlink" title="12-14 阅读文档"></a>12-14 阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/CR9RxxL-vxDKlXn5IUNo_w" target="_blank" rel="external">一份2013年微博微信运营指北</a></li></ul><p><strong>想法</strong>：怎么讲，其实互联网要思考的东西也就那么多？——「举一反三」！</p><ul><li>[x] <a href="https://mp.weixin.qq.com/s/i410-ESR1kXElPlKVGbrAA" target="_blank" rel="external">这可能是雷军最正确的决定</a></li></ul><p><strong>想法</strong>：不重要，大公司的战略调整有点像宫廷秘闻，对大部分人很有吸引力，但是实际影响却很小。</p><ul><li>[ ] <a href="https://mp.weixin.qq.com/s/bZkB0oLZLDxndrv6RTokZQ" target="_blank" rel="external">从Ad load说开去</a></li><li>[x] <a href="https://m.jiemian.com/article/2707617.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">知乎裁员背后：精简业务线，但在知识付费领域已经出局 | 界面新闻</a></li></ul><p><strong>想法</strong>：商业化的重要性这个时候是最最彰显出来的了。</p><h2 id="12-13-分享所得"><a href="#12-13-分享所得" class="headerlink" title="12-13 分享所得"></a>12-13 分享所得</h2><ul><li><p>[x] 人物弧光，故事<br>这块内容，原书是这么及记载的：</p><blockquote><p>把这一原则再推进一步：最优秀的作品不但揭示人物性格真相，而且还在其讲述过程中展现人物内在本性中的弧光 或变化，无论变好还是变坏。</p></blockquote></li><li><p>[x] 布雷斯效应</p></li><li>[x] 消除不确定</li><li>[x] 华为。。。内容广告化，伪命题，心理预期的关键。天才小熊猫，</li><li>[x] <a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">监管问题</a><a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0</a></li><li>[x] 人很容易相信一个笼统的的、一般性的人格描述特别符合自己。-巴纳姆效应又称星象效应。产生的原因是轻信，借助外界信息来认识自己，同时也易受到外界信息的暗示，从而出现自我知觉的偏差。</li></ul><h3 id="其他话题"><a href="#其他话题" class="headerlink" title="其他话题"></a>其他话题</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/l4f4r2d7bw06mqBstJL-mA" target="_blank" rel="external">中青报，文章</a></li></ul><p><strong>想法</strong>：</p><ul><li>互联网的发展原本设想便是这样的场景，只不过更多的人用在其他方面；当这样的应用击中了互联网的初心，我们就都感动起来。</li><li>教育是最值得，最应该做好的事情。</li><li>学习永无止境。</li><li>看到效应</li></ul><h3 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h3><ul><li>[x] <a href="https://m.awtmt.com/articles/3452584?from=wscn" target="_blank" rel="external">今日资本</a></li></ul><p><strong>想法</strong>：徐新投了「音遇」，应该是在即刻有账号，活跃度还较高</p><ul><li>[x] <a href="https://m.okjike.com/originalPosts/5c029216b88d5c00108ba79f?username=B89FFD73-D85C-45BB-96AC-28C645CCAEDB" target="_blank" rel="external">现阶段的虚拟形象是一种好的自我表达，但不是好的连接方式。</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/LYIuE8d6vjgSnmMgU-fVcQ" target="_blank" rel="external">得到与知乎殊途同归</a></li></ul><h3 id="音遇增长笔记"><a href="#音遇增长笔记" class="headerlink" title="音遇增长笔记"></a>音遇增长笔记</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/NlahAYnICTQT-vpG2ElzGw" target="_blank" rel="external">11 年前 FB 遭遇的滑铁卢对微信有何启发？</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/ftaQC42_NiVjx6y0BojB3A" target="_blank" rel="external">两个月冲到社交榜第2，音遇App究竟有什么魔力？</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/18-12-17/28769723.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;12-17阅读文档&quot;&gt;&lt;a href=&quot;#12-17阅读文档&quot; class=&quot;headerlink&quot; title=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
+    
+      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>运营和分层</title>
     <link href="http://tengblog.com/2018/12/17/fenceng/"/>
     <id>http://tengblog.com/2018/12/17/fenceng/</id>
@@ -433,36 +491,6 @@
       <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
     
       <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>寒冬时刻更显变现的重要性</title>
-    <link href="http://tengblog.com/2018/12/17/week001/"/>
-    <id>http://tengblog.com/2018/12/17/week001/</id>
-    <published>2018-12-16T16:00:00.000Z</published>
-    <updated>2018-12-17T13:22:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://images.tengblog.cn/18-12-17/28769723.jpg" alt=""></p><h2 id="12-17阅读文档"><a href="#12-17阅读文档" class="headerlink" title="12-17阅读文档"></a>12-17阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/36KH4DFTRyeawPScPm_uFw" target="_blank" rel="external">非共识与小趋势——复盘罗辑思维7年演化之路</a></li></ul><p><strong>摘录</strong>：</p><p>1.“什么是表象技法？什么是业务本质？”</p><blockquote><p>快刀：咱们做测试了吗？<br>罗脱：什么叫测试？<br>快刀：咱们计划怎么运营？<br>罗脱：什么叫运营？<br>说到这里真的忍不住提一个创业天问：<br>“什么是表象技法？什么是业务本质？”<br>电视节目美奂美轮的视听投资、互联网公司的流程规范，看上去、说起来都专业的不得了、厉害得不得了的唬人东东。但那也许都是表象技法。<br><strong>它们未必是驱动用户买单的交易本质</strong></p></blockquote><ol><li>创新的道路，就是非共识的道路，就是在怀疑与争议中前行的路。</li><li>因为一个企业打造执行力，首先是打造企业共识，共识度越高，执行摩擦越少。执行力越强的组织，管理共识的能力越强，整个组织对非共识的压制与排异就越本能、越彻底。</li><li>所以《创新者的窘境》那本书里，克里斯坦森专门提出了一个解决方案：大企业应该用独立的小机构，来做创新的事情——让小机构去利用小机遇。</li><li>所以，当罗振宇做一系列“非共识”的事情，不断冒犯共识，捅舆论的马蜂窝，并且从市场取得商业回报并没有那么清晰的时候，他的团队还有定力坚持下去，是因为大家看到了自己影响力的放大，社会势能的跃迁，他们知道自己踩到了不为公众所知的小趋势。</li></ol><p><strong>想法</strong>：得到的解读书确实可以帮我们节约时间，对比我自己购买的《奈飞文化手册》确实不如听一下「得到」的解读版，相差不多，但是时间成本和资金成本更小。</p><h2 id="12-14-阅读文档"><a href="#12-14-阅读文档" class="headerlink" title="12-14 阅读文档"></a>12-14 阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/CR9RxxL-vxDKlXn5IUNo_w" target="_blank" rel="external">一份2013年微博微信运营指北</a></li></ul><p><strong>想法</strong>：怎么讲，其实互联网要思考的东西也就那么多？——「举一反三」！</p><ul><li>[x] <a href="https://mp.weixin.qq.com/s/i410-ESR1kXElPlKVGbrAA" target="_blank" rel="external">这可能是雷军最正确的决定</a></li></ul><p><strong>想法</strong>：不重要，大公司的战略调整有点像宫廷秘闻，对大部分人很有吸引力，但是实际影响却很小。</p><ul><li>[ ] <a href="https://mp.weixin.qq.com/s/bZkB0oLZLDxndrv6RTokZQ" target="_blank" rel="external">从Ad load说开去</a></li><li>[x] <a href="https://m.jiemian.com/article/2707617.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">知乎裁员背后：精简业务线，但在知识付费领域已经出局 | 界面新闻</a></li></ul><p><strong>想法</strong>：商业化的重要性这个时候是最最彰显出来的了。</p><h2 id="12-13-分享所得"><a href="#12-13-分享所得" class="headerlink" title="12-13 分享所得"></a>12-13 分享所得</h2><ul><li><p>[x] 人物弧光，故事<br>这块内容，原书是这么及记载的：</p><blockquote><p>把这一原则再推进一步：最优秀的作品不但揭示人物性格真相，而且还在其讲述过程中展现人物内在本性中的弧光 或变化，无论变好还是变坏。</p></blockquote></li><li><p>[x] 布雷斯效应</p></li><li>[x] 消除不确定</li><li>[x] 华为。。。内容广告化，伪命题，心理预期的关键。天才小熊猫，</li><li>[x] <a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">监管问题</a><a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0</a></li><li>[x] 人很容易相信一个笼统的的、一般性的人格描述特别符合自己。-巴纳姆效应又称星象效应。产生的原因是轻信，借助外界信息来认识自己，同时也易受到外界信息的暗示，从而出现自我知觉的偏差。</li></ul><h3 id="其他话题"><a href="#其他话题" class="headerlink" title="其他话题"></a>其他话题</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/l4f4r2d7bw06mqBstJL-mA" target="_blank" rel="external">中青报，文章</a></li></ul><p><strong>想法</strong>：</p><ul><li>互联网的发展原本设想便是这样的场景，只不过更多的人用在其他方面；当这样的应用击中了互联网的初心，我们就都感动起来。</li><li>教育是最值得，最应该做好的事情。</li><li>学习永无止境。</li><li>看到效应</li></ul><h3 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h3><ul><li>[x] <a href="https://m.awtmt.com/articles/3452584?from=wscn" target="_blank" rel="external">今日资本</a></li></ul><p><strong>想法</strong>：徐新投了「音遇」，应该是在即刻有账号，活跃度还较高</p><ul><li>[x] <a href="https://m.okjike.com/originalPosts/5c029216b88d5c00108ba79f?username=B89FFD73-D85C-45BB-96AC-28C645CCAEDB" target="_blank" rel="external">现阶段的虚拟形象是一种好的自我表达，但不是好的连接方式。</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/LYIuE8d6vjgSnmMgU-fVcQ" target="_blank" rel="external">得到与知乎殊途同归</a></li></ul><h3 id="音遇增长笔记"><a href="#音遇增长笔记" class="headerlink" title="音遇增长笔记"></a>音遇增长笔记</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/NlahAYnICTQT-vpG2ElzGw" target="_blank" rel="external">11 年前 FB 遭遇的滑铁卢对微信有何启发？</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/ftaQC42_NiVjx6y0BojB3A" target="_blank" rel="external">两个月冲到社交榜第2，音遇App究竟有什么魔力？</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/18-12-17/28769723.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;12-17阅读文档&quot;&gt;&lt;a href=&quot;#12-17阅读文档&quot; class=&quot;headerlink&quot; title=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
-    
-      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
     
   </entry>
   
@@ -579,33 +607,6 @@
       <category term="团队管理" scheme="http://tengblog.com/tags/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
     
       <category term="面试" scheme="http://tengblog.com/tags/%E9%9D%A2%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据分析学习笔记-汇总</title>
-    <link href="http://tengblog.com/2018/10/14/huizong/"/>
-    <id>http://tengblog.com/2018/10/14/huizong/</id>
-    <published>2018-10-13T16:00:00.000Z</published>
-    <updated>2018-11-05T08:08:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>1105&amp;系列学习结束，以后会在工作中使用学习并更新</li><li>1024&amp;更新了<a href="https://notes.tengblog.cn/2018/10/06/datician06/" target="_blank" rel="external">描述统计学基本原理-06</a><br>增加了更详细的描述</li><li><p>20124更新了<a href="https://notes.tengblog.cn/2018/07/29/datician01/" target="_blank" rel="external">不介意学一些用不到的东西-01</a></p></li><li><p>1023&amp;更新了<a href="https://notes.tengblog.cn/2018/10/06/datician05/" target="_blank" rel="external">强化 SQL 学习+案例分析-05</a><br>在本地 mac 新建了几个数据库作为 SQL 查询的工具。<br>同时可能会更深入地了解下 mysql 的基本原理和图形控制软件，详情见上</p></li></ul><p>—— <em>更新记录</em> ———————————</p><p>利用的最近比较集中处理数据的机会深入了解下数据分析，也根据知乎的一个<a href="https://zhuanlan.zhihu.com/qinlu" target="_blank" rel="external">zhuanlan</a> 做了强化学习。</p><p>整体的感觉入门比价简单，以后需要积累和不断完善的知识结构可能比较多，需要慢慢积累。</p><p>当然，有很多内容还是一知半解的，这也许会启发我去报门课程学习。</p><p>将我的学习内容汇总在此，以后更需要不断完善。</p><p><a href="https://notes.tengblog.cn/2018/07/29/keyixue/" target="_blank" rel="external">不介意学一些用不到的东西-01</a></p><p><a href="https://notes.tengblog.cn/2018/09/25/Datician02/" target="_blank" rel="external">数据分析之路-02</a></p><p><a href="https://notes.tengblog.cn/2018/09/27/datician03/" target="_blank" rel="external">一切都要简洁地展示出来-03</a></p><p><a href="https://notes.tengblog.cn/2018/10/06/datician04/" target="_blank" rel="external">掌握术后你更需要逻辑清晰-04</a></p><p><a href="https://notes.tengblog.cn/2018/10/06/datician05/" target="_blank" rel="external">强化 SQL 学习+案例分析-05</a></p><p><a href="https://notes.tengblog.cn/2018/10/06/datician06/" target="_blank" rel="external">描述统计学基本原理-06</a></p><p><a href="https://notes.tengblog.cn/2018/10/06/datician07/" target="_blank" rel="external">概率论和贝叶斯公式-07</a></p><p><a href="https://notes.tengblog.cn/2018/10/06/datician08/" target="_blank" rel="external">A/B测试的置信区间-08</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;1105&amp;amp;系列学习结束，以后会在工作中使用学习并更新&lt;/li&gt;
-&lt;li&gt;1024&amp;amp;更新了&lt;a href=&quot;https://notes.tengblog.cn/2018/10/06/datician06/&quot; target=&quot;_blank&quot; rel=
-      
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="数据分析" scheme="http://tengblog.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
