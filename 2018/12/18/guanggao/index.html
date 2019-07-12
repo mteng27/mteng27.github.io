@@ -431,6 +431,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2018/12/18/guanggao/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/18/guanggao/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -569,8 +582,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/12/17/fenceng/" rel="next" title="运营和分层">
-                <i class="fa fa-chevron-left"></i> 运营和分层
+              <a href="/2018/12/17/week001/" rel="next" title="寒冬时刻更显变现的重要性">
+                <i class="fa fa-chevron-left"></i> 寒冬时刻更显变现的重要性
               </a>
             
           </div>
@@ -602,6 +615,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -981,6 +998,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'iz4OvmGQjpl4AyfrPrYUHaUo-gzGzoHsz',
+    appKey: 'qiHi3wabC8kqHNAA17wIGfi9',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   

@@ -408,6 +408,19 @@ Ross: I was in the shower, and I felt somethin">
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2017/02/13/laoyouji/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2017/02/13/laoyouji/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -631,8 +644,8 @@ Ross: I was in the shower, and I felt somethin">
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/14/lanv/" rel="prev" title="摆脱企业蓝 V 的 「透明」位置 ">
-                摆脱企业蓝 V 的 「透明」位置  <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/14/jianli/" rel="prev" title="做好准备，随时求职">
+                做好准备，随时求职 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -654,6 +667,10 @@ Ross: I was in the shower, and I felt somethin">
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -1033,6 +1050,36 @@ Ross: I was in the shower, and I felt somethin">
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'iz4OvmGQjpl4AyfrPrYUHaUo-gzGzoHsz',
+    appKey: 'qiHi3wabC8kqHNAA17wIGfi9',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   

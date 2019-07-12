@@ -404,6 +404,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/01/31/fencengmoxing/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/31/fencengmoxing/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -538,8 +551,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/31/zengzhang02/" rel="next" title="增长策略—增长费用花在正确地方了嘛？">
-                <i class="fa fa-chevron-left"></i> 增长策略—增长费用花在正确地方了嘛？
+              <a href="/2019/01/29/shujumanyou01/" rel="next" title="数据漫游--数据分析及数据指标体系">
+                <i class="fa fa-chevron-left"></i> 数据漫游--数据分析及数据指标体系
               </a>
             
           </div>
@@ -548,8 +561,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/05/05/zhiye/" rel="prev" title="永远展现自己最专业的一面">
-                永远展现自己最专业的一面 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/01/31/zengzhang02/" rel="prev" title="增长策略—增长费用花在正确地方了嘛？">
+                增长策略—增长费用花在正确地方了嘛？ <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -571,6 +584,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -950,6 +967,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'iz4OvmGQjpl4AyfrPrYUHaUo-gzGzoHsz',
+    appKey: 'qiHi3wabC8kqHNAA17wIGfi9',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   

@@ -446,6 +446,19 @@ Ctrl + Command + M 选中括号内所有内">
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/07/19/sublime-02/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/07/19/sublime-02/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -601,8 +614,8 @@ ln -s &quot;$DROPBOX_PATH/Installed Packages&quot; &quot;$DSTPATH/Installed Pack
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/18/kaili/" rel="next" title="《路边野餐》：梦境和现实的杂乱混合">
-                <i class="fa fa-chevron-left"></i> 《路边野餐》：梦境和现实的杂乱混合
+              <a href="/2016/07/18/ppt-04/" rel="next" title="背景和字体----[PPT进阶学习笔记]">
+                <i class="fa fa-chevron-left"></i> 背景和字体----[PPT进阶学习笔记]
               </a>
             
           </div>
@@ -634,6 +647,10 @@ ln -s &quot;$DROPBOX_PATH/Installed Packages&quot; &quot;$DSTPATH/Installed Pack
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -987,6 +1004,36 @@ ln -s &quot;$DROPBOX_PATH/Installed Packages&quot; &quot;$DSTPATH/Installed Pack
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'iz4OvmGQjpl4AyfrPrYUHaUo-gzGzoHsz',
+    appKey: 'qiHi3wabC8kqHNAA17wIGfi9',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
