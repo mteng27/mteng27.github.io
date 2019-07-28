@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-07-23T08:03:13.843Z</updated>
+  <updated>2019-07-28T10:43:27.989Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿里腾讯会怎么利用用户数据赚钱？</title>
+    <link href="http://tengblog.com/2019/07/28/yingxiaozhongtai/"/>
+    <id>http://tengblog.com/2019/07/28/yingxiaozhongtai/</id>
+    <published>2019-07-27T16:00:00.000Z</published>
+    <updated>2019-07-28T10:43:27.989Z</updated>
+    
+    <content type="html"><![CDATA[<p>RSS 上看到一篇文章，不妨作为本篇引子，<a href="https://36kr.com/p/5229080?ktm_source=feed" target="_blank" rel="external">5年前冒出来的那一批移动互联网独角兽，终于开始操心钱的问题了_36氪</a>。</p><p>当然要赚钱了，即便是明星应用，即便是流量金矿，都要快速变现。</p><blockquote><p><strong>围绕着用户，用户需要什么，就为之提供什么服务，先做起用户规模，再考虑商业化变现</strong></p></blockquote><p>这样的思路似乎已经不再是主流了，「快速变现」，迅速找到可以变现的方式，并把收入投入到流量和用户的增长中。</p><p><strong>这是互联网当红炸子鸡的做法。</strong></p><p>没有增量，处理存量成为不错的选择，怎么可以借用手里的现有用户赚钱呢？</p><p><strong>当然是最大限度挖掘「用户价值」。</strong></p><p>好在是移动互联网时代，<strong>触达用户</strong>和<strong>认知用户</strong>的水准都高了许多。像淘宝、天猫，或者是头条、抖音，每个产品都有一套比较完整的用户行为收集系统。这些公司完全可以做到比你自己更了解你自己，依据对你的了解然后推荐给品牌客户。</p><p>基于此，不同的公司提出了不同的「数字营销理论」，然后搭、配了不同的数据平台。我们今天就来简单分析下阿里和腾讯家到底是怎么把用户数据推荐给客户的呢？</p><h2 id="阿里的「全域媒体数字化生态」"><a href="#阿里的「全域媒体数字化生态」" class="headerlink" title="阿里的「全域媒体数字化生态」"></a>阿里的「全域媒体数字化生态」</h2><p>作为掌握正完整的用户信息，最接近用户消费信息的综合平台，阿里也最有资格提出「数字化生态」，那他们指的「全域」是什么呢</p><h3 id="全域"><a href="#全域" class="headerlink" title="全域"></a>全域</h3><blockquote><p>未来的媒体将实现全域数字化的生态，覆盖消费者的个人屏，家庭屏，公共屏；</p><p><strong>个人屏：</strong>阿里巴巴逐渐扩张的媒体生态，已经基于5亿多的Uni ID可以实现真人识别，多维分析，全媒体的触达，这样的数据基础提供了消费者完整的视野，无论是从消费的场景、生活出行、内容娱乐、支付金融、物流等都能进行整合</p><p><strong>家庭屏：</strong>阿里已经和16家来自广电和电视机品牌的合作伙伴，全域家庭生态战略联盟中，组成成员除了阿里巴巴集团、阿里妈妈、优酷、酷喵之外，还包含了来自广电及智能电视制造厂商的重要战略合作伙伴——百视通、长虹、创维、东方明珠、海尔、海信、康佳等行业的一线生态角色几乎全部囊括其中，接下来，在天猫魔盒、智能机顶盒联盟、未来电视合作联盟和CIBN酷喵阿里四维OTT矩阵的加持下，凭借内容及硬件的双实力，也为品牌奠定致胜营销基础</p><p><strong>公共屏：</strong>阿里巴巴全域营销战略版图持续扩张，包括入股分众纳入电梯场景，未来将进一步打通线下户外公共媒介，打破流量瓶颈，实现真正的全域。</p></blockquote><p><img src="http://images.tengblog.cn/20190728141958_zU4FdK_Screenshot.png" alt=""></p><h3 id="创意智能化"><a href="#创意智能化" class="headerlink" title="创意智能化"></a>创意智能化</h3><p>「三屏合一」的全域概念还需要一个「创意智能化」的数据中台才能实现，所以阿里妈妈推出的「databank」正式因为此。</p><p>其追求的真是千人千面，可以智能洞悉消费者心智，完成自动化广告最优配置。</p><p><img src="http://images.tengblog.cn/20190728142303_9LdN1k_Screenshot.png" alt=""></p><blockquote><p>阿里妈妈拥有亿级规模的数据基础以及世界先进水平的在线广告系统，每天超过上百万的投放项目运营，多年沉淀出基于实时消费数据的动态算法模型，解决了传统广告粗粒度的流量匹配，用智慧指导广告投放，连接最合适的商品和最合适的消费者</p></blockquote><p>创意广告的部分至少包括两个方面，<strong>智能文案和智能设计</strong></p><blockquote><p>在天猫淘宝平台上，品牌需要为商品撰写各种各样的文案，文案的优劣关系到商品的点击率与传播度。并且需要多次测试与论证，才能找到最适合商品/店铺的文案。基于阿里的数百万优质内容，结合算法能力与设计能力，智能文案能够解析淘宝天猫的商品数据，进而生成商品的走心营销文案。文案字数支持自定义，能够覆盖商品推广、banner制作、商品详情页、商品推荐理由等多个营销场景。并且 在使用过程中，能够不断地进行自我学习与迭代优化 ，1秒钟能产生20000条智能文案，让创意可以不断提速</p><p>2017年，阿里巴巴的人工智能设计师已学习百万级的设计师创意内容，拥有演变出上亿级的设计能力，一天可制作4000万张海报，没有一张会完全一样。</p><p>据悉，当年双11期间，默默承担了总量达4亿张海报设计。而人类美编设计同样一张内容需要4分钟左右，完成同样的工作量需要连续工作173天。</p></blockquote><p>剩下的就是基于强大丰富的用户数据要做的了，<strong>「机器自学习算法，实现人X内容X触点X场景的连接」</strong></p><h3 id="机器自学习算法"><a href="#机器自学习算法" class="headerlink" title="机器自学习算法"></a>机器自学习算法</h3><p><img src="http://images.tengblog.cn/20190728142702_qAVcxC_Screenshot.png" alt=""></p><blockquote><p>阿里妈妈用智能算法构建全域营销大图，图深度学习精确理解用户意图：使用智能算法，阿里妈妈将搜索、推荐、视频、金融、物流等线上和线下数据、淘系站内和淘系站外数据整合和提炼，得到了一个大规模、复杂、异构的全域数据大图。这张全域数据大图包含了数十亿节点和数百亿边，从多种视角刻画商家、商品/广告、用户之间丰富的关联关系，具有非常大的价值。</p><p>Deep Interest Network在模型预估层面：结合用户全域数据大图，创新设计深度学习模型结构捕捉用户多样和演化的兴趣分布，不断提速用户对广告点击率的预测精准度；</p><p>Cross media model：阿里妈妈搭建了工业级的图训练引擎，支持十亿节点、百亿边图规模的存储、训练，实现了多种图游走、图卷积算法，高效全面地支撑图深度学习更精确、立体、深入地理解用户意图和商品/广告物料，实现创意个性化</p><p>Tree based deep model：在定向匹配层面，自主创新的算法，能大幅提速匹配效率，实现人、场景、内容、触点的高效匹配连接</p></blockquote><p>上面的全流程全都离不开用户数据的深度利用，离不开阿里的 品牌数据银行 </p><h3 id="DATABANK"><a href="#DATABANK" class="headerlink" title="DATABANK"></a>DATABANK</h3><p>根据阿里自己的介绍，</p><blockquote><p>在品牌数据银行中，品牌可以把自有数据与阿里独有的Uni Identity匹配，融合CRM、电商数据、广告数据、媒体数据、以及阿里生态里社交属性数据（微博、陌陌、商品评论等），打通一个个“数据孤岛”，实时融合成品牌自己的消费者数据资产，“更为重要的是，通过数据全链路透视，消费者数据资产变得可评估、可优化、可运营，最终实现消费者数据资产的激活和增值。</p></blockquote><p>其基于的消费者行为理论则是经典的「AIPL（认知，兴趣，购买，忠诚）」，在品牌数据银行中，将首次实现了对AIPL消费者行为数据的全链路可视化。品牌可以清晰的观察跟踪到每个消费者在不同阶段的特征，进而指导品牌规划对不同阶段的消费者进行运营，使得对每个消费者的触达都是“量身定做”的，大大提升品牌触达效率。</p><h2 id="腾讯的「WE-营销全链路」体系"><a href="#腾讯的「WE-营销全链路」体系" class="headerlink" title="腾讯的「WE+营销全链路」体系"></a>腾讯的「WE+营销全链路」体系</h2><blockquote><p>在 2017 年腾讯智慧峰会上，腾讯就 <a href="http://daxue.qq.com/content/content/id/3575" target="_blank" rel="external">提出了“ONE TENCENT”的概念</a> ，就是打通旗下游戏、影视、体育、音乐、资讯、文学、动漫七个板块中各个产品的数据、内容和技术来了解用户画像。</p><p>当时腾讯就将这个概念称为“全场景、全链路”的营销。</p></blockquote><p>也许是单纯感觉这个概念不够潮流，所以 18 年 6 月份的时候，腾讯又抛出了一个「新的营销体系 WE+」，希望「从数据共通、全景共鸣、全链共赢三大能力来帮助企业主。」当然，这个体系也是背景深厚 ，</p><blockquote><p>腾讯利用全集团能力营销的结果，整合了微信事业群、腾讯网络媒体事业群、优图实验室的技术和数据后，WE+ 还可以在小程序、人脸识别、腾讯云等技术上给予广告商支持。</p></blockquote><p><img src="http://images.tengblog.cn/20190728180125_aigA09_Screenshot.png" alt=""></p><h3 id="DMP-系统链接每个人"><a href="#DMP-系统链接每个人" class="headerlink" title="DMP 系统链接每个人"></a>DMP 系统链接每个人</h3><p>DMP 系统是平台与合作伙伴分享用户画像、相似人群扩展、跨屏跨媒体控制等多项数据能力，优化智能营销，构建高效安全的数据存储和管理体系。<br>仅仅是通过介绍图片，我们就可以看到 DMP 系统和其他系统的显著不同，</p><p><img src="http://images.tengblog.cn/20190728180725_OFZnHm_Screenshot.png" alt=""><br>其更重视整理用户的信息，是综合性的用户数据管理平台。而 CRM 系统仅仅是客户管理平台，更侧重是已经下单客户的信息存储。更多不同，我们可以从 <a href="https://maxket.com/crm-dmp-cdp/" target="_blank" rel="external">CRM、DMP、CDP，都是什么鬼？有什么区别差异？</a>查看。</p><p>总之，腾讯 WE+的致力于通过 DMP 实现链接每一个用户和潜在用户，实现广告和人群的匹配。<br><img src="http://images.tengblog.cn/20190728180232_vimA2Z_Screenshot.png" alt=""></p><h3 id="数据共通、全景共鸣、全链共赢"><a href="#数据共通、全景共鸣、全链共赢" class="headerlink" title="数据共通、全景共鸣、全链共赢"></a>数据共通、全景共鸣、全链共赢</h3><p><img src="http://images.tengblog.cn/20190728182946_QvurKs_Screenshot.png" alt=""></p><p>作为国内第一大社交平台，腾讯的用户数据自然覆盖范围更大，横跨商业、社交、资讯、游戏等等不同的领域，配合受众的内容 ip 版权，借用线上线下的渠道，这三个方面似乎确实「全链路」。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>不过是腾讯，阿里，还是字节跳动或者其他平台，将受众用户信息精细分析后再次出售为广告资源售卖是最简单的盈利方式，这我之前也说过，<a href="https://notes.tengblog.cn/2018/09/19/liuliang/" target="_blank" rel="external">互联网最高效的变现模式还是「售卖流量」 | TENG</a></p><p>但是售卖流量是有要求效率的，对用户分析掌握越全面 ，其售卖价值越高。这时，一套高大上的营销概念则是区别出平台实力的重要关键。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;RSS 上看到一篇文章，不妨作为本篇引子，&lt;a href=&quot;https://36kr.com/p/5229080?ktm_source=feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;5年前冒出来的那一批移动互联网独角兽，终于开始操心钱的问题了_
+      
+    
+    </summary>
+    
+    
+      <category term="广告" scheme="http://tengblog.com/tags/%E5%B9%BF%E5%91%8A/"/>
+    
+      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>为什么要到上游去</title>
@@ -488,6 +515,36 @@
   </entry>
   
   <entry>
+    <title>寒冬时刻更显变现的重要性</title>
+    <link href="http://tengblog.com/2018/12/17/week001/"/>
+    <id>http://tengblog.com/2018/12/17/week001/</id>
+    <published>2018-12-16T16:00:00.000Z</published>
+    <updated>2018-12-17T13:22:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://images.tengblog.cn/18-12-17/28769723.jpg" alt=""></p><h2 id="12-17阅读文档"><a href="#12-17阅读文档" class="headerlink" title="12-17阅读文档"></a>12-17阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/36KH4DFTRyeawPScPm_uFw" target="_blank" rel="external">非共识与小趋势——复盘罗辑思维7年演化之路</a></li></ul><p><strong>摘录</strong>：</p><p>1.“什么是表象技法？什么是业务本质？”</p><blockquote><p>快刀：咱们做测试了吗？<br>罗脱：什么叫测试？<br>快刀：咱们计划怎么运营？<br>罗脱：什么叫运营？<br>说到这里真的忍不住提一个创业天问：<br>“什么是表象技法？什么是业务本质？”<br>电视节目美奂美轮的视听投资、互联网公司的流程规范，看上去、说起来都专业的不得了、厉害得不得了的唬人东东。但那也许都是表象技法。<br><strong>它们未必是驱动用户买单的交易本质</strong></p></blockquote><ol><li>创新的道路，就是非共识的道路，就是在怀疑与争议中前行的路。</li><li>因为一个企业打造执行力，首先是打造企业共识，共识度越高，执行摩擦越少。执行力越强的组织，管理共识的能力越强，整个组织对非共识的压制与排异就越本能、越彻底。</li><li>所以《创新者的窘境》那本书里，克里斯坦森专门提出了一个解决方案：大企业应该用独立的小机构，来做创新的事情——让小机构去利用小机遇。</li><li>所以，当罗振宇做一系列“非共识”的事情，不断冒犯共识，捅舆论的马蜂窝，并且从市场取得商业回报并没有那么清晰的时候，他的团队还有定力坚持下去，是因为大家看到了自己影响力的放大，社会势能的跃迁，他们知道自己踩到了不为公众所知的小趋势。</li></ol><p><strong>想法</strong>：得到的解读书确实可以帮我们节约时间，对比我自己购买的《奈飞文化手册》确实不如听一下「得到」的解读版，相差不多，但是时间成本和资金成本更小。</p><h2 id="12-14-阅读文档"><a href="#12-14-阅读文档" class="headerlink" title="12-14 阅读文档"></a>12-14 阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/CR9RxxL-vxDKlXn5IUNo_w" target="_blank" rel="external">一份2013年微博微信运营指北</a></li></ul><p><strong>想法</strong>：怎么讲，其实互联网要思考的东西也就那么多？——「举一反三」！</p><ul><li>[x] <a href="https://mp.weixin.qq.com/s/i410-ESR1kXElPlKVGbrAA" target="_blank" rel="external">这可能是雷军最正确的决定</a></li></ul><p><strong>想法</strong>：不重要，大公司的战略调整有点像宫廷秘闻，对大部分人很有吸引力，但是实际影响却很小。</p><ul><li>[ ] <a href="https://mp.weixin.qq.com/s/bZkB0oLZLDxndrv6RTokZQ" target="_blank" rel="external">从Ad load说开去</a></li><li>[x] <a href="https://m.jiemian.com/article/2707617.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">知乎裁员背后：精简业务线，但在知识付费领域已经出局 | 界面新闻</a></li></ul><p><strong>想法</strong>：商业化的重要性这个时候是最最彰显出来的了。</p><h2 id="12-13-分享所得"><a href="#12-13-分享所得" class="headerlink" title="12-13 分享所得"></a>12-13 分享所得</h2><ul><li><p>[x] 人物弧光，故事<br>这块内容，原书是这么及记载的：</p><blockquote><p>把这一原则再推进一步：最优秀的作品不但揭示人物性格真相，而且还在其讲述过程中展现人物内在本性中的弧光 或变化，无论变好还是变坏。</p></blockquote></li><li><p>[x] 布雷斯效应</p></li><li>[x] 消除不确定</li><li>[x] 华为。。。内容广告化，伪命题，心理预期的关键。天才小熊猫，</li><li>[x] <a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">监管问题</a><a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0</a></li><li>[x] 人很容易相信一个笼统的的、一般性的人格描述特别符合自己。-巴纳姆效应又称星象效应。产生的原因是轻信，借助外界信息来认识自己，同时也易受到外界信息的暗示，从而出现自我知觉的偏差。</li></ul><h3 id="其他话题"><a href="#其他话题" class="headerlink" title="其他话题"></a>其他话题</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/l4f4r2d7bw06mqBstJL-mA" target="_blank" rel="external">中青报，文章</a></li></ul><p><strong>想法</strong>：</p><ul><li>互联网的发展原本设想便是这样的场景，只不过更多的人用在其他方面；当这样的应用击中了互联网的初心，我们就都感动起来。</li><li>教育是最值得，最应该做好的事情。</li><li>学习永无止境。</li><li>看到效应</li></ul><h3 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h3><ul><li>[x] <a href="https://m.awtmt.com/articles/3452584?from=wscn" target="_blank" rel="external">今日资本</a></li></ul><p><strong>想法</strong>：徐新投了「音遇」，应该是在即刻有账号，活跃度还较高</p><ul><li>[x] <a href="https://m.okjike.com/originalPosts/5c029216b88d5c00108ba79f?username=B89FFD73-D85C-45BB-96AC-28C645CCAEDB" target="_blank" rel="external">现阶段的虚拟形象是一种好的自我表达，但不是好的连接方式。</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/LYIuE8d6vjgSnmMgU-fVcQ" target="_blank" rel="external">得到与知乎殊途同归</a></li></ul><h3 id="音遇增长笔记"><a href="#音遇增长笔记" class="headerlink" title="音遇增长笔记"></a>音遇增长笔记</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/NlahAYnICTQT-vpG2ElzGw" target="_blank" rel="external">11 年前 FB 遭遇的滑铁卢对微信有何启发？</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/ftaQC42_NiVjx6y0BojB3A" target="_blank" rel="external">两个月冲到社交榜第2，音遇App究竟有什么魔力？</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/18-12-17/28769723.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;12-17阅读文档&quot;&gt;&lt;a href=&quot;#12-17阅读文档&quot; class=&quot;headerlink&quot; title=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
+    
+      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>运营和分层</title>
     <link href="http://tengblog.com/2018/12/17/fenceng/"/>
     <id>http://tengblog.com/2018/12/17/fenceng/</id>
@@ -520,36 +577,6 @@
   </entry>
   
   <entry>
-    <title>寒冬时刻更显变现的重要性</title>
-    <link href="http://tengblog.com/2018/12/17/week001/"/>
-    <id>http://tengblog.com/2018/12/17/week001/</id>
-    <published>2018-12-16T16:00:00.000Z</published>
-    <updated>2018-12-17T13:22:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://images.tengblog.cn/18-12-17/28769723.jpg" alt=""></p><h2 id="12-17阅读文档"><a href="#12-17阅读文档" class="headerlink" title="12-17阅读文档"></a>12-17阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/36KH4DFTRyeawPScPm_uFw" target="_blank" rel="external">非共识与小趋势——复盘罗辑思维7年演化之路</a></li></ul><p><strong>摘录</strong>：</p><p>1.“什么是表象技法？什么是业务本质？”</p><blockquote><p>快刀：咱们做测试了吗？<br>罗脱：什么叫测试？<br>快刀：咱们计划怎么运营？<br>罗脱：什么叫运营？<br>说到这里真的忍不住提一个创业天问：<br>“什么是表象技法？什么是业务本质？”<br>电视节目美奂美轮的视听投资、互联网公司的流程规范，看上去、说起来都专业的不得了、厉害得不得了的唬人东东。但那也许都是表象技法。<br><strong>它们未必是驱动用户买单的交易本质</strong></p></blockquote><ol><li>创新的道路，就是非共识的道路，就是在怀疑与争议中前行的路。</li><li>因为一个企业打造执行力，首先是打造企业共识，共识度越高，执行摩擦越少。执行力越强的组织，管理共识的能力越强，整个组织对非共识的压制与排异就越本能、越彻底。</li><li>所以《创新者的窘境》那本书里，克里斯坦森专门提出了一个解决方案：大企业应该用独立的小机构，来做创新的事情——让小机构去利用小机遇。</li><li>所以，当罗振宇做一系列“非共识”的事情，不断冒犯共识，捅舆论的马蜂窝，并且从市场取得商业回报并没有那么清晰的时候，他的团队还有定力坚持下去，是因为大家看到了自己影响力的放大，社会势能的跃迁，他们知道自己踩到了不为公众所知的小趋势。</li></ol><p><strong>想法</strong>：得到的解读书确实可以帮我们节约时间，对比我自己购买的《奈飞文化手册》确实不如听一下「得到」的解读版，相差不多，但是时间成本和资金成本更小。</p><h2 id="12-14-阅读文档"><a href="#12-14-阅读文档" class="headerlink" title="12-14 阅读文档"></a>12-14 阅读文档</h2><ul><li>[x] <a href="https://mp.weixin.qq.com/s/CR9RxxL-vxDKlXn5IUNo_w" target="_blank" rel="external">一份2013年微博微信运营指北</a></li></ul><p><strong>想法</strong>：怎么讲，其实互联网要思考的东西也就那么多？——「举一反三」！</p><ul><li>[x] <a href="https://mp.weixin.qq.com/s/i410-ESR1kXElPlKVGbrAA" target="_blank" rel="external">这可能是雷军最正确的决定</a></li></ul><p><strong>想法</strong>：不重要，大公司的战略调整有点像宫廷秘闻，对大部分人很有吸引力，但是实际影响却很小。</p><ul><li>[ ] <a href="https://mp.weixin.qq.com/s/bZkB0oLZLDxndrv6RTokZQ" target="_blank" rel="external">从Ad load说开去</a></li><li>[x] <a href="https://m.jiemian.com/article/2707617.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">知乎裁员背后：精简业务线，但在知识付费领域已经出局 | 界面新闻</a></li></ul><p><strong>想法</strong>：商业化的重要性这个时候是最最彰显出来的了。</p><h2 id="12-13-分享所得"><a href="#12-13-分享所得" class="headerlink" title="12-13 分享所得"></a>12-13 分享所得</h2><ul><li><p>[x] 人物弧光，故事<br>这块内容，原书是这么及记载的：</p><blockquote><p>把这一原则再推进一步：最优秀的作品不但揭示人物性格真相，而且还在其讲述过程中展现人物内在本性中的弧光 或变化，无论变好还是变坏。</p></blockquote></li><li><p>[x] 布雷斯效应</p></li><li>[x] 消除不确定</li><li>[x] 华为。。。内容广告化，伪命题，心理预期的关键。天才小熊猫，</li><li>[x] <a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">监管问题</a><a href="http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="external">http://m.qdaily.com/mobile/articles/59245.html?share_from=app&amp;from=timeline&amp;isappinstalled=0</a></li><li>[x] 人很容易相信一个笼统的的、一般性的人格描述特别符合自己。-巴纳姆效应又称星象效应。产生的原因是轻信，借助外界信息来认识自己，同时也易受到外界信息的暗示，从而出现自我知觉的偏差。</li></ul><h3 id="其他话题"><a href="#其他话题" class="headerlink" title="其他话题"></a>其他话题</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/l4f4r2d7bw06mqBstJL-mA" target="_blank" rel="external">中青报，文章</a></li></ul><p><strong>想法</strong>：</p><ul><li>互联网的发展原本设想便是这样的场景，只不过更多的人用在其他方面；当这样的应用击中了互联网的初心，我们就都感动起来。</li><li>教育是最值得，最应该做好的事情。</li><li>学习永无止境。</li><li>看到效应</li></ul><h3 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h3><ul><li>[x] <a href="https://m.awtmt.com/articles/3452584?from=wscn" target="_blank" rel="external">今日资本</a></li></ul><p><strong>想法</strong>：徐新投了「音遇」，应该是在即刻有账号，活跃度还较高</p><ul><li>[x] <a href="https://m.okjike.com/originalPosts/5c029216b88d5c00108ba79f?username=B89FFD73-D85C-45BB-96AC-28C645CCAEDB" target="_blank" rel="external">现阶段的虚拟形象是一种好的自我表达，但不是好的连接方式。</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/LYIuE8d6vjgSnmMgU-fVcQ" target="_blank" rel="external">得到与知乎殊途同归</a></li></ul><h3 id="音遇增长笔记"><a href="#音遇增长笔记" class="headerlink" title="音遇增长笔记"></a>音遇增长笔记</h3><ul><li>[x] <a href="https://mp.weixin.qq.com/s/NlahAYnICTQT-vpG2ElzGw" target="_blank" rel="external">11 年前 FB 遭遇的滑铁卢对微信有何启发？</a></li><li>[x] <a href="https://mp.weixin.qq.com/s/ftaQC42_NiVjx6y0BojB3A" target="_blank" rel="external">两个月冲到社交榜第2，音遇App究竟有什么魔力？</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;http://images.tengblog.cn/18-12-17/28769723.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;12-17阅读文档&quot;&gt;&lt;a href=&quot;#12-17阅读文档&quot; class=&quot;headerlink&quot; title=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
-    
-      <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>审核的逻辑</title>
     <link href="http://tengblog.com/2018/12/13/shenhe/"/>
     <id>http://tengblog.com/2018/12/13/shenhe/</id>
@@ -576,33 +603,6 @@
       <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
       <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>9种最常用的病毒增长方法</title>
-    <link href="http://tengblog.com/2018/12/03/9zhongzengzhangfangfa/"/>
-    <id>http://tengblog.com/2018/12/03/9zhongzengzhangfangfa/</id>
-    <published>2018-12-02T16:00:00.000Z</published>
-    <updated>2018-12-04T14:44:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>原文链接：<a href="https://medium.com/gabor/9-ways-to-build-virality-into-your-product-5975e1fe74e3" target="_blank" rel="external">9 Ways to Build Virality into your Product</a></p><p>多为机翻，作为笔记</p><p><img src="http://images.tengblog.cn/18-12-3/30328481.jpg" alt=""></p><p>不过文末也再次强调了，一切的病毒增长都是以「优秀产品」为前提的。</p><p><img src="http://images.tengblog.cn/18-12-3/74191115.jpg" alt=""><br>营销转化漏洞</p><h3 id="双向奖励"><a href="#双向奖励" class="headerlink" title="双向奖励"></a>双向奖励</h3><p>比较有代表性的案例就是 dropbox 的增长案例，对于加入Dropbox的每一位朋友，Dropbox 都会免费为您和您的朋友提供500 MB的奖金空间。这激励邀请者邀请他们的朋友，并邀请被邀请者接受邀请。这奖励了双方并创造了一个病毒循环。</p><p><img src="http://images.tengblog.cn/18-12-3/15466738.jpg" alt=""></p><p>或者向双方提供优惠券也是不错的方法</p><p><img src="http://images.tengblog.cn/18-12-3/87716604.jpg" alt=""></p><h3 id="诉诸于虚荣"><a href="#诉诸于虚荣" class="headerlink" title="诉诸于虚荣"></a>诉诸于虚荣</h3><p>提供给用户分享以后的荣誉点，可以凸显自己的某项美德或者特质，比如母亲节、建军节的分享和传播。</p><p>文章例举了一个推特的案例，</p><p><img src="http://images.tengblog.cn/18-12-3/95082532.jpg" alt=""></p><p>这场战斗为Twitter创造了大量免费宣传，因为Ashton和CNN都利用他们的媒体力量来宣传追随者的请求。用户将注册Twitter，然后立即关注其中一个或两个，从而使用有趣且相关的内容填充他们的Feed。让您的Twitter Feed填充有趣的信息会反过来使您更有可能成为Twitter用户。</p><h3 id="通力合作"><a href="#通力合作" class="headerlink" title="通力合作"></a>通力合作</h3><p>为同事之间的协作或沟通而构建的应用程序具有内在的病毒性。有些具有单一用户模式，但是具有多个人的产品实现了额外的价值。</p><p>Slack专为团队之间的即时通信而设计，为了释放它的力量，您首先必须邀请整个团队。Google Docs具有单独编辑文档的单人模式，但是一旦您点击“共享”并开始与同事合作，它的真正威力就会被解锁。标有“邀请人”或“分享”的按钮是这些产品的病毒机制。</p><p><img src="http://images.tengblog.cn/18-12-3/83281800.jpg" alt=""></p><h3 id="网络嵌入"><a href="#网络嵌入" class="headerlink" title="网络嵌入"></a>网络嵌入</h3><p>为其他人创建将您的产品嵌入其网站的能力。这将创建曝光，并为潜在用户建立产品中预期的内容和行为。</p><p>如果您使用用户生成的内容（UGC）构建产品，则应将内容轻松嵌入到其他网站中。您经常会在新闻文章中看到来自Twitter的推文，同样在各种网站上看到YouTube视频也很常见：</p><p><img src="http://images.tengblog.cn/18-12-3/60042100.jpg" alt=""></p><p>当然国内做的比较好的还有网易云英音乐</p><h3 id="社交分享"><a href="#社交分享" class="headerlink" title="社交分享"></a>社交分享</h3><p>您的产品自然会产生可以在社交网络上手动或自动共享的工件。点击可将潜在用户带回您的产品。</p><p>对于用户生成的内容（UGC）产品，存在比可嵌入内容更强大的病毒通道：社交共享。如果您的产品创建了独特的有趣内容，则可以鼓励用户在其社交网络上共享它，从而将您的产品知识传播到他们的网络。此类型中最成功的示例是在其他网络上自动共享内容。</p><p>Instagram最初的存在是为了从你糟糕的智能手机相机中创造出漂亮的照片。这些照片通常会自动分享到Facebook或Twitter，并链接回Instagram。如果你看到别人的漂亮照片，你会对他们如何制作它感到好奇，反过来会下载Instagram。</p><p><img src="http://images.tengblog.cn/18-12-3/95409155.jpg" alt=""></p><p>如果不能通过链接的方式实现社交传播，至少我们可以试下水印</p><h3 id="消息共享"><a href="#消息共享" class="headerlink" title="消息共享"></a>消息共享</h3><p>您的产品会生成预期通过消息传递共享的工件或URL。您的产品提供了丰富的共享信息体验。</p><p>当您乘坐Lyft时，您会看到如下屏幕。“发送ETA”按钮实际上是一种病毒式功能。按此按钮会提示用户将跟踪URL发送给另一个人，后者又会传播关于Lyft的信息。</p><p>比较类似滴滴的共享位置</p><p><img src="http://images.tengblog.cn/18-12-3/79519605.jpg" alt=""></p><h3 id="签名"><a href="#签名" class="headerlink" title="签名"></a>签名</h3><p>您的产品会发送某种消息。您将促销签名附加到每封邮件，并链接回您的产品。</p><p>附加促销签名是使消息传递产品传播的有效方式。与我年龄相仿的人通常会在每封电子邮件的末尾都想到Hotmail的签名行，这有助于Hotmail 在网络发布的4个月内从2万用户增长到150万用户。</p><p><img src="http://images.tengblog.cn/18-12-3/4301276.jpg" alt=""></p><h3 id="第一条短信（或者短信召回）"><a href="#第一条短信（或者短信召回）" class="headerlink" title="第一条短信（或者短信召回）"></a>第一条短信（或者短信召回）</h3><p>您的产品提供差异化​​的消息传递类型，并鼓励用户邀请他们的朋友在新的消息传递平台上加入他们。</p><p>有一类应用程序会在现有的消息传递平台上向您发送消息，并尝试将您转移到使用其频道。早期的一个很好的例子是GroupMe，它会首先通过短信向您发送消息，并包含一个追加销售这些消息的完整体验。</p><p>这也适用于重新激活：AirBnB和VRBO等预订平台每次收到新消息时都会向主机发送电子邮件，并提醒您应用中的体验更好。LinkedIn的类似之处在于您通过电子邮件收到有关入站邮件的通知，但您会被引导回复该应用程序。这就是这种策略的局限性：如果消息传递体验实际上并不比短信或电子邮件更好，那么用户会发现它很烦人。</p><h3 id="高度可见的硬件"><a href="#高度可见的硬件" class="headerlink" title="高度可见的硬件"></a>高度可见的硬件</h3><p>硬件产品设置在高度可见的位置，暴露给潜在客户。</p><p>硬件产品也可能是病毒式的。想想Square：想象一下，如果你是面包店老板，你走进下图所示的面包店，你将会接触到全新的POS解决方案 - 光滑的Square终端体验。这可能会让你考虑为你自己的面包店买Square。这种病毒式渠道是Square同比增长超过50％的主要原因，以及为什么80％的注册产品都没有获得任何购置成本。</p><hr><p>相关文章：<br><a href="https://notes.tengblog.cn/2018/08/04/qudao/" target="_blank" rel="external">投放渠道决定增长用户属性</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;原文链接：&lt;a href=&quot;https://medium.com/gabor/9-ways-to-build-virality-into-your-product-5975e1fe74e3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;9 Ways to 
-      
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
     
   </entry>
   
