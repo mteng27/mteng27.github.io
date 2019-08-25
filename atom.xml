@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tengblog.com/"/>
-  <updated>2019-08-15T10:11:02.899Z</updated>
+  <updated>2019-08-25T10:38:52.552Z</updated>
   <id>http://tengblog.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重新思考「路径依赖」</title>
+    <link href="http://tengblog.com/2019/08/25/lujingyilai/"/>
+    <id>http://tengblog.com/2019/08/25/lujingyilai/</id>
+    <published>2019-08-24T16:00:00.000Z</published>
+    <updated>2019-08-25T10:38:52.552Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>手持锤子的人眼里都钉子</strong></p><p>这说的就是路径依赖。</p><p>我渐渐觉得字节跳动的市场宣传活动陷入了「路径依赖」。</p><p><img src="http://images.tengblog.com/20190825180738_vBg1Yq_Screenshot.png" alt=""></p><p>用「财富」来吸引创作者，这已经不是整个公司第一次了，甚至可以说，每没有一次活动不是与用这种方式来传播的。</p><p>有点像<a href="https://mp.weixin.qq.com/s/3qexv5JX_STFjMgmV2WNwQ" target="_blank" rel="external">重塑市场部</a>里面的是市场部。</p><p>仔细想想，最为做成功的创作平台，微信公众号似乎从来没有这样传播过自己的平台实力。</p><p>相反，我看到则其招募「小小程序员」的暑假活动，有没有说「让百万小学生赚到第一套房」的口号。</p><p>不仅是传播点，更有点尴尬的是，大型市场活动似乎都是「路径依赖」了。</p><blockquote><p>所以大家在做营销时都不太思考更本质的问题，为什么要拍TVC？为什么做一组海报？为什么要找KOL？为什么刷屏？大家思考的普遍是如何拍TVC，如何做海报，如何刷屏？这样不对，应该退后一步思考为什么，因为这套通用的解决方案，在很多时候是走不通的。</p></blockquote><p>不然也不难解释「为什么西瓜视频不能活动带动增长」的问题了。有更重要的问题没有解决。</p><p>不过本文也不是为了评价同事工作的，只是提醒自己不要陷入「路径依赖」。</p><blockquote><p><strong>积极的路径依赖</strong>：好的路径会对组织起到正反馈的作用,通过惯性和冲力,产生所谓的飞轮效应,组织发展从此进入良性循环。</p><p><strong>消极的路径依赖：</strong>不好的路径会对企业起到负反馈的作用,通过惯性和冲力产生泥沼效应,使企业发展从此进入恶性循环。</p></blockquote><p>面临问题的时候，回想自己或者别人的优秀经验，这是最快速的解决方式，也是最节省成本的方式。</p><p>不过，固有的路径不可能解决随形势变化的问题，也不能解决一直出现的问题。我们重点在讨论如何避免「路径依赖」上。</p><ul><li><strong>革新理念，居安思危</strong></li><li><strong>敢于放弃，沉没成本</strong></li><li><strong>创新开拓，另辟蹊径</strong></li></ul><p>「保持极度开放」是个不错的原则，可以参考<a href="https://mp.weixin.qq.com/s/MpNgDwiLZYaB_GnXhBW6rA" target="_blank" rel="external">投资实证 #96 - “寻找同路人”和“极度开放”矛盾吗？</a></p><p>不过，这篇主要更多论证了生活和投资上的开放，工作上应该怎么避免路径依赖呢？</p><p>我觉得有几点：</p><ul><li><strong>相信别人的判断，提供建议而非决定</strong></li><li><strong>允许别人探索自己的路径</strong></li><li><strong>发现真正的目的和目标</strong></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;手持锤子的人眼里都钉子&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这说的就是路径依赖。&lt;/p&gt;
+&lt;p&gt;我渐渐觉得字节跳动的市场宣传活动陷入了「路径依赖」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.tengblog.com/201908251807
+      
+    
+    </summary>
+    
+    
+      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+      <category term="原则" scheme="http://tengblog.com/tags/%E5%8E%9F%E5%88%99/"/>
+    
+      <category term="学习" scheme="http://tengblog.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="团队管理" scheme="http://tengblog.com/tags/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>深度探讨「职业以后要怎么发展？」</title>
@@ -569,38 +601,6 @@
       <category term="素材" scheme="http://tengblog.com/tags/%E7%B4%A0%E6%9D%90/"/>
     
       <category term="商业变现" scheme="http://tengblog.com/tags/%E5%95%86%E4%B8%9A%E5%8F%98%E7%8E%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>运营和分层</title>
-    <link href="http://tengblog.com/2018/12/17/fenceng/"/>
-    <id>http://tengblog.com/2018/12/17/fenceng/</id>
-    <published>2018-12-16T16:00:00.000Z</published>
-    <updated>2019-01-31T03:48:40.602Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。</p></blockquote><p>虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网世界对这个概念的使用到了「极致」。</p><p>因为这个原则交给我们「分层」。</p><p><strong>运营的基本功就是对用户分层运营</strong></p><p>互联网给每个人提供了几乎平等的沟通便利，即便是再没有话语权的人也可以在网上发表自己的意见，消费不不同的内容。可惜的是，互联网从业人员是有限，他们无法为海量的用户提供一样的服务质量。</p><p><strong>需要用有限的运营人员来处理无限增长（也不可能）的内容</strong>，对用户分层成了一个通用做法，对平台来说比较重要的人自然得到更多的关注和对待。</p><p>好在，区分「谁对平台比较重要」是一件相对简单的事情，靠的就是帕累托法则的威力。</p><p><strong>平台上的大部分优质内容是由小部分的用户生产的，绝大部分的用户只是在消费小部分创作者的内容。</strong></p><p>甚至，这个比例都严重超过了20% vs 80%。</p><p>最为直接的是短视频平台的粉丝集中程度和游戏氪金用户的集中程度。我们可以相信，抖音上20%的用户吸引了80%的用户关注（当然真实的数字比这夸张多了），王者荣耀20%的氪金用户贡献了其80%的收入（做游戏的同学告诉我，他们才不关心不充钱的屌丝呢）。</p><p><strong>不仅仅互联网，分层可以说是社会运营的基本方式</strong></p><p>行为经济学中，「价格歧视」就是对「分层」的灵活使用。用不同的价格对待不同的消费者，直至榨取到尽可能多的营收。航空公司既提供高大上的商务舱服务，也提供相对简单的经济舱服务；电影院针对不同的人群推出不同的套餐；手机制造商推出不同的型号版本。</p><p>说到底，都是在利用分层来对社会人群的极致获利。</p><p><strong>价格歧视是对消费者消费水平的分层，那垂类内容就是对消费者内容偏好的分层</strong></p><p>也许你作为一个受过高等教育的人不屑于给女主播打赏，可你却既有可能给得到付费；你可能不喜欢抖音，可有可能喜欢火山、快手。</p><p>还是被他们分层了。</p><p><strong>不过，分层对待并非坏事，也不是所有的分层都有「高下」之分。</strong></p><p>分层有类似于分工的含义，不同的工种是「分工贡献」，一个社会组织可能在不同的时期有不同的侧重和优先级，这取决于环境的变化。</p><p>说小回来，一个公司的分层也会随着公司的发展而变得不同，有人负责战略，有人负责运营，有人负责变现；之前可能是运营更重要，但是现在是商业化更重要，最后可能是政务最重要，不一而定。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;虽然帕累托法则比较广泛应用于社会学及企业管理学等，不过互联网
-      
-    
-    </summary>
-    
-    
-      <category term="职场" scheme="http://tengblog.com/tags/%E8%81%8C%E5%9C%BA/"/>
-    
-      <category term="笔记" scheme="http://tengblog.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="产品" scheme="http://tengblog.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-      <category term="增长" scheme="http://tengblog.com/tags/%E5%A2%9E%E9%95%BF/"/>
     
   </entry>
   
