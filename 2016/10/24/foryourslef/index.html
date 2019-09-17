@@ -46,19 +46,19 @@
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
 
-<link rel="stylesheet" href="/css/main.css?v=7.4.0"/>
+<link rel="stylesheet" href="/css/main.css?v=7.1.1"/>
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.gif?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.gif?v=7.1.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.gif?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.gif?v=7.1.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
 
 
 
@@ -71,7 +71,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '7.4.0',
+    version: '7.1.1',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
     back2top_sidebar: false,
@@ -149,24 +149,13 @@
 
 
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79793350-5"></script>
-  <script>
-    var host = window.location.hostname;
-    if (host !== "localhost" || !true) {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-79793350-5');
-    }
-  </script>
-
 
 
   <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?ca2b3e6066d6c7dd6cbd2d323a290076";
+      hm.src = "https://hm.baidu.com/hm.js?0ecfe5373d592fb523c28c23ec29fd92";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -475,7 +464,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <span class="post-meta-item-text">post.comments_count：</span>
+                <span class="post-meta-item-text">评论数：</span>
                 <a href="/2016/10/24/foryourslef/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count valine-comment-count" data-xid="/2016/10/24/foryourslef/" itemprop="commentCount"></span>
                 </a>
@@ -484,17 +473,6 @@
           
 
           
-          
-            <span id="/2016/10/24/foryourslef/" class="leancloud_visitors" data-flag-title="一点瞎扯和瞎扯">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="post-meta-item-text">阅读次数：</span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
           
 
           
@@ -852,7 +830,7 @@
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.4.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
@@ -930,31 +908,31 @@
   
 
 
-  <script src="/js/utils.js?v=7.4.0"></script>
+  <script src="/js/utils.js?v=7.1.1"></script>
 
-  <script src="/js/motion.js?v=7.4.0"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/schemes/muse.js?v=7.4.0"></script>
-
+  <script src="/js/motion.js?v=7.1.1"></script>
 
 
 
   
-  <script src="/js/scrollspy.js?v=7.4.0"></script>
-<script src="/js/post-details.js?v=7.4.0"></script>
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.1"></script>
+
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
 
 
 
   
 
 
-  <script src="/js/next-boot.js?v=7.4.0"></script>
+  <script src="/js/next-boot.js?v=7.1.1"></script>
 
 
   
@@ -980,15 +958,15 @@
   });
   new Valine({
     el: '#comments',
-    verify: true,
-    notify: true,
+    verify: false,
+    notify: false,
     appId: 'iz4OvmGQjpl4AyfrPrYUHaUo-gzGzoHsz',
     appKey: 'qiHi3wabC8kqHNAA17wIGfi9',
     placeholder: 'Just go go',
     avatar: 'mm',
     meta: guest,
     pageSize: '10' || 10,
-    visitor: true,
+    visitor: false,
     lang: '' || 'zh-cn'
   });
 </script>
