@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TENG</title>
+  <icon>https://www.gravatar.com/avatar/76fdec00cbfa005aa06cbb4878bd142a</icon>
+  <subtitle>精进不已</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://tengblog.com/"/>
+  <updated>2020-01-13T07:17:22.000Z</updated>
+  <id>http://tengblog.com/</id>
+  
+  <author>
+    <name>马腾</name>
+    <email>mayongtao27@Gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网络效应和摩尔定律</title>
+    <link href="http://tengblog.com/2020/01/13/wangluo/"/>
+    <id>http://tengblog.com/2020/01/13/wangluo/</id>
+    <published>2020-01-12T16:00:00.000Z</published>
+    <updated>2020-01-13T07:17:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><a href="https://mp.weixin.qq.com/s/WkUfTswS79cDchqJbL7sjQ" target="_blank" rel="external">李佳琦、李子柒：软阶层逆袭，要善用网络效应 | 2019年度报告</a></li><li><a href="https://mp.weixin.qq.com/s/T8R6yC0Fz3JzszM-9AhKSw" target="_blank" rel="external">王川: 成功的关键 = 网络网络再网络</a></li></ul><p>初看起来，似乎是两篇「邓文迪式」的心机腹黑文章，不过我们应该学到更多才对。<br>王川，之前已经推荐过他的视频了，每一个我都推荐（不代表认同）。对于持续思考并分享的人，我们应该认真听并思考分辨起来，其讲：<br>专业人士常犯的错误，是埋头提升业务水平，但是事业成功的最重要因素其实是~网络，网络，网络~。</p><p>是不是很「邓文迪式」。<del>（这里插一点吐槽，明明中国人很喜欢搞关系，但是又很看不上所谓的「精致利己主义者」和邓文迪？）</del></p><p>不过不管第一篇文章里说；</p><p><strong>成功靠什么？努力不是充分条件</strong></p><p>在成功路上，努力不是充分条件，甚至不一定是必要条件。成功首先靠运气，这是谁也无法否则的第一原则。有朋友投资网红，私下就说自己了解不少，但到最后也不明白法则，完全是靠碰——他们内部看好的网红，多数并没有大红大紫，而一些一炮走红的网红，他们自己内部则一度以为完全黄了。</p><p>还是王川说的，</p><p>「<strong>业绩驱动成功，但是当业绩无法度量时，网络驱动成功</strong>」。<br>在无法精确度量业绩的艺术界里，这点尤其突出。</p><p>这似乎都给人一种「个人奋斗」的无力感。</p><p>不过，好在两篇文章里都给了解决方式，而且是同一种方式。</p><p>知识经济时代按照本性来说，就是一个软阶层时代，这意味着什么？这个时代的贫富差距，和工业革命时代以及工业时代不同；你的回报，不仅仅在于资本和人力，更在于你的网络位置。</p><p>更有甚者，王川也在视频里提了更详细更具体的方式</p><iframe width="560" height="315" src="https://www.youtube.com/embed/-SPan3lnq3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>具体来说，就是</p><p><strong>创作适合摩尔定律的产品作品</strong></p><ul><li>制作成本低</li><li>边际成本低</li><li>分发成本低</li><li>通用性强（定制化服务是大坑）</li><li>有长期价值，多年后仍可不断被引用</li></ul><p><strong>而分发成本低，高价值性的东西是更容易在网络中占据位置和重复创作影响力的。</strong></p><hr><blockquote><p>本文作者： Matt<br>本文内容所引用链接均不保证可见性，需自行解决权限问题。<br>本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0许可协议。转载请注明出处。<br>本文章内容/观点/图片/引用/提及均代表个人身份，不涉及供职单位；除特别声明外，所有观点均为个人观点。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/WkUfTswS79cDchqJbL7sjQ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;李佳琦、李子柒：软阶层逆袭，要善用网络效应 | 2019年度报告&lt;/a&gt;&lt;/li
+      
+    
+    </summary>
+    
+    
+      <category term="随想录" scheme="http://tengblog.com/tags/%E9%9A%8F%E6%83%B3%E5%BD%95/"/>
+    
+      <category term="正经" scheme="http://tengblog.com/tags/%E6%AD%A3%E7%BB%8F/"/>
+    
+      <category term="原则" scheme="http://tengblog.com/tags/%E5%8E%9F%E5%88%99/"/>
+    
+  </entry>
+  
+</feed>
